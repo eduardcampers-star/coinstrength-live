@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-17T16:31:02.461587+00:00",
+  "generated_at": "2026-09-17T16:46:01.604717+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 2,
+  "events_24h": 3,
   "strong_24h": 0,
   "results": {
     "5m": {
       "canonical": {
-        "n": 2,
-        "avg_return_pct": -0.3931,
-        "positive": 0
-      },
-      "mover3d": {
-        "n": 2,
-        "avg_return_pct": 0.3072,
+        "n": 3,
+        "avg_return_pct": -0.155,
         "positive": 1
       },
+      "mover3d": {
+        "n": 3,
+        "avg_return_pct": 0.2742,
+        "positive": 2
+      },
       "hybrid_rebound_v2": {
-        "n": 2,
-        "avg_return_pct": 0.1522,
+        "n": 3,
+        "avg_return_pct": 0.0847,
         "positive": 1
       }
     },
@@ -59,8 +59,8 @@
   },
   "profile3d": {
     "status": "OPBOUW",
-    "profile_hours": 69.5,
-    "snapshots": 240
+    "profile_hours": 69.7,
+    "snapshots": 241
   },
   "recent_events": [
     {
@@ -101,6 +101,26 @@
       "hybrid": [
         "ONDO",
         "WLD"
+      ]
+    },
+    {
+      "trigger_time": "2026-09-17T16:33:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "PEPE",
+        "WLD"
+      ],
+      "canonical": [
+        "NEAR",
+        "PEPE"
+      ],
+      "mover3d": [
+        "NEAR",
+        "ONDO"
+      ],
+      "hybrid": [
+        "ONDO",
+        "MOODENG"
       ]
     }
   ]
