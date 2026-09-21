@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-21T02:51:03.171845+00:00",
+  "generated_at": "2026-09-21T02:56:03.224629+00:00",
   "strategy": "shadow_2x2_3d_v01",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": -0.1125,
-  "open_pnl_eur": 0.0026,
-  "paper_equity_gross_eur": 19.8901,
-  "open_count": 3,
-  "closed_count": 38,
+  "realized_gross_eur": -0.0213,
+  "open_pnl_eur": -0.1985,
+  "paper_equity_gross_eur": 19.7801,
+  "open_count": 2,
+  "closed_count": 39,
   "last_selection_hour": "2026-09-21T04",
   "latest_timestamp": "2026-09-21T04:45:00+02:00",
   "open_legs": [
@@ -18,23 +18,10 @@
       "spot_return_pct": 0.7812,
       "leveraged_return_pct": 2.3435,
       "open_pnl_eur": 0.1172,
-      "roll_active": false,
+      "roll_active": true,
       "hard_sl_usdt": 4.03035,
       "roll_activation_usdt": 4.217325,
-      "roll_stop_usdt": null
-    },
-    {
-      "coin": "AVAX",
-      "direction": "LONG",
-      "entry_eur": 9.664984336930038,
-      "current_eur": 9.794568245125348,
-      "spot_return_pct": 1.3408,
-      "leveraged_return_pct": 4.0223,
-      "open_pnl_eur": 0.2011,
-      "roll_active": true,
-      "hard_sl_usdt": 10.773789999999998,
-      "roll_activation_usdt": 11.273604999999998,
-      "roll_stop_usdt": 11.174516
+      "roll_stop_usdt": 4.184002
     },
     {
       "coin": "FET",
@@ -51,14 +38,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "NEAR",
-      "direction": "LONG",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 0.6777114427860553,
-      "leveraged_return_pct": 2.033134328358166,
-      "gross_pnl_eur": 0.1016567164179083
-    },
     {
       "coin": "WLD",
       "direction": "SHORT",
@@ -146,6 +125,14 @@
       "spot_return_pct": 2.567510739317226,
       "leveraged_return_pct": 7.702532217951679,
       "gross_pnl_eur": 0.38512661089758393
+    },
+    {
+      "coin": "AVAX",
+      "direction": "LONG",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 0.6078689114972669,
+      "leveraged_return_pct": 1.8236067344918006,
+      "gross_pnl_eur": 0.09118033672459003
     }
   ]
 }
