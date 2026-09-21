@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-21T02:01:03.068803+00:00",
+  "generated_at": "2026-09-21T02:16:03.599984+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 11,
+  "events_24h": 12,
   "strong_24h": 3,
   "results": {
     "5m": {
       "canonical": {
-        "n": 11,
-        "avg_return_pct": 0.0585,
-        "positive": 7
+        "n": 12,
+        "avg_return_pct": 0.087,
+        "positive": 8
       },
       "mover3d": {
-        "n": 11,
-        "avg_return_pct": 0.2078,
-        "positive": 9
+        "n": 12,
+        "avg_return_pct": 0.1915,
+        "positive": 10
       },
       "hybrid_rebound_v2": {
-        "n": 11,
-        "avg_return_pct": 0.1964,
-        "positive": 9
+        "n": 12,
+        "avg_return_pct": 0.2097,
+        "positive": 10
       }
     },
     "15m": {
@@ -41,18 +41,18 @@
     },
     "30m": {
       "canonical": {
-        "n": 10,
-        "avg_return_pct": 0.3069,
+        "n": 11,
+        "avg_return_pct": 0.1416,
         "positive": 7
       },
       "mover3d": {
-        "n": 10,
-        "avg_return_pct": 0.6781,
+        "n": 11,
+        "avg_return_pct": 0.4238,
         "positive": 9
       },
       "hybrid_rebound_v2": {
-        "n": 10,
-        "avg_return_pct": 0.4435,
+        "n": 11,
+        "avg_return_pct": 0.2104,
         "positive": 8
       }
     },
@@ -80,26 +80,6 @@
     "snapshots": 235
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-09-20T07:38:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "HYPE",
-        "SHIB"
-      ],
-      "canonical": [
-        "TRX",
-        "HBAR"
-      ],
-      "mover3d": [
-        "NEAR",
-        "WLD"
-      ],
-      "hybrid": [
-        "ONDO",
-        "FET"
-      ]
-    },
     {
       "trigger_time": "2026-09-20T08:24:00+00:00",
       "level": "STRONG",
@@ -282,6 +262,26 @@
       "hybrid": [
         "NEAR",
         "AVAX"
+      ]
+    },
+    {
+      "trigger_time": "2026-09-21T02:01:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "DOGE",
+        "FET"
+      ],
+      "canonical": [
+        "SUI",
+        "NEAR"
+      ],
+      "mover3d": [
+        "NEAR",
+        "AVAX"
+      ],
+      "hybrid": [
+        "WLD",
+        "SUI"
       ]
     }
   ]
