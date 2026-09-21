@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-09-21T04:56:03.506860+00:00",
+  "generated_at": "2026-09-21T05:18:20.194574+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 12,
+  "events_24h": 14,
   "strong_24h": 3,
   "results": {
     "5m": {
       "canonical": {
-        "n": 12,
-        "avg_return_pct": 0.087,
-        "positive": 8
+        "n": 14,
+        "avg_return_pct": 0.0726,
+        "positive": 9
       },
       "mover3d": {
-        "n": 12,
-        "avg_return_pct": 0.1915,
-        "positive": 10
+        "n": 14,
+        "avg_return_pct": 0.1847,
+        "positive": 12
       },
       "hybrid_rebound_v2": {
-        "n": 12,
-        "avg_return_pct": 0.2097,
-        "positive": 10
+        "n": 14,
+        "avg_return_pct": 0.2,
+        "positive": 12
       }
     },
     "15m": {
       "canonical": {
-        "n": 12,
-        "avg_return_pct": 0.0883,
+        "n": 13,
+        "avg_return_pct": 0.0147,
         "positive": 7
       },
       "mover3d": {
-        "n": 12,
-        "avg_return_pct": 0.1381,
+        "n": 13,
+        "avg_return_pct": 0.0594,
         "positive": 9
       },
       "hybrid_rebound_v2": {
-        "n": 12,
-        "avg_return_pct": 0.1508,
+        "n": 13,
+        "avg_return_pct": 0.0657,
         "positive": 6
       }
     },
@@ -76,53 +76,10 @@
   },
   "profile3d": {
     "status": "VOLLEDIG",
-    "profile_hours": 72.0,
+    "profile_hours": 71.8,
     "snapshots": 238
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-09-20T08:24:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "DOT",
-        "NEAR",
-        "WLD"
-      ],
-      "canonical": [
-        "TRX",
-        "HBAR"
-      ],
-      "mover3d": [
-        "NEAR",
-        "WLD"
-      ],
-      "hybrid": [
-        "FET",
-        "SUI"
-      ]
-    },
-    {
-      "trigger_time": "2026-09-20T10:19:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "HBAR",
-        "PEPE",
-        "QNT",
-        "SUI"
-      ],
-      "canonical": [
-        "TRX",
-        "AVAX"
-      ],
-      "mover3d": [
-        "NEAR",
-        "WLD"
-      ],
-      "hybrid": [
-        "ONDO",
-        "WLD"
-      ]
-    },
     {
       "trigger_time": "2026-09-20T11:22:00+00:00",
       "level": "TRIGGER",
@@ -282,6 +239,46 @@
       "hybrid": [
         "WLD",
         "SUI"
+      ]
+    },
+    {
+      "trigger_time": "2026-09-21T04:55:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "LTC",
+        "PEPE"
+      ],
+      "canonical": [
+        "QNT",
+        "NEAR"
+      ],
+      "mover3d": [
+        "NEAR",
+        "AVAX"
+      ],
+      "hybrid": [
+        "NEAR",
+        "FET"
+      ]
+    },
+    {
+      "trigger_time": "2026-09-21T05:11:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "ADA",
+        "PEPE"
+      ],
+      "canonical": [
+        "NEAR",
+        "QNT"
+      ],
+      "mover3d": [
+        "NEAR",
+        "AVAX"
+      ],
+      "hybrid": [
+        "NEAR",
+        "AVAX"
       ]
     }
   ]
