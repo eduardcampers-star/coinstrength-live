@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-21T21:11:02.751106+00:00",
+  "generated_at": "2026-09-21T21:26:02.327386+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 16,
+  "events_24h": 17,
   "strong_24h": 6,
   "results": {
     "5m": {
       "canonical": {
-        "n": 16,
-        "avg_return_pct": 0.0224,
-        "positive": 10
+        "n": 17,
+        "avg_return_pct": 0.0279,
+        "positive": 11
       },
       "mover3d": {
-        "n": 16,
-        "avg_return_pct": -0.0374,
+        "n": 17,
+        "avg_return_pct": -0.0397,
         "positive": 9
       },
       "hybrid_rebound_v2": {
-        "n": 16,
-        "avg_return_pct": 0.0512,
-        "positive": 10
+        "n": 17,
+        "avg_return_pct": 0.0646,
+        "positive": 11
       }
     },
     "15m": {
@@ -58,50 +58,28 @@
     },
     "rolling_09": {
       "canonical": {
-        "n": 14,
-        "avg_return_pct": 0.6369,
-        "positive": 10
+        "n": 15,
+        "avg_return_pct": 0.6656,
+        "positive": 11
       },
       "mover3d": {
-        "n": 14,
-        "avg_return_pct": -0.1184,
+        "n": 15,
+        "avg_return_pct": -0.1417,
         "positive": 8
       },
       "hybrid_rebound_v2": {
-        "n": 14,
-        "avg_return_pct": 0.3967,
+        "n": 15,
+        "avg_return_pct": 0.2927,
         "positive": 10
       }
     }
   },
   "profile3d": {
     "status": "VOLLEDIG",
-    "profile_hours": 72.0,
-    "snapshots": 109
+    "profile_hours": 71.8,
+    "snapshots": 108
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-09-21T06:41:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "ADA",
-        "PEPE",
-        "TAO",
-        "XLM"
-      ],
-      "canonical": [
-        "SUI",
-        "QNT"
-      ],
-      "mover3d": [
-        "NEAR",
-        "AVAX"
-      ],
-      "hybrid": [
-        "SUI",
-        "NEAR"
-      ]
-    },
     {
       "trigger_time": "2026-09-21T07:11:00+00:00",
       "level": "TRIGGER",
@@ -288,6 +266,26 @@
       "hybrid": [
         "TAO",
         "FET"
+      ]
+    },
+    {
+      "trigger_time": "2026-09-21T21:10:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "ADA",
+        "FET"
+      ],
+      "canonical": [
+        "TAO",
+        "BTC"
+      ],
+      "mover3d": [
+        "PEPE",
+        "AVAX"
+      ],
+      "hybrid": [
+        "TAO",
+        "DOGE"
       ]
     }
   ]
