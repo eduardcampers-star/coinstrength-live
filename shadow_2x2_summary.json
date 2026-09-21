@@ -1,28 +1,15 @@
 {
-  "generated_at": "2026-09-21T01:21:02.690752+00:00",
+  "generated_at": "2026-09-21T01:26:03.536913+00:00",
   "strategy": "shadow_2x2_3d_v01",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 0.2367,
-  "open_pnl_eur": -0.281,
-  "paper_equity_gross_eur": 19.9557,
-  "open_count": 4,
-  "closed_count": 34,
+  "realized_gross_eur": -0.2133,
+  "open_pnl_eur": 0.22,
+  "paper_equity_gross_eur": 20.0066,
+  "open_count": 3,
+  "closed_count": 35,
   "last_selection_hour": "2026-09-21T03",
   "latest_timestamp": "2026-09-21T03:15:00+02:00",
   "open_legs": [
-    {
-      "coin": "FET",
-      "direction": "SHORT",
-      "entry_eur": 0.15239577927694173,
-      "current_eur": 0.15766118506917254,
-      "spot_return_pct": -3.3397,
-      "leveraged_return_pct": -10.0191,
-      "open_pnl_eur": -0.501,
-      "roll_active": false,
-      "hard_sl_usdt": 0.181486,
-      "roll_activation_usdt": 0.173557,
-      "roll_stop_usdt": null
-    },
     {
       "coin": "NEAR",
       "direction": "LONG",
@@ -44,10 +31,10 @@
       "spot_return_pct": 0.8594,
       "leveraged_return_pct": 2.5781,
       "open_pnl_eur": 0.1289,
-      "roll_active": false,
+      "roll_active": true,
       "hard_sl_usdt": 11.17343,
       "roll_activation_usdt": 11.691785,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 11.646232000000001
     },
     {
       "coin": "WLD",
@@ -64,14 +51,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "NEAR",
-      "direction": "LONG",
-      "reason": "HARD_SL",
-      "spot_return_pct": -3.0000000000000027,
-      "leveraged_return_pct": -9.000000000000007,
-      "gross_pnl_eur": -0.45000000000000034
-    },
     {
       "coin": "AVAX",
       "direction": "LONG",
@@ -135,6 +114,14 @@
       "spot_return_pct": 0.7606696935300888,
       "leveraged_return_pct": 2.2820090805902664,
       "gross_pnl_eur": 0.11410045402951333
+    },
+    {
+      "coin": "FET",
+      "direction": "SHORT",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0000000000000075,
+      "leveraged_return_pct": -9.000000000000021,
+      "gross_pnl_eur": -0.45000000000000107
     },
     {
       "coin": "NEAR",
