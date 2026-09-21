@@ -1,28 +1,15 @@
 {
-  "generated_at": "2026-09-21T12:52:29.646865+00:00",
+  "generated_at": "2026-09-21T13:01:03.241479+00:00",
   "strategy": "shadow_2x2_3d_v01",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 0.1526,
-  "open_pnl_eur": -0.5384,
-  "paper_equity_gross_eur": 19.6143,
-  "open_count": 3,
-  "closed_count": 56,
+  "realized_gross_eur": -0.2974,
+  "open_pnl_eur": -0.2636,
+  "paper_equity_gross_eur": 19.439,
+  "open_count": 2,
+  "closed_count": 57,
   "last_selection_hour": "2026-09-21T14",
   "latest_timestamp": "2026-09-21T14:46:04+02:00",
   "open_legs": [
-    {
-      "coin": "NEAR",
-      "direction": "LONG",
-      "entry_eur": 3.7176695985369674,
-      "current_eur": 3.6495778570806854,
-      "spot_return_pct": -1.8316,
-      "leveraged_return_pct": -5.4947,
-      "open_pnl_eur": -0.2747,
-      "roll_active": false,
-      "hard_sl_usdt": 4.14093,
-      "roll_activation_usdt": 4.333035,
-      "roll_stop_usdt": null
-    },
     {
       "coin": "WLD",
       "direction": "SHORT",
@@ -51,14 +38,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "FET",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 0.8760176017601758,
-      "leveraged_return_pct": 2.6280528052805274,
-      "gross_pnl_eur": 0.13140264026402637
-    },
     {
       "coin": "AVAX",
       "direction": "LONG",
@@ -130,6 +109,14 @@
       "spot_return_pct": 3.5665072743920945,
       "leveraged_return_pct": 10.699521823176283,
       "gross_pnl_eur": 0.5349760911588142
+    },
+    {
+      "coin": "NEAR",
+      "direction": "LONG",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0000000000000027,
+      "leveraged_return_pct": -9.000000000000007,
+      "gross_pnl_eur": -0.45000000000000034
     },
     {
       "coin": "FET",
