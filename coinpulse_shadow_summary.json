@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-22T10:26:02.147659+00:00",
+  "generated_at": "2026-09-22T10:41:02.159261+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 19,
+  "events_24h": 20,
   "strong_24h": 7,
   "results": {
     "5m": {
       "canonical": {
-        "n": 19,
-        "avg_return_pct": -0.1236,
-        "positive": 7
+        "n": 20,
+        "avg_return_pct": -0.1155,
+        "positive": 8
       },
       "mover3d": {
-        "n": 19,
-        "avg_return_pct": -0.0107,
+        "n": 20,
+        "avg_return_pct": -0.0289,
         "positive": 8
       },
       "hybrid_rebound_v2": {
-        "n": 19,
-        "avg_return_pct": 0.0259,
+        "n": 20,
+        "avg_return_pct": 0.0157,
         "positive": 10
       }
     },
@@ -41,18 +41,18 @@
     },
     "30m": {
       "canonical": {
-        "n": 18,
-        "avg_return_pct": 0.3248,
+        "n": 19,
+        "avg_return_pct": 0.3014,
         "positive": 12
       },
       "mover3d": {
-        "n": 18,
-        "avg_return_pct": 0.0274,
+        "n": 19,
+        "avg_return_pct": 0.0013,
         "positive": 9
       },
       "hybrid_rebound_v2": {
-        "n": 18,
-        "avg_return_pct": 0.25,
+        "n": 19,
+        "avg_return_pct": 0.2053,
         "positive": 12
       }
     },
@@ -80,29 +80,6 @@
     "snapshots": 110
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-09-21T23:18:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "ADA",
-        "ETH",
-        "MOODENG",
-        "ONDO",
-        "VET"
-      ],
-      "canonical": [
-        "VET",
-        "XLM"
-      ],
-      "mover3d": [
-        "PEPE",
-        "TAO"
-      ],
-      "hybrid": [
-        "TAO",
-        "NEAR"
-      ]
-    },
     {
       "trigger_time": "2026-09-22T02:10:00+00:00",
       "level": "STRONG",
@@ -288,6 +265,26 @@
       "hybrid": [
         "FET",
         "RENDER"
+      ]
+    },
+    {
+      "trigger_time": "2026-09-22T10:23:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "QNT",
+        "VET"
+      ],
+      "canonical": [
+        "NEAR",
+        "QNT"
+      ],
+      "mover3d": [
+        "PEPE",
+        "SUI"
+      ],
+      "hybrid": [
+        "NEAR",
+        "MOODENG"
       ]
     }
   ]
