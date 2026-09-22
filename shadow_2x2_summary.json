@@ -1,28 +1,15 @@
 {
-  "generated_at": "2026-09-22T01:21:02.864509+00:00",
+  "generated_at": "2026-09-22T01:26:02.536689+00:00",
   "strategy": "shadow_2x2_3d_v01",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 60213.0841,
-  "open_pnl_eur": 0.0676,
-  "paper_equity_gross_eur": 60233.1518,
-  "open_count": 2,
-  "closed_count": 76,
+  "realized_gross_eur": 60213.1999,
+  "open_pnl_eur": 0.0705,
+  "paper_equity_gross_eur": 60233.2704,
+  "open_count": 1,
+  "closed_count": 77,
   "last_selection_hour": "2026-09-22T03",
   "latest_timestamp": "2026-09-22T03:15:01+02:00",
   "open_legs": [
-    {
-      "coin": "MOODENG",
-      "direction": "SHORT",
-      "entry_eur": 0.041596162232882684,
-      "current_eur": 0.04160418482999128,
-      "spot_return_pct": -0.0193,
-      "leveraged_return_pct": -0.0578,
-      "open_pnl_eur": -0.0029,
-      "roll_active": false,
-      "hard_sl_usdt": 0.0491207,
-      "roll_activation_usdt": 0.04697465,
-      "roll_stop_usdt": null
-    },
     {
       "coin": "FET",
       "direction": "SHORT",
@@ -31,21 +18,13 @@
       "spot_return_pct": 0.47,
       "leveraged_return_pct": 1.41,
       "open_pnl_eur": 0.0705,
-      "roll_active": false,
+      "roll_active": true,
       "hard_sl_usdt": 0.208575,
       "roll_activation_usdt": 0.19946250000000001,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 0.20119459999999997
     }
   ],
   "closed_legs": [
-    {
-      "coin": "SUI",
-      "direction": "LONG",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 1.57190415398214,
-      "leveraged_return_pct": 4.71571246194642,
-      "gross_pnl_eur": 0.23578562309732098
-    },
     {
       "coin": "AVAX",
       "direction": "LONG",
@@ -93,6 +72,14 @@
       "spot_return_pct": -3.0000000000000018,
       "leveraged_return_pct": -9.000000000000005,
       "gross_pnl_eur": -0.4500000000000003
+    },
+    {
+      "coin": "MOODENG",
+      "direction": "SHORT",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 0.7714405535751966,
+      "leveraged_return_pct": 2.31432166072559,
+      "gross_pnl_eur": 0.11571608303627949
     },
     {
       "coin": "PEPE",
