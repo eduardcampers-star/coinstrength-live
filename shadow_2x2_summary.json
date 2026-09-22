@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-22T05:06:02.141687+00:00",
+  "generated_at": "2026-09-22T05:11:02.884168+00:00",
   "strategy": "shadow_2x2_3d_v01",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 105061.7479,
-  "open_pnl_eur": -0.0137,
-  "paper_equity_gross_eur": 105081.7341,
-  "open_count": 4,
-  "closed_count": 84,
+  "realized_gross_eur": 105061.8759,
+  "open_pnl_eur": -0.2299,
+  "paper_equity_gross_eur": 105081.646,
+  "open_count": 3,
+  "closed_count": 85,
   "last_selection_hour": "2026-09-22T07",
   "latest_timestamp": "2026-09-22T07:00:01+02:00",
   "open_legs": [
@@ -24,19 +24,6 @@
       "roll_stop_usdt": null
     },
     {
-      "coin": "MOODENG",
-      "direction": "SHORT",
-      "entry_eur": 0.04211535110646454,
-      "current_eur": 0.04151715728967078,
-      "spot_return_pct": 1.4408,
-      "leveraged_return_pct": 4.3225,
-      "open_pnl_eur": 0.2161,
-      "roll_active": true,
-      "hard_sl_usdt": 0.0497902,
-      "roll_activation_usdt": 0.0476149,
-      "roll_stop_usdt": 0.0479275
-    },
-    {
       "coin": "PEPE",
       "direction": "LONG",
       "entry_eur": 4.37397665911862e-06,
@@ -44,10 +31,10 @@
       "spot_return_pct": 0.0,
       "leveraged_return_pct": 0.0,
       "open_pnl_eur": 0.0,
-      "roll_active": false,
+      "roll_active": true,
       "hard_sl_usdt": 4.8715339999999995e-06,
       "roll_activation_usdt": 5.097532999999999e-06,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 0.0049575766
     },
     {
       "coin": "FET",
@@ -64,14 +51,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "PEPE",
-      "direction": "LONG",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 99774.83215879239,
-      "leveraged_return_pct": 299324.4964763771,
-      "gross_pnl_eur": 14966.224823818857
-    },
     {
       "coin": "TAO",
       "direction": "LONG",
@@ -159,6 +138,14 @@
       "spot_return_pct": 99799.98290533354,
       "leveraged_return_pct": 299399.9487160006,
       "gross_pnl_eur": 14969.99743580003
+    },
+    {
+      "coin": "MOODENG",
+      "direction": "SHORT",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 0.8533305750930972,
+      "leveraged_return_pct": 2.5599917252792914,
+      "gross_pnl_eur": 0.12799958626396457
     }
   ]
 }
