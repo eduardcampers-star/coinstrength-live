@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-22T09:06:02.355342+00:00",
+  "generated_at": "2026-09-22T09:11:12.685877+00:00",
   "strategy": "shadow_2x2_3d_v01",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 164729.7793,
+  "realized_gross_eur": 179651.1213,
   "open_pnl_eur": 0.121,
-  "paper_equity_gross_eur": 164749.9003,
-  "open_count": 4,
-  "closed_count": 92,
+  "paper_equity_gross_eur": 179671.2423,
+  "open_count": 3,
+  "closed_count": 93,
   "last_selection_hour": "2026-09-22T11",
   "latest_timestamp": "2026-09-22T11:00:01+02:00",
   "open_legs": [
@@ -24,19 +24,6 @@
       "roll_stop_usdt": null
     },
     {
-      "coin": "PEPE",
-      "direction": "LONG",
-      "entry_eur": 4.363612565445027e-06,
-      "current_eur": 4.363612565445027e-06,
-      "spot_return_pct": 0.0,
-      "leveraged_return_pct": 0.0,
-      "open_pnl_eur": 0.0,
-      "roll_active": false,
-      "hard_sl_usdt": 4.850679e-06,
-      "roll_activation_usdt": 5.0757105e-06,
-      "roll_stop_usdt": null
-    },
-    {
       "coin": "MOODENG",
       "direction": "SHORT",
       "entry_eur": 0.04203315881326353,
@@ -44,10 +31,10 @@
       "spot_return_pct": 0.0,
       "leveraged_return_pct": 0.0,
       "open_pnl_eur": 0.0,
-      "roll_active": false,
+      "roll_active": true,
       "hard_sl_usdt": 0.049615099999999995,
       "roll_activation_usdt": 0.047447449999999995,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 0.047776149999999996
     },
     {
       "coin": "DOGE",
@@ -64,14 +51,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "FET",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 1.5307276302851618,
-      "leveraged_return_pct": 4.592182890855486,
-      "gross_pnl_eur": 0.22960914454277428
-    },
     {
       "coin": "MOODENG",
       "direction": "SHORT",
@@ -159,6 +138,14 @@
       "spot_return_pct": 99025.07103102011,
       "leveraged_return_pct": 297075.21309306036,
       "gross_pnl_eur": 14853.760654653017
+    },
+    {
+      "coin": "PEPE",
+      "direction": "LONG",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 99475.61341412202,
+      "leveraged_return_pct": 298426.8402423661,
+      "gross_pnl_eur": 14921.342012118304
     }
   ]
 }
