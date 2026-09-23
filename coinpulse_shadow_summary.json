@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-23T15:46:02.765924+00:00",
+  "generated_at": "2026-09-23T16:01:02.813967+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 23,
-  "strong_24h": 6,
+  "events_24h": 24,
+  "strong_24h": 7,
   "results": {
     "5m": {
       "canonical": {
-        "n": 23,
-        "avg_return_pct": -0.0112,
+        "n": 24,
+        "avg_return_pct": -0.06,
         "positive": 12
       },
       "mover3d": {
-        "n": 23,
-        "avg_return_pct": 0.1327,
+        "n": 24,
+        "avg_return_pct": 0.078,
         "positive": 12
       },
       "hybrid_rebound_v2": {
-        "n": 23,
-        "avg_return_pct": 0.0798,
+        "n": 24,
+        "avg_return_pct": 0.0182,
         "positive": 15
       }
     },
@@ -76,30 +76,10 @@
   },
   "profile3d": {
     "status": "OPBOUW",
-    "profile_hours": 45.5,
-    "snapshots": 175
+    "profile_hours": 45.7,
+    "snapshots": 176
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-09-23T08:49:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "QNT",
-        "WLD"
-      ],
-      "canonical": [
-        "VET",
-        "MOODENG"
-      ],
-      "mover3d": [
-        "BCH",
-        "WLD"
-      ],
-      "hybrid": [
-        "MOODENG",
-        "ADA"
-      ]
-    },
     {
       "trigger_time": "2026-09-23T09:53:00+00:00",
       "level": "TRIGGER",
@@ -282,6 +262,28 @@
       "hybrid": [
         "BCH",
         "MOODENG"
+      ]
+    },
+    {
+      "trigger_time": "2026-09-23T15:47:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "ETH",
+        "MOODENG",
+        "QNT",
+        "VET"
+      ],
+      "canonical": [
+        "NEAR",
+        "BCH"
+      ],
+      "mover3d": [
+        "BCH",
+        "NEAR"
+      ],
+      "hybrid": [
+        "NEAR",
+        "WLD"
       ]
     }
   ]
