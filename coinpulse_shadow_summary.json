@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-23T12:01:02.874766+00:00",
+  "generated_at": "2026-09-23T12:16:02.467999+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 24,
+  "events_24h": 25,
   "strong_24h": 7,
   "results": {
     "5m": {
       "canonical": {
-        "n": 24,
-        "avg_return_pct": 0.0385,
-        "positive": 13
+        "n": 25,
+        "avg_return_pct": 0.0658,
+        "positive": 14
       },
       "mover3d": {
-        "n": 24,
-        "avg_return_pct": 0.1554,
-        "positive": 13
+        "n": 25,
+        "avg_return_pct": 0.1613,
+        "positive": 14
       },
       "hybrid_rebound_v2": {
-        "n": 24,
-        "avg_return_pct": 0.159,
-        "positive": 16
+        "n": 25,
+        "avg_return_pct": 0.1652,
+        "positive": 17
       }
     },
     "15m": {
@@ -41,65 +41,45 @@
     },
     "30m": {
       "canonical": {
-        "n": 23,
-        "avg_return_pct": -0.0429,
+        "n": 24,
+        "avg_return_pct": -0.0435,
         "positive": 12
       },
       "mover3d": {
-        "n": 23,
-        "avg_return_pct": -0.0396,
+        "n": 24,
+        "avg_return_pct": -0.0943,
         "positive": 10
       },
       "hybrid_rebound_v2": {
-        "n": 23,
-        "avg_return_pct": 0.1464,
+        "n": 24,
+        "avg_return_pct": 0.09,
         "positive": 13
       }
     },
     "rolling_09": {
       "canonical": {
-        "n": 22,
-        "avg_return_pct": -0.1084,
-        "positive": 9
+        "n": 23,
+        "avg_return_pct": -0.0611,
+        "positive": 10
       },
       "mover3d": {
-        "n": 22,
-        "avg_return_pct": -31.6174,
+        "n": 23,
+        "avg_return_pct": -30.2973,
         "positive": 4
       },
       "hybrid_rebound_v2": {
-        "n": 22,
-        "avg_return_pct": -8.5793,
+        "n": 23,
+        "avg_return_pct": -8.2463,
         "positive": 11
       }
     }
   },
   "profile3d": {
     "status": "OPBOUW",
-    "profile_hours": 41.7,
-    "snapshots": 160
+    "profile_hours": 42.0,
+    "snapshots": 161
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-09-23T05:11:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "BCH",
-        "DOT"
-      ],
-      "canonical": [
-        "VET",
-        "XLM"
-      ],
-      "mover3d": [
-        "PEPE",
-        "BCH"
-      ],
-      "hybrid": [
-        "DOGE",
-        "XLM"
-      ]
-    },
     {
       "trigger_time": "2026-09-23T06:53:00+00:00",
       "level": "STRONG",
@@ -284,6 +264,26 @@
       "hybrid": [
         "BCH",
         "TAO"
+      ]
+    },
+    {
+      "trigger_time": "2026-09-23T12:05:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "RENDER",
+        "XLM"
+      ],
+      "canonical": [
+        "NEAR",
+        "VET"
+      ],
+      "mover3d": [
+        "BCH",
+        "WLD"
+      ],
+      "hybrid": [
+        "BCH",
+        "ADA"
       ]
     }
   ]
