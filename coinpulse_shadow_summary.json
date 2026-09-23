@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-23T10:31:02.815929+00:00",
+  "generated_at": "2026-09-23T10:46:02.305526+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 21,
-  "strong_24h": 5,
+  "events_24h": 22,
+  "strong_24h": 6,
   "results": {
     "5m": {
       "canonical": {
-        "n": 21,
-        "avg_return_pct": 0.0191,
-        "positive": 11
-      },
-      "mover3d": {
-        "n": 21,
-        "avg_return_pct": 0.1476,
+        "n": 22,
+        "avg_return_pct": 0.0499,
         "positive": 12
       },
+      "mover3d": {
+        "n": 22,
+        "avg_return_pct": 0.1863,
+        "positive": 13
+      },
       "hybrid_rebound_v2": {
-        "n": 21,
-        "avg_return_pct": 0.1456,
-        "positive": 15
+        "n": 22,
+        "avg_return_pct": 0.1844,
+        "positive": 16
       }
     },
     "15m": {
@@ -41,19 +41,19 @@
     },
     "30m": {
       "canonical": {
-        "n": 20,
-        "avg_return_pct": -0.0922,
-        "positive": 10
+        "n": 21,
+        "avg_return_pct": -0.0266,
+        "positive": 11
       },
       "mover3d": {
-        "n": 20,
-        "avg_return_pct": 0.0199,
+        "n": 21,
+        "avg_return_pct": -0.053,
         "positive": 9
       },
       "hybrid_rebound_v2": {
-        "n": 20,
-        "avg_return_pct": 0.1384,
-        "positive": 11
+        "n": 21,
+        "avg_return_pct": 0.138,
+        "positive": 12
       }
     },
     "rolling_09": {
@@ -76,31 +76,10 @@
   },
   "profile3d": {
     "status": "OPBOUW",
-    "profile_hours": 40.2,
-    "snapshots": 154
+    "profile_hours": 40.5,
+    "snapshots": 155
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-09-23T01:55:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "LINK",
-        "ONDO",
-        "XRP"
-      ],
-      "canonical": [
-        "VET",
-        "BCH"
-      ],
-      "mover3d": [
-        "BCH",
-        "PEPE"
-      ],
-      "hybrid": [
-        "PEPE",
-        "FET"
-      ]
-    },
     {
       "trigger_time": "2026-09-23T04:04:00+00:00",
       "level": "TRIGGER",
@@ -283,6 +262,28 @@
       "hybrid": [
         "WLD",
         "PEPE"
+      ]
+    },
+    {
+      "trigger_time": "2026-09-23T10:35:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "FET",
+        "MOODENG",
+        "WLD",
+        "XLM"
+      ],
+      "canonical": [
+        "NEAR",
+        "VET"
+      ],
+      "mover3d": [
+        "BCH",
+        "WLD"
+      ],
+      "hybrid": [
+        "WLD",
+        "BCH"
       ]
     }
   ]
