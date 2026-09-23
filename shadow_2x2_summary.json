@@ -1,28 +1,15 @@
 {
-  "generated_at": "2026-09-23T06:41:02.734573+00:00",
+  "generated_at": "2026-09-23T06:46:02.672464+00:00",
   "strategy": "shadow_2x2_3d_v01",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 1.2889,
-  "open_pnl_eur": -0.2757,
-  "paper_equity_gross_eur": 21.0132,
-  "open_count": 3,
-  "closed_count": 117,
+  "realized_gross_eur": 0.8389,
+  "open_pnl_eur": -0.0189,
+  "paper_equity_gross_eur": 20.82,
+  "open_count": 2,
+  "closed_count": 118,
   "last_selection_hour": "2026-09-23T08",
   "latest_timestamp": "2026-09-23T08:30:01+02:00",
   "open_legs": [
-    {
-      "coin": "MOODENG",
-      "direction": "SHORT",
-      "entry_eur": 0.042274434448423444,
-      "current_eur": 0.0430109409190372,
-      "spot_return_pct": -1.7124,
-      "leveraged_return_pct": -5.1371,
-      "open_pnl_eur": -0.2569,
-      "roll_active": false,
-      "hard_sl_usdt": 0.049852,
-      "roll_activation_usdt": 0.047674,
-      "roll_stop_usdt": null
-    },
     {
       "coin": "TAO",
       "direction": "SHORT",
@@ -44,21 +31,13 @@
       "spot_return_pct": 0.6392,
       "leveraged_return_pct": 1.9176,
       "open_pnl_eur": 0.0959,
-      "roll_active": false,
+      "roll_active": true,
       "hard_sl_usdt": 4.80635e-06,
       "roll_activation_usdt": 5.0293249999999995e-06,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 5.0002886999999995e-06
     }
   ],
   "closed_legs": [
-    {
-      "coin": "DOGE",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 1.6392450213019008,
-      "leveraged_return_pct": 4.9177350639057025,
-      "gross_pnl_eur": 0.24588675319528513
-    },
     {
       "coin": "PEPE",
       "direction": "LONG",
@@ -122,6 +101,14 @@
       "spot_return_pct": 1.5013951780687762,
       "leveraged_return_pct": 4.504185534206329,
       "gross_pnl_eur": 0.22520927671031643
+    },
+    {
+      "coin": "MOODENG",
+      "direction": "SHORT",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.000000000000004,
+      "leveraged_return_pct": -9.000000000000012,
+      "gross_pnl_eur": -0.4500000000000006
     },
     {
       "coin": "BCH",
