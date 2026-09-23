@@ -1,28 +1,15 @@
 {
-  "generated_at": "2026-09-23T20:56:02.852734+00:00",
+  "generated_at": "2026-09-23T21:01:02.280718+00:00",
   "strategy": "shadow_2x2_3d_v01",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 0.1903,
-  "open_pnl_eur": -0.3021,
-  "paper_equity_gross_eur": 19.8882,
-  "open_count": 4,
-  "closed_count": 1,
+  "realized_gross_eur": -0.2597,
+  "open_pnl_eur": 0.0356,
+  "paper_equity_gross_eur": 19.7759,
+  "open_count": 3,
+  "closed_count": 2,
   "last_selection_hour": "2026-09-23T22",
   "latest_timestamp": "2026-09-23T22:45:01+02:00",
   "open_legs": [
-    {
-      "coin": "BCH",
-      "direction": "LONG",
-      "entry_eur": 305.72230998771283,
-      "current_eur": 298.8403759992972,
-      "spot_return_pct": -2.251,
-      "leveraged_return_pct": -6.7531,
-      "open_pnl_eur": -0.3377,
-      "roll_active": false,
-      "hard_sl_usdt": 337.8898,
-      "roll_activation_usdt": 353.5650999999999,
-      "roll_stop_usdt": null
-    },
     {
       "coin": "MOODENG",
       "direction": "SHORT",
@@ -64,6 +51,14 @@
     }
   ],
   "closed_legs": [
+    {
+      "coin": "BCH",
+      "direction": "LONG",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0000000000000027,
+      "leveraged_return_pct": -9.000000000000007,
+      "gross_pnl_eur": -0.45000000000000034
+    },
     {
       "coin": "NEAR",
       "direction": "LONG",
