@@ -1,107 +1,85 @@
 {
-  "generated_at": "2026-09-24T16:56:02.693398+00:00",
+  "generated_at": "2026-09-24T17:16:02.328284+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
   "events_24h": 17,
-  "strong_24h": 10,
+  "strong_24h": 9,
   "results": {
     "5m": {
       "canonical": {
         "n": 17,
-        "avg_return_pct": -0.0422,
-        "positive": 5
+        "avg_return_pct": 0.008,
+        "positive": 6
       },
       "mover3d": {
         "n": 17,
-        "avg_return_pct": -0.2137,
-        "positive": 5
+        "avg_return_pct": -0.1306,
+        "positive": 6
       },
       "hybrid_rebound_v2": {
         "n": 17,
-        "avg_return_pct": -0.1367,
-        "positive": 4
+        "avg_return_pct": -0.107,
+        "positive": 5
       }
     },
     "15m": {
       "canonical": {
         "n": 17,
-        "avg_return_pct": -0.0662,
+        "avg_return_pct": -0.0571,
         "positive": 7
       },
       "mover3d": {
         "n": 17,
-        "avg_return_pct": -0.1216,
+        "avg_return_pct": -0.1547,
         "positive": 6
       },
       "hybrid_rebound_v2": {
         "n": 17,
-        "avg_return_pct": -0.089,
-        "positive": 7
+        "avg_return_pct": -0.1364,
+        "positive": 6
       }
     },
     "30m": {
       "canonical": {
-        "n": 17,
-        "avg_return_pct": -0.1497,
-        "positive": 9
-      },
-      "mover3d": {
-        "n": 17,
-        "avg_return_pct": 0.0789,
+        "n": 16,
+        "avg_return_pct": -0.166,
         "positive": 8
       },
+      "mover3d": {
+        "n": 16,
+        "avg_return_pct": 0.0271,
+        "positive": 7
+      },
       "hybrid_rebound_v2": {
-        "n": 17,
-        "avg_return_pct": -0.0572,
-        "positive": 9
+        "n": 16,
+        "avg_return_pct": -0.072,
+        "positive": 8
       }
     },
     "rolling_09": {
       "canonical": {
-        "n": 17,
-        "avg_return_pct": 0.2419,
+        "n": 16,
+        "avg_return_pct": 0.2758,
         "positive": 7
       },
       "mover3d": {
-        "n": 17,
-        "avg_return_pct": 0.3703,
-        "positive": 11
+        "n": 16,
+        "avg_return_pct": 0.3374,
+        "positive": 10
       },
       "hybrid_rebound_v2": {
-        "n": 17,
-        "avg_return_pct": -2.7122,
-        "positive": 10
+        "n": 16,
+        "avg_return_pct": -2.8867,
+        "positive": 9
       }
     }
   },
   "profile3d": {
     "status": "OPBOUW",
-    "profile_hours": 70.7,
-    "snapshots": 276
+    "profile_hours": 71.0,
+    "snapshots": 277
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-09-23T22:23:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "BCH",
-        "LTC",
-        "NEAR",
-        "TAO"
-      ],
-      "canonical": [
-        "LTC",
-        "ETH"
-      ],
-      "mover3d": [
-        "BCH",
-        "NEAR"
-      ],
-      "hybrid": [
-        "NEAR",
-        "TAO"
-      ]
-    },
     {
       "trigger_time": "2026-09-24T00:51:00+00:00",
       "level": "TRIGGER",
@@ -286,6 +264,26 @@
       "hybrid": [
         "TAO",
         "LTC"
+      ]
+    },
+    {
+      "trigger_time": "2026-09-24T16:53:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "DOGE",
+        "VET"
+      ],
+      "canonical": [
+        "LTC",
+        "ONDO"
+      ],
+      "mover3d": [
+        "BCH",
+        "NEAR"
+      ],
+      "hybrid": [
+        "TAO",
+        "FET"
       ]
     }
   ]
