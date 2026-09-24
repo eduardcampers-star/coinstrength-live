@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-24T14:04:02.110136+00:00",
+  "generated_at": "2026-09-24T14:09:01.170708+00:00",
   "strategy": "shadow_2x2_v02",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 0.0248,
-  "open_pnl_eur": -0.4023,
-  "paper_equity_gross_eur": 19.6225,
-  "open_count": 3,
-  "closed_count": 16,
+  "realized_gross_eur": -0.4252,
+  "open_pnl_eur": -0.052,
+  "paper_equity_gross_eur": 19.5228,
+  "open_count": 2,
+  "closed_count": 17,
   "last_selection_hour": "2026-09-24T16",
   "latest_timestamp": "2026-09-24T16:00:01+02:00",
   "open_legs": [
@@ -35,30 +35,9 @@
       "hard_sl_usdt": 81751.503,
       "roll_activation_usdt": 85544.0985,
       "roll_stop_usdt": null
-    },
-    {
-      "coin": "ADA",
-      "direction": "SHORT",
-      "entry_eur": 0.20728168147040718,
-      "current_eur": 0.21223843854404784,
-      "spot_return_pct": -2.3355,
-      "leveraged_return_pct": -7.0064,
-      "open_pnl_eur": -0.3503,
-      "roll_active": false,
-      "hard_sl_usdt": 0.242771,
-      "roll_activation_usdt": 0.2321645,
-      "roll_stop_usdt": null
     }
   ],
   "closed_legs": [
-    {
-      "coin": "SHIB",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 0.9168488745980771,
-      "leveraged_return_pct": 2.7505466237942313,
-      "gross_pnl_eur": 0.13752733118971158
-    },
     {
       "coin": "AVAX",
       "direction": "SHORT",
@@ -141,6 +120,14 @@
     },
     {
       "coin": "MOODENG",
+      "direction": "SHORT",
+      "reason": "HARD_SL",
+      "spot_return_pct": -2.9999999999999973,
+      "leveraged_return_pct": -8.999999999999993,
+      "gross_pnl_eur": -0.4499999999999996
+    },
+    {
+      "coin": "ADA",
       "direction": "SHORT",
       "reason": "HARD_SL",
       "spot_return_pct": -2.9999999999999973,
