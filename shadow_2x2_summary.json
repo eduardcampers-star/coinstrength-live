@@ -1,59 +1,69 @@
 {
-  "generated_at": "2026-09-24T09:01:03.008410+00:00",
+  "generated_at": "2026-09-24T09:06:02.442036+00:00",
   "strategy": "shadow_2x2_3d_v01",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": -1.6943,
-  "open_pnl_eur": 0.445,
-  "paper_equity_gross_eur": 18.7507,
-  "open_count": 2,
-  "closed_count": 14,
-  "last_selection_hour": "2026-09-24T10",
-  "latest_timestamp": "2026-09-24T10:45:01+02:00",
+  "realized_gross_eur": -1.263,
+  "open_pnl_eur": 0.0,
+  "paper_equity_gross_eur": 18.737,
+  "open_count": 4,
+  "closed_count": 16,
+  "last_selection_hour": "2026-09-24T11",
+  "latest_timestamp": "2026-09-24T11:00:01+02:00",
   "open_legs": [
+    {
+      "coin": "BCH",
+      "direction": "LONG",
+      "entry_eur": 293.4633632050606,
+      "current_eur": 293.4633632050606,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "hard_sl_usdt": 323.9994,
+      "roll_activation_usdt": 339.03029999999995,
+      "roll_stop_usdt": null
+    },
+    {
+      "coin": "NEAR",
+      "direction": "LONG",
+      "entry_eur": 3.733087330873308,
+      "current_eur": 3.733087330873308,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "hard_sl_usdt": 4.12153,
+      "roll_activation_usdt": 4.312734999999999,
+      "roll_stop_usdt": null
+    },
     {
       "coin": "MOODENG",
       "direction": "SHORT",
-      "entry_eur": 0.04034100896466866,
-      "current_eur": 0.039610047426664324,
-      "spot_return_pct": 1.8454,
-      "leveraged_return_pct": 5.5362,
-      "open_pnl_eur": 0.2768,
-      "roll_active": true,
-      "hard_sl_usdt": 0.047277000000000007,
-      "roll_activation_usdt": 0.0452115,
-      "roll_stop_usdt": 0.045031669999999996
+      "entry_eur": 0.03957125285538569,
+      "current_eur": 0.03957125285538569,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "hard_sl_usdt": 0.0463912,
+      "roll_activation_usdt": 0.0443644,
+      "roll_stop_usdt": null
     },
     {
       "coin": "PEPE",
       "direction": "SHORT",
-      "entry_eur": 3.8563895236421165e-06,
-      "current_eur": 3.813630774635517e-06,
-      "spot_return_pct": 1.1212,
-      "leveraged_return_pct": 3.3636,
-      "open_pnl_eur": 0.1682,
-      "roll_active": true,
-      "hard_sl_usdt": 4.519434e-06,
-      "roll_activation_usdt": 4.321983e-06,
-      "roll_stop_usdt": 4.344653099999999e-06
+      "entry_eur": 3.8123352662098047e-06,
+      "current_eur": 3.8123352662098047e-06,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "hard_sl_usdt": 4.469376e-06,
+      "roll_activation_usdt": 4.274112e-06,
+      "roll_stop_usdt": null
     }
   ],
   "closed_legs": [
-    {
-      "coin": "MOODENG",
-      "direction": "SHORT",
-      "reason": "HARD_SL",
-      "spot_return_pct": -3.0000000000000018,
-      "leveraged_return_pct": -9.000000000000005,
-      "gross_pnl_eur": -0.4500000000000003
-    },
-    {
-      "coin": "PEPE",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 0.8363993244168675,
-      "leveraged_return_pct": 2.5091979732506027,
-      "gross_pnl_eur": 0.12545989866253013
-    },
     {
       "coin": "NEAR",
       "direction": "LONG",
@@ -125,6 +135,22 @@
       "spot_return_pct": 0.6613531047265919,
       "leveraged_return_pct": 1.9840593141797758,
       "gross_pnl_eur": 0.09920296570898879
+    },
+    {
+      "coin": "MOODENG",
+      "direction": "SHORT",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 1.8917864923747436,
+      "leveraged_return_pct": 5.675359477124231,
+      "gross_pnl_eur": 0.28376797385621155
+    },
+    {
+      "coin": "PEPE",
+      "direction": "SHORT",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 0.9833378914262453,
+      "leveraged_return_pct": 2.9500136742787357,
+      "gross_pnl_eur": 0.1475006837139368
     },
     {
       "coin": "NEAR",
