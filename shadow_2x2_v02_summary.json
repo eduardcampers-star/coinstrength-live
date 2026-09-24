@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-24T05:04:01.727166+00:00",
+  "generated_at": "2026-09-24T05:09:01.527272+00:00",
   "strategy": "shadow_2x2_v02",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 0.8923,
-  "open_pnl_eur": -0.6986,
-  "paper_equity_gross_eur": 20.1938,
-  "open_count": 4,
-  "closed_count": 11,
+  "realized_gross_eur": -0.0077,
+  "open_pnl_eur": 0.0379,
+  "paper_equity_gross_eur": 20.0302,
+  "open_count": 2,
+  "closed_count": 13,
   "last_selection_hour": "2026-09-24T07",
   "latest_timestamp": "2026-09-24T07:00:01+02:00",
   "open_legs": [
@@ -35,43 +35,9 @@
       "hard_sl_usdt": 81751.503,
       "roll_activation_usdt": 85544.0985,
       "roll_stop_usdt": null
-    },
-    {
-      "coin": "WLD",
-      "direction": "SHORT",
-      "entry_eur": 0.355198454513523,
-      "current_eur": 0.36486605182257353,
-      "spot_return_pct": -2.6496,
-      "leveraged_return_pct": -7.9489,
-      "open_pnl_eur": -0.3974,
-      "roll_active": false,
-      "hard_sl_usdt": 0.41663500000000003,
-      "roll_activation_usdt": 0.3984325,
-      "roll_stop_usdt": null
-    },
-    {
-      "coin": "MOODENG",
-      "direction": "SHORT",
-      "entry_eur": 0.03944800914124989,
-      "current_eur": 0.040360122968818614,
-      "spot_return_pct": -2.2599,
-      "leveraged_return_pct": -6.7798,
-      "open_pnl_eur": -0.339,
-      "roll_active": false,
-      "hard_sl_usdt": 0.04622640000000001,
-      "roll_activation_usdt": 0.044206800000000004,
-      "roll_stop_usdt": null
     }
   ],
   "closed_legs": [
-    {
-      "coin": "DOGE",
-      "direction": "SHORT",
-      "reason": "HARD_SL",
-      "spot_return_pct": -3.0000000000000027,
-      "leveraged_return_pct": -9.000000000000007,
-      "gross_pnl_eur": -0.45000000000000034
-    },
     {
       "coin": "ETH",
       "direction": "SHORT",
@@ -151,6 +117,22 @@
       "spot_return_pct": 0.742717317569553,
       "leveraged_return_pct": 2.228151952708659,
       "gross_pnl_eur": 0.11140759763543295
+    },
+    {
+      "coin": "WLD",
+      "direction": "SHORT",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0000000000000018,
+      "leveraged_return_pct": -9.000000000000005,
+      "gross_pnl_eur": -0.4500000000000003
+    },
+    {
+      "coin": "MOODENG",
+      "direction": "SHORT",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0000000000000098,
+      "leveraged_return_pct": -9.00000000000003,
+      "gross_pnl_eur": -0.4500000000000015
     }
   ]
 }
