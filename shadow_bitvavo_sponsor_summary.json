@@ -1,46 +1,48 @@
 {
-  "generated_at": "2026-09-25T13:43:01.514230+00:00",
+  "generated_at": "2026-09-25T13:48:01.221539+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-09-25T15:30:01+02:00",
-  "film_timestamp": "2026-09-25T13:42:01.347515+00:00",
+  "latest_timestamp": "2026-09-25T15:45:01+02:00",
+  "film_timestamp": "2026-09-25T13:47:01.335876+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "SHORT",
+    "target_legs": 4,
     "breadth_5m": {
-      "green": 1,
+      "green": 0,
       "red": 25,
-      "flat": 1
+      "flat": 2
     },
     "breadth_15m": {
-      "green": 11,
-      "red": 12,
-      "flat": 4
+      "green": 2,
+      "red": 22,
+      "flat": 3
     },
     "breadth_60m": {
-      "green": 4,
-      "red": 23,
+      "green": 2,
+      "red": 25,
       "flat": 0
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "TRX"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 0.0,
-  "open_pnl_eur": 0.0,
-  "paper_equity_gross_eur": 20.0,
+  "open_pnl_eur": 0.0639,
+  "paper_equity_gross_eur": 20.0639,
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 0.0,
-  "paper_equity_est_net_eur": 20.0,
-  "open_count": 1,
+  "paper_equity_est_net_eur": 20.0639,
+  "open_count": 2,
   "closed_count": 0,
   "open_legs": [
     {
       "coin": "NEAR",
       "direction": "LONG",
       "entry_eur": 4.45750372774318,
-      "current_eur": 4.45750372774318,
-      "spot_return_pct": 0.0,
-      "leveraged_return_pct": 0.0,
-      "open_pnl_eur": 0.0,
+      "current_eur": 4.476499473868818,
+      "spot_return_pct": 0.4262,
+      "leveraged_return_pct": 1.2785,
+      "open_pnl_eur": 0.0639,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-09-25T13:37:32.078801+00:00",
@@ -65,6 +67,40 @@
         "ret_5m_pct": 1.6026909378709764,
         "ret_15m_pct": 0.9237421383647693,
         "ret_60m_pct": 1.162332545311262
+      }
+    },
+    {
+      "coin": "TRX",
+      "direction": "SHORT",
+      "entry_eur": 0.2955015783935461,
+      "current_eur": 0.2955015783935461,
+      "spot_return_pct": -0.0,
+      "leveraged_return_pct": -0.0,
+      "open_pnl_eur": -0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-09-25T13:48:01.221087+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 0,
+          "red": 25,
+          "flat": 2
+        },
+        "15m": {
+          "green": 2,
+          "red": 22,
+          "flat": 3
+        },
+        "60m": {
+          "green": 2,
+          "red": 25,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.038575667655793566,
+        "ret_15m_pct": 0.026723677177975524,
+        "ret_60m_pct": 0.06237747282125117
       }
     }
   ],
