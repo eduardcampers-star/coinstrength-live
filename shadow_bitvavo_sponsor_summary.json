@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-09-26T06:43:02.434635+00:00",
+  "generated_at": "2026-09-26T06:48:01.859418+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-09-26T08:30:01+02:00",
-  "film_timestamp": "2026-09-26T06:42:01.784646+00:00",
+  "latest_timestamp": "2026-09-26T08:45:01+02:00",
+  "film_timestamp": "2026-09-26T06:47:01.975250+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "LONG",
+    "target_legs": 1,
     "breadth_5m": {
-      "green": 12,
-      "red": 3,
-      "flat": 12
+      "green": 19,
+      "red": 1,
+      "flat": 7
     },
     "breadth_15m": {
-      "green": 14,
-      "red": 7,
+      "green": 16,
+      "red": 5,
       "flat": 6
     },
     "breadth_60m": {
       "green": 8,
-      "red": 18,
-      "flat": 1
+      "red": 17,
+      "flat": 2
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "SUI"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 0.0,
   "open_pnl_eur": 0.0,
@@ -30,8 +32,43 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 0.0,
   "paper_equity_est_net_eur": 20.0,
-  "open_count": 0,
+  "open_count": 1,
   "closed_count": 0,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "SUI",
+      "direction": "LONG",
+      "entry_eur": 1.011938202247191,
+      "current_eur": 1.011938202247191,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-09-26T06:48:01.859227+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 19,
+          "red": 1,
+          "flat": 7
+        },
+        "15m": {
+          "green": 16,
+          "red": 5,
+          "flat": 6
+        },
+        "60m": {
+          "green": 8,
+          "red": 17,
+          "flat": 2
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.0,
+        "ret_15m_pct": -0.20793623288857255,
+        "ret_60m_pct": -0.8692658576469614
+      }
+    }
+  ],
   "closed_legs": []
 }
