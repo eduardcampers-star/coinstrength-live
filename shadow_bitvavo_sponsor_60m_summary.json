@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-28T01:19:02.847017+00:00",
+  "generated_at": "2026-09-28T01:24:02.298654+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
   "latest_timestamp": "2026-09-28T03:15:01+02:00",
-  "film_timestamp": "2026-09-28T01:17:02.056686+00:00",
+  "film_timestamp": "2026-09-28T01:22:01.288325+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "LONG",
+    "target_legs": 5,
     "breadth_5m": {
-      "green": 0,
-      "red": 26,
-      "flat": 1
+      "green": 26,
+      "red": 1,
+      "flat": 0
     },
     "breadth_15m": {
-      "green": 3,
-      "red": 20,
-      "flat": 4
+      "green": 25,
+      "red": 2,
+      "flat": 0
     },
     "breadth_60m": {
       "green": 4,
@@ -22,7 +22,9 @@
       "flat": 0
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "HBAR"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 4.9773,
   "open_pnl_eur": 0.0,
@@ -30,9 +32,44 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 0.63,
   "paper_equity_est_net_eur": 24.3473,
-  "open_count": 0,
+  "open_count": 1,
   "closed_count": 7,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "HBAR",
+      "direction": "LONG",
+      "entry_eur": 0.08470185299025203,
+      "current_eur": 0.08470185299025203,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-09-28T01:24:02.298102+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 26,
+          "red": 1,
+          "flat": 0
+        },
+        "15m": {
+          "green": 25,
+          "red": 2,
+          "flat": 0
+        },
+        "60m": {
+          "green": 4,
+          "red": 23,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.3515665391376155,
+        "ret_15m_pct": 0.5178663904712666,
+        "ret_60m_pct": 0.9045539613225184
+      }
+    }
+  ],
   "closed_legs": [
     {
       "coin": "SUI",
