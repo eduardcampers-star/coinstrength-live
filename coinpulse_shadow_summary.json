@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-28T04:01:02.417656+00:00",
+  "generated_at": "2026-09-28T04:16:02.209110+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 11,
+  "events_24h": 12,
   "strong_24h": 4,
   "results": {
     "5m": {
       "canonical": {
-        "n": 11,
-        "avg_return_pct": -0.5991,
-        "positive": 1
+        "n": 12,
+        "avg_return_pct": -0.468,
+        "positive": 2
       },
       "mover3d": {
-        "n": 11,
-        "avg_return_pct": -0.3751,
-        "positive": 3
+        "n": 12,
+        "avg_return_pct": -0.2885,
+        "positive": 4
       },
       "hybrid_rebound_v2": {
-        "n": 11,
-        "avg_return_pct": 0.0205,
-        "positive": 5
+        "n": 12,
+        "avg_return_pct": 0.032,
+        "positive": 6
       }
     },
     "15m": {
@@ -58,18 +58,18 @@
     },
     "rolling_09": {
       "canonical": {
-        "n": 10,
-        "avg_return_pct": -0.376,
-        "positive": 4
+        "n": 11,
+        "avg_return_pct": -0.3218,
+        "positive": 5
       },
       "mover3d": {
-        "n": 10,
-        "avg_return_pct": 0.4836,
+        "n": 11,
+        "avg_return_pct": 0.4228,
         "positive": 7
       },
       "hybrid_rebound_v2": {
-        "n": 10,
-        "avg_return_pct": -0.106,
+        "n": 11,
+        "avg_return_pct": -0.1565,
         "positive": 5
       }
     }
@@ -80,27 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-09-27T13:12:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "BCH",
-        "DOT",
-        "SHIB"
-      ],
-      "canonical": [
-        "WLD",
-        "TAO"
-      ],
-      "mover3d": [
-        "QNT",
-        "NEAR"
-      ],
-      "hybrid": [
-        "WLD",
-        "TAO"
-      ]
-    },
     {
       "trigger_time": "2026-09-27T14:26:00+00:00",
       "level": "TRIGGER",
@@ -284,6 +263,26 @@
       "hybrid": [
         "QNT",
         "WLD"
+      ]
+    },
+    {
+      "trigger_time": "2026-09-28T04:01:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "WLD",
+        "XLM"
+      ],
+      "canonical": [
+        "QNT",
+        "ONDO"
+      ],
+      "mover3d": [
+        "QNT",
+        "NEAR"
+      ],
+      "hybrid": [
+        "FET",
+        "SUI"
       ]
     }
   ]
