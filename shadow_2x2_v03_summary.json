@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-28T16:06:01.417636+00:00",
+  "generated_at": "2026-09-28T16:11:01.854727+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": -1.057,
+  "realized_gross_eur": -0.9387,
   "open_pnl_eur": 0.0016,
-  "paper_equity_gross_eur": 18.9446,
-  "open_count": 3,
-  "closed_count": 50,
+  "paper_equity_gross_eur": 19.0628,
+  "open_count": 2,
+  "closed_count": 51,
   "last_selection_hour": "2026-09-28T18",
   "latest_timestamp": "2026-09-28T18:00:01+02:00",
   "open_legs": [
@@ -35,30 +35,9 @@
       "hard_sl_usdt": 0.346698,
       "roll_activation_usdt": 0.331551,
       "roll_stop_usdt": null
-    },
-    {
-      "coin": "HBAR",
-      "direction": "LONG",
-      "entry_eur": 0.11047401283967989,
-      "current_eur": 0.11047401283967989,
-      "spot_return_pct": 0.0,
-      "leveraged_return_pct": 0.0,
-      "open_pnl_eur": 0.0,
-      "roll_active": false,
-      "hard_sl_usdt": 0.12185140000000001,
-      "roll_activation_usdt": 0.1275043,
-      "roll_stop_usdt": null
     }
   ],
   "closed_legs": [
-    {
-      "coin": "ONDO",
-      "direction": "SHORT",
-      "reason": "HARD_SL",
-      "spot_return_pct": -3.0000000000000036,
-      "leveraged_return_pct": -9.00000000000001,
-      "gross_pnl_eur": -0.45000000000000057
-    },
     {
       "coin": "SUI",
       "direction": "SHORT",
@@ -146,6 +125,14 @@
       "spot_return_pct": 0.7867123874839445,
       "leveraged_return_pct": 2.3601371624518332,
       "gross_pnl_eur": 0.11800685812259167
+    },
+    {
+      "coin": "HBAR",
+      "direction": "LONG",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 0.7882184365546774,
+      "leveraged_return_pct": 2.364655309664032,
+      "gross_pnl_eur": 0.11823276548320161
     }
   ]
 }
