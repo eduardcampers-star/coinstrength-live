@@ -1,75 +1,38 @@
 {
-  "generated_at": "2026-09-28T08:13:03.003714+00:00",
+  "generated_at": "2026-09-28T08:18:02.363212+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-09-28T10:00:01+02:00",
-  "film_timestamp": "2026-09-28T08:12:01.741495+00:00",
+  "latest_timestamp": "2026-09-28T10:15:01+02:00",
+  "film_timestamp": "2026-09-28T08:17:01.813813+00:00",
   "trigger": {
-    "direction": "LONG",
-    "target_legs": 2,
+    "direction": null,
+    "target_legs": 0,
     "breadth_5m": {
       "green": 23,
-      "red": 1,
-      "flat": 3
+      "red": 0,
+      "flat": 4
     },
     "breadth_15m": {
-      "green": 19,
-      "red": 5,
-      "flat": 3
+      "green": 23,
+      "red": 2,
+      "flat": 2
     },
     "breadth_60m": {
-      "green": 3,
-      "red": 22,
-      "flat": 2
+      "green": 9,
+      "red": 11,
+      "flat": 7
     }
   },
-  "opened_this_run": [
-    "QNT"
-  ],
+  "opened_this_run": [],
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 14.2009,
+  "realized_gross_eur": 13.7509,
   "open_pnl_eur": 0.0,
-  "paper_equity_gross_eur": 34.2009,
+  "paper_equity_gross_eur": 33.7509,
   "estimated_cost_per_closed_trade_eur": 0.09,
-  "estimated_costs_eur": 1.26,
-  "paper_equity_est_net_eur": 32.9409,
-  "open_count": 1,
-  "closed_count": 14,
-  "open_legs": [
-    {
-      "coin": "QNT",
-      "direction": "LONG",
-      "entry_eur": 238.02037590022834,
-      "current_eur": 238.02037590022834,
-      "spot_return_pct": 0.0,
-      "leveraged_return_pct": 0.0,
-      "open_pnl_eur": 0.0,
-      "roll_active": false,
-      "roll_stop_eur": null,
-      "entry_time": "2026-09-28T08:13:03.002198+00:00",
-      "entry_breadth": {
-        "5m": {
-          "green": 23,
-          "red": 1,
-          "flat": 3
-        },
-        "15m": {
-          "green": 19,
-          "red": 5,
-          "flat": 3
-        },
-        "60m": {
-          "green": 3,
-          "red": 22,
-          "flat": 2
-        }
-      },
-      "entry_move": {
-        "ret_5m_pct": -0.6802206938251065,
-        "ret_15m_pct": -3.1899219095329445,
-        "ret_60m_pct": -5.201269658058005
-      }
-    }
-  ],
+  "estimated_costs_eur": 1.35,
+  "paper_equity_est_net_eur": 32.4009,
+  "open_count": 0,
+  "closed_count": 15,
+  "open_legs": [],
   "closed_legs": [
     {
       "coin": "SUI",
@@ -210,6 +173,16 @@
       "gross_pnl_eur": -0.45,
       "entry_time": "2026-09-28T05:58:02.025737+00:00",
       "exit_time": "2026-09-28T07:18:01.510282+00:00"
+    },
+    {
+      "coin": "QNT",
+      "direction": "LONG",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45,
+      "entry_time": "2026-09-28T08:13:03.002198+00:00",
+      "exit_time": "2026-09-28T08:18:02.361689+00:00"
     }
   ]
 }
