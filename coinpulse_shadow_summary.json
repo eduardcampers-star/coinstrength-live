@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-09-28T17:11:02.827772+00:00",
+  "generated_at": "2026-09-28T17:31:02.799450+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 18,
+  "events_24h": 19,
   "strong_24h": 6,
   "results": {
     "5m": {
       "canonical": {
-        "n": 18,
-        "avg_return_pct": -0.3183,
-        "positive": 4
+        "n": 19,
+        "avg_return_pct": -0.2166,
+        "positive": 5
       },
       "mover3d": {
-        "n": 18,
-        "avg_return_pct": -0.1731,
+        "n": 19,
+        "avg_return_pct": -0.184,
         "positive": 8
       },
       "hybrid_rebound_v2": {
-        "n": 18,
-        "avg_return_pct": -0.0355,
-        "positive": 8
+        "n": 19,
+        "avg_return_pct": 0.0661,
+        "positive": 9
       }
     },
     "15m": {
       "canonical": {
-        "n": 18,
-        "avg_return_pct": -0.0464,
-        "positive": 7
+        "n": 19,
+        "avg_return_pct": 0.0138,
+        "positive": 8
       },
       "mover3d": {
-        "n": 18,
-        "avg_return_pct": 0.0791,
+        "n": 19,
+        "avg_return_pct": 0.0427,
         "positive": 9
       },
       "hybrid_rebound_v2": {
-        "n": 18,
-        "avg_return_pct": 0.006,
-        "positive": 9
+        "n": 19,
+        "avg_return_pct": 0.0901,
+        "positive": 10
       }
     },
     "30m": {
@@ -80,29 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-09-28T05:04:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "AVAX",
-        "LINK",
-        "MOODENG",
-        "VET",
-        "XLM"
-      ],
-      "canonical": [
-        "ONDO",
-        "HBAR"
-      ],
-      "mover3d": [
-        "QNT",
-        "NEAR"
-      ],
-      "hybrid": [
-        "QNT",
-        "WLD"
-      ]
-    },
     {
       "trigger_time": "2026-09-28T05:22:00+00:00",
       "level": "TRIGGER",
@@ -284,6 +261,26 @@
       "hybrid": [
         "NEAR",
         "QNT"
+      ]
+    },
+    {
+      "trigger_time": "2026-09-28T17:10:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "AVAX",
+        "HBAR"
+      ],
+      "canonical": [
+        "LINK",
+        "HBAR"
+      ],
+      "mover3d": [
+        "QNT",
+        "WLD"
+      ],
+      "hybrid": [
+        "HBAR",
+        "DOT"
       ]
     }
   ]
