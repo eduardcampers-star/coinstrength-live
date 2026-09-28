@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-09-28T16:38:01.531130+00:00",
+  "generated_at": "2026-09-28T16:43:02.736641+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
   "latest_timestamp": "2026-09-28T18:30:01+02:00",
-  "film_timestamp": "2026-09-28T16:37:01.874701+00:00",
+  "film_timestamp": "2026-09-28T16:42:01.487099+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "SHORT",
+    "target_legs": 5,
     "breadth_5m": {
       "green": 2,
-      "red": 22,
-      "flat": 3
+      "red": 25,
+      "flat": 0
     },
     "breadth_15m": {
-      "green": 18,
-      "red": 5,
-      "flat": 4
+      "green": 2,
+      "red": 24,
+      "flat": 1
     },
     "breadth_60m": {
-      "green": 27,
-      "red": 0,
-      "flat": 0
+      "green": 25,
+      "red": 1,
+      "flat": 1
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "HBAR"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 15.7163,
   "open_pnl_eur": 0.0,
@@ -30,9 +32,44 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 1.8,
   "paper_equity_est_net_eur": 33.9163,
-  "open_count": 0,
+  "open_count": 1,
   "closed_count": 20,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "HBAR",
+      "direction": "SHORT",
+      "entry_eur": 0.11160094844998682,
+      "current_eur": 0.11160094844998682,
+      "spot_return_pct": -0.0,
+      "leveraged_return_pct": -0.0,
+      "open_pnl_eur": -0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-09-28T16:43:02.736089+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 2,
+          "red": 25,
+          "flat": 0
+        },
+        "15m": {
+          "green": 2,
+          "red": 24,
+          "flat": 1
+        },
+        "60m": {
+          "green": 25,
+          "red": 1,
+          "flat": 1
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.4876514078968164,
+        "ret_15m_pct": -0.4719949653870459,
+        "ret_60m_pct": 3.1637312459230182
+      }
+    }
+  ],
   "closed_legs": [
     {
       "coin": "SUI",
