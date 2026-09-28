@@ -1,73 +1,38 @@
 {
-  "generated_at": "2026-09-28T00:29:02.344438+00:00",
+  "generated_at": "2026-09-28T00:34:02.694677+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-09-28T02:15:01+02:00",
-  "film_timestamp": "2026-09-28T00:27:02.003136+00:00",
+  "latest_timestamp": "2026-09-28T02:30:01+02:00",
+  "film_timestamp": "2026-09-28T00:32:01.637919+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
-      "green": 10,
-      "red": 13,
-      "flat": 4
+      "green": 2,
+      "red": 24,
+      "flat": 1
     },
     "breadth_15m": {
-      "green": 26,
-      "red": 1,
+      "green": 21,
+      "red": 6,
       "flat": 0
     },
     "breadth_60m": {
-      "green": 24,
-      "red": 3,
-      "flat": 0
+      "green": 20,
+      "red": 5,
+      "flat": 2
     }
   },
   "opened_this_run": [],
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 4.8434,
-  "open_pnl_eur": 0.2665,
-  "paper_equity_gross_eur": 25.1099,
+  "realized_gross_eur": 4.9773,
+  "open_pnl_eur": 0.0,
+  "paper_equity_gross_eur": 24.9773,
   "estimated_cost_per_closed_trade_eur": 0.09,
-  "estimated_costs_eur": 0.54,
-  "paper_equity_est_net_eur": 24.5699,
-  "open_count": 1,
-  "closed_count": 6,
-  "open_legs": [
-    {
-      "coin": "ONDO",
-      "direction": "SHORT",
-      "entry_eur": 0.516914155170899,
-      "current_eur": 0.5077301475755446,
-      "spot_return_pct": 1.7767,
-      "leveraged_return_pct": 5.3301,
-      "open_pnl_eur": 0.2665,
-      "roll_active": true,
-      "roll_stop_eur": 0.5122997189037244,
-      "entry_time": "2026-09-28T00:14:03.157657+00:00",
-      "entry_breadth": {
-        "5m": {
-          "green": 0,
-          "red": 26,
-          "flat": 1
-        },
-        "15m": {
-          "green": 2,
-          "red": 24,
-          "flat": 1
-        },
-        "60m": {
-          "green": 20,
-          "red": 5,
-          "flat": 2
-        }
-      },
-      "entry_move": {
-        "ret_5m_pct": -0.9081562714187696,
-        "ret_15m_pct": -1.7832880434782483,
-        "ret_60m_pct": 4.49945789663897
-      }
-    }
-  ],
+  "estimated_costs_eur": 0.63,
+  "paper_equity_est_net_eur": 24.3473,
+  "open_count": 0,
+  "closed_count": 7,
+  "open_legs": [],
   "closed_legs": [
     {
       "coin": "SUI",
@@ -128,6 +93,16 @@
       "gross_pnl_eur": 5.050693,
       "entry_time": "2026-09-27T22:59:01.780820+00:00",
       "exit_time": "2026-09-27T23:19:02.092939+00:00"
+    },
+    {
+      "coin": "ONDO",
+      "direction": "SHORT",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 0.892689,
+      "leveraged_return_pct": 2.678067,
+      "gross_pnl_eur": 0.133903,
+      "entry_time": "2026-09-28T00:14:03.157657+00:00",
+      "exit_time": "2026-09-28T00:34:02.694095+00:00"
     }
   ]
 }
