@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-28T16:13:01.562636+00:00",
+  "generated_at": "2026-09-28T16:18:02.424732+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-09-28T18:00:01+02:00",
-  "film_timestamp": "2026-09-28T16:12:02.021326+00:00",
+  "latest_timestamp": "2026-09-28T18:15:02+02:00",
+  "film_timestamp": "2026-09-28T16:17:01.338209+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
-      "green": 25,
-      "red": 1,
-      "flat": 1
+      "green": 17,
+      "red": 6,
+      "flat": 4
     },
     "breadth_15m": {
-      "green": 21,
-      "red": 4,
-      "flat": 2
+      "green": 26,
+      "red": 1,
+      "flat": 0
     },
     "breadth_60m": {
       "green": 27,
@@ -24,50 +24,15 @@
   },
   "opened_this_run": [],
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 14.7385,
-  "open_pnl_eur": 1.1229,
-  "paper_equity_gross_eur": 35.8614,
+  "realized_gross_eur": 15.7163,
+  "open_pnl_eur": 0.0,
+  "paper_equity_gross_eur": 35.7163,
   "estimated_cost_per_closed_trade_eur": 0.09,
-  "estimated_costs_eur": 1.71,
-  "paper_equity_est_net_eur": 34.1514,
-  "open_count": 1,
-  "closed_count": 19,
-  "open_legs": [
-    {
-      "coin": "HBAR",
-      "direction": "LONG",
-      "entry_eur": 0.10277973258268824,
-      "current_eur": 0.11047401283967989,
-      "spot_return_pct": 7.4862,
-      "leveraged_return_pct": 22.4586,
-      "open_pnl_eur": 1.1229,
-      "roll_active": true,
-      "roll_stop_eur": 0.10947974672412278,
-      "entry_time": "2026-09-28T15:28:01.818239+00:00",
-      "entry_breadth": {
-        "5m": {
-          "green": 26,
-          "red": 1,
-          "flat": 0
-        },
-        "15m": {
-          "green": 25,
-          "red": 0,
-          "flat": 2
-        },
-        "60m": {
-          "green": 1,
-          "red": 26,
-          "flat": 0
-        }
-      },
-      "entry_move": {
-        "ret_5m_pct": 0.522887022115559,
-        "ret_15m_pct": 1.1209795636802689,
-        "ret_60m_pct": -1.9973257563095426
-      }
-    }
-  ],
+  "estimated_costs_eur": 1.8,
+  "paper_equity_est_net_eur": 33.9163,
+  "open_count": 0,
+  "closed_count": 20,
+  "open_legs": [],
   "closed_legs": [
     {
       "coin": "SUI",
@@ -258,6 +223,16 @@
       "gross_pnl_eur": -0.45,
       "entry_time": "2026-09-28T15:03:01.554945+00:00",
       "exit_time": "2026-09-28T15:48:02.017011+00:00"
+    },
+    {
+      "coin": "HBAR",
+      "direction": "LONG",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 6.518809,
+      "leveraged_return_pct": 19.556426,
+      "gross_pnl_eur": 0.977821,
+      "entry_time": "2026-09-28T15:28:01.818239+00:00",
+      "exit_time": "2026-09-28T16:18:02.423375+00:00"
     }
   ]
 }
