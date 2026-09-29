@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-09-29T17:03:02.560486+00:00",
+  "generated_at": "2026-09-29T17:08:02.151233+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
   "latest_timestamp": "2026-09-29T19:00:01+02:00",
-  "film_timestamp": "2026-09-29T17:02:01.244800+00:00",
+  "film_timestamp": "2026-09-29T17:07:02.053055+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "LONG",
+    "target_legs": 3,
     "breadth_5m": {
-      "green": 23,
-      "red": 2,
-      "flat": 2
+      "green": 26,
+      "red": 1,
+      "flat": 0
     },
     "breadth_15m": {
-      "green": 3,
-      "red": 18,
-      "flat": 6
+      "green": 21,
+      "red": 2,
+      "flat": 4
     },
     "breadth_60m": {
-      "green": 3,
-      "red": 23,
+      "green": 8,
+      "red": 18,
       "flat": 1
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "AVAX"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 16.6366,
   "open_pnl_eur": 0.0,
@@ -30,9 +32,44 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 3.24,
   "paper_equity_est_net_eur": 33.3966,
-  "open_count": 0,
+  "open_count": 1,
   "closed_count": 36,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "AVAX",
+      "direction": "LONG",
+      "entry_eur": 9.846276172806785,
+      "current_eur": 9.846276172806785,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-09-29T17:08:02.151059+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 26,
+          "red": 1,
+          "flat": 0
+        },
+        "15m": {
+          "green": 21,
+          "red": 2,
+          "flat": 4
+        },
+        "60m": {
+          "green": 8,
+          "red": 18,
+          "flat": 1
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.21551724137931494,
+        "ret_15m_pct": 0.17054124405349036,
+        "ret_60m_pct": 0.0717360114777632
+      }
+    }
+  ],
   "closed_legs": [
     {
       "coin": "HBAR",
