@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-29T16:08:02.323050+00:00",
+  "generated_at": "2026-09-29T16:13:02.336983+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
   "latest_timestamp": "2026-09-29T18:00:01+02:00",
-  "film_timestamp": "2026-09-29T16:07:01.326744+00:00",
+  "film_timestamp": "2026-09-29T16:12:01.297039+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "LONG",
+    "target_legs": 4,
     "breadth_5m": {
-      "green": 5,
-      "red": 19,
+      "green": 23,
+      "red": 1,
       "flat": 3
     },
     "breadth_15m": {
-      "green": 6,
-      "red": 18,
-      "flat": 3
+      "green": 22,
+      "red": 3,
+      "flat": 2
     },
     "breadth_60m": {
       "green": 2,
@@ -22,7 +22,9 @@
       "flat": 0
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "QNT"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 16.5287,
   "open_pnl_eur": 0.0,
@@ -30,9 +32,44 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 3.15,
   "paper_equity_est_net_eur": 33.3787,
-  "open_count": 0,
+  "open_count": 1,
   "closed_count": 35,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "QNT",
+      "direction": "LONG",
+      "entry_eur": 220.58745699920615,
+      "current_eur": 220.58745699920615,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-09-29T16:13:02.335545+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 23,
+          "red": 1,
+          "flat": 3
+        },
+        "15m": {
+          "green": 22,
+          "red": 3,
+          "flat": 2
+        },
+        "60m": {
+          "green": 2,
+          "red": 25,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -1.3009404388714674,
+        "ret_15m_pct": 0.6714628297362246,
+        "ret_60m_pct": 3.8680412371133954
+      }
+    }
+  ],
   "closed_legs": [
     {
       "coin": "QNT",
