@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-29T17:16:03.042710+00:00",
+  "generated_at": "2026-09-29T17:31:02.262795+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 21,
+  "events_24h": 22,
   "strong_24h": 10,
   "results": {
     "5m": {
       "canonical": {
-        "n": 21,
-        "avg_return_pct": -0.1379,
-        "positive": 9
+        "n": 22,
+        "avg_return_pct": -0.1253,
+        "positive": 10
       },
       "mover3d": {
-        "n": 21,
-        "avg_return_pct": -0.3487,
+        "n": 22,
+        "avg_return_pct": -0.3455,
         "positive": 9
       },
       "hybrid_rebound_v2": {
-        "n": 21,
-        "avg_return_pct": -0.2158,
-        "positive": 8
+        "n": 22,
+        "avg_return_pct": -0.205,
+        "positive": 9
       }
     },
     "15m": {
@@ -41,18 +41,18 @@
     },
     "30m": {
       "canonical": {
-        "n": 20,
-        "avg_return_pct": -0.5673,
+        "n": 21,
+        "avg_return_pct": -0.5506,
         "positive": 6
       },
       "mover3d": {
-        "n": 20,
-        "avg_return_pct": -0.3954,
+        "n": 21,
+        "avg_return_pct": -0.4102,
         "positive": 8
       },
       "hybrid_rebound_v2": {
-        "n": 20,
-        "avg_return_pct": -0.6433,
+        "n": 21,
+        "avg_return_pct": -0.6306,
         "positive": 6
       }
     },
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-09-29T04:35:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "HBAR",
-        "MOODENG"
-      ],
-      "canonical": [
-        "QNT",
-        "HBAR"
-      ],
-      "mover3d": [
-        "QNT",
-        "NEAR"
-      ],
-      "hybrid": [
-        "ONDO",
-        "WLD"
-      ]
-    },
     {
       "trigger_time": "2026-09-29T05:08:00+00:00",
       "level": "TRIGGER",
@@ -284,6 +264,26 @@
       ],
       "hybrid": [
         "QNT",
+        "HBAR"
+      ]
+    },
+    {
+      "trigger_time": "2026-09-29T17:21:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "SHIB",
+        "XRP"
+      ],
+      "canonical": [
+        "NEAR",
+        "AVAX"
+      ],
+      "mover3d": [
+        "QNT",
+        "NEAR"
+      ],
+      "hybrid": [
+        "NEAR",
         "HBAR"
       ]
     }
