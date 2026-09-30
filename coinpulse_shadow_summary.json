@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-30T08:31:02.579609+00:00",
+  "generated_at": "2026-09-30T08:46:03.015509+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 19,
+  "events_24h": 20,
   "strong_24h": 9,
   "results": {
     "5m": {
       "canonical": {
-        "n": 19,
-        "avg_return_pct": -0.0209,
+        "n": 20,
+        "avg_return_pct": -0.0415,
         "positive": 9
       },
       "mover3d": {
-        "n": 19,
-        "avg_return_pct": 0.0409,
+        "n": 20,
+        "avg_return_pct": 0.0172,
         "positive": 10
       },
       "hybrid_rebound_v2": {
-        "n": 19,
-        "avg_return_pct": 0.047,
-        "positive": 9
+        "n": 20,
+        "avg_return_pct": 0.0636,
+        "positive": 10
       }
     },
     "15m": {
@@ -41,18 +41,18 @@
     },
     "30m": {
       "canonical": {
-        "n": 18,
-        "avg_return_pct": -0.213,
+        "n": 19,
+        "avg_return_pct": -0.2184,
         "positive": 7
       },
       "mover3d": {
-        "n": 18,
-        "avg_return_pct": 0.3164,
-        "positive": 10
+        "n": 19,
+        "avg_return_pct": 0.3137,
+        "positive": 11
       },
       "hybrid_rebound_v2": {
-        "n": 18,
-        "avg_return_pct": 0.0331,
+        "n": 19,
+        "avg_return_pct": 0.0287,
         "positive": 8
       }
     },
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-09-29T17:50:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "SHIB",
-        "XRP"
-      ],
-      "canonical": [
-        "NEAR",
-        "QNT"
-      ],
-      "mover3d": [
-        "QNT",
-        "NEAR"
-      ],
-      "hybrid": [
-        "NEAR",
-        "HBAR"
-      ]
-    },
     {
       "trigger_time": "2026-09-29T20:01:00+00:00",
       "level": "TRIGGER",
@@ -283,6 +263,26 @@
       ],
       "hybrid": [
         "HBAR",
+        "SUI"
+      ]
+    },
+    {
+      "trigger_time": "2026-09-30T08:34:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "ADA",
+        "PEPE"
+      ],
+      "canonical": [
+        "QNT",
+        "NEAR"
+      ],
+      "mover3d": [
+        "QNT",
+        "NEAR"
+      ],
+      "hybrid": [
+        "WLD",
         "SUI"
       ]
     }
