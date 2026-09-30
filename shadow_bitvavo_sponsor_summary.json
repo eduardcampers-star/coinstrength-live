@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-09-30T07:53:02.016658+00:00",
+  "generated_at": "2026-09-30T07:58:02.464478+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
   "latest_timestamp": "2026-09-30T09:45:01+02:00",
-  "film_timestamp": "2026-09-30T07:52:01.883799+00:00",
+  "film_timestamp": "2026-09-30T07:57:01.282317+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "SHORT",
+    "target_legs": 1,
     "breadth_5m": {
-      "green": 14,
-      "red": 1,
-      "flat": 12
+      "green": 1,
+      "red": 26,
+      "flat": 0
     },
     "breadth_15m": {
-      "green": 10,
-      "red": 7,
-      "flat": 10
+      "green": 5,
+      "red": 16,
+      "flat": 6
     },
     "breadth_60m": {
-      "green": 25,
-      "red": 2,
+      "green": 22,
+      "red": 5,
       "flat": 0
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "NEAR"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 15.6314,
   "open_pnl_eur": 0.0,
@@ -30,9 +32,44 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 3.78,
   "paper_equity_est_net_eur": 31.8514,
-  "open_count": 0,
+  "open_count": 1,
   "closed_count": 42,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "NEAR",
+      "direction": "SHORT",
+      "entry_eur": 4.461280944410184,
+      "current_eur": 4.461280944410184,
+      "spot_return_pct": -0.0,
+      "leveraged_return_pct": -0.0,
+      "open_pnl_eur": -0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-09-30T07:58:02.463754+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 1,
+          "red": 26,
+          "flat": 0
+        },
+        "15m": {
+          "green": 5,
+          "red": 16,
+          "flat": 6
+        },
+        "60m": {
+          "green": 22,
+          "red": 5,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.8474576271186418,
+        "ret_15m_pct": -0.13894402540691742,
+        "ret_60m_pct": 3.073140749846326
+      }
+    }
+  ],
   "closed_legs": [
     {
       "coin": "QNT",
