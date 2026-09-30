@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04",
   "created_at": "2026-09-30T13:57:56.192235+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 0.11145586025465226,
+  "realized_gross_eur": 0.6873542316064502,
   "legs": [
     {
       "coin": "HBAR",
@@ -81,7 +81,7 @@
     {
       "coin": "SUI",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 1.0623401816418305,
       "entry_time": "2026-09-30T16:28:02.695446+00:00",
       "margin_eur": 5.0,
@@ -110,7 +110,13 @@
         "ret_5m_pct": -0.4834139023170536,
         "ret_15m_pct": -0.7481296758104827,
         "ret_60m_pct": 3.8170593861403423
-      }
+      },
+      "exit_eur": 1.0215535162798903,
+      "exit_time": "2026-09-30T20:17:02.604402+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 3.839322,
+      "leveraged_return_pct": 11.517967,
+      "gross_pnl_eur": 0.575898
     },
     {
       "coin": "DOT",
@@ -178,6 +184,40 @@
         "ret_5m_pct": -0.05553498704183868,
         "ret_15m_pct": 1.1806596701649186,
         "ret_60m_pct": 3.7670574668460466
+      }
+    },
+    {
+      "coin": "ONDO",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 0.43496293681609605,
+      "entry_time": "2026-09-30T20:17:02.606287+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "roll_active": false,
+      "best_eur": 0.43496293681609605,
+      "roll_stop_eur": null,
+      "entry_breadth": {
+        "5m": {
+          "green": 6,
+          "red": 10,
+          "flat": 11
+        },
+        "15m": {
+          "green": 18,
+          "red": 4,
+          "flat": 5
+        },
+        "60m": {
+          "green": 8,
+          "red": 17,
+          "flat": 2
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.10164667615368828,
+        "ret_15m_pct": 0.674708648538136,
+        "ret_60m_pct": 1.840744570837649
       }
     }
   ]
