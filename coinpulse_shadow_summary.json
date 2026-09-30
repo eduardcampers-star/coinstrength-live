@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-30T18:01:03.045392+00:00",
+  "generated_at": "2026-09-30T18:16:02.601020+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 14,
+  "events_24h": 15,
   "strong_24h": 6,
   "results": {
     "5m": {
       "canonical": {
-        "n": 14,
-        "avg_return_pct": -0.1468,
+        "n": 15,
+        "avg_return_pct": -0.1432,
         "positive": 5
       },
       "mover3d": {
-        "n": 14,
-        "avg_return_pct": -0.0827,
+        "n": 15,
+        "avg_return_pct": -0.1141,
         "positive": 6
       },
       "hybrid_rebound_v2": {
-        "n": 14,
-        "avg_return_pct": 0.0639,
-        "positive": 7
+        "n": 15,
+        "avg_return_pct": 0.0732,
+        "positive": 8
       }
     },
     "15m": {
@@ -41,18 +41,18 @@
     },
     "30m": {
       "canonical": {
-        "n": 13,
-        "avg_return_pct": -0.0633,
+        "n": 14,
+        "avg_return_pct": -0.107,
         "positive": 5
       },
       "mover3d": {
-        "n": 13,
-        "avg_return_pct": 0.0038,
+        "n": 14,
+        "avg_return_pct": -0.0259,
         "positive": 6
       },
       "hybrid_rebound_v2": {
-        "n": 13,
-        "avg_return_pct": 0.419,
+        "n": 14,
+        "avg_return_pct": 0.3306,
         "positive": 8
       }
     },
@@ -80,26 +80,6 @@
     "snapshots": 288
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-09-30T02:16:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "RENDER",
-        "XLM"
-      ],
-      "canonical": [
-        "QNT",
-        "MOODENG"
-      ],
-      "mover3d": [
-        "QNT",
-        "NEAR"
-      ],
-      "hybrid": [
-        "HBAR",
-        "NEAR"
-      ]
-    },
     {
       "trigger_time": "2026-09-30T02:36:00+00:00",
       "level": "STRONG",
@@ -284,6 +264,26 @@
       "hybrid": [
         "WLD",
         "FET"
+      ]
+    },
+    {
+      "trigger_time": "2026-09-30T18:05:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "ADA",
+        "NEAR"
+      ],
+      "canonical": [
+        "NEAR",
+        "WLD"
+      ],
+      "mover3d": [
+        "QNT",
+        "WLD"
+      ],
+      "hybrid": [
+        "WLD",
+        "ONDO"
       ]
     }
   ]
