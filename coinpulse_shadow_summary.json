@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-09-30T14:11:02.734523+00:00",
+  "generated_at": "2026-09-30T14:31:02.574593+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 18,
+  "events_24h": 19,
   "strong_24h": 9,
   "results": {
     "5m": {
       "canonical": {
-        "n": 18,
-        "avg_return_pct": -0.0476,
+        "n": 19,
+        "avg_return_pct": -0.053,
         "positive": 9
       },
       "mover3d": {
-        "n": 18,
-        "avg_return_pct": -0.0261,
+        "n": 19,
+        "avg_return_pct": -0.0468,
         "positive": 8
       },
       "hybrid_rebound_v2": {
-        "n": 18,
-        "avg_return_pct": 0.0786,
+        "n": 19,
+        "avg_return_pct": 0.0613,
         "positive": 10
       }
     },
     "15m": {
       "canonical": {
-        "n": 18,
-        "avg_return_pct": 0.1117,
+        "n": 19,
+        "avg_return_pct": 0.0553,
         "positive": 9
       },
       "mover3d": {
-        "n": 18,
-        "avg_return_pct": 0.4098,
+        "n": 19,
+        "avg_return_pct": 0.2665,
         "positive": 14
       },
       "hybrid_rebound_v2": {
-        "n": 18,
-        "avg_return_pct": 0.3941,
+        "n": 19,
+        "avg_return_pct": 0.2513,
         "positive": 15
       }
     },
@@ -80,28 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-09-29T21:23:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "ADA",
-        "BCH",
-        "MOODENG",
-        "ONDO"
-      ],
-      "canonical": [
-        "QNT",
-        "AVAX"
-      ],
-      "mover3d": [
-        "QNT",
-        "NEAR"
-      ],
-      "hybrid": [
-        "NEAR",
-        "AVAX"
-      ]
-    },
     {
       "trigger_time": "2026-09-29T23:20:00+00:00",
       "level": "STRONG",
@@ -286,6 +264,26 @@
       "hybrid": [
         "WLD",
         "HBAR"
+      ]
+    },
+    {
+      "trigger_time": "2026-09-30T14:08:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "NEAR",
+        "SHIB"
+      ],
+      "canonical": [
+        "BTC",
+        "SOL"
+      ],
+      "mover3d": [
+        "QNT",
+        "WLD"
+      ],
+      "hybrid": [
+        "QNT",
+        "ONDO"
       ]
     }
   ]
