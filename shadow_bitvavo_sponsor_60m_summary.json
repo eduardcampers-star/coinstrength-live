@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-09-30T19:29:01.534121+00:00",
+  "generated_at": "2026-09-30T19:34:01.640276+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-09-30T21:15:01+02:00",
-  "film_timestamp": "2026-09-30T19:27:01.595131+00:00",
+  "latest_timestamp": "2026-09-30T21:30:01+02:00",
+  "film_timestamp": "2026-09-30T19:32:01.497650+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "LONG",
+    "target_legs": 1,
     "breadth_5m": {
-      "green": 4,
-      "red": 16,
-      "flat": 7
-    },
-    "breadth_15m": {
-      "green": 5,
-      "red": 19,
+      "green": 21,
+      "red": 3,
       "flat": 3
     },
+    "breadth_15m": {
+      "green": 17,
+      "red": 5,
+      "flat": 5
+    },
     "breadth_60m": {
-      "green": 6,
+      "green": 5,
       "red": 20,
-      "flat": 1
+      "flat": 2
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "XLM"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 10.1241,
   "open_pnl_eur": 0.0,
@@ -30,9 +32,44 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 3.6,
   "paper_equity_est_net_eur": 26.5241,
-  "open_count": 0,
+  "open_count": 1,
   "closed_count": 40,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "XLM",
+      "direction": "LONG",
+      "entry_eur": 0.19988534133004057,
+      "current_eur": 0.19988534133004057,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-09-30T19:34:01.637496+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 21,
+          "red": 3,
+          "flat": 3
+        },
+        "15m": {
+          "green": 17,
+          "red": 5,
+          "flat": 5
+        },
+        "60m": {
+          "green": 5,
+          "red": 20,
+          "flat": 2
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.3496967819043073,
+        "ret_15m_pct": 0.37635598848795304,
+        "ret_60m_pct": 0.5366091622688529
+      }
+    }
+  ],
   "closed_legs": [
     {
       "coin": "SUI",
