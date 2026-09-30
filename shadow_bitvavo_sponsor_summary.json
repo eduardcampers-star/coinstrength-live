@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-09-30T19:28:02.154148+00:00",
+  "generated_at": "2026-09-30T19:33:02.387284+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-09-30T21:15:01+02:00",
-  "film_timestamp": "2026-09-30T19:27:01.595131+00:00",
+  "latest_timestamp": "2026-09-30T21:30:01+02:00",
+  "film_timestamp": "2026-09-30T19:32:01.497650+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "LONG",
+    "target_legs": 1,
     "breadth_5m": {
-      "green": 4,
-      "red": 16,
-      "flat": 7
-    },
-    "breadth_15m": {
-      "green": 5,
-      "red": 19,
+      "green": 21,
+      "red": 3,
       "flat": 3
     },
+    "breadth_15m": {
+      "green": 17,
+      "red": 5,
+      "flat": 5
+    },
     "breadth_60m": {
-      "green": 6,
+      "green": 5,
       "red": 20,
-      "flat": 1
+      "flat": 2
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "QNT"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 15.7931,
   "open_pnl_eur": 0.0,
@@ -30,9 +32,44 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 4.05,
   "paper_equity_est_net_eur": 31.7431,
-  "open_count": 0,
+  "open_count": 1,
   "closed_count": 45,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "QNT",
+      "direction": "LONG",
+      "entry_eur": 259.8430058211325,
+      "current_eur": 259.8430058211325,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-09-30T19:33:02.385800+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 21,
+          "red": 3,
+          "flat": 3
+        },
+        "15m": {
+          "green": 17,
+          "red": 5,
+          "flat": 5
+        },
+        "60m": {
+          "green": 5,
+          "red": 20,
+          "flat": 2
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.11550874808902156,
+        "ret_15m_pct": 0.8576035127439985,
+        "ret_60m_pct": -1.5074871863589134
+      }
+    }
+  ],
   "closed_legs": [
     {
       "coin": "HBAR",
