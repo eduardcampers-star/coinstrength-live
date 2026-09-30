@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-09-30T01:28:02.542815+00:00",
+  "generated_at": "2026-09-30T01:33:01.956021+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-09-30T03:15:01+02:00",
-  "film_timestamp": "2026-09-30T01:27:01.330157+00:00",
+  "latest_timestamp": "2026-09-30T03:30:01+02:00",
+  "film_timestamp": "2026-09-30T01:32:01.555879+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "SHORT",
+    "target_legs": 1,
     "breadth_5m": {
-      "green": 22,
-      "red": 2,
+      "green": 2,
+      "red": 22,
       "flat": 3
     },
     "breadth_15m": {
-      "green": 18,
-      "red": 3,
-      "flat": 6
+      "green": 8,
+      "red": 16,
+      "flat": 3
     },
     "breadth_60m": {
-      "green": 25,
-      "red": 0,
+      "green": 21,
+      "red": 4,
       "flat": 2
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "QNT"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 16.5472,
   "open_pnl_eur": 0.0,
@@ -30,9 +32,44 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 3.42,
   "paper_equity_est_net_eur": 33.1272,
-  "open_count": 0,
+  "open_count": 1,
   "closed_count": 38,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "QNT",
+      "direction": "SHORT",
+      "entry_eur": 241.00484795063906,
+      "current_eur": 241.00484795063906,
+      "spot_return_pct": -0.0,
+      "leveraged_return_pct": -0.0,
+      "open_pnl_eur": -0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-09-30T01:33:01.948952+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 2,
+          "red": 22,
+          "flat": 3
+        },
+        "15m": {
+          "green": 8,
+          "red": 16,
+          "flat": 3
+        },
+        "60m": {
+          "green": 21,
+          "red": 4,
+          "flat": 2
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 2.1122866516754657,
+        "ret_15m_pct": 2.622999407231763,
+        "ret_60m_pct": 1.6662996403141728
+      }
+    }
+  ],
   "closed_legs": [
     {
       "coin": "QNT",
