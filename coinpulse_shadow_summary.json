@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-01T01:31:03.159211+00:00",
+  "generated_at": "2026-10-01T01:46:03.080451+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 15,
+  "events_24h": 16,
   "strong_24h": 4,
   "results": {
     "5m": {
       "canonical": {
-        "n": 15,
-        "avg_return_pct": -0.0989,
+        "n": 16,
+        "avg_return_pct": -0.1252,
         "positive": 5
       },
       "mover3d": {
-        "n": 15,
-        "avg_return_pct": -0.008,
+        "n": 16,
+        "avg_return_pct": -0.0224,
         "positive": 7
       },
       "hybrid_rebound_v2": {
-        "n": 15,
-        "avg_return_pct": 0.0343,
+        "n": 16,
+        "avg_return_pct": 0.0165,
         "positive": 9
       }
     },
@@ -58,19 +58,19 @@
     },
     "rolling_09": {
       "canonical": {
-        "n": 11,
-        "avg_return_pct": -0.2915,
+        "n": 12,
+        "avg_return_pct": -0.287,
         "positive": 3
       },
       "mover3d": {
-        "n": 11,
-        "avg_return_pct": -0.5265,
-        "positive": 2
+        "n": 12,
+        "avg_return_pct": -0.357,
+        "positive": 3
       },
       "hybrid_rebound_v2": {
-        "n": 11,
-        "avg_return_pct": 0.4038,
-        "positive": 7
+        "n": 12,
+        "avg_return_pct": 0.377,
+        "positive": 8
       }
     }
   },
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-09-30T08:34:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "ADA",
-        "PEPE"
-      ],
-      "canonical": [
-        "QNT",
-        "NEAR"
-      ],
-      "mover3d": [
-        "QNT",
-        "NEAR"
-      ],
-      "hybrid": [
-        "WLD",
-        "SUI"
-      ]
-    },
     {
       "trigger_time": "2026-09-30T12:19:00+00:00",
       "level": "STRONG",
@@ -284,6 +264,26 @@
       "hybrid": [
         "WLD",
         "TAO"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-01T01:34:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "PEPE",
+        "TAO"
+      ],
+      "canonical": [
+        "FET",
+        "SUI"
+      ],
+      "mover3d": [
+        "QNT",
+        "WLD"
+      ],
+      "hybrid": [
+        "ONDO",
+        "NEAR"
       ]
     }
   ]
