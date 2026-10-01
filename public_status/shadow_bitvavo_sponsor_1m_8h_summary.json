@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-01T21:54:09.267047+00:00",
+  "generated_at": "2026-10-01T21:59:10.411735+00:00",
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "latest_timestamp": "2026-10-01T23:45:01+02:00",
-  "film_timestamp": "2026-10-01T21:52:01.489150+00:00",
+  "film_timestamp": "2026-10-01T21:57:01.647999+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "LONG",
+    "target_legs": 4,
     "breadth_5m": {
-      "green": 9,
-      "red": 6,
-      "flat": 12
+      "green": 18,
+      "red": 1,
+      "flat": 8
     },
     "breadth_15m": {
-      "green": 4,
-      "red": 19,
-      "flat": 4
+      "green": 22,
+      "red": 2,
+      "flat": 3
     },
     "breadth_60m": {
       "green": 0,
@@ -30,7 +30,7 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 0.09,
   "paper_equity_est_net_eur": 20.3129,
-  "open_count": 3,
+  "open_count": 4,
   "closed_count": 1,
   "open_legs": [
     {
@@ -133,6 +133,40 @@
         "ret_5m_pct": -0.2731876332622618,
         "ret_15m_pct": -0.405908969922808,
         "ret_60m_pct": 0.4159677960416053
+      }
+    },
+    {
+      "coin": "SUI",
+      "direction": "LONG",
+      "entry_eur": 1.033514090141346,
+      "current_eur": 1.033514090141346,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-01T21:58:09.188718+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 18,
+          "red": 1,
+          "flat": 8
+        },
+        "15m": {
+          "green": 22,
+          "red": 2,
+          "flat": 3
+        },
+        "60m": {
+          "green": 0,
+          "red": 27,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.3093315002577812,
+        "ret_15m_pct": 0.4215053763440668,
+        "ret_60m_pct": -1.1933982225983963
       }
     }
   ],
