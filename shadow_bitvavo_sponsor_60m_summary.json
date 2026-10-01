@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-10-01T10:59:02.039417+00:00",
+  "generated_at": "2026-10-01T11:04:02.412970+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-10-01T12:45:01+02:00",
-  "film_timestamp": "2026-10-01T10:57:01.417230+00:00",
+  "latest_timestamp": "2026-10-01T13:00:01+02:00",
+  "film_timestamp": "2026-10-01T11:02:02.174153+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "SHORT",
+    "target_legs": 4,
     "breadth_5m": {
-      "green": 15,
-      "red": 3,
-      "flat": 9
-    },
-    "breadth_15m": {
-      "green": 25,
-      "red": 2,
+      "green": 0,
+      "red": 27,
       "flat": 0
     },
+    "breadth_15m": {
+      "green": 1,
+      "red": 23,
+      "flat": 3
+    },
     "breadth_60m": {
-      "green": 18,
-      "red": 7,
+      "green": 17,
+      "red": 8,
       "flat": 2
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "FET"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 9.9862,
   "open_pnl_eur": 0.0,
@@ -30,9 +32,44 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 3.87,
   "paper_equity_est_net_eur": 26.1162,
-  "open_count": 0,
+  "open_count": 1,
   "closed_count": 43,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "FET",
+      "direction": "SHORT",
+      "entry_eur": 0.20881259953990441,
+      "current_eur": 0.20881259953990441,
+      "spot_return_pct": -0.0,
+      "leveraged_return_pct": -0.0,
+      "open_pnl_eur": -0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-01T11:04:02.412496+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 0,
+          "red": 27,
+          "flat": 0
+        },
+        "15m": {
+          "green": 1,
+          "red": 23,
+          "flat": 3
+        },
+        "60m": {
+          "green": 17,
+          "red": 8,
+          "flat": 2
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.5097706032285543,
+        "ret_15m_pct": 0.3427592116538092,
+        "ret_60m_pct": 1.9147084421235805
+      }
+    }
+  ],
   "closed_legs": [
     {
       "coin": "AVAX",
