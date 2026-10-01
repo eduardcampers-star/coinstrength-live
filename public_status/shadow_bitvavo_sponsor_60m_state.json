@@ -1,6 +1,6 @@
 {
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 10.560592396871941,
+  "realized_gross_eur": 10.11059239687194,
   "legs": [
     {
       "coin": "SUI",
@@ -1799,7 +1799,7 @@
     {
       "coin": "SUI",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 1.0221569674319275,
       "entry_time": "2026-10-01T16:14:01.928543+00:00",
       "margin_eur": 5.0,
@@ -1828,7 +1828,13 @@
         "ret_5m_pct": -0.23404993065186952,
         "ret_15m_pct": 0.06085898104679632,
         "ret_60m_pct": 1.3740861446313701
-      }
+      },
+      "exit_eur": 1.0528216764548854,
+      "exit_time": "2026-10-01T17:49:03.254253+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     },
     {
       "coin": "QNT",
@@ -1839,8 +1845,8 @@
       "margin_eur": 5.0,
       "leverage": 3.0,
       "roll_active": true,
-      "best_eur": 236.48985404058388,
-      "roll_stop_eur": 234.36144535421863,
+      "best_eur": 238.58337782523583,
+      "roll_stop_eur": 236.43612742480872,
       "entry_breadth": {
         "5m": {
           "green": 22,
