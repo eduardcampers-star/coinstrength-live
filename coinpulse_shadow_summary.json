@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-02T10:16:02.490574+00:00",
+  "generated_at": "2026-10-02T10:31:02.445707+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 16,
+  "events_24h": 17,
   "strong_24h": 7,
   "results": {
     "5m": {
       "canonical": {
-        "n": 16,
-        "avg_return_pct": 0.0134,
-        "positive": 5
+        "n": 17,
+        "avg_return_pct": 0.0143,
+        "positive": 6
       },
       "mover3d": {
-        "n": 16,
-        "avg_return_pct": 0.0462,
+        "n": 17,
+        "avg_return_pct": 0.0414,
         "positive": 8
       },
       "hybrid_rebound_v2": {
-        "n": 16,
-        "avg_return_pct": 0.063,
+        "n": 17,
+        "avg_return_pct": 0.0572,
         "positive": 7
       }
     },
@@ -58,18 +58,18 @@
     },
     "rolling_09": {
       "canonical": {
-        "n": 13,
-        "avg_return_pct": -18.7094,
+        "n": 14,
+        "avg_return_pct": -17.4345,
         "positive": 6
       },
       "mover3d": {
-        "n": 13,
-        "avg_return_pct": 1.276,
-        "positive": 8
+        "n": 14,
+        "avg_return_pct": 1.2478,
+        "positive": 9
       },
       "hybrid_rebound_v2": {
-        "n": 13,
-        "avg_return_pct": -2.6807,
+        "n": 14,
+        "avg_return_pct": -2.5218,
         "positive": 10
       }
     }
@@ -80,28 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-10-01T16:50:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "FET",
-        "MOODENG",
-        "WLD",
-        "XLM"
-      ],
-      "canonical": [
-        "BTC",
-        "PEPE"
-      ],
-      "mover3d": [
-        "WLD",
-        "NEAR"
-      ],
-      "hybrid": [
-        "NEAR",
-        "SUI"
-      ]
-    },
     {
       "trigger_time": "2026-10-01T17:56:00+00:00",
       "level": "TRIGGER",
@@ -285,6 +263,26 @@
       "hybrid": [
         "NEAR",
         "SUI"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-02T10:12:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "AVAX",
+        "XRP"
+      ],
+      "canonical": [
+        "XRP",
+        "BTC"
+      ],
+      "mover3d": [
+        "WLD",
+        "SUI"
+      ],
+      "hybrid": [
+        "SUI",
+        "WLD"
       ]
     }
   ]
