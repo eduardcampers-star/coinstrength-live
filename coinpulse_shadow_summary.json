@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-10-02T17:26:02.471271+00:00",
+  "generated_at": "2026-10-02T17:46:03.240032+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 15,
+  "events_24h": 16,
   "strong_24h": 6,
   "results": {
     "5m": {
       "canonical": {
-        "n": 15,
-        "avg_return_pct": 0.0,
+        "n": 16,
+        "avg_return_pct": -0.015,
         "positive": 5
       },
       "mover3d": {
-        "n": 15,
-        "avg_return_pct": 0.057,
+        "n": 16,
+        "avg_return_pct": 0.0377,
         "positive": 7
       },
       "hybrid_rebound_v2": {
-        "n": 15,
-        "avg_return_pct": -0.0031,
+        "n": 16,
+        "avg_return_pct": -0.0089,
         "positive": 5
       }
     },
     "15m": {
       "canonical": {
-        "n": 15,
-        "avg_return_pct": -0.0065,
+        "n": 16,
+        "avg_return_pct": -0.099,
         "positive": 8
       },
       "mover3d": {
-        "n": 15,
-        "avg_return_pct": 0.0715,
+        "n": 16,
+        "avg_return_pct": -0.0073,
         "positive": 9
       },
       "hybrid_rebound_v2": {
-        "n": 15,
-        "avg_return_pct": 0.0572,
+        "n": 16,
+        "avg_return_pct": 0.0113,
         "positive": 8
       }
     },
@@ -80,27 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-10-02T05:04:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "ADA",
-        "AVAX",
-        "LINK"
-      ],
-      "canonical": [
-        "FET",
-        "BTC"
-      ],
-      "mover3d": [
-        "WLD",
-        "FET"
-      ],
-      "hybrid": [
-        "SUI",
-        "NEAR"
-      ]
-    },
     {
       "trigger_time": "2026-10-02T05:25:00+00:00",
       "level": "TRIGGER",
@@ -284,6 +263,26 @@
       "hybrid": [
         "NEAR",
         "FET"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-02T17:25:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "HYPE",
+        "SHIB"
+      ],
+      "canonical": [
+        "WLD",
+        "RENDER"
+      ],
+      "mover3d": [
+        "WLD",
+        "SUI"
+      ],
+      "hybrid": [
+        "WLD",
+        "QNT"
       ]
     }
   ]
