@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "created_at": "2026-10-01T17:41:31.391895+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 0.3456265518819224,
+  "realized_gross_eur": -0.10437344811807803,
   "legs": [
     {
       "coin": "BTC",
@@ -83,7 +83,7 @@
     {
       "coin": "LTC",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 60.281288944276305,
       "entry_time": "2026-10-01T18:09:10.534143+00:00",
       "entry_move_8h_pct": 1.377245508982039,
@@ -113,7 +113,13 @@
         "ret_5m_pct": -0.26587887740030514,
         "ret_15m_pct": -0.41297935103244976,
         "ret_60m_pct": 0.6109372671732949
-      }
+      },
+      "exit_eur": 62.0897276126046,
+      "exit_time": "2026-10-02T05:32:10.008156+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     },
     {
       "coin": "XRP",
@@ -224,6 +230,41 @@
         "ret_5m_pct": -0.21105951878429563,
         "ret_15m_pct": -0.6722689075630228,
         "ret_60m_pct": 0.5529561888558021
+      }
+    },
+    {
+      "coin": "DOT",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 1.0859756639133138,
+      "entry_time": "2026-10-02T05:33:11.482991+00:00",
+      "entry_move_8h_pct": 4.441786965063632,
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "roll_active": false,
+      "best_eur": 1.0859756639133138,
+      "roll_stop_eur": null,
+      "entry_breadth": {
+        "5m": {
+          "green": 23,
+          "red": 0,
+          "flat": 4
+        },
+        "15m": {
+          "green": 14,
+          "red": 8,
+          "flat": 5
+        },
+        "60m": {
+          "green": 7,
+          "red": 19,
+          "flat": 1
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.3356254092992783,
+        "ret_15m_pct": 0.04897559382905925,
+        "ret_60m_pct": -0.5032876045133472
       }
     }
   ]
