@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-02T04:36:01.555044+00:00",
+  "generated_at": "2026-10-02T04:41:01.779084+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 0.0855,
-  "open_pnl_eur": 0.5779,
-  "paper_equity_gross_eur": 20.6634,
-  "open_count": 4,
-  "closed_count": 93,
+  "realized_gross_eur": 0.4278,
+  "open_pnl_eur": 0.1822,
+  "paper_equity_gross_eur": 20.6099,
+  "open_count": 3,
+  "closed_count": 94,
   "last_selection_hour": "2026-10-02T06",
   "latest_timestamp": "2026-10-02T06:30:01+02:00",
   "open_legs": [
@@ -37,19 +37,6 @@
       "roll_stop_usdt": 0.252705
     },
     {
-      "coin": "PEPE",
-      "direction": "LONG",
-      "entry_eur": 3.956707262867811e-06,
-      "current_eur": 4.0610958174229646e-06,
-      "spot_return_pct": 2.6383,
-      "leveraged_return_pct": 7.9148,
-      "open_pnl_eur": 0.3957,
-      "roll_active": true,
-      "hard_sl_usdt": 4.317373e-06,
-      "roll_activation_usdt": 4.517663499999999e-06,
-      "roll_stop_usdt": 4.5524558e-06
-    },
-    {
       "coin": "ETH",
       "direction": "LONG",
       "entry_eur": 2399.6888612321095,
@@ -64,14 +51,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "DOT",
-      "direction": "LONG",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 0.7677022653721721,
-      "leveraged_return_pct": 2.3031067961165164,
-      "gross_pnl_eur": 0.11515533980582582
-    },
     {
       "coin": "MOODENG",
       "direction": "LONG",
@@ -159,6 +138,14 @@
       "spot_return_pct": 0.6519775948788276,
       "leveraged_return_pct": 1.9559327846364827,
       "gross_pnl_eur": 0.09779663923182413
+    },
+    {
+      "coin": "PEPE",
+      "direction": "LONG",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 2.2816913433238106,
+      "leveraged_return_pct": 6.845074029971432,
+      "gross_pnl_eur": 0.34225370149857154
     }
   ]
 }
