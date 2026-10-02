@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-02T13:36:01.527465+00:00",
+  "generated_at": "2026-10-02T13:41:01.538346+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 1.0392,
-  "open_pnl_eur": -0.2384,
-  "paper_equity_gross_eur": 20.8008,
-  "open_count": 5,
-  "closed_count": 101,
+  "realized_gross_eur": 0.5892,
+  "open_pnl_eur": 0.0893,
+  "paper_equity_gross_eur": 20.6785,
+  "open_count": 4,
+  "closed_count": 102,
   "last_selection_hour": "2026-10-02T15",
   "latest_timestamp": "2026-10-02T15:30:01+02:00",
   "open_legs": [
@@ -31,10 +31,10 @@
       "spot_return_pct": 0.6313,
       "leveraged_return_pct": 1.894,
       "open_pnl_eur": 0.0947,
-      "roll_active": false,
+      "roll_active": true,
       "hard_sl_usdt": 301.03950000000003,
       "roll_activation_usdt": 315.00525,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 312.88843
     },
     {
       "coin": "ADA",
@@ -61,30 +61,9 @@
       "hard_sl_usdt": 11.448450000000001,
       "roll_activation_usdt": 10.948275,
       "roll_stop_usdt": null
-    },
-    {
-      "coin": "SUI",
-      "direction": "SHORT",
-      "entry_eur": 1.0436098255606978,
-      "current_eur": 1.0669154892028792,
-      "spot_return_pct": -2.1844,
-      "leveraged_return_pct": -6.5532,
-      "open_pnl_eur": -0.3277,
-      "roll_active": false,
-      "hard_sl_usdt": 1.207778,
-      "roll_activation_usdt": 1.155011,
-      "roll_stop_usdt": null
     }
   ],
   "closed_legs": [
-    {
-      "coin": "ADA",
-      "direction": "LONG",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 2.4444756930494194,
-      "leveraged_return_pct": 7.333427079148258,
-      "gross_pnl_eur": 0.3666713539574129
-    },
     {
       "coin": "PEPE",
       "direction": "LONG",
@@ -172,6 +151,14 @@
       "spot_return_pct": 1.7144129554655958,
       "leveraged_return_pct": 5.143238866396787,
       "gross_pnl_eur": 0.2571619433198393
+    },
+    {
+      "coin": "SUI",
+      "direction": "SHORT",
+      "reason": "HARD_SL",
+      "spot_return_pct": -2.999999999999994,
+      "leveraged_return_pct": -8.999999999999982,
+      "gross_pnl_eur": -0.4499999999999991
     }
   ]
 }
