@@ -1,84 +1,39 @@
 {
-  "generated_at": "2026-10-03T01:29:02.287791+00:00",
+  "generated_at": "2026-10-03T01:34:01.882847+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-10-03T03:15:01+02:00",
-  "film_timestamp": "2026-10-03T01:27:01.164563+00:00",
+  "latest_timestamp": "2026-10-03T03:30:01+02:00",
+  "film_timestamp": "2026-10-03T01:32:01.986949+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
-      "green": 9,
-      "red": 4,
-      "flat": 14
+      "green": 15,
+      "red": 3,
+      "flat": 9
     },
     "breadth_15m": {
-      "green": 5,
-      "red": 19,
-      "flat": 3
+      "green": 1,
+      "red": 24,
+      "flat": 2
     },
     "breadth_60m": {
-      "green": 16,
-      "red": 9,
-      "flat": 2
+      "green": 15,
+      "red": 11,
+      "flat": 1
     }
   },
   "opened_this_run": [],
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 7.8886,
-  "open_pnl_eur": 0.16,
-  "paper_equity_gross_eur": 28.0486,
+  "realized_gross_eur": 8.0173,
+  "open_pnl_eur": 0.0,
+  "paper_equity_gross_eur": 28.0173,
   "estimated_cost_per_closed_trade_eur": 0.09,
-  "estimated_costs_eur": 4.77,
-  "paper_equity_est_net_eur": 23.2786,
-  "open_count": 1,
-  "closed_count": 53,
-  "open_legs": [
-    {
-      "coin": "LTC",
-      "direction": "LONG",
-      "entry_eur": 62.22596964586846,
-      "current_eur": 62.88989602772594,
-      "spot_return_pct": 1.067,
-      "leveraged_return_pct": 3.2009,
-      "open_pnl_eur": 0.16,
-      "roll_active": true,
-      "roll_stop_eur": 62.76010312027735,
-      "entry_time": "2026-10-02T15:24:02.158298+00:00",
-      "entry_breadth": {
-        "5m": {
-          "green": 25,
-          "red": 0,
-          "flat": 2
-        },
-        "15m": {
-          "green": 22,
-          "red": 1,
-          "flat": 4
-        },
-        "60m": {
-          "green": 3,
-          "red": 24,
-          "flat": 0
-        }
-      },
-      "entry_move": {
-        "ret_5m_pct": 0.8566533409480215,
-        "ret_15m_pct": 1.3486370157819172,
-        "ret_60m_pct": 0.5265404866941825
-      }
-    }
-  ],
+  "estimated_costs_eur": 4.86,
+  "paper_equity_est_net_eur": 23.1573,
+  "open_count": 0,
+  "closed_count": 54,
+  "open_legs": [],
   "closed_legs": [
-    {
-      "coin": "FET",
-      "direction": "LONG",
-      "reason": "HARD_SL",
-      "spot_return_pct": -3.0,
-      "leveraged_return_pct": -9.0,
-      "gross_pnl_eur": -0.45,
-      "entry_time": "2026-09-29T20:19:02.295350+00:00",
-      "exit_time": "2026-09-30T02:34:01.874280+00:00"
-    },
     {
       "coin": "WLD",
       "direction": "SHORT",
@@ -258,6 +213,16 @@
       "gross_pnl_eur": -0.45,
       "entry_time": "2026-10-02T13:14:02.446528+00:00",
       "exit_time": "2026-10-02T13:49:02.615064+00:00"
+    },
+    {
+      "coin": "LTC",
+      "direction": "LONG",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 0.858377,
+      "leveraged_return_pct": 2.575131,
+      "gross_pnl_eur": 0.128757,
+      "entry_time": "2026-10-02T15:24:02.158298+00:00",
+      "exit_time": "2026-10-03T01:34:01.882312+00:00"
     },
     {
       "coin": "BCH",
