@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-10-03T10:58:03.190156+00:00",
+  "generated_at": "2026-10-03T11:03:01.974241+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-10-03T12:45:01+02:00",
-  "film_timestamp": "2026-10-03T10:57:01.275123+00:00",
+  "latest_timestamp": "2026-10-03T13:00:01+02:00",
+  "film_timestamp": "2026-10-03T11:02:01.521663+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "SHORT",
+    "target_legs": 3,
     "breadth_5m": {
-      "green": 8,
-      "red": 6,
-      "flat": 13
+      "green": 3,
+      "red": 21,
+      "flat": 3
     },
     "breadth_15m": {
-      "green": 11,
-      "red": 5,
-      "flat": 11
+      "green": 5,
+      "red": 20,
+      "flat": 2
     },
     "breadth_60m": {
-      "green": 22,
-      "red": 3,
-      "flat": 2
+      "green": 20,
+      "red": 4,
+      "flat": 3
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "WLD"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 15.9561,
   "open_pnl_eur": 0.0,
@@ -30,9 +32,44 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 5.76,
   "paper_equity_est_net_eur": 30.1961,
-  "open_count": 0,
+  "open_count": 1,
   "closed_count": 64,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "WLD",
+      "direction": "SHORT",
+      "entry_eur": 0.532633825360128,
+      "current_eur": 0.532633825360128,
+      "spot_return_pct": -0.0,
+      "leveraged_return_pct": -0.0,
+      "open_pnl_eur": -0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-03T11:03:01.972749+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 3,
+          "red": 21,
+          "flat": 3
+        },
+        "15m": {
+          "green": 5,
+          "red": 20,
+          "flat": 2
+        },
+        "60m": {
+          "green": 20,
+          "red": 4,
+          "flat": 3
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.39940089865201367,
+        "ret_15m_pct": -0.7298059379664878,
+        "ret_60m_pct": 3.888213851761857
+      }
+    }
+  ],
   "closed_legs": [
     {
       "coin": "WLD",
