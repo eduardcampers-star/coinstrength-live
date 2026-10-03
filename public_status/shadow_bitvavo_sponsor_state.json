@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04",
   "created_at": "2026-09-26T06:23:47.342463+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 15.333529205931173,
+  "realized_gross_eur": 14.883529205931172,
   "legs": [
     {
       "coin": "SUI",
@@ -2441,7 +2441,7 @@
     {
       "coin": "LTC",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 61.07507774322523,
       "entry_time": "2026-10-02T19:53:01.634208+00:00",
       "margin_eur": 5.0,
@@ -2470,7 +2470,13 @@
         "ret_5m_pct": -0.14515894904919557,
         "ret_15m_pct": 0.4086994599328486,
         "ret_60m_pct": 1.0725830149867832
-      }
+      },
+      "exit_eur": 62.90733007552199,
+      "exit_time": "2026-10-03T00:33:02.073085+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     }
   ]
 }
