@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-10-04T01:33:02.119555+00:00",
+  "generated_at": "2026-10-04T01:38:02.414958+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
   "latest_timestamp": "2026-10-04T03:30:01+02:00",
-  "film_timestamp": "2026-10-04T01:32:01.824288+00:00",
+  "film_timestamp": "2026-10-04T01:37:01.433797+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "LONG",
+    "target_legs": 1,
     "breadth_5m": {
-      "green": 14,
+      "green": 18,
       "red": 2,
-      "flat": 11
+      "flat": 7
     },
     "breadth_15m": {
-      "green": 13,
-      "red": 6,
-      "flat": 8
+      "green": 17,
+      "red": 4,
+      "flat": 6
     },
     "breadth_60m": {
-      "green": 6,
-      "red": 19,
-      "flat": 2
+      "green": 5,
+      "red": 18,
+      "flat": 4
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "QNT"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 16.23,
   "open_pnl_eur": 0.0,
@@ -30,9 +32,44 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 5.94,
   "paper_equity_est_net_eur": 30.29,
-  "open_count": 0,
+  "open_count": 1,
   "closed_count": 66,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "QNT",
+      "direction": "LONG",
+      "entry_eur": 238.3514138360306,
+      "current_eur": 238.3514138360306,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-04T01:38:02.412837+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 18,
+          "red": 2,
+          "flat": 7
+        },
+        "15m": {
+          "green": 17,
+          "red": 4,
+          "flat": 6
+        },
+        "60m": {
+          "green": 5,
+          "red": 18,
+          "flat": 4
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 1.7780753636126967,
+        "ret_15m_pct": 2.1657144990851807,
+        "ret_60m_pct": 6.417486678853401
+      }
+    }
+  ],
   "closed_legs": [
     {
       "coin": "WLD",
