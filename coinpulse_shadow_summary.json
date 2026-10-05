@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-05T03:01:02.599548+00:00",
+  "generated_at": "2026-10-05T03:16:02.655585+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 0,
+  "events_24h": 1,
   "strong_24h": 0,
   "results": {
     "5m": {
       "canonical": {
-        "n": 0,
-        "avg_return_pct": null,
-        "positive": 0
+        "n": 1,
+        "avg_return_pct": 0.0877,
+        "positive": 1
       },
       "mover3d": {
-        "n": 0,
-        "avg_return_pct": null,
+        "n": 1,
+        "avg_return_pct": -0.0113,
         "positive": 0
       },
       "hybrid_rebound_v2": {
-        "n": 0,
-        "avg_return_pct": null,
+        "n": 1,
+        "avg_return_pct": -0.021,
         "positive": 0
       }
     },
@@ -79,5 +79,26 @@
     "profile_hours": 72.0,
     "snapshots": 289
   },
-  "recent_events": []
+  "recent_events": [
+    {
+      "trigger_time": "2026-10-05T03:05:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "TAO",
+        "VET"
+      ],
+      "canonical": [
+        "ADA",
+        "BTC"
+      ],
+      "mover3d": [
+        "WLD",
+        "FET"
+      ],
+      "hybrid": [
+        "SUI",
+        "ONDO"
+      ]
+    }
+  ]
 }
