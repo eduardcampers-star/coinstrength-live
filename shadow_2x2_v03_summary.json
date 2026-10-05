@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-05T16:06:02.127721+00:00",
+  "generated_at": "2026-10-05T16:11:01.944557+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 2.1676,
-  "open_pnl_eur": 0.0598,
-  "paper_equity_gross_eur": 22.2274,
-  "open_count": 7,
-  "closed_count": 124,
+  "realized_gross_eur": 1.7176,
+  "open_pnl_eur": 0.4112,
+  "paper_equity_gross_eur": 22.1288,
+  "open_count": 6,
+  "closed_count": 125,
   "last_selection_hour": "2026-10-05T18",
   "latest_timestamp": "2026-10-05T18:00:01+02:00",
   "open_legs": [
@@ -37,19 +37,6 @@
       "roll_stop_usdt": null
     },
     {
-      "coin": "AVAX",
-      "direction": "LONG",
-      "entry_eur": 9.908387441074446,
-      "current_eur": 9.676239743132358,
-      "spot_return_pct": -2.3429,
-      "leveraged_return_pct": -7.0288,
-      "open_pnl_eur": -0.3514,
-      "roll_active": false,
-      "hard_sl_usdt": 10.8058,
-      "roll_activation_usdt": 11.3071,
-      "roll_stop_usdt": null
-    },
-    {
       "coin": "ETH",
       "direction": "SHORT",
       "entry_eur": 2400.8888888888887,
@@ -73,7 +60,7 @@
       "roll_active": true,
       "hard_sl_usdt": 0.00901971,
       "roll_activation_usdt": 0.008625645,
-      "roll_stop_usdt": 0.008660247
+      "roll_stop_usdt": 0.008643094
     },
     {
       "coin": "BTC",
@@ -103,14 +90,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "PEPE",
-      "direction": "LONG",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 1.1168646306919605,
-      "leveraged_return_pct": 3.3505938920758815,
-      "gross_pnl_eur": 0.16752969460379408
-    },
     {
       "coin": "SUI",
       "direction": "SHORT",
@@ -142,6 +121,14 @@
       "spot_return_pct": 0.6745404018811457,
       "leveraged_return_pct": 2.0236212056434373,
       "gross_pnl_eur": 0.10118106028217186
+    },
+    {
+      "coin": "AVAX",
+      "direction": "LONG",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0000000000000138,
+      "leveraged_return_pct": -9.00000000000004,
+      "gross_pnl_eur": -0.45000000000000207
     },
     {
       "coin": "DOT",
