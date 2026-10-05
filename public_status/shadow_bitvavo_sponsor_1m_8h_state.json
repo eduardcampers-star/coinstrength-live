@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "created_at": "2026-10-02T13:14:10.418159+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 3.016827492714562,
+  "realized_gross_eur": 2.5668274927145616,
   "legs": [
     {
       "coin": "FET",
@@ -411,7 +411,7 @@
     {
       "coin": "BCH",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 276.9627456210545,
       "entry_time": "2026-10-03T09:28:09.255639+00:00",
       "entry_move_8h_pct": -0.7013069811922179,
@@ -441,7 +441,13 @@
         "ret_5m_pct": -0.10607180739932165,
         "ret_15m_pct": -0.28555844322522006,
         "ret_60m_pct": 0.09017713365537805
-      }
+      },
+      "exit_eur": 285.2716279896862,
+      "exit_time": "2026-10-05T02:32:10.774084+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     },
     {
       "coin": "FET",
@@ -641,6 +647,76 @@
       "spot_return_pct": 1.751062,
       "leveraged_return_pct": 5.253186,
       "gross_pnl_eur": 0.262659
+    },
+    {
+      "coin": "ADA",
+      "direction": "SHORT",
+      "status": "OPEN",
+      "entry_eur": 0.23851983950066877,
+      "entry_time": "2026-10-05T02:33:10.170131+00:00",
+      "entry_move_8h_pct": 7.3004412354592985,
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "roll_active": false,
+      "best_eur": 0.23851983950066877,
+      "roll_stop_eur": null,
+      "entry_breadth": {
+        "5m": {
+          "green": 3,
+          "red": 20,
+          "flat": 4
+        },
+        "15m": {
+          "green": 1,
+          "red": 25,
+          "flat": 1
+        },
+        "60m": {
+          "green": 17,
+          "red": 9,
+          "flat": 1
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.2992891881780646,
+        "ret_15m_pct": -1.0397326401782259,
+        "ret_60m_pct": 0.9852216748768461
+      }
+    },
+    {
+      "coin": "BTC",
+      "direction": "SHORT",
+      "status": "OPEN",
+      "entry_eur": 77104.68123049487,
+      "entry_time": "2026-10-05T02:34:09.874036+00:00",
+      "entry_move_8h_pct": 1.3906004321883048,
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "roll_active": false,
+      "best_eur": 77104.68123049487,
+      "roll_stop_eur": null,
+      "entry_breadth": {
+        "5m": {
+          "green": 3,
+          "red": 20,
+          "flat": 4
+        },
+        "15m": {
+          "green": 1,
+          "red": 25,
+          "flat": 1
+        },
+        "60m": {
+          "green": 17,
+          "red": 9,
+          "flat": 1
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.1479513933438037,
+        "ret_15m_pct": -0.2737116734392364,
+        "ret_60m_pct": -0.3184753798915141
+      }
     }
   ]
 }
