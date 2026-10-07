@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-10-07T18:26:02.475061+00:00",
+  "generated_at": "2026-10-07T18:46:02.708010+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 8,
-  "strong_24h": 3,
+  "events_24h": 9,
+  "strong_24h": 4,
   "results": {
     "5m": {
       "canonical": {
-        "n": 8,
-        "avg_return_pct": -0.0544,
-        "positive": 4
+        "n": 9,
+        "avg_return_pct": 0.057,
+        "positive": 5
       },
       "mover3d": {
-        "n": 8,
-        "avg_return_pct": -0.0583,
-        "positive": 3
+        "n": 9,
+        "avg_return_pct": 0.0528,
+        "positive": 4
       },
       "hybrid_rebound_v2": {
-        "n": 8,
-        "avg_return_pct": 0.0783,
-        "positive": 6
+        "n": 9,
+        "avg_return_pct": 0.1089,
+        "positive": 7
       }
     },
     "15m": {
       "canonical": {
-        "n": 8,
-        "avg_return_pct": -0.2234,
-        "positive": 2
+        "n": 9,
+        "avg_return_pct": -0.1699,
+        "positive": 3
       },
       "mover3d": {
-        "n": 8,
-        "avg_return_pct": -0.1922,
-        "positive": 2
+        "n": 9,
+        "avg_return_pct": -0.1334,
+        "positive": 3
       },
       "hybrid_rebound_v2": {
-        "n": 8,
-        "avg_return_pct": 0.049,
-        "positive": 3
+        "n": 9,
+        "avg_return_pct": 0.0652,
+        "positive": 4
       }
     },
     "30m": {
@@ -58,26 +58,26 @@
     },
     "rolling_09": {
       "canonical": {
-        "n": 6,
-        "avg_return_pct": -0.031,
-        "positive": 2
-      },
-      "mover3d": {
-        "n": 6,
-        "avg_return_pct": 0.6104,
+        "n": 7,
+        "avg_return_pct": 0.0845,
         "positive": 3
       },
+      "mover3d": {
+        "n": 7,
+        "avg_return_pct": 0.6702,
+        "positive": 4
+      },
       "hybrid_rebound_v2": {
-        "n": 6,
-        "avg_return_pct": 0.6892,
-        "positive": 5
+        "n": 7,
+        "avg_return_pct": 0.6552,
+        "positive": 6
       }
     }
   },
   "profile3d": {
     "status": "VOLLEDIG",
-    "profile_hours": 71.8,
-    "snapshots": 288
+    "profile_hours": 72.0,
+    "snapshots": 289
   },
   "recent_events": [
     {
@@ -245,6 +245,27 @@
       "hybrid": [
         "RENDER",
         "ADA"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-07T18:22:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "FET",
+        "HBAR",
+        "ONDO"
+      ],
+      "canonical": [
+        "NEAR",
+        "AVAX"
+      ],
+      "mover3d": [
+        "NEAR",
+        "RENDER"
+      ],
+      "hybrid": [
+        "ADA",
+        "AVAX"
       ]
     }
   ]
