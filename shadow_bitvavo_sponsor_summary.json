@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-10-07T19:33:02.215385+00:00",
+  "generated_at": "2026-10-07T19:38:02.245042+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
   "latest_timestamp": "2026-10-07T21:30:01+02:00",
-  "film_timestamp": "2026-10-07T19:32:01.678894+00:00",
+  "film_timestamp": "2026-10-07T19:37:01.429775+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "SHORT",
+    "target_legs": 3,
     "breadth_5m": {
-      "green": 4,
-      "red": 16,
-      "flat": 7
+      "green": 0,
+      "red": 24,
+      "flat": 3
     },
     "breadth_15m": {
-      "green": 22,
-      "red": 3,
-      "flat": 2
+      "green": 3,
+      "red": 20,
+      "flat": 4
     },
     "breadth_60m": {
-      "green": 19,
-      "red": 6,
-      "flat": 2
+      "green": 17,
+      "red": 5,
+      "flat": 5
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "NEAR"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 16.1163,
   "open_pnl_eur": 0.0,
@@ -30,9 +32,44 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 7.29,
   "paper_equity_est_net_eur": 28.8263,
-  "open_count": 0,
+  "open_count": 1,
   "closed_count": 81,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "NEAR",
+      "direction": "SHORT",
+      "entry_eur": 4.761649705409748,
+      "current_eur": 4.761649705409748,
+      "spot_return_pct": -0.0,
+      "leveraged_return_pct": -0.0,
+      "open_pnl_eur": -0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-07T19:38:02.244311+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 0,
+          "red": 24,
+          "flat": 3
+        },
+        "15m": {
+          "green": 3,
+          "red": 20,
+          "flat": 4
+        },
+        "60m": {
+          "green": 17,
+          "red": 5,
+          "flat": 5
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.037397157816010385,
+        "ret_15m_pct": 0.45061960195269535,
+        "ret_60m_pct": 2.490421455938696
+      }
+    }
+  ],
   "closed_legs": [
     {
       "coin": "LTC",
