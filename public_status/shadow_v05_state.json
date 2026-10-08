@@ -3,9 +3,86 @@
   "created_at": "2026-10-07T19:22:55.294567+00:00",
   "start_pot_eur": 20.0,
   "realized_gross_eur": 0.0,
-  "legs": [],
+  "legs": [
+    {
+      "coin": "ONDO",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 0.40305030324652164,
+      "entry_time": "2026-10-08T18:28:10.881389+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-08T18:21:00+00:00",
+      "market_confirm_time": "2026-10-08T18:25:00+00:00",
+      "market_momentum_2_4_pct": 0.029138,
+      "move60_rank": 1,
+      "move60_pct": 6.505534
+    },
+    {
+      "coin": "RENDER",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 1.5920442383160898,
+      "entry_time": "2026-10-08T18:28:10.881443+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-08T18:21:00+00:00",
+      "market_confirm_time": "2026-10-08T18:25:00+00:00",
+      "market_momentum_2_4_pct": 0.029138,
+      "move60_rank": 2,
+      "move60_pct": 3.167421
+    },
+    {
+      "coin": "TAO",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 230.28897609703887,
+      "entry_time": "2026-10-08T18:28:10.881488+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-08T18:21:00+00:00",
+      "market_confirm_time": "2026-10-08T18:25:00+00:00",
+      "market_momentum_2_4_pct": 0.029138,
+      "move60_rank": 3,
+      "move60_pct": 2.654176
+    },
+    {
+      "coin": "QNT",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 202.00677845165896,
+      "entry_time": "2026-10-08T18:28:10.881530+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-08T18:21:00+00:00",
+      "market_confirm_time": "2026-10-08T18:25:00+00:00",
+      "market_momentum_2_4_pct": 0.029138,
+      "move60_rank": 4,
+      "move60_pct": 2.487452
+    }
+  ],
   "market_event": {
-    "status": "WAIT_CONFIRM",
+    "status": "ACTIVE",
     "go_time": "2026-10-08T18:21:00+00:00",
     "breadth_prev": {
       "green": 27,
@@ -17,8 +94,42 @@
       "red": 0,
       "flat": 0
     },
-    "created_at": "2026-10-08T18:23:12.018275+00:00"
+    "created_at": "2026-10-08T18:23:12.018275+00:00",
+    "confirm_time": "2026-10-08T18:25:00+00:00",
+    "market_momentum_2_4_pct": 0.029138,
+    "confirm_n": 27,
+    "top4": [
+      {
+        "rank": 1,
+        "coin": "ONDO",
+        "move60_pct": 6.505534
+      },
+      {
+        "rank": 2,
+        "coin": "RENDER",
+        "move60_pct": 3.167421
+      },
+      {
+        "rank": 3,
+        "coin": "TAO",
+        "move60_pct": 2.654176
+      },
+      {
+        "rank": 4,
+        "coin": "QNT",
+        "move60_pct": 2.487452
+      }
+    ],
+    "top4_locked": true,
+    "top4_lock_time": "2026-10-08T18:28:10.881301+00:00",
+    "entry_time": "2026-10-08T18:28:10.881569+00:00",
+    "opened_coins": [
+      "ONDO",
+      "RENDER",
+      "TAO",
+      "QNT"
+    ]
   },
-  "last_market_breadth_green": 27,
-  "market_burst_locked": true
+  "last_market_breadth_green": 2,
+  "market_burst_locked": false
 }
