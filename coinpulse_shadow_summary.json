@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-08T01:16:03.387053+00:00",
+  "generated_at": "2026-10-08T01:31:02.454538+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 10,
-  "strong_24h": 4,
+  "events_24h": 11,
+  "strong_24h": 5,
   "results": {
     "5m": {
       "canonical": {
-        "n": 10,
-        "avg_return_pct": 0.054,
+        "n": 11,
+        "avg_return_pct": 0.0426,
         "positive": 5
       },
       "mover3d": {
-        "n": 10,
-        "avg_return_pct": 0.0542,
+        "n": 11,
+        "avg_return_pct": 0.0342,
         "positive": 5
       },
       "hybrid_rebound_v2": {
-        "n": 10,
-        "avg_return_pct": 0.1186,
+        "n": 11,
+        "avg_return_pct": 0.1019,
         "positive": 8
       }
     },
@@ -58,53 +58,28 @@
     },
     "rolling_09": {
       "canonical": {
-        "n": 9,
-        "avg_return_pct": 0.1803,
-        "positive": 4
-      },
-      "mover3d": {
-        "n": 9,
-        "avg_return_pct": 0.5805,
+        "n": 10,
+        "avg_return_pct": 0.2798,
         "positive": 5
       },
-      "hybrid_rebound_v2": {
-        "n": 9,
-        "avg_return_pct": 0.567,
+      "mover3d": {
+        "n": 10,
+        "avg_return_pct": 0.6988,
         "positive": 6
+      },
+      "hybrid_rebound_v2": {
+        "n": 10,
+        "avg_return_pct": 0.582,
+        "positive": 7
       }
     }
   },
   "profile3d": {
     "status": "VOLLEDIG",
-    "profile_hours": 72.0,
-    "snapshots": 289
+    "profile_hours": 71.8,
+    "snapshots": 288
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-10-07T02:13:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "ADA",
-        "AVAX",
-        "BTC",
-        "LTC",
-        "MOODENG",
-        "ONDO",
-        "TAO"
-      ],
-      "canonical": [
-        "QNT",
-        "RENDER"
-      ],
-      "mover3d": [
-        "FET",
-        "ADA"
-      ],
-      "hybrid": [
-        "ADA",
-        "RENDER"
-      ]
-    },
     {
       "trigger_time": "2026-10-07T03:22:00+00:00",
       "level": "STRONG",
@@ -286,6 +261,27 @@
       "hybrid": [
         "FET",
         "RENDER"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-08T01:21:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "MOODENG",
+        "ONDO",
+        "VET"
+      ],
+      "canonical": [
+        "NEAR",
+        "FET"
+      ],
+      "mover3d": [
+        "NEAR",
+        "RENDER"
+      ],
+      "hybrid": [
+        "MOODENG",
+        "SUI"
       ]
     }
   ]
