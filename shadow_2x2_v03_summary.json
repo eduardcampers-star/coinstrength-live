@@ -1,51 +1,30 @@
 {
-  "generated_at": "2026-10-08T18:16:02.132871+00:00",
+  "generated_at": "2026-10-08T18:21:02.137281+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 6.0931,
-  "open_pnl_eur": -0.1114,
-  "paper_equity_gross_eur": 25.9816,
-  "open_count": 2,
-  "closed_count": 163,
+  "realized_gross_eur": 5.6431,
+  "open_pnl_eur": -0.0886,
+  "paper_equity_gross_eur": 25.5545,
+  "open_count": 1,
+  "closed_count": 164,
   "last_selection_hour": "2026-10-08T20",
-  "latest_timestamp": "2026-10-08T20:00:01+02:00",
+  "latest_timestamp": "2026-10-08T20:15:01+02:00",
   "open_legs": [
     {
       "coin": "TRX",
       "direction": "LONG",
       "entry_eur": 0.29856990584473264,
-      "current_eur": 0.2963986450347656,
-      "spot_return_pct": -0.7272,
-      "leveraged_return_pct": -2.1817,
-      "open_pnl_eur": -0.1091,
+      "current_eur": 0.2968069925080271,
+      "spot_return_pct": -0.5905,
+      "leveraged_return_pct": -1.7714,
+      "open_pnl_eur": -0.0886,
       "roll_active": false,
       "hard_sl_usdt": 0.32604609999999995,
       "roll_activation_usdt": 0.34117194999999995,
       "roll_stop_usdt": null
-    },
-    {
-      "coin": "ONDO",
-      "direction": "SHORT",
-      "entry_eur": 0.39537376082879344,
-      "current_eur": 0.3954359065787128,
-      "spot_return_pct": -0.0157,
-      "leveraged_return_pct": -0.0471,
-      "open_pnl_eur": -0.0024,
-      "roll_active": false,
-      "hard_sl_usdt": 0.45598099999999997,
-      "roll_activation_usdt": 0.4360595,
-      "roll_stop_usdt": null
     }
   ],
   "closed_legs": [
-    {
-      "coin": "AVAX",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 1.617217517982352,
-      "leveraged_return_pct": 4.851652553947057,
-      "gross_pnl_eur": 0.2425826276973528
-    },
     {
       "coin": "SUI",
       "direction": "SHORT",
@@ -101,6 +80,14 @@
       "spot_return_pct": 3.873409461663957,
       "leveraged_return_pct": 11.62022838499187,
       "gross_pnl_eur": 0.5810114192495935
+    },
+    {
+      "coin": "ONDO",
+      "direction": "SHORT",
+      "reason": "HARD_SL",
+      "spot_return_pct": -2.9999999999999973,
+      "leveraged_return_pct": -8.999999999999991,
+      "gross_pnl_eur": -0.44999999999999957
     },
     {
       "coin": "QNT",
