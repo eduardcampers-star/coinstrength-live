@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04",
   "created_at": "2026-09-26T06:23:47.342463+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 15.666277866403577,
+  "realized_gross_eur": 16.96115752387363,
   "legs": [
     {
       "coin": "SUI",
@@ -3321,7 +3321,7 @@
     {
       "coin": "WLD",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.46913470115967887,
       "entry_time": "2026-10-08T05:43:02.599213+00:00",
       "margin_eur": 5.0,
@@ -3350,12 +3350,18 @@
         "ret_5m_pct": -0.41793313069908855,
         "ret_15m_pct": 0.15284677111195855,
         "ret_60m_pct": 2.2430271113711653
-      }
+      },
+      "exit_eur": 0.4579647289936601,
+      "exit_time": "2026-10-08T14:03:02.808490+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 2.380973,
+      "leveraged_return_pct": 7.14292,
+      "gross_pnl_eur": 0.357146
     },
     {
       "coin": "NEAR",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 4.73223066607063,
       "entry_time": "2026-10-08T10:13:02.905160+00:00",
       "margin_eur": 5.0,
@@ -3384,7 +3390,13 @@
         "ret_5m_pct": -0.03779289493575089,
         "ret_15m_pct": 0.13250047321597958,
         "ret_60m_pct": 1.3409961685823868
-      }
+      },
+      "exit_eur": 4.436392535047773,
+      "exit_time": "2026-10-08T14:03:02.810103+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 6.251558,
+      "leveraged_return_pct": 18.754673,
+      "gross_pnl_eur": 0.937734
     }
   ]
 }
