@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "created_at": "2026-10-02T13:14:10.418159+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 3.8841002954942576,
+  "realized_gross_eur": 3.391367355423906,
   "legs": [
     {
       "coin": "FET",
@@ -1155,7 +1155,7 @@
     {
       "coin": "SHIB",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 4.922556524835322e-06,
       "entry_time": "2026-10-07T02:23:10.263750+00:00",
       "entry_move_8h_pct": -4.704463208685161,
@@ -1185,7 +1185,13 @@
         "ret_5m_pct": 0.6515837104072331,
         "ret_15m_pct": 1.3301749271137142,
         "ret_60m_pct": -3.605477552435432
-      }
+      },
+      "exit_eur": 4.774879829090263e-06,
+      "exit_time": "2026-10-08T15:17:09.605045+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     },
     {
       "coin": "LINK",
@@ -1430,7 +1436,7 @@
     {
       "coin": "AVAX",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 9.653019355989652,
       "entry_time": "2026-10-08T05:17:10.815919+00:00",
       "entry_move_8h_pct": -3.684585261658968,
@@ -1460,12 +1466,18 @@
         "ret_5m_pct": 0.12999071494894654,
         "ret_15m_pct": 0.5876317507695239,
         "ret_60m_pct": -1.8565708045140017
-      }
+      },
+      "exit_eur": 9.363428775309963,
+      "exit_time": "2026-10-08T15:17:09.606162+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     },
     {
       "coin": "QNT",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 209.9615487793973,
       "entry_time": "2026-10-08T11:33:10.150712+00:00",
       "entry_move_8h_pct": -5.58147016245778,
@@ -1495,7 +1507,13 @@
         "ret_5m_pct": 0.1021798365122617,
         "ret_15m_pct": 0.11496700021289552,
         "ret_60m_pct": -1.8533978961429276
-      }
+      },
+      "exit_eur": 215.66224362404137,
+      "exit_time": "2026-10-08T15:17:09.606254+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 2.715114,
+      "leveraged_return_pct": 8.145341,
+      "gross_pnl_eur": 0.407267
     }
   ]
 }
