@@ -1,46 +1,48 @@
 {
-  "generated_at": "2026-10-08T20:29:01.612079+00:00",
+  "generated_at": "2026-10-08T20:34:02.557496+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-10-08T22:15:01+02:00",
-  "film_timestamp": "2026-10-08T20:27:01.182939+00:00",
+  "latest_timestamp": "2026-10-08T22:30:01+02:00",
+  "film_timestamp": "2026-10-08T20:32:01.868842+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "SHORT",
+    "target_legs": 1,
     "breadth_5m": {
-      "green": 24,
-      "red": 1,
-      "flat": 2
+      "green": 0,
+      "red": 22,
+      "flat": 5
     },
     "breadth_15m": {
-      "green": 13,
-      "red": 9,
+      "green": 5,
+      "red": 17,
       "flat": 5
     },
     "breadth_60m": {
-      "green": 25,
-      "red": 1,
-      "flat": 1
+      "green": 21,
+      "red": 4,
+      "flat": 2
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "DOT"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 11.258,
-  "open_pnl_eur": -0.0712,
-  "paper_equity_gross_eur": 31.1869,
+  "open_pnl_eur": -0.0739,
+  "paper_equity_gross_eur": 31.1841,
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 7.02,
-  "paper_equity_est_net_eur": 24.1669,
-  "open_count": 1,
+  "paper_equity_est_net_eur": 24.1641,
+  "open_count": 2,
   "closed_count": 78,
   "open_legs": [
     {
       "coin": "TRX",
       "direction": "LONG",
       "entry_eur": 0.2981346597974774,
-      "current_eur": 0.2967201426024955,
-      "spot_return_pct": -0.4745,
-      "leveraged_return_pct": -1.4234,
-      "open_pnl_eur": -0.0712,
+      "current_eur": 0.2966660723836691,
+      "spot_return_pct": -0.4926,
+      "leveraged_return_pct": -1.4778,
+      "open_pnl_eur": -0.0739,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-10-06T16:29:02.802303+00:00",
@@ -65,6 +67,40 @@
         "ret_5m_pct": 0.08635835740449238,
         "ret_15m_pct": 0.20870602265952165,
         "ret_60m_pct": 0.18182360129959108
+      }
+    },
+    {
+      "coin": "DOT",
+      "direction": "SHORT",
+      "entry_eur": 0.971652701016224,
+      "current_eur": 0.971652701016224,
+      "spot_return_pct": -0.0,
+      "leveraged_return_pct": -0.0,
+      "open_pnl_eur": -0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-08T20:34:02.556578+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 0,
+          "red": 22,
+          "flat": 5
+        },
+        "15m": {
+          "green": 5,
+          "red": 17,
+          "flat": 5
+        },
+        "60m": {
+          "green": 21,
+          "red": 4,
+          "flat": 2
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.604340261880798,
+        "ret_15m_pct": -0.04604051565378908,
+        "ret_60m_pct": 4.1247002398081545
       }
     }
   ],
