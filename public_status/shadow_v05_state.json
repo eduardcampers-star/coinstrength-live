@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_V05_CANDIDATE_B",
   "created_at": "2026-10-07T19:22:55.294567+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 2.0972446755744074,
+  "realized_gross_eur": 2.4430568169523577,
   "legs": [
     {
       "coin": "ONDO",
@@ -547,7 +547,7 @@
     {
       "coin": "VET",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.0068818644521832315,
       "entry_time": "2026-10-09T17:58:10.352835+00:00",
       "margin_eur": 5.0,
@@ -563,12 +563,18 @@
       "move60_rank": 1,
       "move60_pct": 1.244975,
       "momentum_2_4_pct": 1.227543,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "exit_eur": 0.0070019635844341295,
+      "exit_time": "2026-10-09T18:28:13.496446+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": 1.745154,
+      "leveraged_return_pct": 5.235462,
+      "gross_pnl_eur": 0.261773
     },
     {
       "coin": "MOODENG",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.03696758639164211,
       "entry_time": "2026-10-09T17:58:10.352892+00:00",
       "margin_eur": 5.0,
@@ -584,12 +590,18 @@
       "move60_rank": 2,
       "move60_pct": 0.387597,
       "momentum_2_4_pct": 0.151196,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "exit_eur": 0.03700464119957158,
+      "exit_time": "2026-10-09T18:28:13.496609+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": 0.100236,
+      "leveraged_return_pct": 0.300708,
+      "gross_pnl_eur": 0.015035
     },
     {
       "coin": "XRP",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 1.2394856683632467,
       "entry_time": "2026-10-09T17:58:10.352940+00:00",
       "margin_eur": 5.0,
@@ -605,12 +617,18 @@
       "move60_rank": 3,
       "move60_pct": 0.339424,
       "momentum_2_4_pct": 0.039767,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "exit_eur": 1.2399143163156015,
+      "exit_time": "2026-10-09T18:28:13.496713+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": 0.034583,
+      "leveraged_return_pct": 0.103748,
+      "gross_pnl_eur": 0.005187
     },
     {
       "coin": "SUI",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.9493704795070989,
       "entry_time": "2026-10-09T17:58:10.352983+00:00",
       "margin_eur": 5.0,
@@ -626,58 +644,16 @@
       "move60_rank": 4,
       "move60_pct": 0.338378,
       "momentum_2_4_pct": 0.546378,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "exit_eur": 0.9534094966083542,
+      "exit_time": "2026-10-09T18:28:13.496796+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": 0.425442,
+      "leveraged_return_pct": 1.276325,
+      "gross_pnl_eur": 0.063816
     }
   ],
-  "market_event": {
-    "status": "ACTIVE",
-    "go_time": "2026-10-09T17:51:00+00:00",
-    "breadth_prev": {
-      "green": 25,
-      "red": 1,
-      "flat": 1
-    },
-    "breadth_go": {
-      "green": 23,
-      "red": 2,
-      "flat": 2
-    },
-    "created_at": "2026-10-09T17:53:11.330291+00:00",
-    "confirm_time": "2026-10-09T17:55:00+00:00",
-    "market_momentum_2_4_pct": 0.054536,
-    "confirm_n": 27,
-    "top4": [
-      {
-        "rank": 1,
-        "coin": "VET",
-        "move60_pct": 1.244975
-      },
-      {
-        "rank": 2,
-        "coin": "MOODENG",
-        "move60_pct": 0.387597
-      },
-      {
-        "rank": 3,
-        "coin": "XRP",
-        "move60_pct": 0.339424
-      },
-      {
-        "rank": 4,
-        "coin": "SUI",
-        "move60_pct": 0.338378
-      }
-    ],
-    "top4_locked": true,
-    "top4_lock_time": "2026-10-09T17:58:10.352743+00:00",
-    "entry_time": "2026-10-09T17:58:10.353024+00:00",
-    "opened_coins": [
-      "VET",
-      "MOODENG",
-      "XRP",
-      "SUI"
-    ]
-  },
-  "last_market_breadth_green": 0,
+  "market_event": null,
+  "last_market_breadth_green": 22,
   "market_burst_locked": false
 }
