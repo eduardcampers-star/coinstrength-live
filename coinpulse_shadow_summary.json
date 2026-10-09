@@ -1,106 +1,85 @@
 {
-  "generated_at": "2026-10-09T08:31:02.816205+00:00",
+  "generated_at": "2026-10-09T08:46:02.979519+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
   "events_24h": 12,
-  "strong_24h": 7,
+  "strong_24h": 6,
   "results": {
     "5m": {
       "canonical": {
         "n": 12,
-        "avg_return_pct": -0.1047,
-        "positive": 6
+        "avg_return_pct": -0.0866,
+        "positive": 7
       },
       "mover3d": {
         "n": 12,
-        "avg_return_pct": -0.1614,
-        "positive": 4
+        "avg_return_pct": -0.1317,
+        "positive": 5
       },
       "hybrid_rebound_v2": {
         "n": 12,
-        "avg_return_pct": -0.0715,
+        "avg_return_pct": -0.0526,
         "positive": 6
       }
     },
     "15m": {
       "canonical": {
-        "n": 12,
-        "avg_return_pct": -0.4,
+        "n": 11,
+        "avg_return_pct": -0.4159,
         "positive": 4
       },
       "mover3d": {
-        "n": 12,
-        "avg_return_pct": -0.4784,
+        "n": 11,
+        "avg_return_pct": -0.4979,
         "positive": 2
       },
       "hybrid_rebound_v2": {
-        "n": 12,
-        "avg_return_pct": -0.3105,
+        "n": 11,
+        "avg_return_pct": -0.3147,
         "positive": 3
       }
     },
     "30m": {
       "canonical": {
-        "n": 12,
-        "avg_return_pct": -0.3626,
+        "n": 11,
+        "avg_return_pct": -0.3549,
         "positive": 5
       },
       "mover3d": {
-        "n": 12,
-        "avg_return_pct": -0.4756,
+        "n": 11,
+        "avg_return_pct": -0.4144,
         "positive": 6
       },
       "hybrid_rebound_v2": {
-        "n": 12,
-        "avg_return_pct": -0.3053,
+        "n": 11,
+        "avg_return_pct": -0.2287,
         "positive": 5
       }
     },
     "rolling_09": {
       "canonical": {
         "n": 6,
-        "avg_return_pct": -0.7103,
-        "positive": 3
+        "avg_return_pct": -0.5014,
+        "positive": 4
       },
       "mover3d": {
         "n": 6,
-        "avg_return_pct": -0.2349,
-        "positive": 2
+        "avg_return_pct": 0.5396,
+        "positive": 3
       },
       "hybrid_rebound_v2": {
         "n": 6,
-        "avg_return_pct": -0.4598,
-        "positive": 2
+        "avg_return_pct": 0.3147,
+        "positive": 3
       }
     }
   },
   "profile3d": {
     "status": "VOLLEDIG",
-    "profile_hours": 71.8,
-    "snapshots": 288
+    "profile_hours": 72.0,
+    "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-10-08T12:34:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "DOT",
-        "PEPE",
-        "RENDER"
-      ],
-      "canonical": [
-        "ONDO",
-        "HBAR"
-      ],
-      "mover3d": [
-        "NEAR",
-        "RENDER"
-      ],
-      "hybrid": [
-        "FET",
-        "AVAX"
-      ]
-    },
     {
       "trigger_time": "2026-10-08T13:33:00+00:00",
       "level": "STRONG",
@@ -286,6 +265,26 @@
       "hybrid": [
         "NEAR",
         "RENDER"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-09T08:30:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "FET",
+        "SUI"
+      ],
+      "canonical": [
+        "DOT",
+        "ADA"
+      ],
+      "mover3d": [
+        "NEAR",
+        "ONDO"
+      ],
+      "hybrid": [
+        "RENDER",
+        "AVAX"
       ]
     }
   ]
