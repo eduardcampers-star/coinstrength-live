@@ -651,10 +651,86 @@
       "spot_return_pct": 0.425442,
       "leveraged_return_pct": 1.276325,
       "gross_pnl_eur": 0.063816
+    },
+    {
+      "coin": "ONDO",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 0.42233919172093853,
+      "entry_time": "2026-10-09T20:53:09.440618+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-09T20:46:00+00:00",
+      "market_confirm_time": "2026-10-09T20:50:00+00:00",
+      "market_momentum_2_4_pct": 0.042123,
+      "move60_rank": 1,
+      "move60_pct": 1.277411
+    },
+    {
+      "coin": "WLD",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 0.44312605941654026,
+      "entry_time": "2026-10-09T20:53:09.440680+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-09T20:46:00+00:00",
+      "market_confirm_time": "2026-10-09T20:50:00+00:00",
+      "market_momentum_2_4_pct": 0.042123,
+      "move60_rank": 2,
+      "move60_pct": 1.237574
+    },
+    {
+      "coin": "DOT",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 1.0817200463912926,
+      "entry_time": "2026-10-09T20:53:09.440729+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-09T20:46:00+00:00",
+      "market_confirm_time": "2026-10-09T20:50:00+00:00",
+      "market_momentum_2_4_pct": 0.042123,
+      "move60_rank": 3,
+      "move60_pct": 1.1883
+    },
+    {
+      "coin": "MOODENG",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 0.036577750022303505,
+      "entry_time": "2026-10-09T20:53:09.440772+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-09T20:46:00+00:00",
+      "market_confirm_time": "2026-10-09T20:50:00+00:00",
+      "market_momentum_2_4_pct": 0.042123,
+      "move60_rank": 4,
+      "move60_pct": 1.153657
     }
   ],
   "market_event": {
-    "status": "WAIT_CONFIRM",
+    "status": "ACTIVE",
     "go_time": "2026-10-09T20:46:00+00:00",
     "breadth_prev": {
       "green": 25,
@@ -666,8 +742,42 @@
       "red": 2,
       "flat": 1
     },
-    "created_at": "2026-10-09T20:48:10.411337+00:00"
+    "created_at": "2026-10-09T20:48:10.411337+00:00",
+    "confirm_time": "2026-10-09T20:50:00+00:00",
+    "market_momentum_2_4_pct": 0.042123,
+    "confirm_n": 27,
+    "top4": [
+      {
+        "rank": 1,
+        "coin": "ONDO",
+        "move60_pct": 1.277411
+      },
+      {
+        "rank": 2,
+        "coin": "WLD",
+        "move60_pct": 1.237574
+      },
+      {
+        "rank": 3,
+        "coin": "DOT",
+        "move60_pct": 1.1883
+      },
+      {
+        "rank": 4,
+        "coin": "MOODENG",
+        "move60_pct": 1.153657
+      }
+    ],
+    "top4_locked": true,
+    "top4_lock_time": "2026-10-09T20:53:09.440473+00:00",
+    "entry_time": "2026-10-09T20:53:09.440814+00:00",
+    "opened_coins": [
+      "ONDO",
+      "WLD",
+      "DOT",
+      "MOODENG"
+    ]
   },
-  "last_market_breadth_green": 24,
-  "market_burst_locked": true
+  "last_market_breadth_green": 12,
+  "market_burst_locked": false
 }
