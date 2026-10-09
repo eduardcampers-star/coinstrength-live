@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_V05_CANDIDATE_B",
   "created_at": "2026-10-07T19:22:55.294567+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 2.3277640312155317,
+  "realized_gross_eur": 2.0972446755744074,
   "legs": [
     {
       "coin": "ONDO",
@@ -331,7 +331,7 @@
     {
       "coin": "QNT",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 225.4238800642513,
       "entry_time": "2026-10-09T14:58:10.089585+00:00",
       "margin_eur": 5.0,
@@ -347,7 +347,13 @@
       "move60_rank": 1,
       "move60_pct": 0.785267,
       "momentum_2_4_pct": 0.15745,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "exit_eur": 223.72367011781506,
+      "exit_time": "2026-10-09T15:28:10.451408+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": -0.754228,
+      "leveraged_return_pct": -2.262684,
+      "gross_pnl_eur": -0.113134
     },
     {
       "coin": "VET",
@@ -379,7 +385,7 @@
     {
       "coin": "HYPE",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 76.40906657147956,
       "entry_time": "2026-10-09T14:58:10.089687+00:00",
       "margin_eur": 5.0,
@@ -395,12 +401,18 @@
       "move60_rank": 3,
       "move60_pct": 0.484242,
       "momentum_2_4_pct": 0.038461,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "exit_eur": 75.99161013923599,
+      "exit_time": "2026-10-09T15:28:10.451527+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": -0.546344,
+      "leveraged_return_pct": -1.639032,
+      "gross_pnl_eur": -0.081952
     },
     {
       "coin": "BTC",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 74087.09619846511,
       "entry_time": "2026-10-09T14:58:10.089730+00:00",
       "margin_eur": 5.0,
@@ -416,58 +428,16 @@
       "move60_rank": 4,
       "move60_pct": 0.427379,
       "momentum_2_4_pct": 0.003164,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "exit_eur": 73912.08496965369,
+      "exit_time": "2026-10-09T15:28:10.451591+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": -0.236224,
+      "leveraged_return_pct": -0.708671,
+      "gross_pnl_eur": -0.035434
     }
   ],
-  "market_event": {
-    "status": "ACTIVE",
-    "go_time": "2026-10-09T14:51:00+00:00",
-    "breadth_prev": {
-      "green": 25,
-      "red": 1,
-      "flat": 1
-    },
-    "breadth_go": {
-      "green": 24,
-      "red": 3,
-      "flat": 0
-    },
-    "created_at": "2026-10-09T14:53:10.469071+00:00",
-    "confirm_time": "2026-10-09T14:55:00+00:00",
-    "market_momentum_2_4_pct": 0.062305,
-    "confirm_n": 27,
-    "top4": [
-      {
-        "rank": 1,
-        "coin": "QNT",
-        "move60_pct": 0.785267
-      },
-      {
-        "rank": 2,
-        "coin": "VET",
-        "move60_pct": 0.757378
-      },
-      {
-        "rank": 3,
-        "coin": "HYPE",
-        "move60_pct": 0.484242
-      },
-      {
-        "rank": 4,
-        "coin": "BTC",
-        "move60_pct": 0.427379
-      }
-    ],
-    "top4_locked": true,
-    "top4_lock_time": "2026-10-09T14:58:10.089489+00:00",
-    "entry_time": "2026-10-09T14:58:10.089905+00:00",
-    "opened_coins": [
-      "QNT",
-      "VET",
-      "HYPE",
-      "BTC"
-    ]
-  },
-  "last_market_breadth_green": 26,
+  "market_event": null,
+  "last_market_breadth_green": 21,
   "market_burst_locked": false
 }
