@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-09T02:16:02.751003+00:00",
+  "generated_at": "2026-10-09T02:31:02.421582+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 15,
+  "events_24h": 16,
   "strong_24h": 11,
   "results": {
     "5m": {
       "canonical": {
-        "n": 15,
-        "avg_return_pct": -0.2523,
-        "positive": 4
+        "n": 16,
+        "avg_return_pct": -0.233,
+        "positive": 5
       },
       "mover3d": {
-        "n": 15,
-        "avg_return_pct": -0.2839,
+        "n": 16,
+        "avg_return_pct": -0.2844,
         "positive": 3
       },
       "hybrid_rebound_v2": {
-        "n": 15,
-        "avg_return_pct": -0.2282,
-        "positive": 4
+        "n": 16,
+        "avg_return_pct": -0.2135,
+        "positive": 5
       }
     },
     "15m": {
@@ -80,31 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-10-08T08:32:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "BCH",
-        "FET",
-        "HBAR",
-        "SHIB",
-        "TAO",
-        "VET",
-        "WLD"
-      ],
-      "canonical": [
-        "NEAR",
-        "HBAR"
-      ],
-      "mover3d": [
-        "NEAR",
-        "RENDER"
-      ],
-      "hybrid": [
-        "NEAR",
-        "RENDER"
-      ]
-    },
     {
       "trigger_time": "2026-10-08T10:18:00+00:00",
       "level": "STRONG",
@@ -292,6 +267,26 @@
       "hybrid": [
         "NEAR",
         "QNT"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-09T02:16:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "FET",
+        "TAO"
+      ],
+      "canonical": [
+        "DOT",
+        "SHIB"
+      ],
+      "mover3d": [
+        "NEAR",
+        "RENDER"
+      ],
+      "hybrid": [
+        "FET",
+        "DOT"
       ]
     }
   ]
