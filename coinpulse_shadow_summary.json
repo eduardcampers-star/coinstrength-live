@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-10-09T10:56:02.585668+00:00",
+  "generated_at": "2026-10-09T11:16:03.165214+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 11,
+  "events_24h": 12,
   "strong_24h": 5,
   "results": {
     "5m": {
       "canonical": {
-        "n": 11,
-        "avg_return_pct": -0.0953,
-        "positive": 6
+        "n": 12,
+        "avg_return_pct": -0.0636,
+        "positive": 7
       },
       "mover3d": {
-        "n": 11,
-        "avg_return_pct": -0.1468,
-        "positive": 4
+        "n": 12,
+        "avg_return_pct": -0.1051,
+        "positive": 5
       },
       "hybrid_rebound_v2": {
-        "n": 11,
-        "avg_return_pct": -0.0717,
-        "positive": 5
+        "n": 12,
+        "avg_return_pct": -0.0391,
+        "positive": 6
       }
     },
     "15m": {
       "canonical": {
-        "n": 11,
-        "avg_return_pct": -0.3359,
-        "positive": 5
+        "n": 12,
+        "avg_return_pct": -0.2526,
+        "positive": 6
       },
       "mover3d": {
-        "n": 11,
-        "avg_return_pct": -0.3212,
-        "positive": 3
+        "n": 12,
+        "avg_return_pct": -0.2794,
+        "positive": 4
       },
       "hybrid_rebound_v2": {
-        "n": 11,
-        "avg_return_pct": -0.2542,
-        "positive": 3
+        "n": 12,
+        "avg_return_pct": -0.1636,
+        "positive": 4
       }
     },
     "30m": {
@@ -80,29 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-10-08T13:33:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "HBAR",
-        "LTC",
-        "MOODENG",
-        "RENDER",
-        "VET"
-      ],
-      "canonical": [
-        "ONDO",
-        "DOT"
-      ],
-      "mover3d": [
-        "NEAR",
-        "RENDER"
-      ],
-      "hybrid": [
-        "NEAR",
-        "QNT"
-      ]
-    },
     {
       "trigger_time": "2026-10-08T14:27:00+00:00",
       "level": "TRIGGER",
@@ -285,6 +262,26 @@
       "hybrid": [
         "RENDER",
         "AVAX"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-09T10:52:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "FET",
+        "ONDO"
+      ],
+      "canonical": [
+        "DOT",
+        "QNT"
+      ],
+      "mover3d": [
+        "NEAR",
+        "ONDO"
+      ],
+      "hybrid": [
+        "RENDER",
+        "QNT"
       ]
     }
   ]
