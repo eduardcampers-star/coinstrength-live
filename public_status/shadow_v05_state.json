@@ -435,10 +435,86 @@
       "spot_return_pct": -0.236224,
       "leveraged_return_pct": -0.708671,
       "gross_pnl_eur": -0.035434
+    },
+    {
+      "coin": "DOT",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 1.0737763486959628,
+      "entry_time": "2026-10-09T16:53:10.289377+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-09T16:46:00+00:00",
+      "market_confirm_time": "2026-10-09T16:50:00+00:00",
+      "market_momentum_2_4_pct": 0.150503,
+      "move60_rank": 1,
+      "move60_pct": 1.376763
+    },
+    {
+      "coin": "WLD",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 0.4422115041086102,
+      "entry_time": "2026-10-09T16:53:10.289439+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-09T16:46:00+00:00",
+      "market_confirm_time": "2026-10-09T16:50:00+00:00",
+      "market_momentum_2_4_pct": 0.150503,
+      "move60_rank": 2,
+      "move60_pct": 0.892676
+    },
+    {
+      "coin": "FET",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 0.19399785637727762,
+      "entry_time": "2026-10-09T16:53:10.289485+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-09T16:46:00+00:00",
+      "market_confirm_time": "2026-10-09T16:50:00+00:00",
+      "market_momentum_2_4_pct": 0.150503,
+      "move60_rank": 3,
+      "move60_pct": 0.736648
+    },
+    {
+      "coin": "SUI",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 0.9468560200071455,
+      "entry_time": "2026-10-09T16:53:10.289527+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-09T16:46:00+00:00",
+      "market_confirm_time": "2026-10-09T16:50:00+00:00",
+      "market_momentum_2_4_pct": 0.150503,
+      "move60_rank": 4,
+      "move60_pct": 0.642783
     }
   ],
   "market_event": {
-    "status": "WAIT_CONFIRM",
+    "status": "ACTIVE",
     "go_time": "2026-10-09T16:46:00+00:00",
     "breadth_prev": {
       "green": 23,
@@ -450,8 +526,42 @@
       "red": 1,
       "flat": 0
     },
-    "created_at": "2026-10-09T16:48:10.291599+00:00"
+    "created_at": "2026-10-09T16:48:10.291599+00:00",
+    "confirm_time": "2026-10-09T16:50:00+00:00",
+    "market_momentum_2_4_pct": 0.150503,
+    "confirm_n": 27,
+    "top4": [
+      {
+        "rank": 1,
+        "coin": "DOT",
+        "move60_pct": 1.376763
+      },
+      {
+        "rank": 2,
+        "coin": "WLD",
+        "move60_pct": 0.892676
+      },
+      {
+        "rank": 3,
+        "coin": "FET",
+        "move60_pct": 0.736648
+      },
+      {
+        "rank": 4,
+        "coin": "SUI",
+        "move60_pct": 0.642783
+      }
+    ],
+    "top4_locked": true,
+    "top4_lock_time": "2026-10-09T16:53:10.289116+00:00",
+    "entry_time": "2026-10-09T16:53:10.289566+00:00",
+    "opened_coins": [
+      "DOT",
+      "WLD",
+      "FET",
+      "SUI"
+    ]
   },
-  "last_market_breadth_green": 26,
+  "last_market_breadth_green": 25,
   "market_burst_locked": true
 }
