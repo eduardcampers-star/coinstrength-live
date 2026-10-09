@@ -543,10 +543,86 @@
       "spot_return_pct": 0.0,
       "leveraged_return_pct": 0.0,
       "gross_pnl_eur": 0.0
+    },
+    {
+      "coin": "VET",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 0.0068818644521832315,
+      "entry_time": "2026-10-09T17:58:10.352835+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-09T17:51:00+00:00",
+      "market_confirm_time": "2026-10-09T17:55:00+00:00",
+      "market_momentum_2_4_pct": 0.054536,
+      "move60_rank": 1,
+      "move60_pct": 1.244975
+    },
+    {
+      "coin": "MOODENG",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 0.03696758639164211,
+      "entry_time": "2026-10-09T17:58:10.352892+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-09T17:51:00+00:00",
+      "market_confirm_time": "2026-10-09T17:55:00+00:00",
+      "market_momentum_2_4_pct": 0.054536,
+      "move60_rank": 2,
+      "move60_pct": 0.387597
+    },
+    {
+      "coin": "XRP",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 1.2394856683632467,
+      "entry_time": "2026-10-09T17:58:10.352940+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-09T17:51:00+00:00",
+      "market_confirm_time": "2026-10-09T17:55:00+00:00",
+      "market_momentum_2_4_pct": 0.054536,
+      "move60_rank": 3,
+      "move60_pct": 0.339424
+    },
+    {
+      "coin": "SUI",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 0.9493704795070989,
+      "entry_time": "2026-10-09T17:58:10.352983+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-09T17:51:00+00:00",
+      "market_confirm_time": "2026-10-09T17:55:00+00:00",
+      "market_momentum_2_4_pct": 0.054536,
+      "move60_rank": 4,
+      "move60_pct": 0.338378
     }
   ],
   "market_event": {
-    "status": "WAIT_CONFIRM",
+    "status": "ACTIVE",
     "go_time": "2026-10-09T17:51:00+00:00",
     "breadth_prev": {
       "green": 25,
@@ -558,8 +634,42 @@
       "red": 2,
       "flat": 2
     },
-    "created_at": "2026-10-09T17:53:11.330291+00:00"
+    "created_at": "2026-10-09T17:53:11.330291+00:00",
+    "confirm_time": "2026-10-09T17:55:00+00:00",
+    "market_momentum_2_4_pct": 0.054536,
+    "confirm_n": 27,
+    "top4": [
+      {
+        "rank": 1,
+        "coin": "VET",
+        "move60_pct": 1.244975
+      },
+      {
+        "rank": 2,
+        "coin": "MOODENG",
+        "move60_pct": 0.387597
+      },
+      {
+        "rank": 3,
+        "coin": "XRP",
+        "move60_pct": 0.339424
+      },
+      {
+        "rank": 4,
+        "coin": "SUI",
+        "move60_pct": 0.338378
+      }
+    ],
+    "top4_locked": true,
+    "top4_lock_time": "2026-10-09T17:58:10.352743+00:00",
+    "entry_time": "2026-10-09T17:58:10.353024+00:00",
+    "opened_coins": [
+      "VET",
+      "MOODENG",
+      "XRP",
+      "SUI"
+    ]
   },
-  "last_market_breadth_green": 23,
+  "last_market_breadth_green": 26,
   "market_burst_locked": true
 }
