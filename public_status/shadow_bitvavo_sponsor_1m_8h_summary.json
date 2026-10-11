@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-11T01:54:10.094908+00:00",
+  "generated_at": "2026-10-11T01:59:11.004631+00:00",
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "latest_timestamp": "2026-10-11T03:45:01+02:00",
-  "film_timestamp": "2026-10-11T01:52:01.558874+00:00",
+  "film_timestamp": "2026-10-11T01:57:01.147060+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "SHORT",
+    "target_legs": 2,
     "breadth_5m": {
-      "green": 1,
-      "red": 5,
-      "flat": 21
+      "green": 0,
+      "red": 15,
+      "flat": 12
     },
     "breadth_15m": {
-      "green": 10,
-      "red": 7,
-      "flat": 10
+      "green": 2,
+      "red": 19,
+      "flat": 6
     },
     "breadth_60m": {
       "green": 25,
@@ -30,7 +30,7 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 4.5,
   "paper_equity_est_net_eur": 19.8549,
-  "open_count": 3,
+  "open_count": 4,
   "closed_count": 50,
   "open_legs": [
     {
@@ -133,6 +133,40 @@
         "ret_5m_pct": 0.16442595995744824,
         "ret_15m_pct": 0.20319303338169892,
         "ret_60m_pct": -0.1253737100974095
+      }
+    },
+    {
+      "coin": "LTC",
+      "direction": "SHORT",
+      "entry_eur": 56.90578158458244,
+      "current_eur": 56.90578158458244,
+      "spot_return_pct": -0.0,
+      "leveraged_return_pct": -0.0,
+      "open_pnl_eur": -0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-11T01:58:09.768363+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 0,
+          "red": 15,
+          "flat": 12
+        },
+        "15m": {
+          "green": 2,
+          "red": 19,
+          "flat": 6
+        },
+        "60m": {
+          "green": 25,
+          "red": 1,
+          "flat": 1
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.09410288582182291,
+        "ret_15m_pct": -0.1723867732330353,
+        "ret_60m_pct": 0.22026431718060735
       }
     }
   ],
