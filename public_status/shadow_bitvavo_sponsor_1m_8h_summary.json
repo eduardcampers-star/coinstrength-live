@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-10-12T10:29:10.972312+00:00",
+  "generated_at": "2026-10-12T10:34:10.343671+00:00",
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
-  "latest_timestamp": "2026-10-12T12:15:01+02:00",
-  "film_timestamp": "2026-10-12T10:27:01.724800+00:00",
+  "latest_timestamp": "2026-10-12T12:30:01+02:00",
+  "film_timestamp": "2026-10-12T10:32:01.321428+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
-      "green": 4,
-      "red": 14,
-      "flat": 9
+      "green": 3,
+      "red": 11,
+      "flat": 13
     },
     "breadth_15m": {
       "green": 6,
-      "red": 13,
-      "flat": 8
+      "red": 14,
+      "flat": 7
     },
     "breadth_60m": {
-      "green": 4,
-      "red": 16,
-      "flat": 7
+      "green": 7,
+      "red": 12,
+      "flat": 8
     }
   },
   "opened_this_run": [],
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 5.1385,
-  "open_pnl_eur": 0.4884,
-  "paper_equity_gross_eur": 25.6269,
+  "realized_gross_eur": 5.4822,
+  "open_pnl_eur": -0.045,
+  "paper_equity_gross_eur": 25.4371,
   "estimated_cost_per_closed_trade_eur": 0.09,
-  "estimated_costs_eur": 4.95,
-  "paper_equity_est_net_eur": 20.6769,
-  "open_count": 3,
-  "closed_count": 55,
+  "estimated_costs_eur": 5.04,
+  "paper_equity_est_net_eur": 20.3971,
+  "open_count": 2,
+  "closed_count": 56,
   "open_legs": [
     {
       "coin": "TRX",
       "direction": "LONG",
       "entry_eur": 0.296965369510889,
-      "current_eur": 0.2960786065207682,
-      "spot_return_pct": -0.2986,
-      "leveraged_return_pct": -0.8958,
+      "current_eur": 0.2960782562086832,
+      "spot_return_pct": -0.2987,
+      "leveraged_return_pct": -0.8962,
       "open_pnl_eur": -0.0448,
       "roll_active": false,
       "roll_stop_eur": null,
@@ -68,47 +68,13 @@
       }
     },
     {
-      "coin": "RENDER",
-      "direction": "LONG",
-      "entry_eur": 1.844148888690529,
-      "current_eur": 1.9035283608753908,
-      "spot_return_pct": 3.2199,
-      "leveraged_return_pct": 9.6597,
-      "open_pnl_eur": 0.483,
-      "roll_active": true,
-      "roll_stop_eur": 1.8863966056275123,
-      "entry_time": "2026-10-12T08:33:11.123442+00:00",
-      "entry_breadth": {
-        "5m": {
-          "green": 27,
-          "red": 0,
-          "flat": 0
-        },
-        "15m": {
-          "green": 21,
-          "red": 3,
-          "flat": 3
-        },
-        "60m": {
-          "green": 2,
-          "red": 21,
-          "flat": 4
-        }
-      },
-      "entry_move": {
-        "ret_5m_pct": 1.0238907849829282,
-        "ret_15m_pct": 1.0238907849829282,
-        "ret_60m_pct": 1.8181818181818077
-      }
-    },
-    {
       "coin": "AVAX",
       "direction": "LONG",
       "entry_eur": 9.836650897081139,
-      "current_eur": 9.869584635998214,
-      "spot_return_pct": 0.3348,
-      "leveraged_return_pct": 1.0044,
-      "open_pnl_eur": 0.0502,
+      "current_eur": 9.836519564052171,
+      "spot_return_pct": -0.0013,
+      "leveraged_return_pct": -0.004,
+      "open_pnl_eur": -0.0002,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-10-12T08:38:11.817182+00:00",
@@ -137,16 +103,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "AVAX",
-      "direction": "LONG",
-      "reason": "HARD_SL",
-      "spot_return_pct": -3.0,
-      "leveraged_return_pct": -9.0,
-      "gross_pnl_eur": -0.45,
-      "entry_time": "2026-10-08T05:17:10.815919+00:00",
-      "exit_time": "2026-10-08T15:17:09.606162+00:00"
-    },
     {
       "coin": "QNT",
       "direction": "LONG",
@@ -336,6 +292,16 @@
       "gross_pnl_eur": 0.151585,
       "entry_time": "2026-10-12T02:08:11.086282+00:00",
       "exit_time": "2026-10-12T06:32:09.767762+00:00"
+    },
+    {
+      "coin": "RENDER",
+      "direction": "LONG",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 2.290906,
+      "leveraged_return_pct": 6.872718,
+      "gross_pnl_eur": 0.343636,
+      "entry_time": "2026-10-12T08:33:11.123442+00:00",
+      "exit_time": "2026-10-12T10:32:10.719745+00:00"
     }
   ]
 }
