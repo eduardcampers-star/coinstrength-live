@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-12T23:41:01.892238+00:00",
+  "generated_at": "2026-10-12T23:46:01.484824+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 6.458,
-  "open_pnl_eur": -0.2523,
-  "paper_equity_gross_eur": 26.2056,
-  "open_count": 5,
-  "closed_count": 208,
+  "realized_gross_eur": 6.008,
+  "open_pnl_eur": 0.111,
+  "paper_equity_gross_eur": 26.119,
+  "open_count": 4,
+  "closed_count": 209,
   "last_selection_hour": "2026-10-13T01",
   "latest_timestamp": "2026-10-13T01:30:01+02:00",
   "open_legs": [
@@ -37,19 +37,6 @@
       "roll_stop_usdt": null
     },
     {
-      "coin": "LINK",
-      "direction": "LONG",
-      "entry_eur": 11.651893634165994,
-      "current_eur": 11.369617760272133,
-      "spot_return_pct": -2.4226,
-      "leveraged_return_pct": -7.2677,
-      "open_pnl_eur": -0.3634,
-      "roll_active": false,
-      "hard_sl_usdt": 12.623579999999999,
-      "roll_activation_usdt": 13.209209999999999,
-      "roll_stop_usdt": null
-    },
-    {
       "coin": "HYPE",
       "direction": "SHORT",
       "entry_eur": 74.78023453585176,
@@ -60,7 +47,7 @@
       "roll_active": true,
       "hard_sl_usdt": 86.04311000000001,
       "roll_activation_usdt": 82.283945,
-      "roll_stop_usdt": 81.82989999999998
+      "roll_stop_usdt": 81.652316
     },
     {
       "coin": "NEAR",
@@ -77,14 +64,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "MOODENG",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 0.8807242722897188,
-      "leveraged_return_pct": 2.6421728168691567,
-      "gross_pnl_eur": 0.13210864084345783
-    },
     {
       "coin": "LTC",
       "direction": "LONG",
@@ -151,6 +130,14 @@
     },
     {
       "coin": "SUI",
+      "direction": "LONG",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0000000000000027,
+      "leveraged_return_pct": -9.000000000000007,
+      "gross_pnl_eur": -0.45000000000000034
+    },
+    {
+      "coin": "LINK",
       "direction": "LONG",
       "reason": "HARD_SL",
       "spot_return_pct": -3.0000000000000027,
