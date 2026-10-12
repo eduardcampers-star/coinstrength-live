@@ -2,12 +2,12 @@
   "strategy": "KRAKEN_V05_CANDIDATE_B",
   "created_at": "2026-10-10T17:08:41.058147+00:00",
   "start_pot_usd": 20.0,
-  "realized_gross_usd": 0.0,
+  "realized_gross_usd": 0.2534095865084609,
   "legs": [
     {
       "coin": "QNT",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 228.91,
       "entry_time": "2026-10-12T19:31:13.228078+00:00",
       "margin_usd": 5.0,
@@ -24,12 +24,21 @@
       "move60_pct": 1.187638,
       "basket_id": "V05B:2026-10-12T19:31:13.221232+00:00:AVAX,DOT,QNT,RENDER",
       "momentum_2_4_pct": 0.100445,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007516709623869643,
+      "net_pnl_usd": 0.01840253811541753,
+      "exit_usd": 229.42,
+      "exit_time": "2026-10-12T20:01:13.350252+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": 0.222795,
+      "leveraged_return_pct": 0.668385,
+      "gross_pnl_usd": 0.033419
     },
     {
       "coin": "DOT",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 1.2165,
       "entry_time": "2026-10-12T19:31:13.228096+00:00",
       "margin_usd": 5.0,
@@ -46,12 +55,21 @@
       "move60_pct": 1.182348,
       "basket_id": "V05B:2026-10-12T19:31:13.221232+00:00:AVAX,DOT,QNT,RENDER",
       "momentum_2_4_pct": 0.032879,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007483970406905056,
+      "net_pnl_usd": -0.047043156596793735,
+      "exit_usd": 1.2139,
+      "exit_time": "2026-10-12T20:01:13.357499+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": -0.213728,
+      "leveraged_return_pct": -0.641184,
+      "gross_pnl_usd": -0.032059
     },
     {
       "coin": "AVAX",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 10.45,
       "entry_time": "2026-10-12T19:31:13.228104+00:00",
       "margin_usd": 5.0,
@@ -68,12 +86,21 @@
       "move60_pct": 0.956152,
       "basket_id": "V05B:2026-10-12T19:31:13.221232+00:00:AVAX,DOT,QNT,RENDER",
       "momentum_2_4_pct": 0.057422,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007543779904306221,
+      "net_pnl_usd": 0.0725160287081354,
+      "exit_usd": 10.511,
+      "exit_time": "2026-10-12T20:01:13.364830+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": 0.583732,
+      "leveraged_return_pct": 1.751196,
+      "gross_pnl_usd": 0.08756
     },
     {
       "coin": "RENDER",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 2.0518,
       "entry_time": "2026-10-12T19:31:13.228110+00:00",
       "margin_usd": 5.0,
@@ -90,60 +117,20 @@
       "move60_pct": 0.948869,
       "basket_id": "V05B:2026-10-12T19:31:13.221232+00:00:AVAX,DOT,QNT,RENDER",
       "momentum_2_4_pct": 0.454523,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.00758224485817331,
+      "net_pnl_usd": 0.1494074714884475,
+      "exit_usd": 2.0743,
+      "exit_time": "2026-10-12T20:01:13.372407+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": 1.096598,
+      "leveraged_return_pct": 3.289794,
+      "gross_pnl_usd": 0.16449
     }
   ],
-  "market_event": {
-    "status": "ACTIVE",
-    "go_time": "2026-10-12T19:26:00+00:00",
-    "breadth_prev": {
-      "green": 22,
-      "red": 0,
-      "flat": 5
-    },
-    "breadth_go": {
-      "green": 24,
-      "red": 0,
-      "flat": 3
-    },
-    "created_at": "2026-10-12T19:27:13.705213+00:00",
-    "confirm_time": "2026-10-12T19:30:00+00:00",
-    "market_momentum_2_4_pct": 0.043727,
-    "confirm_n": 27,
-    "top4": [
-      {
-        "rank": 1,
-        "coin": "QNT",
-        "move60_pct": 1.187638
-      },
-      {
-        "rank": 2,
-        "coin": "DOT",
-        "move60_pct": 1.182348
-      },
-      {
-        "rank": 3,
-        "coin": "AVAX",
-        "move60_pct": 0.956152
-      },
-      {
-        "rank": 4,
-        "coin": "RENDER",
-        "move60_pct": 0.948869
-      }
-    ],
-    "top4_locked": true,
-    "top4_lock_time": "2026-10-12T19:31:13.221232+00:00",
-    "basket_id": "V05B:2026-10-12T19:31:13.221232+00:00:AVAX,DOT,QNT,RENDER",
-    "entry_time": "2026-10-12T19:31:13.228125+00:00",
-    "opened_coins": [
-      "QNT",
-      "DOT",
-      "AVAX",
-      "RENDER"
-    ]
-  },
-  "last_market_breadth_green": 8,
+  "market_event": null,
+  "last_market_breadth_green": 21,
   "market_burst_locked": false,
   "pending_events": []
 }
