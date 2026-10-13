@@ -251,10 +251,90 @@
       "spot_return_pct": -0.588991,
       "leveraged_return_pct": -1.766972,
       "gross_pnl_usd": -0.088349
+    },
+    {
+      "coin": "BTC",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 81990.0,
+      "entry_time": "2026-10-13T01:31:13.537986+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": 82072.0,
+      "price_m2_time": "2026-10-13T01:33:13.865776+00:00",
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-13T00:54:00+00:00",
+      "market_confirm_time": "2026-10-13T00:58:00+00:00",
+      "market_momentum_2_4_pct": 0.089835,
+      "move60_rank": 1,
+      "move60_pct": 0.125568,
+      "basket_id": "V05B:2026-10-13T01:31:13.530935+00:00:BTC,ETH,HYPE,TRX"
+    },
+    {
+      "coin": "ETH",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 2450.2,
+      "entry_time": "2026-10-13T01:31:13.538005+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": 2454.8,
+      "price_m2_time": "2026-10-13T01:33:13.865993+00:00",
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-13T00:54:00+00:00",
+      "market_confirm_time": "2026-10-13T00:58:00+00:00",
+      "market_momentum_2_4_pct": 0.089835,
+      "move60_rank": 2,
+      "move60_pct": 0.049644,
+      "basket_id": "V05B:2026-10-13T01:31:13.530935+00:00:BTC,ETH,HYPE,TRX"
+    },
+    {
+      "coin": "HYPE",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 81.368,
+      "entry_time": "2026-10-13T01:31:13.538012+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": 81.364,
+      "price_m2_time": "2026-10-13T01:33:13.866156+00:00",
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-13T00:54:00+00:00",
+      "market_confirm_time": "2026-10-13T00:58:00+00:00",
+      "market_momentum_2_4_pct": 0.089835,
+      "move60_rank": 3,
+      "move60_pct": 0.019933,
+      "basket_id": "V05B:2026-10-13T01:31:13.530935+00:00:BTC,ETH,HYPE,TRX"
+    },
+    {
+      "coin": "TRX",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 0.32895,
+      "entry_time": "2026-10-13T01:31:13.538018+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": 0.32901,
+      "price_m2_time": "2026-10-13T01:33:13.866304+00:00",
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-13T00:54:00+00:00",
+      "market_confirm_time": "2026-10-13T00:58:00+00:00",
+      "market_momentum_2_4_pct": 0.089835,
+      "move60_rank": 4,
+      "move60_pct": 0.009142,
+      "basket_id": "V05B:2026-10-13T01:31:13.530935+00:00:BTC,ETH,HYPE,TRX"
     }
   ],
   "market_event": {
-    "status": "CONFIRMED",
+    "status": "ACTIVE",
     "go_time": "2026-10-13T00:54:00+00:00",
     "breadth_prev": {
       "green": 26,
@@ -269,9 +349,41 @@
     "created_at": "2026-10-13T00:55:13.717377+00:00",
     "confirm_time": "2026-10-13T00:58:00+00:00",
     "market_momentum_2_4_pct": 0.089835,
-    "confirm_n": 27
+    "confirm_n": 27,
+    "top4": [
+      {
+        "rank": 1,
+        "coin": "BTC",
+        "move60_pct": 0.125568
+      },
+      {
+        "rank": 2,
+        "coin": "ETH",
+        "move60_pct": 0.049644
+      },
+      {
+        "rank": 3,
+        "coin": "HYPE",
+        "move60_pct": 0.019933
+      },
+      {
+        "rank": 4,
+        "coin": "TRX",
+        "move60_pct": 0.009142
+      }
+    ],
+    "top4_locked": true,
+    "top4_lock_time": "2026-10-13T01:31:13.530935+00:00",
+    "basket_id": "V05B:2026-10-13T01:31:13.530935+00:00:BTC,ETH,HYPE,TRX",
+    "entry_time": "2026-10-13T01:31:13.538032+00:00",
+    "opened_coins": [
+      "BTC",
+      "ETH",
+      "HYPE",
+      "TRX"
+    ]
   },
-  "last_market_breadth_green": 17,
+  "last_market_breadth_green": 13,
   "market_burst_locked": false,
   "pending_events": []
 }

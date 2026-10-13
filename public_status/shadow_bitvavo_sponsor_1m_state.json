@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04",
   "created_at": "2026-09-30T13:57:56.192235+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 10.088843893252537,
+  "realized_gross_eur": 10.81009128087575,
   "legs": [
     {
       "coin": "HBAR",
@@ -2441,7 +2441,7 @@
     {
       "coin": "HYPE",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 76.20182012847965,
       "entry_time": "2026-10-11T12:28:01.949887+00:00",
       "margin_eur": 5.0,
@@ -2470,7 +2470,13 @@
         "ret_5m_pct": -0.10072616537830648,
         "ret_15m_pct": -0.20708778416071993,
         "ret_60m_pct": 0.030492095510625816
-      }
+      },
+      "exit_eur": 72.53779588182633,
+      "exit_time": "2026-10-13T01:32:02.304177+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 4.808316,
+      "leveraged_return_pct": 14.424948,
+      "gross_pnl_eur": 0.721247
     },
     {
       "coin": "BCH",
@@ -2640,9 +2646,9 @@
       "entry_time": "2026-10-13T00:38:01.720161+00:00",
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 4.529095792300806,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 4.604580425836465,
+      "roll_stop_eur": 4.563139202003937,
       "entry_breadth": {
         "5m": {
           "green": 26,
