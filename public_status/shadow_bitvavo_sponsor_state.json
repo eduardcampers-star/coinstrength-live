@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04",
   "created_at": "2026-09-26T06:23:47.342463+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 19.840867585538348,
+  "realized_gross_eur": 20.556004311493197,
   "legs": [
     {
       "coin": "SUI",
@@ -3561,7 +3561,7 @@
     {
       "coin": "SHIB",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 4.797687861271676e-06,
       "entry_time": "2026-10-09T05:53:03.236595+00:00",
       "margin_eur": 5.0,
@@ -3590,7 +3590,13 @@
         "ret_5m_pct": -0.14828544949025968,
         "ret_15m_pct": -0.12977382276603278,
         "ret_60m_pct": 0.5412467338559157
-      }
+      },
+      "exit_eur": 4.568954341987466e-06,
+      "exit_time": "2026-10-13T01:18:01.754382+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 4.767578,
+      "leveraged_return_pct": 14.302735,
+      "gross_pnl_eur": 0.715137
     },
     {
       "coin": "ONDO",
@@ -4120,9 +4126,9 @@
       "entry_time": "2026-10-13T01:03:02.066527+00:00",
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 1.8272157564905998,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 1.865104213257,
+      "roll_stop_eur": 1.848318275337687,
       "entry_breadth": {
         "5m": {
           "green": 27,
