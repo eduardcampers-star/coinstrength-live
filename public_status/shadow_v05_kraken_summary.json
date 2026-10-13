@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-13T01:59:13.582142+00:00",
+  "generated_at": "2026-10-13T02:04:13.287220+00:00",
   "strategy": "KRAKEN_V05_CANDIDATE_B",
-  "kraken_live_timestamp": "2026-10-13T01:59:12.665138+00:00",
-  "film_timestamp": "2026-10-13T01:59:08.015086+00:00",
+  "kraken_live_timestamp": "2026-10-13T02:04:12.892362+00:00",
+  "film_timestamp": "2026-10-13T02:04:07.918461+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
-      "green": 16,
-      "red": 1,
-      "flat": 10
+      "green": 8,
+      "red": 7,
+      "flat": 12
     },
     "breadth_15m": {
-      "green": 24,
-      "red": 1,
+      "green": 22,
+      "red": 3,
       "flat": 2
     },
     "breadth_60m": {
@@ -24,33 +24,18 @@
   },
   "opened_this_run": [],
   "start_pot_usd": 20.0,
-  "realized_gross_usd": -0.5323,
-  "open_pnl_usd": 0.0668,
-  "paper_equity_gross_usd": 19.5345,
+  "realized_gross_usd": -0.4673,
+  "open_pnl_usd": 0.0,
+  "paper_equity_gross_usd": 19.5327,
   "estimated_costs_usd": 0.1798,
-  "paper_equity_est_net_usd": 19.3547,
-  "open_count": 1,
-  "closed_count": 11,
-  "strategy_closed_count": 11,
+  "paper_equity_est_net_usd": 19.3529,
+  "open_count": 0,
+  "closed_count": 12,
+  "strategy_closed_count": 12,
   "technical_closed_count": 0,
-  "strategy_win_count": 4,
-  "strategy_win_rate_pct": 36.36363636363637,
-  "open_legs": [
-    {
-      "coin": "BTC",
-      "direction": "LONG",
-      "entry_usd": 81990.0,
-      "current_usd": 82355.0,
-      "spot_return_pct": 0.4452,
-      "leveraged_return_pct": 1.3355,
-      "open_pnl_usd": 0.0668,
-      "roll_active": false,
-      "roll_stop_eur": null,
-      "entry_time": "2026-10-13T01:31:13.537986+00:00",
-      "entry_breadth": null,
-      "entry_move": null
-    }
-  ],
+  "strategy_win_count": 5,
+  "strategy_win_rate_pct": 41.666666666666664,
+  "open_legs": [],
   "closed_legs": [
     {
       "coin": "QNT",
@@ -163,6 +148,20 @@
       "technical_close": false,
       "entry_time": "2026-10-13T00:02:13.752450+00:00",
       "exit_time": "2026-10-13T00:07:13.786274+00:00"
+    },
+    {
+      "coin": "BTC",
+      "direction": "LONG",
+      "reason": "TIME30",
+      "spot_return_pct": 0.43298,
+      "leveraged_return_pct": 1.298939,
+      "gross_pnl_usd": 0.064947,
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.00753247347237468,
+      "net_pnl_usd": 0.049914471276984014,
+      "technical_close": false,
+      "entry_time": "2026-10-13T01:31:13.537986+00:00",
+      "exit_time": "2026-10-13T02:01:13.819221+00:00"
     },
     {
       "coin": "ETH",
