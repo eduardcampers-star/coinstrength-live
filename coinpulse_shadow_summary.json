@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-10-14T19:41:02.680483+00:00",
+  "generated_at": "2026-10-14T20:01:02.374145+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 15,
-  "strong_24h": 6,
+  "events_24h": 16,
+  "strong_24h": 7,
   "results": {
     "5m": {
       "canonical": {
-        "n": 15,
-        "avg_return_pct": 0.1023,
-        "positive": 7
+        "n": 16,
+        "avg_return_pct": 0.0995,
+        "positive": 8
       },
       "mover3d": {
-        "n": 15,
+        "n": 16,
         "avg_return_pct": 0.0639,
-        "positive": 7
+        "positive": 8
       },
       "hybrid_rebound_v2": {
-        "n": 15,
-        "avg_return_pct": 0.0222,
-        "positive": 6
+        "n": 16,
+        "avg_return_pct": 0.0247,
+        "positive": 7
       }
     },
     "15m": {
       "canonical": {
-        "n": 15,
-        "avg_return_pct": 0.0343,
-        "positive": 7
-      },
-      "mover3d": {
-        "n": 15,
-        "avg_return_pct": 0.0521,
+        "n": 16,
+        "avg_return_pct": 0.0364,
         "positive": 8
       },
+      "mover3d": {
+        "n": 16,
+        "avg_return_pct": 0.0721,
+        "positive": 9
+      },
       "hybrid_rebound_v2": {
-        "n": 15,
-        "avg_return_pct": -0.0073,
-        "positive": 7
+        "n": 16,
+        "avg_return_pct": 0.0164,
+        "positive": 8
       }
     },
     "30m": {
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-10-14T08:21:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "LINK",
-        "NEAR"
-      ],
-      "canonical": [
-        "BCH",
-        "TRX"
-      ],
-      "mover3d": [
-        "RENDER",
-        "NEAR"
-      ],
-      "hybrid": [
-        "RENDER",
-        "NEAR"
-      ]
-    },
     {
       "trigger_time": "2026-10-14T08:36:00+00:00",
       "level": "STRONG",
@@ -294,6 +274,28 @@
       "hybrid": [
         "FET",
         "TAO"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-14T19:39:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "HBAR",
+        "ONDO",
+        "RENDER",
+        "XRP"
+      ],
+      "canonical": [
+        "TRX",
+        "DOT"
+      ],
+      "mover3d": [
+        "RENDER",
+        "NEAR"
+      ],
+      "hybrid": [
+        "RENDER",
+        "NEAR"
       ]
     }
   ]
