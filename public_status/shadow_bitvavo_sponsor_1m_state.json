@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04",
   "created_at": "2026-09-30T13:57:56.192235+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 12.485844990266001,
+  "realized_gross_eur": 12.035844990266,
   "legs": [
     {
       "coin": "HBAR",
@@ -2915,7 +2915,7 @@
     {
       "coin": "FET",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.18907825466226466,
       "entry_time": "2026-10-13T13:14:03.940331+00:00",
       "margin_eur": 5.0,
@@ -2944,7 +2944,13 @@
         "ret_5m_pct": 0.4269449715370133,
         "ret_15m_pct": 0.09456264775413725,
         "ret_60m_pct": 0.6178707224334667
-      }
+      },
+      "exit_eur": 0.19475060230213262,
+      "exit_time": "2026-10-14T04:47:02.795064+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     },
     {
       "coin": "RENDER",
@@ -2955,8 +2961,8 @@
       "margin_eur": 5.0,
       "leverage": 3.0,
       "roll_active": true,
-      "best_eur": 1.8219092610749623,
-      "roll_stop_eur": 1.8383064444246369,
+      "best_eur": 1.8192352259559676,
+      "roll_stop_eur": 1.835608342989571,
       "entry_breadth": {
         "5m": {
           "green": 0,
