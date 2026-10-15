@@ -375,10 +375,90 @@
       "spot_return_pct": -0.00608,
       "leveraged_return_pct": -0.01824,
       "gross_pnl_usd": -0.000912
+    },
+    {
+      "coin": "MOODENG",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 0.03739,
+      "entry_time": "2026-10-15T02:38:13.335264+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-15T02:33:00+00:00",
+      "market_confirm_time": "2026-10-15T02:37:00+00:00",
+      "market_momentum_2_4_pct": 0.215317,
+      "move60_rank": 1,
+      "move60_pct": -4.48833,
+      "basket_id": "V05B:2026-10-15T02:38:13.328574+00:00:DOT,MOODENG,PEPE,WLD"
+    },
+    {
+      "coin": "DOT",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 1.0983,
+      "entry_time": "2026-10-15T02:38:13.335282+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-15T02:33:00+00:00",
+      "market_confirm_time": "2026-10-15T02:37:00+00:00",
+      "market_momentum_2_4_pct": 0.215317,
+      "move60_rank": 2,
+      "move60_pct": -4.169211,
+      "basket_id": "V05B:2026-10-15T02:38:13.328574+00:00:DOT,MOODENG,PEPE,WLD"
+    },
+    {
+      "coin": "PEPE",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 3.9118e-06,
+      "entry_time": "2026-10-15T02:38:13.335289+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-15T02:33:00+00:00",
+      "market_confirm_time": "2026-10-15T02:37:00+00:00",
+      "market_momentum_2_4_pct": 0.215317,
+      "move60_rank": 3,
+      "move60_pct": -3.904459,
+      "basket_id": "V05B:2026-10-15T02:38:13.328574+00:00:DOT,MOODENG,PEPE,WLD"
+    },
+    {
+      "coin": "WLD",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 0.4743,
+      "entry_time": "2026-10-15T02:38:13.335295+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-15T02:33:00+00:00",
+      "market_confirm_time": "2026-10-15T02:37:00+00:00",
+      "market_momentum_2_4_pct": 0.215317,
+      "move60_rank": 4,
+      "move60_pct": -3.476316,
+      "basket_id": "V05B:2026-10-15T02:38:13.328574+00:00:DOT,MOODENG,PEPE,WLD"
     }
   ],
   "market_event": {
-    "status": "WAIT_CONFIRM",
+    "status": "ACTIVE",
     "go_time": "2026-10-15T02:33:00+00:00",
     "breadth_prev": {
       "green": 24,
@@ -390,9 +470,44 @@
       "red": 1,
       "flat": 1
     },
-    "created_at": "2026-10-15T02:34:13.854049+00:00"
+    "created_at": "2026-10-15T02:34:13.854049+00:00",
+    "confirm_time": "2026-10-15T02:37:00+00:00",
+    "market_momentum_2_4_pct": 0.215317,
+    "confirm_n": 27,
+    "top4": [
+      {
+        "rank": 1,
+        "coin": "MOODENG",
+        "move60_pct": -4.48833
+      },
+      {
+        "rank": 2,
+        "coin": "DOT",
+        "move60_pct": -4.169211
+      },
+      {
+        "rank": 3,
+        "coin": "PEPE",
+        "move60_pct": -3.904459
+      },
+      {
+        "rank": 4,
+        "coin": "WLD",
+        "move60_pct": -3.476316
+      }
+    ],
+    "top4_locked": true,
+    "top4_lock_time": "2026-10-15T02:38:13.328574+00:00",
+    "basket_id": "V05B:2026-10-15T02:38:13.328574+00:00:DOT,MOODENG,PEPE,WLD",
+    "entry_time": "2026-10-15T02:38:13.335308+00:00",
+    "opened_coins": [
+      "MOODENG",
+      "DOT",
+      "PEPE",
+      "WLD"
+    ]
   },
-  "last_market_breadth_green": 25,
-  "market_burst_locked": true,
+  "last_market_breadth_green": 15,
+  "market_burst_locked": false,
   "pending_events": []
 }
