@@ -2,8 +2,8 @@
   "strategy": "EARLY_KRAKEN_PAPER_V1",
   "mode": "RESEARCH_PAPER",
   "created_at": "2026-10-14T18:24:17.972527+00:00",
-  "realized_pnl_usd": 0.4585799999999889,
-  "total_fees_usd": 0.22639305999999995,
+  "realized_pnl_usd": -0.02502000000000848,
+  "total_fees_usd": 0.23462985999999994,
   "max_positions": 4,
   "target_margin_usd": 5.0,
   "min_margin_usd": 4.0,
@@ -278,12 +278,17 @@
       "margin_usd": 5.33,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": -0.46359999999999957,
+      "unrealized_gross_pnl_usd": -0.4835999999999985,
       "coin": "HYPE",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_time": "2026-10-15T14:28:51.831740+00:00",
       "roll_active": false,
-      "current_exit_price_usd": 82.268
+      "current_exit_price_usd": 82.368,
+      "exit_time": "2026-10-15T20:38:52.029510+00:00",
+      "exit_reason": "HARD_SL",
+      "exit_price": 82.368,
+      "gross_pnl_usd": -0.48359999999999737,
+      "net_pnl_usd": -0.4998317999999974
     },
     {
       "direction": "SHORT",
@@ -295,12 +300,12 @@
       "margin_usd": 5.003,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": -0.19500000000000184,
+      "unrealized_gross_pnl_usd": -0.1650000000000018,
       "coin": "WLD",
       "status": "OPEN",
       "entry_time": "2026-10-15T15:33:51.198767+00:00",
       "roll_active": false,
-      "current_exit_price_usd": 0.5068
+      "current_exit_price_usd": 0.5058
     },
     {
       "direction": "SHORT",
@@ -358,12 +363,12 @@
       "margin_usd": 5.1485,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": -0.08400000000000074,
+      "unrealized_gross_pnl_usd": -0.07649999999999824,
       "coin": "SUI",
       "status": "OPEN",
       "entry_time": "2026-10-15T18:03:51.970124+00:00",
       "roll_active": false,
-      "current_exit_price_usd": 1.0353
+      "current_exit_price_usd": 1.0348
     },
     {
       "direction": "SHORT",
@@ -375,16 +380,16 @@
       "margin_usd": 4.935,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": -0.025200000000000958,
+      "unrealized_gross_pnl_usd": -0.03359999999999929,
       "coin": "SOL",
       "status": "OPEN",
       "entry_time": "2026-10-15T19:36:51.515709+00:00",
       "roll_active": false,
-      "current_exit_price_usd": 105.93
+      "current_exit_price_usd": 105.99
     }
   ],
-  "closed_trades": 13,
+  "closed_trades": 14,
   "start_capital_usd": 25.0,
-  "last_paper_cycle_utc": "2026-10-15T20:34:51.689909+00:00",
+  "last_paper_cycle_utc": "2026-10-15T20:39:51.340919+00:00",
   "last_entry_film_minute": "2026-10-15T19:35:00+00:00"
 }
