@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-15T02:39:09.839232+00:00",
+  "generated_at": "2026-10-15T02:44:09.707244+00:00",
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "latest_timestamp": "2026-10-15T04:30:01+02:00",
-  "film_timestamp": "2026-10-15T02:37:01.994153+00:00",
+  "film_timestamp": "2026-10-15T02:42:01.586544+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "LONG",
+    "target_legs": 3,
     "breadth_5m": {
-      "green": 27,
-      "red": 0,
-      "flat": 0
+      "green": 8,
+      "red": 10,
+      "flat": 9
     },
     "breadth_15m": {
-      "green": 2,
-      "red": 25,
-      "flat": 0
+      "green": 20,
+      "red": 6,
+      "flat": 1
     },
     "breadth_60m": {
       "green": 0,
@@ -30,7 +30,7 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 6.48,
   "paper_equity_est_net_eur": 21.174,
-  "open_count": 3,
+  "open_count": 4,
   "closed_count": 72,
   "open_legs": [
     {
@@ -133,6 +133,40 @@
         "ret_5m_pct": -0.1204728559596413,
         "ret_15m_pct": -0.13551155612436805,
         "ret_60m_pct": -0.16557537442613013
+      }
+    },
+    {
+      "coin": "ONDO",
+      "direction": "LONG",
+      "entry_eur": 0.3800320627003919,
+      "current_eur": 0.3800320627003919,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-15T02:43:10.898335+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 8,
+          "red": 10,
+          "flat": 9
+        },
+        "15m": {
+          "green": 20,
+          "red": 6,
+          "flat": 1
+        },
+        "60m": {
+          "green": 0,
+          "red": 27,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.34618047542118724,
+        "ret_15m_pct": 0.9753831862517437,
+        "ret_60m_pct": -2.072072072072073
       }
     }
   ],
