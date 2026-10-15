@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-15T02:21:01.916645+00:00",
+  "generated_at": "2026-10-15T02:26:01.495077+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 9.199,
-  "open_pnl_eur": -0.7613,
-  "paper_equity_gross_eur": 28.4377,
-  "open_count": 7,
-  "closed_count": 232,
+  "realized_gross_eur": 8.749,
+  "open_pnl_eur": -0.2016,
+  "paper_equity_gross_eur": 28.5475,
+  "open_count": 6,
+  "closed_count": 233,
   "last_selection_hour": "2026-10-15T04",
   "latest_timestamp": "2026-10-15T04:15:01+02:00",
   "open_legs": [
@@ -31,10 +31,10 @@
       "spot_return_pct": 2.2928,
       "leveraged_return_pct": 6.8784,
       "open_pnl_eur": 0.3439,
-      "roll_active": false,
+      "roll_active": true,
       "hard_sl_usdt": 0.454539,
       "roll_activation_usdt": 0.4346805,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 0.43810779999999994
     },
     {
       "coin": "MOODENG",
@@ -47,7 +47,7 @@
       "roll_active": true,
       "hard_sl_usdt": 0.0403554,
       "roll_activation_usdt": 0.038592299999999996,
-      "roll_stop_usdt": 0.03890703999999999
+      "roll_stop_usdt": 0.038806139999999996
     },
     {
       "coin": "HYPE",
@@ -60,19 +60,6 @@
       "roll_active": false,
       "hard_sl_usdt": 82.45253000000001,
       "roll_activation_usdt": 78.850235,
-      "roll_stop_usdt": null
-    },
-    {
-      "coin": "TAO",
-      "direction": "LONG",
-      "entry_eur": 245.6660379053265,
-      "current_eur": 236.49875400498402,
-      "spot_return_pct": -3.7316,
-      "leveraged_return_pct": -11.1948,
-      "open_pnl_eur": -0.5597,
-      "roll_active": false,
-      "hard_sl_usdt": 265.295,
-      "roll_activation_usdt": 277.60249999999996,
       "roll_stop_usdt": null
     },
     {
@@ -103,14 +90,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "PEPE",
-      "direction": "LONG",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 0.642745945945955,
-      "leveraged_return_pct": 1.928237837837865,
-      "gross_pnl_eur": 0.09641189189189327
-    },
     {
       "coin": "RENDER",
       "direction": "SHORT",
@@ -198,6 +177,14 @@
       "spot_return_pct": 1.080372914622194,
       "leveraged_return_pct": 3.241118743866582,
       "gross_pnl_eur": 0.1620559371933291
+    },
+    {
+      "coin": "TAO",
+      "direction": "LONG",
+      "reason": "HARD_SL",
+      "spot_return_pct": -2.9999999999999916,
+      "leveraged_return_pct": -8.999999999999975,
+      "gross_pnl_eur": -0.44999999999999873
     }
   ]
 }
