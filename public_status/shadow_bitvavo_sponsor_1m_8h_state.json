@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "created_at": "2026-10-02T13:14:10.418159+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 6.621671858646599,
+  "realized_gross_eur": 7.547714428231425,
   "legs": [
     {
       "coin": "FET",
@@ -2994,7 +2994,7 @@
     {
       "coin": "WLD",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.44063229746721755,
       "entry_time": "2026-10-14T15:43:11.210253+00:00",
       "entry_move_8h_pct": -4.329173166926692,
@@ -3024,12 +3024,18 @@
         "ret_5m_pct": -0.4070832485243203,
         "ret_15m_pct": -0.264981655116181,
         "ret_60m_pct": 0.14326647564470996
-      }
+      },
+      "exit_eur": 0.42128535803348766,
+      "exit_time": "2026-10-15T02:47:11.445636+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 4.390722,
+      "leveraged_return_pct": 13.172166,
+      "gross_pnl_eur": 0.658608
     },
     {
       "coin": "XRP",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 1.1887147335423196,
       "entry_time": "2026-10-14T20:18:10.115144+00:00",
       "entry_move_8h_pct": -3.630554748765613,
@@ -3059,7 +3065,13 @@
         "ret_5m_pct": -0.1204728559596413,
         "ret_15m_pct": -0.13551155612436805,
         "ret_60m_pct": -0.16557537442613013
-      }
+      },
+      "exit_eur": 1.167521197007481,
+      "exit_time": "2026-10-15T02:47:11.445851+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 1.782895,
+      "leveraged_return_pct": 5.348685,
+      "gross_pnl_eur": 0.267434
     },
     {
       "coin": "ONDO",
@@ -3070,9 +3082,9 @@
       "entry_move_8h_pct": -4.112359550561795,
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 0.3800320627003919,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 0.3888048411497731,
+      "roll_stop_eur": 0.3853055975794251,
       "entry_breadth": {
         "5m": {
           "green": 8,
