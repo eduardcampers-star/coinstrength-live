@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-15T03:46:03.172876+00:00",
+  "generated_at": "2026-10-15T04:01:02.985485+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 19,
+  "events_24h": 20,
   "strong_24h": 8,
   "results": {
     "5m": {
       "canonical": {
-        "n": 19,
-        "avg_return_pct": 0.0911,
+        "n": 20,
+        "avg_return_pct": 0.0853,
         "positive": 10
       },
       "mover3d": {
-        "n": 19,
-        "avg_return_pct": 0.0935,
-        "positive": 11
+        "n": 20,
+        "avg_return_pct": 0.0891,
+        "positive": 12
       },
       "hybrid_rebound_v2": {
-        "n": 19,
-        "avg_return_pct": 0.084,
-        "positive": 10
+        "n": 20,
+        "avg_return_pct": 0.0801,
+        "positive": 11
       }
     },
     "15m": {
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-10-14T15:41:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "MOODENG",
-        "TAO"
-      ],
-      "canonical": [
-        "TRX",
-        "RENDER"
-      ],
-      "mover3d": [
-        "RENDER",
-        "NEAR"
-      ],
-      "hybrid": [
-        "RENDER",
-        "FET"
-      ]
-    },
     {
       "trigger_time": "2026-10-14T15:59:00+00:00",
       "level": "STRONG",
@@ -282,6 +262,26 @@
       "hybrid": [
         "NEAR",
         "RENDER"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-15T03:43:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "NEAR",
+        "TAO"
+      ],
+      "canonical": [
+        "TRX",
+        "BTC"
+      ],
+      "mover3d": [
+        "RENDER",
+        "NEAR"
+      ],
+      "hybrid": [
+        "RENDER",
+        "NEAR"
       ]
     }
   ]
