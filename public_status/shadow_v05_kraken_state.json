@@ -2,7 +2,7 @@
   "strategy": "KRAKEN_V05_CANDIDATE_B",
   "created_at": "2026-10-10T17:08:41.058147+00:00",
   "start_pot_usd": 20.0,
-  "realized_gross_usd": -0.4673445908962801,
+  "realized_gross_usd": 0.05531649530429128,
   "legs": [
     {
       "coin": "QNT",
@@ -379,7 +379,7 @@
     {
       "coin": "MOODENG",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 0.03739,
       "entry_time": "2026-10-15T02:38:13.335264+00:00",
       "margin_usd": 5.0,
@@ -396,12 +396,21 @@
       "move60_pct": -4.48833,
       "basket_id": "V05B:2026-10-15T02:38:13.328574+00:00:DOT,MOODENG,PEPE,WLD",
       "momentum_2_4_pct": 2.363287,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007586253008825889,
+      "net_pnl_usd": 0.1574197646429513,
+      "exit_usd": 0.03782,
+      "exit_time": "2026-10-15T03:09:13.465470+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": 1.15004,
+      "leveraged_return_pct": 3.45012,
+      "gross_pnl_usd": 0.172506
     },
     {
       "coin": "DOT",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 1.0983,
       "entry_time": "2026-10-15T02:38:13.335282+00:00",
       "margin_usd": 5.0,
@@ -418,12 +427,21 @@
       "move60_pct": -4.169211,
       "basket_id": "V05B:2026-10-15T02:38:13.328574+00:00:DOT,MOODENG,PEPE,WLD",
       "momentum_2_4_pct": 0.411523,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007588773559136847,
+      "net_pnl_usd": 0.16245834471455678,
+      "exit_usd": 1.1113,
+      "exit_time": "2026-10-15T03:09:13.470400+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": 1.183647,
+      "leveraged_return_pct": 3.550942,
+      "gross_pnl_usd": 0.177547
     },
     {
       "coin": "PEPE",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 3.9118e-06,
       "entry_time": "2026-10-15T02:38:13.335289+00:00",
       "margin_usd": 5.0,
@@ -440,12 +458,21 @@
       "move60_pct": -3.904459,
       "basket_id": "V05B:2026-10-15T02:38:13.328574+00:00:DOT,MOODENG,PEPE,WLD",
       "momentum_2_4_pct": 0.386797,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007515146479881383,
+      "net_pnl_usd": 0.015277813282884975,
+      "exit_usd": 3.9197e-06,
+      "exit_time": "2026-10-15T03:09:13.475582+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": 0.201953,
+      "leveraged_return_pct": 0.605859,
+      "gross_pnl_usd": 0.030293
     },
     {
       "coin": "WLD",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 0.4743,
       "entry_time": "2026-10-15T02:38:13.335295+00:00",
       "margin_usd": 5.0,
@@ -462,60 +489,20 @@
       "move60_pct": -3.476316,
       "basket_id": "V05B:2026-10-15T02:38:13.328574+00:00:DOT,MOODENG,PEPE,WLD",
       "momentum_2_4_pct": 0.784563,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007571157495256167,
+      "net_pnl_usd": 0.12724383301707803,
+      "exit_usd": 0.4788,
+      "exit_time": "2026-10-15T03:09:13.480096+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": 0.948767,
+      "leveraged_return_pct": 2.8463,
+      "gross_pnl_usd": 0.142315
     }
   ],
-  "market_event": {
-    "status": "ACTIVE",
-    "go_time": "2026-10-15T02:33:00+00:00",
-    "breadth_prev": {
-      "green": 24,
-      "red": 2,
-      "flat": 1
-    },
-    "breadth_go": {
-      "green": 25,
-      "red": 1,
-      "flat": 1
-    },
-    "created_at": "2026-10-15T02:34:13.854049+00:00",
-    "confirm_time": "2026-10-15T02:37:00+00:00",
-    "market_momentum_2_4_pct": 0.215317,
-    "confirm_n": 27,
-    "top4": [
-      {
-        "rank": 1,
-        "coin": "MOODENG",
-        "move60_pct": -4.48833
-      },
-      {
-        "rank": 2,
-        "coin": "DOT",
-        "move60_pct": -4.169211
-      },
-      {
-        "rank": 3,
-        "coin": "PEPE",
-        "move60_pct": -3.904459
-      },
-      {
-        "rank": 4,
-        "coin": "WLD",
-        "move60_pct": -3.476316
-      }
-    ],
-    "top4_locked": true,
-    "top4_lock_time": "2026-10-15T02:38:13.328574+00:00",
-    "basket_id": "V05B:2026-10-15T02:38:13.328574+00:00:DOT,MOODENG,PEPE,WLD",
-    "entry_time": "2026-10-15T02:38:13.335308+00:00",
-    "opened_coins": [
-      "MOODENG",
-      "DOT",
-      "PEPE",
-      "WLD"
-    ]
-  },
-  "last_market_breadth_green": 2,
+  "market_event": null,
+  "last_market_breadth_green": 3,
   "market_burst_locked": false,
   "pending_events": []
 }
