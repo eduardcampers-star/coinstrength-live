@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "created_at": "2026-10-02T13:14:10.418159+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 7.547714428231425,
+  "realized_gross_eur": 7.7558627160980205,
   "legs": [
     {
       "coin": "FET",
@@ -3076,7 +3076,7 @@
     {
       "coin": "ONDO",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.3800320627003919,
       "entry_time": "2026-10-15T02:43:10.898335+00:00",
       "entry_move_8h_pct": -4.112359550561795,
@@ -3106,7 +3106,13 @@
         "ret_5m_pct": 0.34618047542118724,
         "ret_15m_pct": 0.9753831862517437,
         "ret_60m_pct": -2.072072072072073
-      }
+      },
+      "exit_eur": 0.3853055975794251,
+      "exit_time": "2026-10-15T03:17:10.814193+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 1.387655,
+      "leveraged_return_pct": 4.162966,
+      "gross_pnl_eur": 0.208148
     },
     {
       "coin": "BCH",
@@ -3141,6 +3147,76 @@
         "ret_5m_pct": 0.7599190438003722,
         "ret_15m_pct": 0.7907101111577886,
         "ret_60m_pct": -1.508025382605438
+      }
+    },
+    {
+      "coin": "VET",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 0.005969564830470767,
+      "entry_time": "2026-10-15T03:18:10.075442+00:00",
+      "entry_move_8h_pct": -4.702372496093188,
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "roll_active": false,
+      "best_eur": 0.005969564830470767,
+      "roll_stop_eur": null,
+      "entry_breadth": {
+        "5m": {
+          "green": 26,
+          "red": 0,
+          "flat": 1
+        },
+        "15m": {
+          "green": 26,
+          "red": 0,
+          "flat": 1
+        },
+        "60m": {
+          "green": 1,
+          "red": 26,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.31324582338903006,
+        "ret_15m_pct": 0.900225056264059,
+        "ret_60m_pct": -2.210266104405989
+      }
+    },
+    {
+      "coin": "MOODENG",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 0.03356767820592685,
+      "entry_time": "2026-10-15T03:19:11.559963+00:00",
+      "entry_move_8h_pct": -4.069175991861663,
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "roll_active": false,
+      "best_eur": 0.03356767820592685,
+      "roll_stop_eur": null,
+      "entry_breadth": {
+        "5m": {
+          "green": 26,
+          "red": 0,
+          "flat": 1
+        },
+        "15m": {
+          "green": 26,
+          "red": 0,
+          "flat": 1
+        },
+        "60m": {
+          "green": 1,
+          "red": 26,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.5042462845010753,
+        "ret_15m_pct": 1.06752068321323,
+        "ret_60m_pct": -1.9166019166019121
       }
     }
   ]
