@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-15T14:41:01.816930+00:00",
+  "generated_at": "2026-10-15T14:46:01.525301+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 9.2852,
-  "open_pnl_eur": -0.7244,
-  "paper_equity_gross_eur": 28.5608,
-  "open_count": 5,
-  "closed_count": 241,
+  "realized_gross_eur": 8.8352,
+  "open_pnl_eur": -0.4308,
+  "paper_equity_gross_eur": 28.4044,
+  "open_count": 4,
+  "closed_count": 242,
   "last_selection_hour": "2026-10-15T16",
   "latest_timestamp": "2026-10-15T16:30:01+02:00",
   "open_legs": [
@@ -31,23 +31,10 @@
       "spot_return_pct": 0.8457,
       "leveraged_return_pct": 2.5371,
       "open_pnl_eur": 0.1269,
-      "roll_active": false,
+      "roll_active": true,
       "hard_sl_usdt": 0.1735912,
       "roll_activation_usdt": 0.18164439999999998,
-      "roll_stop_usdt": null
-    },
-    {
-      "coin": "RENDER",
-      "direction": "SHORT",
-      "entry_eur": 1.621380846325167,
-      "current_eur": 1.6537467700258397,
-      "spot_return_pct": -1.9571,
-      "leveraged_return_pct": -5.8714,
-      "open_pnl_eur": -0.2936,
-      "roll_active": false,
-      "hard_sl_usdt": 1.8746,
-      "roll_activation_usdt": 1.7927,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 0.18037191
     },
     {
       "coin": "LINK",
@@ -77,14 +64,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "SUI",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 1.190835684405113,
-      "leveraged_return_pct": 3.5725070532153387,
-      "gross_pnl_eur": 0.17862535266076696
-    },
     {
       "coin": "LTC",
       "direction": "SHORT",
@@ -172,6 +151,14 @@
       "spot_return_pct": 1.0374623493976056,
       "leveraged_return_pct": 3.112387048192817,
       "gross_pnl_eur": 0.15561935240964084
+    },
+    {
+      "coin": "RENDER",
+      "direction": "SHORT",
+      "reason": "HARD_SL",
+      "spot_return_pct": -2.9999999999999987,
+      "leveraged_return_pct": -8.999999999999996,
+      "gross_pnl_eur": -0.44999999999999984
     }
   ]
 }
