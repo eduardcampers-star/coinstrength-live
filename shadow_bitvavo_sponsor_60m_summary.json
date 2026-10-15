@@ -1,46 +1,48 @@
 {
-  "generated_at": "2026-10-15T16:14:02.069752+00:00",
+  "generated_at": "2026-10-15T16:19:01.871949+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-10-15T18:00:01+02:00",
-  "film_timestamp": "2026-10-15T16:12:02.039866+00:00",
+  "latest_timestamp": "2026-10-15T18:15:01+02:00",
+  "film_timestamp": "2026-10-15T16:17:01.822344+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "SHORT",
+    "target_legs": 2,
     "breadth_5m": {
-      "green": 8,
-      "red": 14,
+      "green": 1,
+      "red": 21,
       "flat": 5
     },
     "breadth_15m": {
-      "green": 12,
-      "red": 10,
-      "flat": 5
+      "green": 7,
+      "red": 18,
+      "flat": 2
     },
     "breadth_60m": {
-      "green": 24,
-      "red": 3,
-      "flat": 0
+      "green": 21,
+      "red": 4,
+      "flat": 2
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "RENDER"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 14.0595,
-  "open_pnl_eur": 1.0404,
-  "paper_equity_gross_eur": 35.0999,
+  "open_pnl_eur": 1.0647,
+  "paper_equity_gross_eur": 35.1243,
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 9.99,
-  "paper_equity_est_net_eur": 25.1099,
-  "open_count": 3,
+  "paper_equity_est_net_eur": 25.1343,
+  "open_count": 4,
   "closed_count": 111,
   "open_legs": [
     {
       "coin": "TRX",
       "direction": "LONG",
       "entry_eur": 0.2981346597974774,
-      "current_eur": 0.2955323702514714,
-      "spot_return_pct": -0.8729,
-      "leveraged_return_pct": -2.6186,
-      "open_pnl_eur": -0.1309,
+      "current_eur": 0.29566458519179306,
+      "spot_return_pct": -0.8285,
+      "leveraged_return_pct": -2.4855,
+      "open_pnl_eur": -0.1243,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-10-06T16:29:02.802303+00:00",
@@ -71,10 +73,10 @@
       "coin": "HYPE",
       "direction": "LONG",
       "entry_eur": 71.30221786764051,
-      "current_eur": 72.81344747636884,
-      "spot_return_pct": 2.1195,
-      "leveraged_return_pct": 6.3584,
-      "open_pnl_eur": 0.3179,
+      "current_eur": 72.6342551293488,
+      "spot_return_pct": 1.8682,
+      "leveraged_return_pct": 5.6045,
+      "open_pnl_eur": 0.2802,
       "roll_active": true,
       "roll_stop_eur": 72.15812644908152,
       "entry_time": "2026-10-15T06:09:02.315344+00:00",
@@ -105,12 +107,12 @@
       "coin": "VET",
       "direction": "LONG",
       "entry_eur": 0.005920513277490643,
-      "current_eur": 0.006257356875334403,
-      "spot_return_pct": 5.6894,
-      "leveraged_return_pct": 17.0683,
-      "open_pnl_eur": 0.8534,
+      "current_eur": 0.00627921498661909,
+      "spot_return_pct": 6.0586,
+      "leveraged_return_pct": 18.1759,
+      "open_pnl_eur": 0.9088,
       "roll_active": true,
-      "roll_stop_eur": 0.006201040663456394,
+      "roll_stop_eur": 0.006222702051739518,
       "entry_time": "2026-10-15T06:29:02.228728+00:00",
       "entry_breadth": {
         "5m": {
@@ -133,6 +135,40 @@
         "ret_5m_pct": 0.1202103681442468,
         "ret_15m_pct": 0.36150022593763875,
         "ret_60m_pct": 0.04504504504503348
+      }
+    },
+    {
+      "coin": "RENDER",
+      "direction": "SHORT",
+      "entry_eur": 1.7644959857270295,
+      "current_eur": 1.7644959857270295,
+      "spot_return_pct": -0.0,
+      "leveraged_return_pct": -0.0,
+      "open_pnl_eur": -0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-15T16:19:01.871314+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 1,
+          "red": 21,
+          "flat": 5
+        },
+        "15m": {
+          "green": 7,
+          "red": 18,
+          "flat": 2
+        },
+        "60m": {
+          "green": 21,
+          "red": 4,
+          "flat": 2
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.2520161290322509,
+        "ret_15m_pct": 0.3549695740365122,
+        "ret_60m_pct": 2.326783867631854
       }
     }
   ],
