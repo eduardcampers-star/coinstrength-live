@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-10-16T19:01:02.899914+00:00",
+  "generated_at": "2026-10-16T19:16:03.180074+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 16,
+  "events_24h": 17,
   "strong_24h": 7,
   "results": {
     "5m": {
       "canonical": {
-        "n": 16,
-        "avg_return_pct": 0.0319,
-        "positive": 9
+        "n": 17,
+        "avg_return_pct": 0.0435,
+        "positive": 10
       },
       "mover3d": {
-        "n": 16,
-        "avg_return_pct": -0.0404,
+        "n": 17,
+        "avg_return_pct": -0.0434,
         "positive": 7
       },
       "hybrid_rebound_v2": {
-        "n": 16,
-        "avg_return_pct": 0.0045,
-        "positive": 7
+        "n": 17,
+        "avg_return_pct": 0.0171,
+        "positive": 8
       }
     },
     "15m": {
       "canonical": {
-        "n": 15,
-        "avg_return_pct": 0.093,
-        "positive": 9
+        "n": 16,
+        "avg_return_pct": 0.09,
+        "positive": 10
       },
       "mover3d": {
-        "n": 15,
-        "avg_return_pct": 0.0649,
-        "positive": 9
+        "n": 16,
+        "avg_return_pct": 0.0734,
+        "positive": 10
       },
       "hybrid_rebound_v2": {
-        "n": 15,
-        "avg_return_pct": 0.091,
-        "positive": 9
+        "n": 16,
+        "avg_return_pct": 0.102,
+        "positive": 10
       }
     },
     "30m": {
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-10-16T12:56:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "PEPE",
-        "WLD"
-      ],
-      "canonical": [
-        "RENDER",
-        "WLD"
-      ],
-      "mover3d": [
-        "NEAR",
-        "WLD"
-      ],
-      "hybrid": [
-        "NEAR",
-        "RENDER"
-      ]
-    },
     {
       "trigger_time": "2026-10-16T13:37:00+00:00",
       "level": "TRIGGER",
@@ -289,6 +269,26 @@
       "hybrid": [
         "FET",
         "NEAR"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-16T19:04:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "NEAR",
+        "SUI"
+      ],
+      "canonical": [
+        "TRX",
+        "DOT"
+      ],
+      "mover3d": [
+        "NEAR",
+        "WLD"
+      ],
+      "hybrid": [
+        "DOT",
+        "LINK"
       ]
     }
   ]
