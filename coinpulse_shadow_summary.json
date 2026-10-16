@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-10-16T15:16:02.621740+00:00",
+  "generated_at": "2026-10-16T15:31:03.338849+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 11,
-  "strong_24h": 4,
+  "events_24h": 12,
+  "strong_24h": 5,
   "results": {
     "5m": {
       "canonical": {
-        "n": 11,
-        "avg_return_pct": -0.0665,
+        "n": 12,
+        "avg_return_pct": -0.0634,
         "positive": 5
       },
       "mover3d": {
-        "n": 11,
-        "avg_return_pct": -0.0226,
+        "n": 12,
+        "avg_return_pct": -0.0256,
         "positive": 6
       },
       "hybrid_rebound_v2": {
-        "n": 11,
-        "avg_return_pct": 0.004,
+        "n": 12,
+        "avg_return_pct": -0.0011,
         "positive": 6
       }
     },
     "15m": {
       "canonical": {
-        "n": 10,
-        "avg_return_pct": 0.205,
+        "n": 11,
+        "avg_return_pct": 0.0697,
         "positive": 7
       },
       "mover3d": {
-        "n": 10,
-        "avg_return_pct": 0.22,
+        "n": 11,
+        "avg_return_pct": 0.0869,
         "positive": 7
       },
       "hybrid_rebound_v2": {
-        "n": 10,
-        "avg_return_pct": 0.1779,
+        "n": 11,
+        "avg_return_pct": 0.0487,
         "positive": 7
       }
     },
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-10-15T21:02:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "FET",
-        "MOODENG"
-      ],
-      "canonical": [
-        "NEAR",
-        "BCH"
-      ],
-      "mover3d": [
-        "NEAR",
-        "FET"
-      ],
-      "hybrid": [
-        "NEAR",
-        "FET"
-      ]
-    },
     {
       "trigger_time": "2026-10-16T00:34:00+00:00",
       "level": "STRONG",
@@ -276,6 +256,30 @@
       "canonical": [
         "DOT",
         "AVAX"
+      ],
+      "mover3d": [
+        "NEAR",
+        "WLD"
+      ],
+      "hybrid": [
+        "NEAR",
+        "WLD"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-16T15:15:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "AVAX",
+        "DOGE",
+        "LINK",
+        "QNT",
+        "SOL",
+        "XLM"
+      ],
+      "canonical": [
+        "DOT",
+        "WLD"
       ],
       "mover3d": [
         "NEAR",
