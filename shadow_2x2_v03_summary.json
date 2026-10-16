@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-16T10:06:02.130536+00:00",
+  "generated_at": "2026-10-16T10:11:02.066953+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 9.5529,
-  "open_pnl_eur": -0.1056,
-  "paper_equity_gross_eur": 29.4473,
-  "open_count": 8,
-  "closed_count": 249,
+  "realized_gross_eur": 9.6556,
+  "open_pnl_eur": -0.2275,
+  "paper_equity_gross_eur": 29.4281,
+  "open_count": 7,
+  "closed_count": 250,
   "last_selection_hour": "2026-10-16T12",
   "latest_timestamp": "2026-10-16T12:00:01+02:00",
   "open_legs": [
@@ -35,19 +35,6 @@
       "hard_sl_usdt": 82939.823,
       "roll_activation_usdt": 79316.2385,
       "roll_stop_usdt": null
-    },
-    {
-      "coin": "DOGE",
-      "direction": "LONG",
-      "entry_eur": 0.07244052392408447,
-      "current_eur": 0.07302911931818182,
-      "spot_return_pct": 0.8125,
-      "leveraged_return_pct": 2.4376,
-      "open_pnl_eur": 0.1219,
-      "roll_active": true,
-      "hard_sl_usdt": 0.078861,
-      "roll_activation_usdt": 0.0825195,
-      "roll_stop_usdt": 0.0818566
     },
     {
       "coin": "LTC",
@@ -83,10 +70,10 @@
       "spot_return_pct": 1.1941,
       "leveraged_return_pct": 3.5824,
       "open_pnl_eur": 0.1791,
-      "roll_active": false,
+      "roll_active": true,
       "hard_sl_usdt": 4.239274000000001e-06,
       "roll_activation_usdt": 4.054063e-06,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 4.081606799999999e-06
     },
     {
       "coin": "NEAR",
@@ -116,14 +103,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "SUI",
-      "direction": "LONG",
-      "reason": "HARD_SL",
-      "spot_return_pct": -3.0000000000000027,
-      "leveraged_return_pct": -9.000000000000007,
-      "gross_pnl_eur": -0.45000000000000034
-    },
     {
       "coin": "XLM",
       "direction": "LONG",
@@ -187,6 +166,14 @@
       "spot_return_pct": 1.15555191017791,
       "leveraged_return_pct": 3.4666557305337298,
       "gross_pnl_eur": 0.1733327865266865
+    },
+    {
+      "coin": "DOGE",
+      "direction": "LONG",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 0.6846248462484716,
+      "leveraged_return_pct": 2.053874538745415,
+      "gross_pnl_eur": 0.10269372693727075
     },
     {
       "coin": "RENDER",
