@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-10-16T17:01:02.690567+00:00",
+  "generated_at": "2026-10-16T17:16:02.888611+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 13,
-  "strong_24h": 5,
+  "events_24h": 14,
+  "strong_24h": 6,
   "results": {
     "5m": {
       "canonical": {
-        "n": 13,
-        "avg_return_pct": -0.0208,
-        "positive": 6
+        "n": 14,
+        "avg_return_pct": -0.0043,
+        "positive": 7
       },
       "mover3d": {
-        "n": 13,
-        "avg_return_pct": -0.0619,
+        "n": 14,
+        "avg_return_pct": -0.1206,
         "positive": 5
       },
       "hybrid_rebound_v2": {
-        "n": 13,
-        "avg_return_pct": -0.0408,
+        "n": 14,
+        "avg_return_pct": -0.0606,
         "positive": 5
       }
     },
     "15m": {
       "canonical": {
-        "n": 12,
-        "avg_return_pct": 0.0956,
+        "n": 13,
+        "avg_return_pct": 0.0758,
         "positive": 8
       },
       "mover3d": {
-        "n": 12,
-        "avg_return_pct": 0.0857,
+        "n": 13,
+        "avg_return_pct": 0.0647,
         "positive": 8
       },
       "hybrid_rebound_v2": {
-        "n": 12,
-        "avg_return_pct": 0.0507,
+        "n": 13,
+        "avg_return_pct": 0.0359,
         "positive": 8
       }
     },
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-10-16T07:34:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "DOT",
-        "XRP"
-      ],
-      "canonical": [
-        "AVAX",
-        "DOT"
-      ],
-      "mover3d": [
-        "NEAR",
-        "FET"
-      ],
-      "hybrid": [
-        "WLD",
-        "TAO"
-      ]
-    },
     {
       "trigger_time": "2026-10-16T10:01:00+00:00",
       "level": "TRIGGER",
@@ -286,6 +266,27 @@
       "hybrid": [
         "WLD",
         "FET"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-16T17:04:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "DOT",
+        "PEPE",
+        "VET"
+      ],
+      "canonical": [
+        "DOT",
+        "TRX"
+      ],
+      "mover3d": [
+        "NEAR",
+        "WLD"
+      ],
+      "hybrid": [
+        "NEAR",
+        "SUI"
       ]
     }
   ]
