@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-17T21:44:13.659437+00:00",
+  "generated_at": "2026-10-17T21:49:13.242265+00:00",
   "strategy": "KRAKEN_V05_CANDIDATE_B",
-  "kraken_live_timestamp": "2026-10-17T21:44:13.562063+00:00",
-  "film_timestamp": "2026-10-17T21:44:08.241471+00:00",
+  "kraken_live_timestamp": "2026-10-17T21:49:12.780297+00:00",
+  "film_timestamp": "2026-10-17T21:49:07.834188+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
-      "green": 24,
-      "red": 2,
-      "flat": 1
+      "green": 22,
+      "red": 1,
+      "flat": 4
     },
     "breadth_15m": {
-      "green": 0,
-      "red": 27,
-      "flat": 0
+      "green": 6,
+      "red": 19,
+      "flat": 2
     },
     "breadth_60m": {
       "green": 0,
@@ -25,17 +25,74 @@
   "opened_this_run": [],
   "start_pot_usd": 20.0,
   "realized_gross_usd": 0.813,
-  "open_pnl_usd": 0.0,
-  "paper_equity_gross_usd": 20.813,
-  "estimated_costs_usd": 0.3604,
-  "paper_equity_est_net_usd": 20.4526,
-  "open_count": 0,
+  "open_pnl_usd": -0.2223,
+  "paper_equity_gross_usd": 20.5907,
+  "estimated_costs_usd": 0.4203,
+  "paper_equity_est_net_usd": 20.1704,
+  "open_count": 4,
   "closed_count": 24,
   "strategy_closed_count": 24,
   "technical_closed_count": 0,
   "strategy_win_count": 16,
   "strategy_win_rate_pct": 66.66666666666667,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "WLD",
+      "direction": "LONG",
+      "entry_usd": 0.4793,
+      "current_usd": 0.4792,
+      "spot_return_pct": -0.0209,
+      "leveraged_return_pct": -0.0626,
+      "open_pnl_usd": -0.0031,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-17T21:46:13.305054+00:00",
+      "entry_breadth": null,
+      "entry_move": null
+    },
+    {
+      "coin": "QNT",
+      "direction": "LONG",
+      "entry_usd": 193.19,
+      "current_usd": 192.39,
+      "spot_return_pct": -0.4141,
+      "leveraged_return_pct": -1.2423,
+      "open_pnl_usd": -0.0621,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-17T21:46:13.305071+00:00",
+      "entry_breadth": null,
+      "entry_move": null
+    },
+    {
+      "coin": "MOODENG",
+      "direction": "LONG",
+      "entry_usd": 0.03699,
+      "current_usd": 0.03675,
+      "spot_return_pct": -0.6488,
+      "leveraged_return_pct": -1.9465,
+      "open_pnl_usd": -0.0973,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-17T21:46:13.305078+00:00",
+      "entry_breadth": null,
+      "entry_move": null
+    },
+    {
+      "coin": "DOT",
+      "direction": "LONG",
+      "entry_usd": 1.1046,
+      "current_usd": 1.1002,
+      "spot_return_pct": -0.3983,
+      "leveraged_return_pct": -1.195,
+      "open_pnl_usd": -0.0598,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-17T21:46:13.305083+00:00",
+      "entry_breadth": null,
+      "entry_move": null
+    }
+  ],
   "closed_legs": [
     {
       "coin": "RENDER",
