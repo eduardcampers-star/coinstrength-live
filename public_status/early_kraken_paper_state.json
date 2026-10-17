@@ -2,8 +2,8 @@
   "strategy": "EARLY_KRAKEN_PAPER_V1",
   "mode": "RESEARCH_PAPER",
   "created_at": "2026-10-14T18:24:17.972527+00:00",
-  "realized_pnl_usd": 0.19797999999998694,
-  "total_fees_usd": 0.32573423999999995,
+  "realized_pnl_usd": -0.2528200000000105,
+  "total_fees_usd": 0.33301511999999994,
   "max_positions": 4,
   "target_margin_usd": 5.0,
   "min_margin_usd": 4.0,
@@ -416,12 +416,17 @@
       "margin_usd": 5.004186666666667,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": -0.3919199999999987,
+      "unrealized_gross_pnl_usd": -0.45079999999999887,
       "coin": "DOGE",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_time": "2026-10-16T03:48:52.042302+00:00",
       "roll_active": false,
-      "current_exit_price_usd": 0.07946
+      "current_exit_price_usd": 0.07914,
+      "exit_time": "2026-10-17T15:38:51.560366+00:00",
+      "exit_reason": "HARD_SL",
+      "exit_price": 0.07914,
+      "gross_pnl_usd": -0.4507999999999974,
+      "net_pnl_usd": -0.46558715999999745
     },
     {
       "direction": "SHORT",
@@ -481,12 +486,12 @@
       "margin_usd": 5.290733333333334,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": -0.10980000000000133,
+      "unrealized_gross_pnl_usd": -0.11760000000000162,
       "coin": "HYPE",
       "status": "OPEN",
       "entry_time": "2026-10-16T17:36:51.205688+00:00",
       "roll_active": false,
-      "current_exit_price_usd": 78.812
+      "current_exit_price_usd": 78.773
     },
     {
       "direction": "SHORT",
@@ -520,16 +525,16 @@
       "margin_usd": 5.4181333333333335,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": 0.0318,
+      "unrealized_gross_pnl_usd": 0.0246,
       "coin": "BTC",
       "status": "OPEN",
       "entry_time": "2026-10-16T19:13:51.877007+00:00",
       "roll_active": false,
-      "current_exit_price_usd": 81431.0
+      "current_exit_price_usd": 81395.0
     }
   ],
-  "closed_trades": 20,
+  "closed_trades": 21,
   "start_capital_usd": 25.0,
-  "last_paper_cycle_utc": "2026-10-17T15:34:51.191380+00:00",
+  "last_paper_cycle_utc": "2026-10-17T15:39:51.903100+00:00",
   "last_entry_film_minute": "2026-10-16T19:12:00+00:00"
 }
