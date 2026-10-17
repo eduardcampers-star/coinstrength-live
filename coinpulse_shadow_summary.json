@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-10-17T10:11:02.632671+00:00",
+  "generated_at": "2026-10-17T10:31:02.777090+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 14,
+  "events_24h": 15,
   "strong_24h": 5,
   "results": {
     "5m": {
       "canonical": {
-        "n": 14,
-        "avg_return_pct": 0.0661,
+        "n": 15,
+        "avg_return_pct": 0.0568,
         "positive": 9
       },
       "mover3d": {
-        "n": 14,
-        "avg_return_pct": -0.0573,
+        "n": 15,
+        "avg_return_pct": -0.0593,
         "positive": 6
       },
       "hybrid_rebound_v2": {
-        "n": 14,
-        "avg_return_pct": 0.0212,
+        "n": 15,
+        "avg_return_pct": 0.014,
         "positive": 8
       }
     },
     "15m": {
       "canonical": {
-        "n": 14,
-        "avg_return_pct": 0.1156,
+        "n": 15,
+        "avg_return_pct": 0.0994,
         "positive": 9
       },
       "mover3d": {
-        "n": 14,
-        "avg_return_pct": 0.0523,
+        "n": 15,
+        "avg_return_pct": 0.0378,
         "positive": 9
       },
       "hybrid_rebound_v2": {
-        "n": 14,
-        "avg_return_pct": 0.1732,
+        "n": 15,
+        "avg_return_pct": 0.1507,
         "positive": 8
       }
     },
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-10-16T14:58:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "FET",
-        "LINK"
-      ],
-      "canonical": [
-        "DOT",
-        "AVAX"
-      ],
-      "mover3d": [
-        "NEAR",
-        "WLD"
-      ],
-      "hybrid": [
-        "NEAR",
-        "WLD"
-      ]
-    },
     {
       "trigger_time": "2026-10-16T15:15:00+00:00",
       "level": "STRONG",
@@ -287,6 +267,26 @@
       "hybrid": [
         "FET",
         "NEAR"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-17T10:11:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "FET",
+        "RENDER"
+      ],
+      "canonical": [
+        "NEAR",
+        "TRX"
+      ],
+      "mover3d": [
+        "WLD",
+        "NEAR"
+      ],
+      "hybrid": [
+        "NEAR",
+        "WLD"
       ]
     }
   ]
