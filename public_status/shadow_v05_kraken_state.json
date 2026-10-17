@@ -2,7 +2,7 @@
   "strategy": "KRAKEN_V05_CANDIDATE_B",
   "created_at": "2026-10-10T17:08:41.058147+00:00",
   "start_pot_usd": 20.0,
-  "realized_gross_usd": 0.5841405348589763,
+  "realized_gross_usd": 0.8978401585153701,
   "legs": [
     {
       "coin": "QNT",
@@ -751,7 +751,7 @@
     {
       "coin": "WLD",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 0.4793,
       "entry_time": "2026-10-17T21:46:13.305054+00:00",
       "margin_usd": 5.0,
@@ -768,12 +768,21 @@
       "move60_pct": -5.053508,
       "basket_id": "V05B:2026-10-17T21:46:13.298358+00:00:DOT,MOODENG,QNT,WLD",
       "momentum_2_4_pct": 0.020868,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007603275610264969,
+      "net_pnl_usd": 0.19144794491967349,
+      "exit_usd": 0.4859,
+      "exit_time": "2026-10-17T22:16:13.921350+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": 1.377008,
+      "leveraged_return_pct": 4.131024,
+      "gross_pnl_usd": 0.206551
     },
     {
       "coin": "QNT",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 193.19,
       "entry_time": "2026-10-17T21:46:13.305071+00:00",
       "margin_usd": 5.0,
@@ -790,7 +799,16 @@
       "move60_pct": -3.286008,
       "basket_id": "V05B:2026-10-17T21:46:13.298358+00:00:DOT,MOODENG,QNT,WLD",
       "momentum_2_4_pct": 0.14034,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.0075535742015632274,
+      "net_pnl_usd": 0.09209482892489211,
+      "exit_usd": 194.57,
+      "exit_time": "2026-10-17T22:16:13.948141+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": 0.714323,
+      "leveraged_return_pct": 2.142968,
+      "gross_pnl_usd": 0.107148
     },
     {
       "coin": "MOODENG",
@@ -855,57 +873,8 @@
       "gross_pnl_usd": -0.095057
     }
   ],
-  "market_event": {
-    "status": "ACTIVE",
-    "go_time": "2026-10-17T21:41:00+00:00",
-    "breadth_prev": {
-      "green": 22,
-      "red": 1,
-      "flat": 4
-    },
-    "breadth_go": {
-      "green": 22,
-      "red": 1,
-      "flat": 4
-    },
-    "created_at": "2026-10-17T21:42:14.045386+00:00",
-    "confirm_time": "2026-10-17T21:45:00+00:00",
-    "market_momentum_2_4_pct": 0.39937,
-    "confirm_n": 27,
-    "top4": [
-      {
-        "rank": 1,
-        "coin": "WLD",
-        "move60_pct": -5.053508
-      },
-      {
-        "rank": 2,
-        "coin": "QNT",
-        "move60_pct": -3.286008
-      },
-      {
-        "rank": 3,
-        "coin": "MOODENG",
-        "move60_pct": -2.854877
-      },
-      {
-        "rank": 4,
-        "coin": "DOT",
-        "move60_pct": -2.759712
-      }
-    ],
-    "top4_locked": true,
-    "top4_lock_time": "2026-10-17T21:46:13.298358+00:00",
-    "basket_id": "V05B:2026-10-17T21:46:13.298358+00:00:DOT,MOODENG,QNT,WLD",
-    "entry_time": "2026-10-17T21:46:13.305097+00:00",
-    "opened_coins": [
-      "WLD",
-      "QNT",
-      "MOODENG",
-      "DOT"
-    ]
-  },
-  "last_market_breadth_green": 16,
+  "market_event": null,
+  "last_market_breadth_green": 6,
   "market_burst_locked": false,
   "pending_events": []
 }
