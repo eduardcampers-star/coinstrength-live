@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-10-18T19:56:02.752725+00:00",
+  "generated_at": "2026-10-18T20:16:03.093105+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 11,
-  "strong_24h": 2,
+  "events_24h": 12,
+  "strong_24h": 3,
   "results": {
     "5m": {
       "canonical": {
-        "n": 11,
-        "avg_return_pct": 0.1152,
+        "n": 12,
+        "avg_return_pct": 0.0898,
         "positive": 8
       },
       "mover3d": {
-        "n": 11,
-        "avg_return_pct": 0.0694,
+        "n": 12,
+        "avg_return_pct": 0.0478,
         "positive": 6
       },
       "hybrid_rebound_v2": {
-        "n": 11,
-        "avg_return_pct": 0.1393,
+        "n": 12,
+        "avg_return_pct": 0.1218,
         "positive": 7
       }
     },
     "15m": {
       "canonical": {
-        "n": 11,
-        "avg_return_pct": 0.1986,
-        "positive": 9
+        "n": 12,
+        "avg_return_pct": 0.1887,
+        "positive": 10
       },
       "mover3d": {
-        "n": 11,
-        "avg_return_pct": 0.136,
-        "positive": 7
+        "n": 12,
+        "avg_return_pct": 0.1308,
+        "positive": 8
       },
       "hybrid_rebound_v2": {
-        "n": 11,
-        "avg_return_pct": 0.2946,
+        "n": 12,
+        "avg_return_pct": 0.2691,
         "positive": 7
       }
     },
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-10-17T23:05:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "PEPE",
-        "QNT"
-      ],
-      "canonical": [
-        "HBAR",
-        "BCH"
-      ],
-      "mover3d": [
-        "WLD",
-        "NEAR"
-      ],
-      "hybrid": [
-        "WLD",
-        "FET"
-      ]
-    },
     {
       "trigger_time": "2026-10-17T23:31:00+00:00",
       "level": "TRIGGER",
@@ -280,6 +260,27 @@
       "hybrid": [
         "NEAR",
         "WLD"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-18T19:52:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "LINK",
+        "LTC",
+        "ONDO"
+      ],
+      "canonical": [
+        "BTC",
+        "HBAR"
+      ],
+      "mover3d": [
+        "WLD",
+        "DOT"
+      ],
+      "hybrid": [
+        "NEAR",
+        "DOT"
       ]
     }
   ]
