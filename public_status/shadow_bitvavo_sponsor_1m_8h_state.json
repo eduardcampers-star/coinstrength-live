@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "created_at": "2026-10-02T13:14:10.418159+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 11.885882460514056,
+  "realized_gross_eur": 11.995855687147268,
   "legs": [
     {
       "coin": "FET",
@@ -4136,7 +4136,7 @@
     {
       "coin": "WLD",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.45318485523385305,
       "entry_time": "2026-10-19T12:48:09.417121+00:00",
       "entry_move_8h_pct": 2.6432606941081627,
@@ -4166,7 +4166,13 @@
         "ret_5m_pct": -0.33431661750243924,
         "ret_15m_pct": -1.2855473315153798,
         "ret_60m_pct": 1.6242229797473584
-      }
+      },
+      "exit_eur": 0.4498623085144282,
+      "exit_time": "2026-10-19T15:02:10.221556+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 0.733155,
+      "leveraged_return_pct": 2.199465,
+      "gross_pnl_eur": 0.109973
     },
     {
       "coin": "MOODENG",
@@ -4201,6 +4207,41 @@
         "ret_5m_pct": 0.18802041364491817,
         "ret_15m_pct": -0.4005340453938522,
         "ret_60m_pct": -0.4271222637480032
+      }
+    },
+    {
+      "coin": "WLD",
+      "direction": "SHORT",
+      "status": "OPEN",
+      "entry_eur": 0.4528856430352689,
+      "entry_time": "2026-10-19T15:03:09.745960+00:00",
+      "entry_move_8h_pct": 2.4169184290030232,
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "roll_active": false,
+      "best_eur": 0.4528856430352689,
+      "roll_stop_eur": null,
+      "entry_breadth": {
+        "5m": {
+          "green": 3,
+          "red": 11,
+          "flat": 13
+        },
+        "15m": {
+          "green": 0,
+          "red": 27,
+          "flat": 0
+        },
+        "60m": {
+          "green": 23,
+          "red": 3,
+          "flat": 1
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.43324143363528966,
+        "ret_15m_pct": -0.6484574572607538,
+        "ret_60m_pct": -0.29579964504041767
       }
     }
   ]
