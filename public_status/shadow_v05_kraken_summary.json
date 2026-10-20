@@ -1,160 +1,42 @@
 {
-  "generated_at": "2026-10-20T14:04:13.946610+00:00",
+  "generated_at": "2026-10-20T14:09:13.664237+00:00",
   "strategy": "KRAKEN_V05_CANDIDATE_B",
-  "kraken_live_timestamp": "2026-10-20T14:04:13.821102+00:00",
-  "film_timestamp": "2026-10-20T14:04:08.546512+00:00",
+  "kraken_live_timestamp": "2026-10-20T14:09:13.077840+00:00",
+  "film_timestamp": "2026-10-20T14:09:08.366276+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
+      "green": 25,
+      "red": 0,
+      "flat": 2
+    },
+    "breadth_15m": {
       "green": 27,
       "red": 0,
       "flat": 0
     },
-    "breadth_15m": {
+    "breadth_60m": {
       "green": 26,
       "red": 0,
       "flat": 1
-    },
-    "breadth_60m": {
-      "green": 26,
-      "red": 1,
-      "flat": 0
     }
   },
-  "opened_this_run": [
-    "PEPE",
-    "FET",
-    "NEAR",
-    "ONDO"
-  ],
+  "opened_this_run": [],
   "start_pot_usd": 20.0,
-  "realized_gross_usd": 0.8978,
-  "open_pnl_usd": -0.1008,
-  "paper_equity_gross_usd": 20.7971,
-  "estimated_costs_usd": 0.4804,
-  "paper_equity_est_net_usd": 20.3167,
-  "open_count": 4,
-  "closed_count": 28,
+  "realized_gross_usd": 1.4368,
+  "open_pnl_usd": 0.0,
+  "paper_equity_gross_usd": 21.4368,
+  "estimated_costs_usd": 0.4807,
+  "paper_equity_est_net_usd": 20.956,
+  "open_count": 0,
+  "closed_count": 32,
   "strategy_closed_count": 28,
-  "technical_closed_count": 0,
+  "technical_closed_count": 4,
   "strategy_win_count": 18,
   "strategy_win_rate_pct": 64.28571428571429,
-  "open_legs": [
-    {
-      "coin": "PEPE",
-      "direction": "LONG",
-      "entry_usd": 4.4837e-06,
-      "current_usd": 4.475e-06,
-      "spot_return_pct": -0.194,
-      "leveraged_return_pct": -0.5821,
-      "open_pnl_usd": -0.0291,
-      "roll_active": false,
-      "roll_stop_eur": null,
-      "entry_time": "2026-10-20T14:04:13.912035+00:00",
-      "entry_breadth": null,
-      "entry_move": null
-    },
-    {
-      "coin": "FET",
-      "direction": "LONG",
-      "entry_usd": 0.19616,
-      "current_usd": 0.19576,
-      "spot_return_pct": -0.2039,
-      "leveraged_return_pct": -0.6117,
-      "open_pnl_usd": -0.0306,
-      "roll_active": false,
-      "roll_stop_eur": null,
-      "entry_time": "2026-10-20T14:04:13.912054+00:00",
-      "entry_breadth": null,
-      "entry_move": null
-    },
-    {
-      "coin": "NEAR",
-      "direction": "LONG",
-      "entry_usd": 4.8057,
-      "current_usd": 4.799,
-      "spot_return_pct": -0.1394,
-      "leveraged_return_pct": -0.4183,
-      "open_pnl_usd": -0.0209,
-      "roll_active": false,
-      "roll_stop_eur": null,
-      "entry_time": "2026-10-20T14:04:13.912062+00:00",
-      "entry_breadth": null,
-      "entry_move": null
-    },
-    {
-      "coin": "ONDO",
-      "direction": "LONG",
-      "entry_usd": 0.4467,
-      "current_usd": 0.4461,
-      "spot_return_pct": -0.1343,
-      "leveraged_return_pct": -0.403,
-      "open_pnl_usd": -0.0201,
-      "roll_active": false,
-      "roll_stop_eur": null,
-      "entry_time": "2026-10-20T14:04:13.912067+00:00",
-      "entry_breadth": null,
-      "entry_move": null
-    }
-  ],
+  "open_legs": [],
   "closed_legs": [
-    {
-      "coin": "BTC",
-      "direction": "LONG",
-      "reason": "TIME30",
-      "spot_return_pct": 0.43298,
-      "leveraged_return_pct": 1.298939,
-      "gross_pnl_usd": 0.064947,
-      "fee_entry_usd": 0.0075,
-      "fee_exit_usd": 0.00753247347237468,
-      "net_pnl_usd": 0.049914471276984014,
-      "technical_close": false,
-      "entry_time": "2026-10-13T01:31:13.537986+00:00",
-      "exit_time": "2026-10-13T02:01:13.819221+00:00"
-    },
-    {
-      "coin": "ETH",
-      "direction": "LONG",
-      "reason": "EXIT4_MOMENTUM",
-      "spot_return_pct": 0.130602,
-      "leveraged_return_pct": 0.391805,
-      "gross_pnl_usd": 0.01959,
-      "fee_entry_usd": 0.0075,
-      "fee_exit_usd": 0.007509795118765816,
-      "net_pnl_usd": 0.004580442412866766,
-      "technical_close": false,
-      "entry_time": "2026-10-13T01:31:13.538005+00:00",
-      "exit_time": "2026-10-13T01:36:13.443291+00:00"
-    },
-    {
-      "coin": "HYPE",
-      "direction": "LONG",
-      "reason": "EXIT4_MOMENTUM",
-      "spot_return_pct": -0.006145,
-      "leveraged_return_pct": -0.018435,
-      "gross_pnl_usd": -0.000922,
-      "fee_entry_usd": 0.0075,
-      "fee_exit_usd": 0.0074995391308622554,
-      "net_pnl_usd": -0.015921277406350947,
-      "technical_close": false,
-      "entry_time": "2026-10-13T01:31:13.538012+00:00",
-      "exit_time": "2026-10-13T01:36:13.453088+00:00"
-    },
-    {
-      "coin": "TRX",
-      "direction": "LONG",
-      "reason": "EXIT4_MOMENTUM",
-      "spot_return_pct": -0.00608,
-      "leveraged_return_pct": -0.01824,
-      "gross_pnl_usd": -0.000912,
-      "fee_entry_usd": 0.0075,
-      "fee_exit_usd": 0.00749954400364797,
-      "net_pnl_usd": -0.0159115367077077,
-      "technical_close": false,
-      "entry_time": "2026-10-13T01:31:13.538018+00:00",
-      "exit_time": "2026-10-13T01:36:13.463999+00:00"
-    },
     {
       "coin": "MOODENG",
       "direction": "LONG",
@@ -378,6 +260,62 @@
       "technical_close": false,
       "entry_time": "2026-10-17T21:46:13.305083+00:00",
       "exit_time": "2026-10-17T21:50:13.572961+00:00"
+    },
+    {
+      "coin": "PEPE",
+      "direction": "LONG",
+      "reason": "INVALID_NO_M2",
+      "spot_return_pct": 0.921114,
+      "leveraged_return_pct": 2.763343,
+      "gross_pnl_usd": 0.138167,
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007569083569373508,
+      "net_pnl_usd": 0.12309805517764318,
+      "technical_close": true,
+      "entry_time": "2026-10-20T14:04:13.912035+00:00",
+      "exit_time": "2026-10-20T14:09:13.630956+00:00"
+    },
+    {
+      "coin": "FET",
+      "direction": "LONG",
+      "reason": "INVALID_NO_M2",
+      "spot_return_pct": 0.667822,
+      "leveraged_return_pct": 2.003467,
+      "gross_pnl_usd": 0.100173,
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007550086663947798,
+      "net_pnl_usd": 0.08512324123164716,
+      "technical_close": true,
+      "entry_time": "2026-10-20T14:04:13.912054+00:00",
+      "exit_time": "2026-10-20T14:09:13.639391+00:00"
+    },
+    {
+      "coin": "NEAR",
+      "direction": "LONG",
+      "reason": "INVALID_NO_M2",
+      "spot_return_pct": 1.265164,
+      "leveraged_return_pct": 3.795493,
+      "gross_pnl_usd": 0.189775,
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.00759488732130595,
+      "net_pnl_usd": 0.1746797552905954,
+      "technical_close": true,
+      "entry_time": "2026-10-20T14:04:13.912062+00:00",
+      "exit_time": "2026-10-20T14:09:13.647325+00:00"
+    },
+    {
+      "coin": "ONDO",
+      "direction": "LONG",
+      "reason": "INVALID_NO_M2",
+      "spot_return_pct": 0.738751,
+      "leveraged_return_pct": 2.216253,
+      "gross_pnl_usd": 0.110813,
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.00755540631296172,
+      "net_pnl_usd": 0.09575721961047681,
+      "technical_close": true,
+      "entry_time": "2026-10-20T14:04:13.912067+00:00",
+      "exit_time": "2026-10-20T14:09:13.655215+00:00"
     }
   ]
 }
