@@ -1,6 +1,6 @@
 {
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 17.590096165986015,
+  "realized_gross_eur": 18.04781933055997,
   "legs": [
     {
       "coin": "SUI",
@@ -5159,7 +5159,7 @@
     {
       "coin": "NEAR",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 4.413258487035552,
       "entry_time": "2026-10-19T17:09:02.406760+00:00",
       "margin_eur": 5.0,
@@ -5188,12 +5188,18 @@
         "ret_5m_pct": -0.3017501508750686,
         "ret_15m_pct": -0.020173492031461127,
         "ret_60m_pct": 0.7317073170731714
-      }
+      },
+      "exit_eur": 4.3069593090552925,
+      "exit_time": "2026-10-20T01:49:02.477261+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 2.408632,
+      "leveraged_return_pct": 7.225897,
+      "gross_pnl_eur": 0.361295
     },
     {
       "coin": "DOT",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 1.0195973632638518,
       "entry_time": "2026-10-19T22:44:01.884797+00:00",
       "margin_eur": 5.0,
@@ -5222,7 +5228,13 @@
         "ret_5m_pct": 0.21795989537924942,
         "ret_15m_pct": 0.41932384030749503,
         "ret_60m_pct": 1.680672268907557
-      }
+      },
+      "exit_eur": 1.0130428278870982,
+      "exit_time": "2026-10-20T01:49:02.477526+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 0.642855,
+      "leveraged_return_pct": 1.928566,
+      "gross_pnl_eur": 0.096428
     }
   ]
 }
