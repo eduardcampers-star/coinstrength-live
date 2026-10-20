@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-20T17:16:02.711424+00:00",
+  "generated_at": "2026-10-20T17:31:02.850558+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 12,
+  "events_24h": 13,
   "strong_24h": 5,
   "results": {
     "5m": {
       "canonical": {
-        "n": 12,
-        "avg_return_pct": -0.089,
-        "positive": 6
-      },
-      "mover3d": {
-        "n": 12,
-        "avg_return_pct": -0.0042,
+        "n": 13,
+        "avg_return_pct": -0.0779,
         "positive": 7
       },
+      "mover3d": {
+        "n": 13,
+        "avg_return_pct": 0.0204,
+        "positive": 8
+      },
       "hybrid_rebound_v2": {
-        "n": 12,
-        "avg_return_pct": 0.0149,
+        "n": 13,
+        "avg_return_pct": 0.0122,
         "positive": 8
       }
     },
@@ -76,30 +76,10 @@
   },
   "profile3d": {
     "status": "VOLLEDIG",
-    "profile_hours": 71.8,
-    "snapshots": 288
+    "profile_hours": 72.0,
+    "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-10-20T00:18:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "FET",
-        "WLD"
-      ],
-      "canonical": [
-        "WLD",
-        "BCH"
-      ],
-      "mover3d": [
-        "WLD",
-        "NEAR"
-      ],
-      "hybrid": [
-        "WLD",
-        "NEAR"
-      ]
-    },
     {
       "trigger_time": "2026-10-20T01:08:00+00:00",
       "level": "TRIGGER",
@@ -289,6 +269,26 @@
       "hybrid": [
         "NEAR",
         "ONDO"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-20T17:20:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "NEAR",
+        "QNT"
+      ],
+      "canonical": [
+        "WLD",
+        "PEPE"
+      ],
+      "mover3d": [
+        "WLD",
+        "NEAR"
+      ],
+      "hybrid": [
+        "PEPE",
+        "FET"
       ]
     }
   ]
