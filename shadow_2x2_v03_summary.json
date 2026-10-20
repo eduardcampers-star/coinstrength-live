@@ -1,51 +1,30 @@
 {
-  "generated_at": "2026-10-20T16:56:01.757983+00:00",
+  "generated_at": "2026-10-20T17:06:02.179147+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 12.7299,
-  "open_pnl_eur": -0.068,
-  "paper_equity_gross_eur": 32.6619,
-  "open_count": 2,
-  "closed_count": 296,
-  "last_selection_hour": "2026-10-20T18",
-  "latest_timestamp": "2026-10-20T18:45:01+02:00",
+  "realized_gross_eur": 12.8495,
+  "open_pnl_eur": -0.1913,
+  "paper_equity_gross_eur": 32.6582,
+  "open_count": 1,
+  "closed_count": 297,
+  "last_selection_hour": "2026-10-20T19",
+  "latest_timestamp": "2026-10-20T19:00:02+02:00",
   "open_legs": [
     {
       "coin": "TRX",
       "direction": "LONG",
       "entry_eur": 0.29856990584473264,
-      "current_eur": 0.29446816079686944,
-      "spot_return_pct": -1.3738,
-      "leveraged_return_pct": -4.1214,
-      "open_pnl_eur": -0.2061,
+      "current_eur": 0.29476165065812876,
+      "spot_return_pct": -1.2755,
+      "leveraged_return_pct": -3.8265,
+      "open_pnl_eur": -0.1913,
       "roll_active": false,
       "hard_sl_usdt": 0.32604609999999995,
       "roll_activation_usdt": 0.34117194999999995,
       "roll_stop_usdt": null
-    },
-    {
-      "coin": "PEPE",
-      "direction": "LONG",
-      "entry_eur": 4.039665599430807e-06,
-      "current_eur": 4.076840981856991e-06,
-      "spot_return_pct": 0.9203,
-      "leveraged_return_pct": 2.7608,
-      "open_pnl_eur": 0.138,
-      "roll_active": true,
-      "hard_sl_usdt": 4.405933999999999e-06,
-      "roll_activation_usdt": 4.610332999999999e-06,
-      "roll_stop_usdt": 4.57842e-06
     }
   ],
   "closed_legs": [
-    {
-      "coin": "AVAX",
-      "direction": "LONG",
-      "reason": "HARD_SL",
-      "spot_return_pct": -3.0000000000000027,
-      "leveraged_return_pct": -9.000000000000007,
-      "gross_pnl_eur": -0.45000000000000034
-    },
     {
       "coin": "SUI",
       "direction": "SHORT",
@@ -133,6 +112,14 @@
       "spot_return_pct": 3.476928664826384,
       "leveraged_return_pct": 10.430785994479152,
       "gross_pnl_eur": 0.5215392997239576
+    },
+    {
+      "coin": "PEPE",
+      "direction": "LONG",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 0.797410946237509,
+      "leveraged_return_pct": 2.392232838712527,
+      "gross_pnl_eur": 0.11961164193562634
     }
   ]
 }
