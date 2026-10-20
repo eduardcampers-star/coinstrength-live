@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04",
   "created_at": "2026-09-30T13:57:56.192235+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 14.946353302376687,
+  "realized_gross_eur": 15.306564575537687,
   "legs": [
     {
       "coin": "HBAR",
@@ -4241,7 +4241,7 @@
     {
       "coin": "ADA",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.19394748553627061,
       "entry_time": "2026-10-19T11:54:02.544578+00:00",
       "margin_eur": 5.0,
@@ -4270,7 +4270,13 @@
         "ret_5m_pct": 0.18357044515833199,
         "ret_15m_pct": 0.5527406725011508,
         "ret_60m_pct": 0.09170105456213218
-      }
+      },
+      "exit_eur": 0.1986049569156969,
+      "exit_time": "2026-10-20T15:17:02.038333+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 2.401408,
+      "leveraged_return_pct": 7.204225,
+      "gross_pnl_eur": 0.360211
     },
     {
       "coin": "FET",
@@ -4474,9 +4480,9 @@
       "entry_time": "2026-10-20T14:53:03.248987+00:00",
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 11.045902512652047,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 10.809849764423504,
+      "roll_stop_eur": 10.907138412303315,
       "entry_breadth": {
         "5m": {
           "green": 1,
