@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-21T13:19:10.930563+00:00",
+  "generated_at": "2026-10-21T13:24:09.860766+00:00",
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "latest_timestamp": "2026-10-21T15:15:01+02:00",
-  "film_timestamp": "2026-10-21T13:17:01.433853+00:00",
+  "film_timestamp": "2026-10-21T13:22:01.205564+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "SHORT",
+    "target_legs": 4,
     "breadth_5m": {
-      "green": 26,
-      "red": 0,
-      "flat": 1
+      "green": 1,
+      "red": 21,
+      "flat": 5
     },
     "breadth_15m": {
-      "green": 24,
-      "red": 2,
+      "green": 4,
+      "red": 22,
       "flat": 1
     },
     "breadth_60m": {
-      "green": 26,
-      "red": 1,
+      "green": 25,
+      "red": 2,
       "flat": 0
     }
   },
@@ -30,7 +30,7 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 9.99,
   "paper_equity_est_net_eur": 22.4106,
-  "open_count": 3,
+  "open_count": 4,
   "closed_count": 111,
   "open_legs": [
     {
@@ -133,6 +133,40 @@
         "ret_5m_pct": 0.21186440677967155,
         "ret_15m_pct": 0.4082299150881763,
         "ret_60m_pct": 0.21186440677967155
+      }
+    },
+    {
+      "coin": "XLM",
+      "direction": "SHORT",
+      "entry_eur": 0.16467135106288355,
+      "current_eur": 0.16467135106288355,
+      "spot_return_pct": -0.0,
+      "leveraged_return_pct": -0.0,
+      "open_pnl_eur": -0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-21T13:23:09.617509+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 1,
+          "red": 21,
+          "flat": 5
+        },
+        "15m": {
+          "green": 4,
+          "red": 22,
+          "flat": 1
+        },
+        "60m": {
+          "green": 25,
+          "red": 2,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.026993467580838093,
+        "ret_15m_pct": -0.1348217656258477,
+        "ret_60m_pct": 0.374004011057516
       }
     }
   ],
