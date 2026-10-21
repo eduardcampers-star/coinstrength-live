@@ -1,6 +1,6 @@
 {
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 17.548455851820158,
+  "realized_gross_eur": 17.80404132022335,
   "legs": [
     {
       "coin": "SUI",
@@ -5484,9 +5484,9 @@
       "entry_time": "2026-10-21T00:59:01.931008+00:00",
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 176.398896895294,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 172.63756778380298,
+      "roll_stop_eur": 174.1913058938572,
       "entry_breadth": {
         "5m": {
           "green": 1,
@@ -5593,7 +5593,7 @@
     {
       "coin": "VET",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.006412492214609841,
       "entry_time": "2026-10-21T10:44:02.406894+00:00",
       "margin_eur": 5.0,
@@ -5622,7 +5622,13 @@
         "ret_5m_pct": 0.3183391003460212,
         "ret_15m_pct": 0.652687126787943,
         "ret_60m_pct": 0.540990428630872
-      }
+      },
+      "exit_eur": 0.0065217548696966995,
+      "exit_time": "2026-10-21T13:49:01.643986+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 1.703903,
+      "leveraged_return_pct": 5.111709,
+      "gross_pnl_eur": 0.255585
     }
   ]
 }
