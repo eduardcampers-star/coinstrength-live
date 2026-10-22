@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-22T19:41:02.776561+00:00",
+  "generated_at": "2026-10-22T19:56:02.875269+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 15,
-  "strong_24h": 3,
+  "events_24h": 16,
+  "strong_24h": 4,
   "results": {
     "5m": {
       "canonical": {
-        "n": 15,
-        "avg_return_pct": 0.039,
+        "n": 16,
+        "avg_return_pct": -0.0283,
         "positive": 8
       },
       "mover3d": {
-        "n": 15,
-        "avg_return_pct": 0.0282,
+        "n": 16,
+        "avg_return_pct": -0.0386,
         "positive": 7
       },
       "hybrid_rebound_v2": {
-        "n": 15,
-        "avg_return_pct": 0.0395,
+        "n": 16,
+        "avg_return_pct": 0.0259,
         "positive": 8
       }
     },
@@ -58,19 +58,19 @@
     },
     "rolling_09": {
       "canonical": {
-        "n": 13,
-        "avg_return_pct": -15.8226,
+        "n": 15,
+        "avg_return_pct": -13.7292,
         "positive": 1
       },
       "mover3d": {
-        "n": 13,
-        "avg_return_pct": -0.2511,
-        "positive": 4
+        "n": 15,
+        "avg_return_pct": -0.263,
+        "positive": 5
       },
       "hybrid_rebound_v2": {
-        "n": 13,
-        "avg_return_pct": -0.3498,
-        "positive": 3
+        "n": 15,
+        "avg_return_pct": -0.3373,
+        "positive": 4
       }
     }
   },
@@ -80,27 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-10-22T05:14:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "AVAX",
-        "DOT",
-        "HBAR"
-      ],
-      "canonical": [
-        "VET",
-        "XRP"
-      ],
-      "mover3d": [
-        "NEAR",
-        "WLD"
-      ],
-      "hybrid": [
-        "WLD",
-        "NEAR"
-      ]
-    },
     {
       "trigger_time": "2026-10-22T05:52:00+00:00",
       "level": "TRIGGER",
@@ -282,6 +261,28 @@
       ],
       "hybrid": [
         "NEAR",
+        "QNT"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-22T19:41:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "BCH",
+        "DOT",
+        "PEPE",
+        "TAO"
+      ],
+      "canonical": [
+        "WLD",
+        "MOODENG"
+      ],
+      "mover3d": [
+        "NEAR",
+        "WLD"
+      ],
+      "hybrid": [
+        "FET",
         "QNT"
       ]
     }
