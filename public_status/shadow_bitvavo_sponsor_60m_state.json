@@ -1,6 +1,6 @@
 {
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 17.698152685582755,
+  "realized_gross_eur": 17.381221830395738,
   "legs": [
     {
       "coin": "SUI",
@@ -5679,7 +5679,7 @@
     {
       "coin": "MOODENG",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.039123087869085735,
       "entry_time": "2026-10-21T17:24:02.478008+00:00",
       "margin_eur": 5.0,
@@ -5708,7 +5708,13 @@
         "ret_5m_pct": -0.4787961696306464,
         "ret_15m_pct": 0.5528680027643507,
         "ret_60m_pct": 1.34664499651731
-      }
+      },
+      "exit_eur": 0.03794939523301316,
+      "exit_time": "2026-10-22T00:19:02.383508+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     },
     {
       "coin": "QNT",
@@ -5753,7 +5759,7 @@
     {
       "coin": "QNT",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 185.1360967799324,
       "entry_time": "2026-10-21T20:04:02.442237+00:00",
       "margin_eur": 5.0,
@@ -5782,7 +5788,13 @@
         "ret_5m_pct": -0.1200249651927554,
         "ret_15m_pct": -0.24454567250060677,
         "ret_60m_pct": 1.6465529877363494
-      }
+      },
+      "exit_eur": 183.49370330843112,
+      "exit_time": "2026-10-22T00:19:02.383759+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 0.887128,
+      "leveraged_return_pct": 2.661383,
+      "gross_pnl_eur": 0.133069
     }
   ]
 }
