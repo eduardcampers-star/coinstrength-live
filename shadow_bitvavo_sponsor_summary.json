@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-22T02:28:01.912854+00:00",
+  "generated_at": "2026-10-22T02:33:02.105355+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-10-22T04:15:01+02:00",
-  "film_timestamp": "2026-10-22T02:27:01.783528+00:00",
+  "latest_timestamp": "2026-10-22T04:30:01+02:00",
+  "film_timestamp": "2026-10-22T02:32:01.393491+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
@@ -13,34 +13,34 @@
     },
     "breadth_15m": {
       "green": 0,
-      "red": 26,
-      "flat": 1
+      "red": 25,
+      "flat": 2
     },
     "breadth_60m": {
       "green": 0,
-      "red": 27,
-      "flat": 0
+      "red": 26,
+      "flat": 1
     }
   },
   "opened_this_run": [],
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 24.7223,
-  "open_pnl_eur": -0.5317,
-  "paper_equity_gross_eur": 44.1906,
+  "realized_gross_eur": 24.2723,
+  "open_pnl_eur": -0.1031,
+  "paper_equity_gross_eur": 44.1692,
   "estimated_cost_per_closed_trade_eur": 0.09,
-  "estimated_costs_eur": 12.78,
-  "paper_equity_est_net_eur": 31.4106,
-  "open_count": 3,
-  "closed_count": 142,
+  "estimated_costs_eur": 12.87,
+  "paper_equity_est_net_eur": 31.2992,
+  "open_count": 2,
+  "closed_count": 143,
   "open_legs": [
     {
       "coin": "TRX",
       "direction": "LONG",
       "entry_eur": 0.2993846976993044,
-      "current_eur": 0.29364881693648814,
-      "spot_return_pct": -1.9159,
-      "leveraged_return_pct": -5.7477,
-      "open_pnl_eur": -0.2874,
+      "current_eur": 0.2934560327198364,
+      "spot_return_pct": -1.9803,
+      "leveraged_return_pct": -5.9408,
+      "open_pnl_eur": -0.297,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-10-08T02:18:02.048408+00:00",
@@ -68,47 +68,13 @@
       }
     },
     {
-      "coin": "NEAR",
-      "direction": "LONG",
-      "entry_eur": 4.727854855923159,
-      "current_eur": 4.632627646326276,
-      "spot_return_pct": -2.0142,
-      "leveraged_return_pct": -6.0425,
-      "open_pnl_eur": -0.3021,
-      "roll_active": false,
-      "roll_stop_eur": null,
-      "entry_time": "2026-10-21T17:23:02.529787+00:00",
-      "entry_breadth": {
-        "5m": {
-          "green": 22,
-          "red": 2,
-          "flat": 3
-        },
-        "15m": {
-          "green": 21,
-          "red": 1,
-          "flat": 5
-        },
-        "60m": {
-          "green": 8,
-          "red": 16,
-          "flat": 3
-        }
-      },
-      "entry_move": {
-        "ret_5m_pct": 0.487713374601384,
-        "ret_15m_pct": 0.9421518748822244,
-        "ret_60m_pct": -0.4460137520906904
-      }
-    },
-    {
       "coin": "VET",
       "direction": "SHORT",
       "entry_eur": 0.006694530902623388,
-      "current_eur": 0.0066687422166874216,
-      "spot_return_pct": 0.3852,
-      "leveraged_return_pct": 1.1557,
-      "open_pnl_eur": 0.0578,
+      "current_eur": 0.006607984351382591,
+      "spot_return_pct": 1.2928,
+      "leveraged_return_pct": 3.8784,
+      "open_pnl_eur": 0.1939,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-10-21T18:48:02.600415+00:00",
@@ -137,16 +103,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "HBAR",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 0.801382,
-      "leveraged_return_pct": 2.404146,
-      "gross_pnl_eur": 0.120207,
-      "entry_time": "2026-10-18T03:23:02.749145+00:00",
-      "exit_time": "2026-10-18T06:33:02.502942+00:00"
-    },
     {
       "coin": "BTC",
       "direction": "LONG",
@@ -326,6 +282,16 @@
       "gross_pnl_eur": 0.110948,
       "entry_time": "2026-10-21T14:43:01.772866+00:00",
       "exit_time": "2026-10-21T18:18:02.527135+00:00"
+    },
+    {
+      "coin": "NEAR",
+      "direction": "LONG",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45,
+      "entry_time": "2026-10-21T17:23:02.529787+00:00",
+      "exit_time": "2026-10-22T02:33:02.105033+00:00"
     },
     {
       "coin": "QNT",
