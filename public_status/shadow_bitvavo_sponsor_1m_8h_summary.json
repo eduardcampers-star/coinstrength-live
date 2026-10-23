@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-23T15:19:11.751973+00:00",
+  "generated_at": "2026-10-23T15:24:09.904147+00:00",
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "latest_timestamp": "2026-10-23T17:15:01+02:00",
-  "film_timestamp": "2026-10-23T15:17:01.846304+00:00",
+  "film_timestamp": "2026-10-23T15:22:01.717741+00:00",
   "trigger": {
     "direction": "SHORT",
     "target_legs": 5,
     "breadth_5m": {
+      "green": 6,
+      "red": 12,
+      "flat": 9
+    },
+    "breadth_15m": {
       "green": 0,
       "red": 25,
       "flat": 2
     },
-    "breadth_15m": {
-      "green": 1,
-      "red": 24,
-      "flat": 2
-    },
     "breadth_60m": {
-      "green": 23,
-      "red": 3,
-      "flat": 1
+      "green": 19,
+      "red": 8,
+      "flat": 0
     }
   },
   "opened_this_run": [],
@@ -30,7 +30,7 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 10.62,
   "paper_equity_est_net_eur": 22.9629,
-  "open_count": 3,
+  "open_count": 4,
   "closed_count": 118,
   "open_legs": [
     {
@@ -133,6 +133,40 @@
         "ret_5m_pct": -0.4777181114442919,
         "ret_15m_pct": -0.737314367196451,
         "ret_60m_pct": 0.8088443063012152
+      }
+    },
+    {
+      "coin": "PEPE",
+      "direction": "SHORT",
+      "entry_eur": 4.349028000713394e-06,
+      "current_eur": 4.349028000713394e-06,
+      "spot_return_pct": -0.0,
+      "leveraged_return_pct": -0.0,
+      "open_pnl_eur": -0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-23T15:23:11.222045+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 6,
+          "red": 12,
+          "flat": 9
+        },
+        "15m": {
+          "green": 0,
+          "red": 25,
+          "flat": 2
+        },
+        "60m": {
+          "green": 19,
+          "red": 8,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.3884652539411837,
+        "ret_15m_pct": -0.21002347321171788,
+        "ret_60m_pct": -1.265152286849336
       }
     }
   ],
