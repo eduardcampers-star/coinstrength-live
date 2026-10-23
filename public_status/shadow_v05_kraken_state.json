@@ -1111,10 +1111,90 @@
       "spot_return_pct": -0.316885,
       "leveraged_return_pct": -0.950656,
       "gross_pnl_usd": -0.047533
+    },
+    {
+      "coin": "PEPE",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 4.8904e-06,
+      "entry_time": "2026-10-23T14:26:14.038894+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-23T14:21:00+00:00",
+      "market_confirm_time": "2026-10-23T14:25:00+00:00",
+      "market_momentum_2_4_pct": 0.048082,
+      "move60_rank": 1,
+      "move60_pct": -3.532148,
+      "basket_id": "V05B:2026-10-23T14:26:14.031818+00:00:MOODENG,NEAR,PEPE,UNI"
+    },
+    {
+      "coin": "MOODENG",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 0.04242,
+      "entry_time": "2026-10-23T14:26:14.038913+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-23T14:21:00+00:00",
+      "market_confirm_time": "2026-10-23T14:25:00+00:00",
+      "market_momentum_2_4_pct": 0.048082,
+      "move60_rank": 2,
+      "move60_pct": -1.743375,
+      "basket_id": "V05B:2026-10-23T14:26:14.031818+00:00:MOODENG,NEAR,PEPE,UNI"
+    },
+    {
+      "coin": "NEAR",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 4.8509,
+      "entry_time": "2026-10-23T14:26:14.038922+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-23T14:21:00+00:00",
+      "market_confirm_time": "2026-10-23T14:25:00+00:00",
+      "market_momentum_2_4_pct": 0.048082,
+      "move60_rank": 3,
+      "move60_pct": -1.476772,
+      "basket_id": "V05B:2026-10-23T14:26:14.031818+00:00:MOODENG,NEAR,PEPE,UNI"
+    },
+    {
+      "coin": "UNI",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 7.071,
+      "entry_time": "2026-10-23T14:26:14.038928+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-23T14:21:00+00:00",
+      "market_confirm_time": "2026-10-23T14:25:00+00:00",
+      "market_momentum_2_4_pct": 0.048082,
+      "move60_rank": 4,
+      "move60_pct": -1.284199,
+      "basket_id": "V05B:2026-10-23T14:26:14.031818+00:00:MOODENG,NEAR,PEPE,UNI"
     }
   ],
   "market_event": {
-    "status": "WAIT_CONFIRM",
+    "status": "ACTIVE",
     "go_time": "2026-10-23T14:21:00+00:00",
     "breadth_prev": {
       "green": 22,
@@ -1126,9 +1206,44 @@
       "red": 0,
       "flat": 4
     },
-    "created_at": "2026-10-23T14:22:13.730598+00:00"
+    "created_at": "2026-10-23T14:22:13.730598+00:00",
+    "confirm_time": "2026-10-23T14:25:00+00:00",
+    "market_momentum_2_4_pct": 0.048082,
+    "confirm_n": 27,
+    "top4": [
+      {
+        "rank": 1,
+        "coin": "PEPE",
+        "move60_pct": -3.532148
+      },
+      {
+        "rank": 2,
+        "coin": "MOODENG",
+        "move60_pct": -1.743375
+      },
+      {
+        "rank": 3,
+        "coin": "NEAR",
+        "move60_pct": -1.476772
+      },
+      {
+        "rank": 4,
+        "coin": "UNI",
+        "move60_pct": -1.284199
+      }
+    ],
+    "top4_locked": true,
+    "top4_lock_time": "2026-10-23T14:26:14.031818+00:00",
+    "basket_id": "V05B:2026-10-23T14:26:14.031818+00:00:MOODENG,NEAR,PEPE,UNI",
+    "entry_time": "2026-10-23T14:26:14.038943+00:00",
+    "opened_coins": [
+      "PEPE",
+      "MOODENG",
+      "NEAR",
+      "UNI"
+    ]
   },
-  "last_market_breadth_green": 5,
+  "last_market_breadth_green": 17,
   "market_burst_locked": false,
   "pending_events": []
 }
