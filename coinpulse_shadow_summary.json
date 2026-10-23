@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-10-23T09:41:03.211189+00:00",
+  "generated_at": "2026-10-23T10:01:02.866150+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 11,
-  "strong_24h": 4,
+  "events_24h": 12,
+  "strong_24h": 5,
   "results": {
     "5m": {
       "canonical": {
-        "n": 11,
-        "avg_return_pct": 0.0056,
-        "positive": 6
+        "n": 12,
+        "avg_return_pct": 0.0152,
+        "positive": 7
       },
       "mover3d": {
-        "n": 11,
-        "avg_return_pct": -0.0267,
-        "positive": 6
+        "n": 12,
+        "avg_return_pct": -0.0113,
+        "positive": 7
       },
       "hybrid_rebound_v2": {
-        "n": 11,
-        "avg_return_pct": 0.035,
-        "positive": 6
+        "n": 12,
+        "avg_return_pct": 0.0648,
+        "positive": 7
       }
     },
     "15m": {
       "canonical": {
-        "n": 11,
-        "avg_return_pct": -0.0093,
-        "positive": 5
+        "n": 12,
+        "avg_return_pct": 0.023,
+        "positive": 6
       },
       "mover3d": {
-        "n": 11,
-        "avg_return_pct": -0.1228,
-        "positive": 5
+        "n": 12,
+        "avg_return_pct": -0.0742,
+        "positive": 6
       },
       "hybrid_rebound_v2": {
-        "n": 11,
-        "avg_return_pct": -0.0149,
-        "positive": 4
+        "n": 12,
+        "avg_return_pct": 0.0239,
+        "positive": 5
       }
     },
     "30m": {
@@ -76,30 +76,10 @@
   },
   "profile3d": {
     "status": "VOLLEDIG",
-    "profile_hours": 72.0,
-    "snapshots": 289
+    "profile_hours": 71.8,
+    "snapshots": 288
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-10-22T12:54:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "QNT",
-        "VET"
-      ],
-      "canonical": [
-        "PEPE",
-        "NEAR"
-      ],
-      "mover3d": [
-        "NEAR",
-        "WLD"
-      ],
-      "hybrid": [
-        "WLD",
-        "FET"
-      ]
-    },
     {
       "trigger_time": "2026-10-22T14:36:00+00:00",
       "level": "TRIGGER",
@@ -286,6 +266,28 @@
       "hybrid": [
         "NEAR",
         "PEPE"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-23T09:38:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "FET",
+        "HBAR",
+        "NEAR",
+        "RENDER"
+      ],
+      "canonical": [
+        "PEPE",
+        "VET"
+      ],
+      "mover3d": [
+        "NEAR",
+        "PEPE"
+      ],
+      "hybrid": [
+        "NEAR",
+        "FET"
       ]
     }
   ]
