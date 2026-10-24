@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-10-24T16:26:03.211732+00:00",
+  "generated_at": "2026-10-24T16:46:02.896955+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 9,
-  "strong_24h": 4,
+  "events_24h": 10,
+  "strong_24h": 5,
   "results": {
     "5m": {
       "canonical": {
-        "n": 9,
-        "avg_return_pct": 0.0856,
+        "n": 10,
+        "avg_return_pct": 0.0712,
         "positive": 6
       },
       "mover3d": {
-        "n": 9,
-        "avg_return_pct": -0.0696,
+        "n": 10,
+        "avg_return_pct": -0.0655,
         "positive": 4
       },
       "hybrid_rebound_v2": {
-        "n": 9,
-        "avg_return_pct": -0.0227,
+        "n": 10,
+        "avg_return_pct": -0.0233,
         "positive": 5
       }
     },
     "15m": {
       "canonical": {
-        "n": 9,
-        "avg_return_pct": 0.1178,
-        "positive": 5
+        "n": 10,
+        "avg_return_pct": 0.1082,
+        "positive": 6
       },
       "mover3d": {
-        "n": 9,
-        "avg_return_pct": -0.0947,
-        "positive": 3
+        "n": 10,
+        "avg_return_pct": -0.0484,
+        "positive": 4
       },
       "hybrid_rebound_v2": {
-        "n": 9,
-        "avg_return_pct": -0.1063,
-        "positive": 3
+        "n": 10,
+        "avg_return_pct": -0.0588,
+        "positive": 4
       }
     },
     "30m": {
@@ -58,19 +58,19 @@
     },
     "rolling_09": {
       "canonical": {
-        "n": 5,
-        "avg_return_pct": -30.0955,
+        "n": 6,
+        "avg_return_pct": -25.1437,
         "positive": 1
       },
       "mover3d": {
-        "n": 5,
-        "avg_return_pct": -20.0257,
-        "positive": 2
+        "n": 6,
+        "avg_return_pct": -16.4867,
+        "positive": 3
       },
       "hybrid_rebound_v2": {
-        "n": 5,
-        "avg_return_pct": -19.9088,
-        "positive": 2
+        "n": 6,
+        "avg_return_pct": -16.4524,
+        "positive": 3
       }
     }
   },
@@ -263,6 +263,27 @@
       "hybrid": [
         "RENDER",
         "ONDO"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-24T16:24:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "MOODENG",
+        "QNT",
+        "SHIB"
+      ],
+      "canonical": [
+        "MOODENG",
+        "WLD"
+      ],
+      "mover3d": [
+        "NEAR",
+        "QNT"
+      ],
+      "hybrid": [
+        "NEAR",
+        "QNT"
       ]
     }
   ]
