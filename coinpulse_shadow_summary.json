@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-10-24T00:26:03.191072+00:00",
+  "generated_at": "2026-10-24T00:46:03.015747+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 14,
-  "strong_24h": 5,
+  "events_24h": 15,
+  "strong_24h": 6,
   "results": {
     "5m": {
       "canonical": {
-        "n": 14,
-        "avg_return_pct": 0.0786,
-        "positive": 9
+        "n": 15,
+        "avg_return_pct": 0.0815,
+        "positive": 10
       },
       "mover3d": {
-        "n": 14,
-        "avg_return_pct": -0.0618,
+        "n": 15,
+        "avg_return_pct": -0.0676,
         "positive": 7
       },
       "hybrid_rebound_v2": {
-        "n": 14,
-        "avg_return_pct": -0.0001,
+        "n": 15,
+        "avg_return_pct": -0.0141,
         "positive": 8
       }
     },
     "15m": {
       "canonical": {
-        "n": 13,
-        "avg_return_pct": 0.2097,
-        "positive": 8
+        "n": 14,
+        "avg_return_pct": 0.2016,
+        "positive": 9
       },
       "mover3d": {
-        "n": 13,
-        "avg_return_pct": -0.0732,
+        "n": 14,
+        "avg_return_pct": -0.1225,
         "positive": 7
       },
       "hybrid_rebound_v2": {
-        "n": 13,
-        "avg_return_pct": 0.0542,
+        "n": 14,
+        "avg_return_pct": -0.0078,
         "positive": 7
       }
     },
@@ -58,48 +58,28 @@
     },
     "rolling_09": {
       "canonical": {
-        "n": 11,
-        "avg_return_pct": -31.8377,
-        "positive": 1
+        "n": 12,
+        "avg_return_pct": -29.1193,
+        "positive": 2
       },
       "mover3d": {
-        "n": 11,
-        "avg_return_pct": -36.4922,
-        "positive": 1
+        "n": 12,
+        "avg_return_pct": -33.3881,
+        "positive": 2
       },
       "hybrid_rebound_v2": {
-        "n": 11,
-        "avg_return_pct": -22.7841,
+        "n": 12,
+        "avg_return_pct": -25.0225,
         "positive": 3
       }
     }
   },
   "profile3d": {
     "status": "VOLLEDIG",
-    "profile_hours": 72.0,
-    "snapshots": 289
+    "profile_hours": 71.8,
+    "snapshots": 288
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-10-23T13:37:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "QNT",
-        "XLM"
-      ],
-      "canonical": [
-        "PEPE",
-        "VET"
-      ],
-      "mover3d": [
-        "NEAR",
-        "PEPE"
-      ],
-      "hybrid": [
-        "NEAR",
-        "MOODENG"
-      ]
-    },
     {
       "trigger_time": "2026-10-23T14:10:00+00:00",
       "level": "STRONG",
@@ -286,6 +266,27 @@
       "hybrid": [
         "NEAR",
         "ONDO"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-24T00:33:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "BCH",
+        "MOODENG",
+        "QNT"
+      ],
+      "canonical": [
+        "PEPE",
+        "BCH"
+      ],
+      "mover3d": [
+        "NEAR",
+        "PEPE"
+      ],
+      "hybrid": [
+        "NEAR",
+        "QNT"
       ]
     }
   ]
