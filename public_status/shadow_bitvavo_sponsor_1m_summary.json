@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-23T23:59:01.791970+00:00",
+  "generated_at": "2026-10-24T00:04:02.284175+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-10-24T01:45:01+02:00",
-  "film_timestamp": "2026-10-23T23:57:01.615593+00:00",
+  "latest_timestamp": "2026-10-24T02:00:01+02:00",
+  "film_timestamp": "2026-10-24T00:02:01.265829+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
-      "green": 4,
-      "red": 8,
-      "flat": 15
+      "green": 12,
+      "red": 4,
+      "flat": 11
     },
     "breadth_15m": {
       "green": 26,
@@ -24,23 +24,23 @@
   },
   "opened_this_run": [],
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 17.561,
-  "open_pnl_eur": 0.5497,
-  "paper_equity_gross_eur": 38.1107,
+  "realized_gross_eur": 17.9989,
+  "open_pnl_eur": 0.0364,
+  "paper_equity_gross_eur": 38.0354,
   "estimated_cost_per_closed_trade_eur": 0.09,
-  "estimated_costs_eur": 11.43,
-  "paper_equity_est_net_eur": 26.6807,
-  "open_count": 3,
-  "closed_count": 127,
+  "estimated_costs_eur": 11.52,
+  "paper_equity_est_net_eur": 26.5154,
+  "open_count": 2,
+  "closed_count": 128,
   "open_legs": [
     {
       "coin": "TRX",
       "direction": "LONG",
       "entry_eur": 0.29601817210048104,
-      "current_eur": 0.29413024085637823,
-      "spot_return_pct": -0.6378,
-      "leveraged_return_pct": -1.9133,
-      "open_pnl_eur": -0.0957,
+      "current_eur": 0.29437059505754304,
+      "spot_return_pct": -0.5566,
+      "leveraged_return_pct": -1.6697,
+      "open_pnl_eur": -0.0835,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-10-15T23:58:01.948560+00:00",
@@ -71,10 +71,10 @@
       "coin": "HYPE",
       "direction": "SHORT",
       "entry_eur": 69.33113644460278,
-      "current_eur": 68.53256021409456,
-      "spot_return_pct": 1.1518,
-      "leveraged_return_pct": 3.4555,
-      "open_pnl_eur": 0.1728,
+      "current_eur": 68.77687572486394,
+      "spot_return_pct": 0.7994,
+      "leveraged_return_pct": 2.3983,
+      "open_pnl_eur": 0.1199,
       "roll_active": true,
       "roll_stop_eur": 68.8551824101329,
       "entry_time": "2026-10-22T21:38:02.009390+00:00",
@@ -100,53 +100,9 @@
         "ret_15m_pct": -0.569617817234791,
         "ret_60m_pct": 0.415900080329612
       }
-    },
-    {
-      "coin": "ONDO",
-      "direction": "SHORT",
-      "entry_eur": 0.38445789567384725,
-      "current_eur": 0.37234611953612845,
-      "spot_return_pct": 3.1504,
-      "leveraged_return_pct": 9.4511,
-      "open_pnl_eur": 0.4726,
-      "roll_active": true,
-      "roll_stop_eur": 0.3732336990455802,
-      "entry_time": "2026-10-23T01:08:02.034608+00:00",
-      "entry_breadth": {
-        "5m": {
-          "green": 0,
-          "red": 26,
-          "flat": 1
-        },
-        "15m": {
-          "green": 1,
-          "red": 22,
-          "flat": 4
-        },
-        "60m": {
-          "green": 21,
-          "red": 2,
-          "flat": 4
-        }
-      },
-      "entry_move": {
-        "ret_5m_pct": -0.5314232902033367,
-        "ret_15m_pct": -0.2779708130646208,
-        "ret_60m_pct": 0.560616678346193
-      }
     }
   ],
   "closed_legs": [
-    {
-      "coin": "BTC",
-      "direction": "SHORT",
-      "reason": "HARD_SL",
-      "spot_return_pct": -3.0,
-      "leveraged_return_pct": -9.0,
-      "gross_pnl_eur": -0.45,
-      "entry_time": "2026-10-19T20:33:02.113134+00:00",
-      "exit_time": "2026-10-21T15:02:01.730050+00:00"
-    },
     {
       "coin": "WLD",
       "direction": "SHORT",
@@ -326,6 +282,16 @@
       "gross_pnl_eur": 0.167831,
       "entry_time": "2026-10-22T21:03:01.833728+00:00",
       "exit_time": "2026-10-22T23:31:03.073784+00:00"
+    },
+    {
+      "coin": "ONDO",
+      "direction": "SHORT",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 2.919487,
+      "leveraged_return_pct": 8.75846,
+      "gross_pnl_eur": 0.437923,
+      "entry_time": "2026-10-23T01:08:02.034608+00:00",
+      "exit_time": "2026-10-24T00:02:02.085089+00:00"
     },
     {
       "coin": "BCH",
