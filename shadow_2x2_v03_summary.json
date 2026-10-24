@@ -1,51 +1,30 @@
 {
-  "generated_at": "2026-10-24T15:16:02.180181+00:00",
+  "generated_at": "2026-10-24T15:21:02.100180+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 12.9358,
-  "open_pnl_eur": -0.4905,
-  "paper_equity_gross_eur": 32.4453,
-  "open_count": 2,
-  "closed_count": 345,
+  "realized_gross_eur": 12.4858,
+  "open_pnl_eur": -0.2555,
+  "paper_equity_gross_eur": 32.2304,
+  "open_count": 1,
+  "closed_count": 346,
   "last_selection_hour": "2026-10-24T17",
-  "latest_timestamp": "2026-10-24T17:00:02+02:00",
+  "latest_timestamp": "2026-10-24T17:15:01+02:00",
   "open_legs": [
     {
       "coin": "TRX",
       "direction": "LONG",
       "entry_eur": 0.29856990584473264,
-      "current_eur": 0.29383366053899695,
-      "spot_return_pct": -1.5863,
-      "leveraged_return_pct": -4.7589,
-      "open_pnl_eur": -0.2379,
+      "current_eur": 0.2934850513163766,
+      "spot_return_pct": -1.7031,
+      "leveraged_return_pct": -5.1092,
+      "open_pnl_eur": -0.2555,
       "roll_active": false,
       "hard_sl_usdt": 0.32604609999999995,
       "roll_activation_usdt": 0.34117194999999995,
       "roll_stop_usdt": null
-    },
-    {
-      "coin": "BCH",
-      "direction": "LONG",
-      "entry_eur": 247.75586686892123,
-      "current_eur": 243.58379439585934,
-      "spot_return_pct": -1.6839,
-      "leveraged_return_pct": -5.0518,
-      "open_pnl_eur": -0.2526,
-      "roll_active": false,
-      "hard_sl_usdt": 269.3302,
-      "roll_activation_usdt": 281.8249,
-      "roll_stop_usdt": null
     }
   ],
   "closed_legs": [
-    {
-      "coin": "PEPE",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 0.9479464454876491,
-      "leveraged_return_pct": 2.8438393364629473,
-      "gross_pnl_eur": 0.14219196682314736
-    },
     {
       "coin": "NEAR",
       "direction": "SHORT",
@@ -85,6 +64,14 @@
       "spot_return_pct": 0.7646136618141064,
       "leveraged_return_pct": 2.293840985442319,
       "gross_pnl_eur": 0.11469204927211596
+    },
+    {
+      "coin": "BCH",
+      "direction": "LONG",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0000000000000138,
+      "leveraged_return_pct": -9.00000000000004,
+      "gross_pnl_eur": -0.45000000000000207
     },
     {
       "coin": "HYPE",
