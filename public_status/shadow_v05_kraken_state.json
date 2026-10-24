@@ -1355,10 +1355,90 @@
       "spot_return_pct": -0.256339,
       "leveraged_return_pct": -0.769016,
       "gross_pnl_usd": -0.038451
+    },
+    {
+      "coin": "FET",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 0.17899,
+      "entry_time": "2026-10-24T23:37:13.211717+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": 0.17872,
+      "price_m2_time": "2026-10-24T23:39:13.844769+00:00",
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-24T23:32:00+00:00",
+      "market_confirm_time": "2026-10-24T23:36:00+00:00",
+      "market_momentum_2_4_pct": 0.021349,
+      "move60_rank": 1,
+      "move60_pct": 1.292957,
+      "basket_id": "V05B:2026-10-24T23:37:13.204393+00:00:ADA,DOT,FET,RENDER"
+    },
+    {
+      "coin": "DOT",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 1.0503,
+      "entry_time": "2026-10-24T23:37:13.211735+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": 1.049,
+      "price_m2_time": "2026-10-24T23:39:13.844990+00:00",
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-24T23:32:00+00:00",
+      "market_confirm_time": "2026-10-24T23:36:00+00:00",
+      "market_momentum_2_4_pct": 0.021349,
+      "move60_rank": 2,
+      "move60_pct": 1.215043,
+      "basket_id": "V05B:2026-10-24T23:37:13.204393+00:00:ADA,DOT,FET,RENDER"
+    },
+    {
+      "coin": "RENDER",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 1.7195,
+      "entry_time": "2026-10-24T23:37:13.211743+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": 1.7141,
+      "price_m2_time": "2026-10-24T23:39:13.845151+00:00",
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-24T23:32:00+00:00",
+      "market_confirm_time": "2026-10-24T23:36:00+00:00",
+      "market_momentum_2_4_pct": 0.021349,
+      "move60_rank": 3,
+      "move60_pct": 1.05474,
+      "basket_id": "V05B:2026-10-24T23:37:13.204393+00:00:ADA,DOT,FET,RENDER"
+    },
+    {
+      "coin": "ADA",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 0.20818,
+      "entry_time": "2026-10-24T23:37:13.211749+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": 0.20776,
+      "price_m2_time": "2026-10-24T23:39:13.845299+00:00",
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-24T23:32:00+00:00",
+      "market_confirm_time": "2026-10-24T23:36:00+00:00",
+      "market_momentum_2_4_pct": 0.021349,
+      "move60_rank": 4,
+      "move60_pct": 0.990243,
+      "basket_id": "V05B:2026-10-24T23:37:13.204393+00:00:ADA,DOT,FET,RENDER"
     }
   ],
   "market_event": {
-    "status": "WAIT_CONFIRM",
+    "status": "ACTIVE",
     "go_time": "2026-10-24T23:32:00+00:00",
     "breadth_prev": {
       "green": 24,
@@ -1370,9 +1450,44 @@
       "red": 0,
       "flat": 2
     },
-    "created_at": "2026-10-24T23:33:13.855210+00:00"
+    "created_at": "2026-10-24T23:33:13.855210+00:00",
+    "confirm_time": "2026-10-24T23:36:00+00:00",
+    "market_momentum_2_4_pct": 0.021349,
+    "confirm_n": 27,
+    "top4": [
+      {
+        "rank": 1,
+        "coin": "FET",
+        "move60_pct": 1.292957
+      },
+      {
+        "rank": 2,
+        "coin": "DOT",
+        "move60_pct": 1.215043
+      },
+      {
+        "rank": 3,
+        "coin": "RENDER",
+        "move60_pct": 1.05474
+      },
+      {
+        "rank": 4,
+        "coin": "ADA",
+        "move60_pct": 0.990243
+      }
+    ],
+    "top4_locked": true,
+    "top4_lock_time": "2026-10-24T23:37:13.204393+00:00",
+    "basket_id": "V05B:2026-10-24T23:37:13.204393+00:00:ADA,DOT,FET,RENDER",
+    "entry_time": "2026-10-24T23:37:13.211764+00:00",
+    "opened_coins": [
+      "FET",
+      "DOT",
+      "RENDER",
+      "ADA"
+    ]
   },
-  "last_market_breadth_green": 22,
-  "market_burst_locked": true,
+  "last_market_breadth_green": 10,
+  "market_burst_locked": false,
   "pending_events": []
 }
