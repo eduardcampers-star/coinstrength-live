@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-24T09:54:11.032180+00:00",
+  "generated_at": "2026-10-24T09:59:09.717302+00:00",
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "latest_timestamp": "2026-10-24T11:45:01+02:00",
-  "film_timestamp": "2026-10-24T09:52:02.047886+00:00",
+  "film_timestamp": "2026-10-24T09:57:01.627397+00:00",
   "trigger": {
     "direction": "LONG",
-    "target_legs": 1,
+    "target_legs": 4,
     "breadth_5m": {
+      "green": 17,
+      "red": 0,
+      "flat": 10
+    },
+    "breadth_15m": {
       "green": 22,
       "red": 1,
       "flat": 4
     },
-    "breadth_15m": {
-      "green": 17,
-      "red": 6,
-      "flat": 4
-    },
     "breadth_60m": {
-      "green": 0,
+      "green": 2,
       "red": 23,
-      "flat": 4
+      "flat": 2
     }
   },
   "opened_this_run": [],
@@ -30,7 +30,7 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 11.07,
   "paper_equity_est_net_eur": 23.41,
-  "open_count": 3,
+  "open_count": 4,
   "closed_count": 123,
   "open_legs": [
     {
@@ -133,6 +133,40 @@
         "ret_5m_pct": -0.005565484104363971,
         "ret_15m_pct": -0.06056860321383972,
         "ret_60m_pct": 0.119745945417149
+      }
+    },
+    {
+      "coin": "NEAR",
+      "direction": "LONG",
+      "entry_eur": 3.9611026853421363,
+      "current_eur": 3.9611026853421363,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-24T09:58:10.041120+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 17,
+          "red": 0,
+          "flat": 10
+        },
+        "15m": {
+          "green": 22,
+          "red": 1,
+          "flat": 4
+        },
+        "60m": {
+          "green": 2,
+          "red": 23,
+          "flat": 2
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.6086564472497669,
+        "ret_15m_pct": 0.29213483146066643,
+        "ret_60m_pct": -1.195483728138147
       }
     }
   ],
