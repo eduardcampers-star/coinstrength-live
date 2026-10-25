@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-25T00:51:02.084089+00:00",
+  "generated_at": "2026-10-25T00:56:01.656020+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 12.7325,
-  "open_pnl_eur": -0.6588,
-  "paper_equity_gross_eur": 32.0737,
-  "open_count": 7,
-  "closed_count": 348,
+  "realized_gross_eur": 12.2825,
+  "open_pnl_eur": -0.3237,
+  "paper_equity_gross_eur": 31.9588,
+  "open_count": 6,
+  "closed_count": 349,
   "last_selection_hour": "2026-10-25T02",
   "latest_timestamp": "2026-10-25T02:45:01+02:00",
   "open_legs": [
@@ -37,19 +37,6 @@
       "roll_stop_usdt": 0.006848801
     },
     {
-      "coin": "QNT",
-      "direction": "SHORT",
-      "entry_eur": 157.63498438197232,
-      "current_eur": 161.23650637880274,
-      "spot_return_pct": -2.2337,
-      "leveraged_return_pct": -6.7011,
-      "open_pnl_eur": -0.3351,
-      "roll_active": false,
-      "hard_sl_usdt": 181.9289,
-      "roll_activation_usdt": 173.98055,
-      "roll_stop_usdt": null
-    },
-    {
       "coin": "SUI",
       "direction": "SHORT",
       "entry_eur": 0.8244533690316822,
@@ -70,10 +57,10 @@
       "spot_return_pct": 1.4633,
       "leveraged_return_pct": 4.3898,
       "open_pnl_eur": 0.2195,
-      "roll_active": false,
+      "roll_active": true,
       "hard_sl_usdt": 1.64706,
       "roll_activation_usdt": 1.7234699999999998,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 1.715421
     },
     {
       "coin": "NEAR",
@@ -103,14 +90,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "LTC",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 2.6403508771929944,
-      "leveraged_return_pct": 7.921052631578984,
-      "gross_pnl_eur": 0.39605263157894927
-    },
     {
       "coin": "WLD",
       "direction": "LONG",
@@ -198,6 +177,14 @@
       "spot_return_pct": 1.0362063458262405,
       "leveraged_return_pct": 3.1086190374787215,
       "gross_pnl_eur": 0.15543095187393607
+    },
+    {
+      "coin": "QNT",
+      "direction": "SHORT",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0000000000000018,
+      "leveraged_return_pct": -9.000000000000005,
+      "gross_pnl_eur": -0.4500000000000003
     }
   ]
 }
