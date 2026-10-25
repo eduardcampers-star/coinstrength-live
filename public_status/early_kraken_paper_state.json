@@ -2,8 +2,8 @@
   "strategy": "EARLY_KRAKEN_PAPER_V1",
   "mode": "RESEARCH_PAPER",
   "created_at": "2026-10-14T18:24:17.972527+00:00",
-  "realized_pnl_usd": -2.2305048000000163,
-  "total_fees_usd": 1.1880664402,
+  "realized_pnl_usd": -2.003304800000018,
+  "total_fees_usd": 1.1953624402,
   "max_positions": 4,
   "target_margin_usd": 5.0,
   "min_margin_usd": 4.0,
@@ -1836,14 +1836,19 @@
       "margin_usd": 4.939733333333334,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": 0.2303999999999995,
+      "unrealized_gross_pnl_usd": 0.22719999999999985,
       "coin": "SUI",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_time": "2026-10-24T17:06:51.390759+00:00",
       "roll_active": true,
-      "current_exit_price_usd": 0.9118,
+      "current_exit_price_usd": 0.912,
       "best_exit_price_usd": 0.9037,
-      "roll_stop_usd": 0.9118332999999998
+      "roll_stop_usd": 0.9118332999999998,
+      "exit_time": "2026-10-25T09:55:51.782328+00:00",
+      "exit_reason": "ROLLING_09",
+      "exit_price": 0.912,
+      "gross_pnl_usd": 0.22719999999999807,
+      "net_pnl_usd": 0.21249439999999806
     },
     {
       "direction": "LONG",
@@ -1855,16 +1860,16 @@
       "margin_usd": 5.01074,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": 0.022050000000000833,
+      "unrealized_gross_pnl_usd": 0.011760000000001969,
       "coin": "DOT",
       "status": "OPEN",
       "entry_time": "2026-10-25T09:31:51.129169+00:00",
       "roll_active": false,
-      "current_exit_price_usd": 1.0241
+      "current_exit_price_usd": 1.0234
     }
   ],
-  "closed_trades": 78,
+  "closed_trades": 79,
   "start_capital_usd": 25.0,
-  "last_paper_cycle_utc": "2026-10-25T09:54:51.461923+00:00",
+  "last_paper_cycle_utc": "2026-10-25T09:59:51.113387+00:00",
   "last_entry_film_minute": "2026-10-25T09:30:00+00:00"
 }
