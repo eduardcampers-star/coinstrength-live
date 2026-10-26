@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-26T17:31:03.710887+00:00",
+  "generated_at": "2026-10-26T17:46:03.241932+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 16,
-  "strong_24h": 7,
+  "events_24h": 17,
+  "strong_24h": 8,
   "results": {
     "5m": {
       "canonical": {
-        "n": 16,
-        "avg_return_pct": -0.0638,
-        "positive": 7
+        "n": 17,
+        "avg_return_pct": -0.0481,
+        "positive": 8
       },
       "mover3d": {
-        "n": 16,
-        "avg_return_pct": -0.0125,
-        "positive": 9
+        "n": 17,
+        "avg_return_pct": -0.0003,
+        "positive": 10
       },
       "hybrid_rebound_v2": {
-        "n": 16,
-        "avg_return_pct": 0.0058,
-        "positive": 10
+        "n": 17,
+        "avg_return_pct": 0.0169,
+        "positive": 11
       }
     },
     "15m": {
@@ -58,19 +58,19 @@
     },
     "rolling_09": {
       "canonical": {
-        "n": 13,
-        "avg_return_pct": -7.7552,
-        "positive": 3
+        "n": 14,
+        "avg_return_pct": -7.1231,
+        "positive": 4
       },
       "mover3d": {
-        "n": 13,
-        "avg_return_pct": 0.109,
-        "positive": 6
+        "n": 14,
+        "avg_return_pct": 0.1115,
+        "positive": 7
       },
       "hybrid_rebound_v2": {
-        "n": 13,
-        "avg_return_pct": -3.8918,
-        "positive": 4
+        "n": 14,
+        "avg_return_pct": -3.582,
+        "positive": 5
       }
     }
   },
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-10-26T06:04:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "MOODENG",
-        "QNT"
-      ],
-      "canonical": [
-        "BCH",
-        "QNT"
-      ],
-      "mover3d": [
-        "QNT",
-        "NEAR"
-      ],
-      "hybrid": [
-        "NEAR",
-        "WLD"
-      ]
-    },
     {
       "trigger_time": "2026-10-26T06:28:00+00:00",
       "level": "TRIGGER",
@@ -285,6 +265,27 @@
       "hybrid": [
         "QNT",
         "WLD"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-26T17:28:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "HBAR",
+        "MOODENG",
+        "WLD"
+      ],
+      "canonical": [
+        "HYPE",
+        "QNT"
+      ],
+      "mover3d": [
+        "QNT",
+        "NEAR"
+      ],
+      "hybrid": [
+        "QNT",
+        "NEAR"
       ]
     }
   ]
