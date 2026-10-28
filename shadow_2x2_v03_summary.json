@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-28T20:06:01.528879+00:00",
+  "generated_at": "2026-10-28T20:11:01.292439+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 12.8776,
-  "open_pnl_eur": -0.1697,
-  "paper_equity_gross_eur": 32.7079,
-  "open_count": 6,
-  "closed_count": 377,
+  "realized_gross_eur": 13.1939,
+  "open_pnl_eur": -0.3354,
+  "paper_equity_gross_eur": 32.8585,
+  "open_count": 5,
+  "closed_count": 378,
   "last_selection_hour": "2026-10-28T21",
   "latest_timestamp": "2026-10-28T21:00:01+01:00",
   "open_legs": [
@@ -37,19 +37,6 @@
       "roll_stop_usdt": null
     },
     {
-      "coin": "SUI",
-      "direction": "LONG",
-      "entry_eur": 0.8426391382405745,
-      "current_eur": 0.8519480519480519,
-      "spot_return_pct": 1.1047,
-      "leveraged_return_pct": 3.3142,
-      "open_pnl_eur": 0.1657,
-      "roll_active": true,
-      "hard_sl_usdt": 0.910539,
-      "roll_activation_usdt": 0.9527804999999999,
-      "roll_stop_usdt": 0.9584952
-    },
-    {
       "coin": "LINK",
       "direction": "LONG",
       "entry_eur": 10.570017953321363,
@@ -60,7 +47,7 @@
       "roll_active": true,
       "hard_sl_usdt": 11.42175,
       "roll_activation_usdt": 11.951625,
-      "roll_stop_usdt": 11.867225
+      "roll_stop_usdt": 11.883080999999999
     },
     {
       "coin": "BTC",
@@ -90,14 +77,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "RENDER",
-      "direction": "LONG",
-      "reason": "HARD_SL",
-      "spot_return_pct": -3.0000000000000027,
-      "leveraged_return_pct": -9.000000000000007,
-      "gross_pnl_eur": -0.45000000000000034
-    },
     {
       "coin": "LINK",
       "direction": "SHORT",
@@ -177,6 +156,14 @@
       "spot_return_pct": 4.005755154119953,
       "leveraged_return_pct": 12.01726546235986,
       "gross_pnl_eur": 0.600863273117993
+    },
+    {
+      "coin": "SUI",
+      "direction": "LONG",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 2.1087887503994818,
+      "leveraged_return_pct": 6.326366251198445,
+      "gross_pnl_eur": 0.31631831255992227
     },
     {
       "coin": "SOL",
