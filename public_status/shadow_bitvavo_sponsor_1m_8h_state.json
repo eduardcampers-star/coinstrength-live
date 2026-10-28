@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "created_at": "2026-10-02T13:14:10.418159+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 14.612058117051419,
+  "realized_gross_eur": 14.808320276584494,
   "legs": [
     {
       "coin": "FET",
@@ -6069,7 +6069,7 @@
     {
       "coin": "ADA",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.18421288415016573,
       "entry_time": "2026-10-27T16:03:11.041600+00:00",
       "entry_move_8h_pct": 0.6856023506366382,
@@ -6099,7 +6099,13 @@
         "ret_5m_pct": -0.1944579484686404,
         "ret_15m_pct": -0.33980582524271163,
         "ret_60m_pct": 0.04873294346978696
-      }
+      },
+      "exit_eur": 0.18180261625302388,
+      "exit_time": "2026-10-28T18:47:11.379320+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 1.308414,
+      "leveraged_return_pct": 3.925243,
+      "gross_pnl_eur": 0.196262
     },
     {
       "coin": "HYPE",
@@ -6151,9 +6157,9 @@
       "entry_move_8h_pct": -2.064896755162249,
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 1.4886557259438615,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 1.518488674008416,
+      "roll_stop_eur": 1.5048222759423402,
       "entry_breadth": {
         "5m": {
           "green": 19,
