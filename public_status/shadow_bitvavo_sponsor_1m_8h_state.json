@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "created_at": "2026-10-02T13:14:10.418159+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 14.808320276584494,
+  "realized_gross_eur": 14.358320276584493,
   "legs": [
     {
       "coin": "FET",
@@ -6221,7 +6221,7 @@
     {
       "coin": "PEPE",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 4.381233772047632e-06,
       "entry_time": "2026-10-28T18:58:09.366788+00:00",
       "entry_move_8h_pct": -1.503592922847763,
@@ -6251,6 +6251,47 @@
         "ret_5m_pct": -0.14805371059612993,
         "ret_15m_pct": -0.7805316605709045,
         "ret_60m_pct": -1.4650676731397638
+      },
+      "exit_eur": 4.512670785209061e-06,
+      "exit_time": "2026-10-28T20:16:09.974419+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
+    },
+    {
+      "coin": "NEAR",
+      "direction": "SHORT",
+      "status": "OPEN",
+      "entry_eur": 4.2321124742544995,
+      "entry_time": "2026-10-28T20:18:09.839353+00:00",
+      "entry_move_8h_pct": 2.5385116077240255,
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "roll_active": false,
+      "best_eur": 4.2321124742544995,
+      "roll_stop_eur": null,
+      "entry_breadth": {
+        "5m": {
+          "green": 0,
+          "red": 27,
+          "flat": 0
+        },
+        "15m": {
+          "green": 1,
+          "red": 26,
+          "flat": 0
+        },
+        "60m": {
+          "green": 26,
+          "red": 1,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.7779646761984838,
+        "ret_15m_pct": -1.8714909544603864,
+        "ret_60m_pct": 0.10606703436570886
       }
     }
   ]
