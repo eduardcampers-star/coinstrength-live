@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-29T14:41:01.511116+00:00",
+  "generated_at": "2026-10-29T14:46:01.339041+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 12.8471,
-  "open_pnl_eur": 0.016,
-  "paper_equity_gross_eur": 32.8631,
-  "open_count": 4,
-  "closed_count": 388,
+  "realized_gross_eur": 12.3971,
+  "open_pnl_eur": 0.0759,
+  "paper_equity_gross_eur": 32.473,
+  "open_count": 3,
+  "closed_count": 389,
   "last_selection_hour": "2026-10-29T15",
   "latest_timestamp": "2026-10-29T15:30:01+01:00",
   "open_legs": [
@@ -34,20 +34,7 @@
       "roll_active": true,
       "hard_sl_usdt": 77622.019,
       "roll_activation_usdt": 81223.04049999999,
-      "roll_stop_usdt": 80647.58
-    },
-    {
-      "coin": "WLD",
-      "direction": "SHORT",
-      "entry_eur": 0.3764568764568765,
-      "current_eur": 0.3779668607254814,
-      "spot_return_pct": -0.3995,
-      "leveraged_return_pct": -1.1985,
-      "open_pnl_eur": -0.0599,
-      "roll_active": false,
-      "hard_sl_usdt": 0.432497,
-      "roll_activation_usdt": 0.4136015,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 80780.5722
     },
     {
       "coin": "SUI",
@@ -60,18 +47,10 @@
       "roll_active": true,
       "hard_sl_usdt": 0.897153,
       "roll_activation_usdt": 0.9387734999999999,
-      "roll_stop_usdt": 0.9430356
+      "roll_stop_usdt": 0.9434319999999999
     }
   ],
   "closed_legs": [
-    {
-      "coin": "BCH",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 4.005755154119953,
-      "leveraged_return_pct": 12.01726546235986,
-      "gross_pnl_eur": 0.600863273117993
-    },
     {
       "coin": "SUI",
       "direction": "LONG",
@@ -159,6 +138,14 @@
       "spot_return_pct": -3.0000000000000067,
       "leveraged_return_pct": -9.000000000000021,
       "gross_pnl_eur": -0.45000000000000107
+    },
+    {
+      "coin": "WLD",
+      "direction": "SHORT",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0000000000000058,
+      "leveraged_return_pct": -9.000000000000018,
+      "gross_pnl_eur": -0.45000000000000084
     }
   ]
 }
