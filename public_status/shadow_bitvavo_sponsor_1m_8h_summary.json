@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-29T21:19:10.695401+00:00",
+  "generated_at": "2026-10-29T21:24:10.846153+00:00",
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "latest_timestamp": "2026-10-29T22:15:01+01:00",
-  "film_timestamp": "2026-10-29T21:17:01.531688+00:00",
+  "film_timestamp": "2026-10-29T21:22:01.221376+00:00",
   "trigger": {
     "direction": "LONG",
     "target_legs": 5,
     "breadth_5m": {
-      "green": 26,
-      "red": 1,
-      "flat": 0
+      "green": 5,
+      "red": 16,
+      "flat": 6
     },
     "breadth_15m": {
-      "green": 26,
+      "green": 27,
       "red": 0,
-      "flat": 1
+      "flat": 0
     },
     "breadth_60m": {
       "green": 1,
@@ -22,9 +22,7 @@
       "flat": 0
     }
   },
-  "opened_this_run": [
-    "DOT"
-  ],
+  "opened_this_run": [],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 18.6037,
   "open_pnl_eur": 0.4024,
@@ -32,7 +30,7 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 14.67,
   "paper_equity_est_net_eur": 24.3361,
-  "open_count": 3,
+  "open_count": 4,
   "closed_count": 163,
   "open_legs": [
     {
@@ -135,6 +133,40 @@
         "ret_5m_pct": 0.5938242280284944,
         "ret_15m_pct": 1.5034317463775926,
         "ret_60m_pct": -3.938550366017113
+      }
+    },
+    {
+      "coin": "WLD",
+      "direction": "LONG",
+      "entry_eur": 0.35185847033595424,
+      "current_eur": 0.35185847033595424,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-29T21:20:10.191584+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 26,
+          "red": 1,
+          "flat": 0
+        },
+        "15m": {
+          "green": 26,
+          "red": 0,
+          "flat": 1
+        },
+        "60m": {
+          "green": 1,
+          "red": 26,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.304878048780477,
+        "ret_15m_pct": 1.0752688172043001,
+        "ret_60m_pct": -4.453049370764772
       }
     }
   ],
