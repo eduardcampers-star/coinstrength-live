@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-29T17:51:01.348000+00:00",
+  "generated_at": "2026-10-29T17:56:02.018684+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 12.8397,
-  "open_pnl_eur": 0.4298,
-  "paper_equity_gross_eur": 33.2696,
-  "open_count": 3,
-  "closed_count": 391,
+  "realized_gross_eur": 13.2424,
+  "open_pnl_eur": 0.0538,
+  "paper_equity_gross_eur": 33.2961,
+  "open_count": 2,
+  "closed_count": 392,
   "last_selection_hour": "2026-10-29T18",
   "latest_timestamp": "2026-10-29T18:45:02+01:00",
   "open_legs": [
@@ -24,19 +24,6 @@
       "roll_stop_usdt": null
     },
     {
-      "coin": "WLD",
-      "direction": "SHORT",
-      "entry_eur": 0.38788475304223335,
-      "current_eur": 0.37839771101573677,
-      "spot_return_pct": 2.5072,
-      "leveraged_return_pct": 7.5215,
-      "open_pnl_eur": 0.3761,
-      "roll_active": true,
-      "hard_sl_usdt": 0.446505,
-      "roll_activation_usdt": 0.4269975,
-      "roll_stop_usdt": 0.42529349999999994
-    },
-    {
       "coin": "LINK",
       "direction": "SHORT",
       "entry_eur": 10.607551896921978,
@@ -44,21 +31,13 @@
       "spot_return_pct": 1.1552,
       "leveraged_return_pct": 3.4657,
       "open_pnl_eur": 0.1733,
-      "roll_active": false,
+      "roll_active": true,
       "hard_sl_usdt": 12.210650000000001,
       "roll_activation_usdt": 11.677175,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 11.767966999999999
     }
   ],
   "closed_legs": [
-    {
-      "coin": "SOL",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 1.5705402254178127,
-      "leveraged_return_pct": 4.711620676253438,
-      "gross_pnl_eur": 0.23558103381267192
-    },
     {
       "coin": "BTC",
       "direction": "SHORT",
@@ -146,6 +125,14 @@
       "spot_return_pct": 2.003676073088978,
       "leveraged_return_pct": 6.011028219266934,
       "gross_pnl_eur": 0.3005514109633467
+    },
+    {
+      "coin": "WLD",
+      "direction": "SHORT",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 2.684452133794697,
+      "leveraged_return_pct": 8.05335640138409,
+      "gross_pnl_eur": 0.4026678200692045
     }
   ]
 }
