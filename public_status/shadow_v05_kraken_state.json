@@ -2,7 +2,7 @@
   "strategy": "KRAKEN_V05_CANDIDATE_B",
   "created_at": "2026-10-10T17:08:41.058147+00:00",
   "start_pot_usd": 20.0,
-  "realized_gross_usd": 0.6179385999565437,
+  "realized_gross_usd": -1.5773963796324715,
   "legs": [
     {
       "coin": "QNT",
@@ -1607,7 +1607,7 @@
     {
       "coin": "UNI",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 7.068,
       "entry_time": "2026-10-29T20:13:14.050753+00:00",
       "margin_usd": 5.0,
@@ -1624,12 +1624,21 @@
       "move60_pct": -2.007808,
       "basket_id": "V05B:2026-10-29T20:13:14.043515+00:00:BCH,PEPE,RENDER,UNI",
       "momentum_2_4_pct": 0.084818,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007086162988115451,
+      "net_pnl_usd": -0.8422601867572141,
+      "exit_usd": 6.678,
+      "exit_time": "2026-10-29T20:44:14.014732+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": -5.517827,
+      "leveraged_return_pct": -16.55348,
+      "gross_pnl_usd": -0.827674
     },
     {
       "coin": "PEPE",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 5.1948e-06,
       "entry_time": "2026-10-29T20:13:14.050784+00:00",
       "margin_usd": 5.0,
@@ -1646,7 +1655,16 @@
       "move60_pct": -2.001059,
       "basket_id": "V05B:2026-10-29T20:13:14.043515+00:00:BCH,PEPE,RENDER,UNI",
       "momentum_2_4_pct": 0.030767,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007050271425271427,
+      "net_pnl_usd": -0.9140074208824185,
+      "exit_usd": 4.8833e-06,
+      "exit_time": "2026-10-29T20:44:14.022056+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": -5.996381,
+      "leveraged_return_pct": -17.989143,
+      "gross_pnl_usd": -0.899457
     },
     {
       "coin": "RENDER",
@@ -1682,7 +1700,7 @@
     {
       "coin": "BCH",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 283.21,
       "entry_time": "2026-10-29T20:13:14.050798+00:00",
       "margin_usd": 5.0,
@@ -1699,60 +1717,20 @@
       "move60_pct": -1.638204,
       "basket_id": "V05B:2026-10-29T20:13:14.043515+00:00:BCH,PEPE,RENDER,UNI",
       "momentum_2_4_pct": 0.106326,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007265898096818615,
+      "net_pnl_usd": -0.482969704459588,
+      "exit_usd": 274.37,
+      "exit_time": "2026-10-29T20:44:14.029074+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": -3.121359,
+      "leveraged_return_pct": -9.364076,
+      "gross_pnl_usd": -0.468204
     }
   ],
-  "market_event": {
-    "status": "ACTIVE",
-    "go_time": "2026-10-29T20:08:00+00:00",
-    "breadth_prev": {
-      "green": 23,
-      "red": 3,
-      "flat": 1
-    },
-    "breadth_go": {
-      "green": 24,
-      "red": 0,
-      "flat": 3
-    },
-    "created_at": "2026-10-29T20:09:13.562444+00:00",
-    "confirm_time": "2026-10-29T20:12:00+00:00",
-    "market_momentum_2_4_pct": 0.54138,
-    "confirm_n": 27,
-    "top4": [
-      {
-        "rank": 1,
-        "coin": "UNI",
-        "move60_pct": -2.007808
-      },
-      {
-        "rank": 2,
-        "coin": "PEPE",
-        "move60_pct": -2.001059
-      },
-      {
-        "rank": 3,
-        "coin": "RENDER",
-        "move60_pct": -1.644598
-      },
-      {
-        "rank": 4,
-        "coin": "BCH",
-        "move60_pct": -1.638204
-      }
-    ],
-    "top4_locked": true,
-    "top4_lock_time": "2026-10-29T20:13:14.043515+00:00",
-    "basket_id": "V05B:2026-10-29T20:13:14.043515+00:00:BCH,PEPE,RENDER,UNI",
-    "entry_time": "2026-10-29T20:13:14.050814+00:00",
-    "opened_coins": [
-      "UNI",
-      "PEPE",
-      "RENDER",
-      "BCH"
-    ]
-  },
-  "last_market_breadth_green": 14,
+  "market_event": null,
+  "last_market_breadth_green": 2,
   "market_burst_locked": false,
   "pending_events": []
 }
