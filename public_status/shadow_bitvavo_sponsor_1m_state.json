@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04",
   "created_at": "2026-09-30T13:57:56.192235+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 19.11682955284725,
+  "realized_gross_eur": 21.579268575231957,
   "legs": [
     {
       "coin": "HBAR",
@@ -3692,9 +3692,9 @@
       "entry_time": "2026-10-15T23:58:01.948560+00:00",
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 0.29601817210048104,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 0.30493209435310936,
+      "roll_stop_eur": 0.30218770550393137,
       "entry_breadth": {
         "5m": {
           "green": 10,
@@ -6241,7 +6241,7 @@
     {
       "coin": "VET",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.005544306065764716,
       "entry_time": "2026-10-29T11:08:03.002401+00:00",
       "margin_eur": 5.0,
@@ -6270,12 +6270,18 @@
         "ret_5m_pct": -0.22642730066311234,
         "ret_15m_pct": -0.46789286866731894,
         "ret_60m_pct": 0.9821574725814353
-      }
+      },
+      "exit_eur": 0.005199599749843652,
+      "exit_time": "2026-10-29T21:17:01.913065+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 6.217303,
+      "leveraged_return_pct": 18.651909,
+      "gross_pnl_eur": 0.932595
     },
     {
       "coin": "WLD",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.3901915160193306,
       "entry_time": "2026-10-29T16:33:01.768965+00:00",
       "margin_eur": 5.0,
@@ -6304,7 +6310,13 @@
         "ret_5m_pct": -0.43438500228624166,
         "ret_15m_pct": -0.5253540429419834,
         "ret_60m_pct": 1.5151515151515138
-      }
+      },
+      "exit_eur": 0.35039605110336813,
+      "exit_time": "2026-10-29T21:17:01.913277+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 10.198957,
+      "leveraged_return_pct": 30.596871,
+      "gross_pnl_eur": 1.529844
     },
     {
       "coin": "PEPE",
