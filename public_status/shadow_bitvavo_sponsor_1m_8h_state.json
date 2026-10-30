@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "created_at": "2026-10-02T13:14:10.418159+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 19.56184913758813,
+  "realized_gross_eur": 20.251925001796742,
   "legs": [
     {
       "coin": "FET",
@@ -7141,7 +7141,7 @@
     {
       "coin": "TRX",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.3007327624260616,
       "entry_time": "2026-10-30T05:32:09.707722+00:00",
       "entry_move_8h_pct": 0.8676083029818482,
@@ -7171,7 +7171,13 @@
         "ret_5m_pct": -0.055710306406686616,
         "ret_15m_pct": -0.38285062980388807,
         "ret_60m_pct": -1.0767042981106867
-      }
+      },
+      "exit_eur": 0.28689753436426113,
+      "exit_time": "2026-10-30T09:17:10.472008+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 4.600506,
+      "leveraged_return_pct": 13.801517,
+      "gross_pnl_eur": 0.690076
     },
     {
       "coin": "PEPE",
@@ -7258,9 +7264,9 @@
       "entry_move_8h_pct": 4.508895929807477,
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 3.7283714459612214,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 3.8337468982630267,
+      "roll_stop_eur": 3.7992431761786594,
       "entry_breadth": {
         "5m": {
           "green": 20,
