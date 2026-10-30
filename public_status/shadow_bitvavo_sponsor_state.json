@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04",
   "created_at": "2026-09-26T06:23:47.342463+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 31.802510711295135,
+  "realized_gross_eur": 31.687357623144596,
   "legs": [
     {
       "coin": "SUI",
@@ -7527,7 +7527,7 @@
     {
       "coin": "HYPE",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 81.91328769527821,
       "entry_time": "2026-10-30T11:13:02.721626+00:00",
       "margin_eur": 5.0,
@@ -7556,7 +7556,13 @@
         "ret_5m_pct": -0.46015231148771596,
         "ret_15m_pct": -0.44627053005352746,
         "ret_60m_pct": 1.3056055892145535
-      }
+      },
+      "exit_eur": 80.08472693366485,
+      "exit_time": "2026-10-30T19:18:02.375667+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 2.232313,
+      "leveraged_return_pct": 6.696938,
+      "gross_pnl_eur": 0.334847
     },
     {
       "coin": "TRX",
@@ -7595,7 +7601,7 @@
     {
       "coin": "BCH",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 261.1130867709815,
       "entry_time": "2026-10-30T16:18:02.046909+00:00",
       "margin_eur": 5.0,
@@ -7624,7 +7630,13 @@
         "ret_5m_pct": -0.09188674108357997,
         "ret_15m_pct": 0.641069592046617,
         "ret_60m_pct": -0.49486492899026846
-      }
+      },
+      "exit_eur": 253.27969416785206,
+      "exit_time": "2026-10-30T19:18:02.375839+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     }
   ]
 }
