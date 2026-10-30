@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-10-30T08:41:03.609821+00:00",
+  "generated_at": "2026-10-30T09:01:02.672530+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 24,
+  "events_24h": 25,
   "strong_24h": 11,
   "results": {
     "5m": {
       "canonical": {
-        "n": 24,
-        "avg_return_pct": -0.1638,
+        "n": 25,
+        "avg_return_pct": -0.1732,
         "positive": 9
       },
       "mover3d": {
-        "n": 24,
-        "avg_return_pct": -0.2072,
+        "n": 25,
+        "avg_return_pct": -0.2169,
         "positive": 9
       },
       "hybrid_rebound_v2": {
-        "n": 24,
-        "avg_return_pct": -0.0799,
+        "n": 25,
+        "avg_return_pct": -0.0947,
         "positive": 14
       }
     },
     "15m": {
       "canonical": {
-        "n": 24,
-        "avg_return_pct": -0.1606,
-        "positive": 9
-      },
-      "mover3d": {
-        "n": 24,
-        "avg_return_pct": -0.3068,
+        "n": 25,
+        "avg_return_pct": -0.1533,
         "positive": 10
       },
+      "mover3d": {
+        "n": 25,
+        "avg_return_pct": -0.2719,
+        "positive": 11
+      },
       "hybrid_rebound_v2": {
-        "n": 24,
-        "avg_return_pct": -0.1667,
-        "positive": 14
+        "n": 25,
+        "avg_return_pct": -0.1373,
+        "positive": 15
       }
     },
     "30m": {
@@ -80,28 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-10-30T00:10:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "HBAR",
-        "LTC",
-        "NEAR",
-        "XRP"
-      ],
-      "canonical": [
-        "TRX",
-        "HYPE"
-      ],
-      "mover3d": [
-        "PEPE",
-        "NEAR"
-      ],
-      "hybrid": [
-        "PEPE",
-        "WLD"
-      ]
-    },
     {
       "trigger_time": "2026-10-30T00:29:00+00:00",
       "level": "TRIGGER",
@@ -288,6 +266,26 @@
       "hybrid": [
         "PEPE",
         "QNT"
+      ]
+    },
+    {
+      "trigger_time": "2026-10-30T08:39:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "PEPE",
+        "RENDER"
+      ],
+      "canonical": [
+        "QNT",
+        "PEPE"
+      ],
+      "mover3d": [
+        "PEPE",
+        "FET"
+      ],
+      "hybrid": [
+        "PEPE",
+        "FET"
       ]
     }
   ]
