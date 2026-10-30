@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04",
   "created_at": "2026-09-26T06:23:47.342463+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 29.628303626632338,
+  "realized_gross_eur": 29.17830362663234,
   "legs": [
     {
       "coin": "SUI",
@@ -7366,9 +7366,9 @@
       "entry_time": "2026-10-30T07:13:01.931404+00:00",
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 80.25689330364789,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 78.6108966108966,
+      "roll_stop_eur": 79.31839468039466,
       "entry_breadth": {
         "5m": {
           "green": 2,
@@ -7395,7 +7395,7 @@
     {
       "coin": "QNT",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 172.57629771324233,
       "entry_time": "2026-10-30T07:33:02.091654+00:00",
       "margin_eur": 5.0,
@@ -7424,7 +7424,13 @@
         "ret_5m_pct": -1.113911290322589,
         "ret_15m_pct": -0.486938879026122,
         "ret_60m_pct": 0.10204602275625252
-      }
+      },
+      "exit_eur": 167.39900878184505,
+      "exit_time": "2026-10-30T08:03:01.777471+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     }
   ]
 }
