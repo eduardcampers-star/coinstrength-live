@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "created_at": "2026-10-02T13:14:10.418159+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 17.87665448877962,
+  "realized_gross_eur": 19.336378388597865,
   "legs": [
     {
       "coin": "FET",
@@ -6936,7 +6936,7 @@
     {
       "coin": "ADA",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.16355264323031968,
       "entry_time": "2026-10-30T00:39:09.823135+00:00",
       "entry_move_8h_pct": -10.33980582524271,
@@ -6966,12 +6966,18 @@
         "ret_5m_pct": 1.0320478001086375,
         "ret_15m_pct": 1.3623978201634968,
         "ret_60m_pct": -2.821316614420055
-      }
+      },
+      "exit_eur": 0.1701832067808582,
+      "exit_time": "2026-10-30T06:47:11.508148+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 4.054085,
+      "leveraged_return_pct": 12.162256,
+      "gross_pnl_eur": 0.608113
     },
     {
       "coin": "AVAX",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 7.136279110953688,
       "entry_time": "2026-10-30T00:40:11.320020+00:00",
       "entry_move_8h_pct": -10.085908735914318,
@@ -7001,7 +7007,13 @@
         "ret_5m_pct": 1.1431411530815172,
         "ret_15m_pct": 1.0427010923535374,
         "ret_60m_pct": -2.2574447646493634
-      }
+      },
+      "exit_eur": 7.5414347518982865,
+      "exit_time": "2026-10-30T06:47:11.508316+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 5.677407,
+      "leveraged_return_pct": 17.032222,
+      "gross_pnl_eur": 0.851611
     },
     {
       "coin": "LTC",
@@ -7136,8 +7148,8 @@
       "margin_eur": 5.0,
       "leverage": 3.0,
       "roll_active": true,
-      "best_eur": 0.2958289611752361,
-      "roll_stop_eur": 0.2984914218258132,
+      "best_eur": 0.2880699348645869,
+      "roll_stop_eur": 0.2906625642783681,
       "entry_breadth": {
         "5m": {
           "green": 18,
