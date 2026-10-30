@@ -1851,10 +1851,90 @@
       "spot_return_pct": 0.374833,
       "leveraged_return_pct": 1.124498,
       "gross_pnl_usd": 0.056225
+    },
+    {
+      "coin": "PEPE",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 5.1286e-06,
+      "entry_time": "2026-10-30T10:58:13.726193+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-30T10:53:00+00:00",
+      "market_confirm_time": "2026-10-30T10:57:00+00:00",
+      "market_momentum_2_4_pct": 0.042185,
+      "move60_rank": 1,
+      "move60_pct": 4.825118,
+      "basket_id": "V05B:2026-10-30T10:58:13.719019+00:00:BCH,HYPE,PEPE,TRX"
+    },
+    {
+      "coin": "TRX",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 0.34282,
+      "entry_time": "2026-10-30T10:58:13.726213+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-30T10:53:00+00:00",
+      "market_confirm_time": "2026-10-30T10:57:00+00:00",
+      "market_momentum_2_4_pct": 0.042185,
+      "move60_rank": 2,
+      "move60_pct": 2.131783,
+      "basket_id": "V05B:2026-10-30T10:58:13.719019+00:00:BCH,HYPE,PEPE,TRX"
+    },
+    {
+      "coin": "HYPE",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 93.288,
+      "entry_time": "2026-10-30T10:58:13.726221+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-30T10:53:00+00:00",
+      "market_confirm_time": "2026-10-30T10:57:00+00:00",
+      "market_momentum_2_4_pct": 0.042185,
+      "move60_rank": 3,
+      "move60_pct": 1.973627,
+      "basket_id": "V05B:2026-10-30T10:58:13.719019+00:00:BCH,HYPE,PEPE,TRX"
+    },
+    {
+      "coin": "BCH",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 286.0,
+      "entry_time": "2026-10-30T10:58:13.726227+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-10-30T10:53:00+00:00",
+      "market_confirm_time": "2026-10-30T10:57:00+00:00",
+      "market_momentum_2_4_pct": 0.042185,
+      "move60_rank": 4,
+      "move60_pct": 1.709402,
+      "basket_id": "V05B:2026-10-30T10:58:13.719019+00:00:BCH,HYPE,PEPE,TRX"
     }
   ],
   "market_event": {
-    "status": "WAIT_CONFIRM",
+    "status": "ACTIVE",
     "go_time": "2026-10-30T10:53:00+00:00",
     "breadth_prev": {
       "green": 23,
@@ -1866,9 +1946,44 @@
       "red": 1,
       "flat": 4
     },
-    "created_at": "2026-10-30T10:54:13.381927+00:00"
+    "created_at": "2026-10-30T10:54:13.381927+00:00",
+    "confirm_time": "2026-10-30T10:57:00+00:00",
+    "market_momentum_2_4_pct": 0.042185,
+    "confirm_n": 27,
+    "top4": [
+      {
+        "rank": 1,
+        "coin": "PEPE",
+        "move60_pct": 4.825118
+      },
+      {
+        "rank": 2,
+        "coin": "TRX",
+        "move60_pct": 2.131783
+      },
+      {
+        "rank": 3,
+        "coin": "HYPE",
+        "move60_pct": 1.973627
+      },
+      {
+        "rank": 4,
+        "coin": "BCH",
+        "move60_pct": 1.709402
+      }
+    ],
+    "top4_locked": true,
+    "top4_lock_time": "2026-10-30T10:58:13.719019+00:00",
+    "basket_id": "V05B:2026-10-30T10:58:13.719019+00:00:BCH,HYPE,PEPE,TRX",
+    "entry_time": "2026-10-30T10:58:13.726243+00:00",
+    "opened_coins": [
+      "PEPE",
+      "TRX",
+      "HYPE",
+      "BCH"
+    ]
   },
-  "last_market_breadth_green": 22,
-  "market_burst_locked": true,
+  "last_market_breadth_green": 18,
+  "market_burst_locked": false,
   "pending_events": []
 }
