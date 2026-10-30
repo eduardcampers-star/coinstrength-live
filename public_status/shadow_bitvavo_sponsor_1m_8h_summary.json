@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-30T00:34:10.337691+00:00",
+  "generated_at": "2026-10-30T00:39:09.823443+00:00",
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "latest_timestamp": "2026-10-30T01:30:01+01:00",
-  "film_timestamp": "2026-10-30T00:32:01.374396+00:00",
+  "film_timestamp": "2026-10-30T00:37:02.054590+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "LONG",
+    "target_legs": 5,
     "breadth_5m": {
-      "green": 7,
-      "red": 15,
-      "flat": 5
+      "green": 26,
+      "red": 1,
+      "flat": 0
     },
     "breadth_15m": {
-      "green": 0,
-      "red": 27,
+      "green": 25,
+      "red": 2,
       "flat": 0
     },
     "breadth_60m": {
@@ -22,7 +22,9 @@
       "flat": 0
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "ADA"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 17.8764,
   "open_pnl_eur": 0.0,
@@ -30,9 +32,78 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 15.12,
   "paper_equity_est_net_eur": 22.7564,
-  "open_count": 0,
+  "open_count": 2,
   "closed_count": 168,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "QNT",
+      "direction": "LONG",
+      "entry_eur": 156.69883998937397,
+      "current_eur": 156.69883998937397,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-30T00:38:10.307840+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 26,
+          "red": 1,
+          "flat": 0
+        },
+        "15m": {
+          "green": 25,
+          "red": 2,
+          "flat": 0
+        },
+        "60m": {
+          "green": 0,
+          "red": 27,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.4752206381534396,
+        "ret_15m_pct": 0.7088176920895917,
+        "ret_60m_pct": -2.9720279720279685
+      }
+    },
+    {
+      "coin": "ADA",
+      "direction": "LONG",
+      "entry_eur": 0.16355264323031968,
+      "current_eur": 0.16355264323031968,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-30T00:39:09.823135+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 26,
+          "red": 1,
+          "flat": 0
+        },
+        "15m": {
+          "green": 25,
+          "red": 2,
+          "flat": 0
+        },
+        "60m": {
+          "green": 0,
+          "red": 27,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 1.0320478001086375,
+        "ret_15m_pct": 1.3623978201634968,
+        "ret_60m_pct": -2.821316614420055
+      }
+    }
+  ],
   "closed_legs": [
     {
       "coin": "ADA",
