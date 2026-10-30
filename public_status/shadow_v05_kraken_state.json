@@ -2,7 +2,7 @@
   "strategy": "KRAKEN_V05_CANDIDATE_B",
   "created_at": "2026-10-10T17:08:41.058147+00:00",
   "start_pot_usd": 20.0,
-  "realized_gross_usd": -1.4696998883495969,
+  "realized_gross_usd": -1.7934273155187892,
   "legs": [
     {
       "coin": "QNT",
@@ -1762,7 +1762,7 @@
     {
       "coin": "FET",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 0.15893,
       "entry_time": "2026-10-30T00:50:13.699898+00:00",
       "margin_usd": 5.0,
@@ -1779,7 +1779,16 @@
       "move60_pct": -3.224427,
       "basket_id": "V05B:2026-10-30T00:50:13.691645+00:00:FET,MOODENG,ONDO,WLD",
       "momentum_2_4_pct": 0.094458,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007338136286415404,
+      "net_pnl_usd": -0.33856556345560773,
+      "exit_usd": 0.1555,
+      "exit_time": "2026-10-30T01:21:13.718251+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": -2.158183,
+      "leveraged_return_pct": -6.474549,
+      "gross_pnl_usd": -0.323727
     },
     {
       "coin": "ONDO",
@@ -1844,57 +1853,8 @@
       "gross_pnl_usd": 0.056225
     }
   ],
-  "market_event": {
-    "status": "ACTIVE",
-    "go_time": "2026-10-30T00:45:00+00:00",
-    "breadth_prev": {
-      "green": 26,
-      "red": 0,
-      "flat": 1
-    },
-    "breadth_go": {
-      "green": 24,
-      "red": 2,
-      "flat": 1
-    },
-    "created_at": "2026-10-30T00:46:13.329307+00:00",
-    "confirm_time": "2026-10-30T00:49:00+00:00",
-    "market_momentum_2_4_pct": 0.316942,
-    "confirm_n": 27,
-    "top4": [
-      {
-        "rank": 1,
-        "coin": "MOODENG",
-        "move60_pct": -5.428571
-      },
-      {
-        "rank": 2,
-        "coin": "FET",
-        "move60_pct": -3.224427
-      },
-      {
-        "rank": 3,
-        "coin": "ONDO",
-        "move60_pct": -2.657195
-      },
-      {
-        "rank": 4,
-        "coin": "WLD",
-        "move60_pct": -2.636387
-      }
-    ],
-    "top4_locked": true,
-    "top4_lock_time": "2026-10-30T00:50:13.691645+00:00",
-    "basket_id": "V05B:2026-10-30T00:50:13.691645+00:00:FET,MOODENG,ONDO,WLD",
-    "entry_time": "2026-10-30T00:50:13.699931+00:00",
-    "opened_coins": [
-      "MOODENG",
-      "FET",
-      "ONDO",
-      "WLD"
-    ]
-  },
-  "last_market_breadth_green": 2,
+  "market_event": null,
+  "last_market_breadth_green": 11,
   "market_burst_locked": false,
   "pending_events": []
 }
