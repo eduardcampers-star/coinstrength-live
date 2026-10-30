@@ -1,6 +1,6 @@
 {
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 22.201473662492372,
+  "realized_gross_eur": 22.476397328107407,
   "legs": [
     {
       "coin": "SUI",
@@ -7359,7 +7359,7 @@
     {
       "coin": "QNT",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 169.0120949942615,
       "entry_time": "2026-10-30T05:44:02.933230+00:00",
       "margin_eur": 5.0,
@@ -7388,12 +7388,18 @@
         "ret_5m_pct": 0.01556097307950921,
         "ret_15m_pct": 1.1647429171038892,
         "ret_60m_pct": 3.789428356120128
-      }
+      },
+      "exit_eur": 167.40483054483053,
+      "exit_time": "2026-10-30T08:19:02.057586+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 0.950976,
+      "leveraged_return_pct": 2.852928,
+      "gross_pnl_eur": 0.142646
     },
     {
       "coin": "NEAR",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 3.714677170748416,
       "entry_time": "2026-10-30T07:14:02.265198+00:00",
       "margin_eur": 5.0,
@@ -7422,7 +7428,13 @@
         "ret_5m_pct": -0.5567153792623514,
         "ret_15m_pct": -1.107266435986165,
         "ret_60m_pct": 2.022846263683964
-      }
+      },
+      "exit_eur": 3.6819193479193477,
+      "exit_time": "2026-10-30T08:19:02.057769+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 0.881848,
+      "leveraged_return_pct": 2.645545,
+      "gross_pnl_eur": 0.132277
     },
     {
       "coin": "DOT",
@@ -7456,6 +7468,40 @@
         "ret_5m_pct": 0.16799664006719173,
         "ret_15m_pct": 0.010483279169726245,
         "ret_60m_pct": 0.4951016538502051
+      }
+    },
+    {
+      "coin": "RENDER",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 1.3502650932101932,
+      "entry_time": "2026-10-30T08:19:02.057908+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "roll_active": false,
+      "best_eur": 1.3502650932101932,
+      "roll_stop_eur": null,
+      "entry_breadth": {
+        "5m": {
+          "green": 26,
+          "red": 1,
+          "flat": 0
+        },
+        "15m": {
+          "green": 24,
+          "red": 1,
+          "flat": 2
+        },
+        "60m": {
+          "green": 6,
+          "red": 19,
+          "flat": 2
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.5728835136855626,
+        "ret_15m_pct": 0.8296107211231751,
+        "ret_60m_pct": 0.31746031746031633
       }
     }
   ]
