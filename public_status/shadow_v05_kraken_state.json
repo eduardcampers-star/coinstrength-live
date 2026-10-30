@@ -2,7 +2,7 @@
   "strategy": "KRAKEN_V05_CANDIDATE_B",
   "created_at": "2026-10-10T17:08:41.058147+00:00",
   "start_pot_usd": 20.0,
-  "realized_gross_usd": -1.7934273155187892,
+  "realized_gross_usd": -1.6108854090698763,
   "legs": [
     {
       "coin": "QNT",
@@ -1855,7 +1855,7 @@
     {
       "coin": "PEPE",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 5.1286e-06,
       "entry_time": "2026-10-30T10:58:13.726193+00:00",
       "margin_usd": 5.0,
@@ -1870,12 +1870,22 @@
       "market_momentum_2_4_pct": 0.042185,
       "move60_rank": 1,
       "move60_pct": 4.825118,
-      "basket_id": "V05B:2026-10-30T10:58:13.719019+00:00:BCH,HYPE,PEPE,TRX"
+      "basket_id": "V05B:2026-10-30T10:58:13.719019+00:00:BCH,HYPE,PEPE,TRX",
+      "coin_check": "INVALID_NO_M2",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007596371329407636,
+      "net_pnl_usd": 0.177646287485864,
+      "exit_usd": 5.1945e-06,
+      "exit_time": "2026-10-30T11:02:14.069333+00:00",
+      "reason": "INVALID_NO_M2",
+      "spot_return_pct": 1.284951,
+      "leveraged_return_pct": 3.854853,
+      "gross_pnl_usd": 0.192743
     },
     {
       "coin": "TRX",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 0.34282,
       "entry_time": "2026-10-30T10:58:13.726213+00:00",
       "margin_usd": 5.0,
@@ -1890,12 +1900,22 @@
       "market_momentum_2_4_pct": 0.042185,
       "move60_rank": 2,
       "move60_pct": 2.131783,
-      "basket_id": "V05B:2026-10-30T10:58:13.719019+00:00:BCH,HYPE,PEPE,TRX"
+      "basket_id": "V05B:2026-10-30T10:58:13.719019+00:00:BCH,HYPE,PEPE,TRX",
+      "coin_check": "INVALID_NO_M2",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007491249051980631,
+      "net_pnl_usd": -0.032493145090718274,
+      "exit_usd": 0.34242,
+      "exit_time": "2026-10-30T11:02:14.093576+00:00",
+      "reason": "INVALID_NO_M2",
+      "spot_return_pct": -0.116679,
+      "leveraged_return_pct": -0.350038,
+      "gross_pnl_usd": -0.017502
     },
     {
       "coin": "HYPE",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 93.288,
       "entry_time": "2026-10-30T10:58:13.726221+00:00",
       "margin_usd": 5.0,
@@ -1910,12 +1930,22 @@
       "market_momentum_2_4_pct": 0.042185,
       "move60_rank": 3,
       "move60_pct": 1.973627,
-      "basket_id": "V05B:2026-10-30T10:58:13.719019+00:00:BCH,HYPE,PEPE,TRX"
+      "basket_id": "V05B:2026-10-30T10:58:13.719019+00:00:BCH,HYPE,PEPE,TRX",
+      "coin_check": "INVALID_NO_M2",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007511255466941085,
+      "net_pnl_usd": 0.007499678415229207,
+      "exit_usd": 93.428,
+      "exit_time": "2026-10-30T11:02:14.106286+00:00",
+      "reason": "INVALID_NO_M2",
+      "spot_return_pct": 0.150073,
+      "leveraged_return_pct": 0.450219,
+      "gross_pnl_usd": 0.022511
     },
     {
       "coin": "BCH",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 286.0,
       "entry_time": "2026-10-30T10:58:13.726227+00:00",
       "margin_usd": 5.0,
@@ -1930,60 +1960,21 @@
       "market_momentum_2_4_pct": 0.042185,
       "move60_rank": 4,
       "move60_pct": 1.709402,
-      "basket_id": "V05B:2026-10-30T10:58:13.719019+00:00:BCH,HYPE,PEPE,TRX"
+      "basket_id": "V05B:2026-10-30T10:58:13.719019+00:00:BCH,HYPE,PEPE,TRX",
+      "coin_check": "INVALID_NO_M2",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.0074923951048951045,
+      "net_pnl_usd": -0.030202185314686512,
+      "exit_usd": 285.71,
+      "exit_time": "2026-10-30T11:02:14.114394+00:00",
+      "reason": "INVALID_NO_M2",
+      "spot_return_pct": -0.101399,
+      "leveraged_return_pct": -0.304196,
+      "gross_pnl_usd": -0.01521
     }
   ],
-  "market_event": {
-    "status": "ACTIVE",
-    "go_time": "2026-10-30T10:53:00+00:00",
-    "breadth_prev": {
-      "green": 23,
-      "red": 1,
-      "flat": 3
-    },
-    "breadth_go": {
-      "green": 22,
-      "red": 1,
-      "flat": 4
-    },
-    "created_at": "2026-10-30T10:54:13.381927+00:00",
-    "confirm_time": "2026-10-30T10:57:00+00:00",
-    "market_momentum_2_4_pct": 0.042185,
-    "confirm_n": 27,
-    "top4": [
-      {
-        "rank": 1,
-        "coin": "PEPE",
-        "move60_pct": 4.825118
-      },
-      {
-        "rank": 2,
-        "coin": "TRX",
-        "move60_pct": 2.131783
-      },
-      {
-        "rank": 3,
-        "coin": "HYPE",
-        "move60_pct": 1.973627
-      },
-      {
-        "rank": 4,
-        "coin": "BCH",
-        "move60_pct": 1.709402
-      }
-    ],
-    "top4_locked": true,
-    "top4_lock_time": "2026-10-30T10:58:13.719019+00:00",
-    "basket_id": "V05B:2026-10-30T10:58:13.719019+00:00:BCH,HYPE,PEPE,TRX",
-    "entry_time": "2026-10-30T10:58:13.726243+00:00",
-    "opened_coins": [
-      "PEPE",
-      "TRX",
-      "HYPE",
-      "BCH"
-    ]
-  },
-  "last_market_breadth_green": 18,
+  "market_event": null,
+  "last_market_breadth_green": 1,
   "market_burst_locked": false,
   "pending_events": []
 }
