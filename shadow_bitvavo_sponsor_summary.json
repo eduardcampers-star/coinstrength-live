@@ -1,50 +1,50 @@
 {
-  "generated_at": "2026-10-30T08:13:02.450026+00:00",
+  "generated_at": "2026-10-30T08:18:01.948044+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-10-30T09:00:01+01:00",
-  "film_timestamp": "2026-10-30T08:12:01.274455+00:00",
+  "latest_timestamp": "2026-10-30T09:15:01+01:00",
+  "film_timestamp": "2026-10-30T08:17:01.932083+00:00",
   "trigger": {
     "direction": "LONG",
-    "target_legs": 1,
+    "target_legs": 5,
     "breadth_5m": {
-      "green": 21,
-      "red": 3,
-      "flat": 3
+      "green": 26,
+      "red": 1,
+      "flat": 0
     },
     "breadth_15m": {
-      "green": 16,
-      "red": 6,
-      "flat": 5
+      "green": 24,
+      "red": 1,
+      "flat": 2
     },
     "breadth_60m": {
-      "green": 2,
-      "red": 25,
-      "flat": 0
+      "green": 6,
+      "red": 19,
+      "flat": 2
     }
   },
   "opened_this_run": [
-    "QNT"
+    "BCH"
   ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 29.1783,
-  "open_pnl_eur": 1.2573,
-  "paper_equity_gross_eur": 50.4356,
+  "open_pnl_eur": 1.6369,
+  "paper_equity_gross_eur": 50.8152,
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 16.56,
-  "paper_equity_est_net_eur": 33.8756,
-  "open_count": 3,
+  "paper_equity_est_net_eur": 34.2552,
+  "open_count": 4,
   "closed_count": 184,
   "open_legs": [
     {
       "coin": "TRX",
       "direction": "SHORT",
       "entry_eur": 0.30880897685103376,
-      "current_eur": 0.2892578292578292,
-      "spot_return_pct": 6.3311,
-      "leveraged_return_pct": 18.9934,
-      "open_pnl_eur": 0.9497,
+      "current_eur": 0.2854540790148794,
+      "spot_return_pct": 7.5629,
+      "leveraged_return_pct": 22.6887,
+      "open_pnl_eur": 1.1344,
       "roll_active": true,
-      "roll_stop_eur": 0.2906625642783681,
+      "roll_stop_eur": 0.2880231657260133,
       "entry_time": "2026-10-30T04:03:02.906673+00:00",
       "entry_breadth": {
         "5m": {
@@ -73,12 +73,12 @@
       "coin": "HYPE",
       "direction": "SHORT",
       "entry_eur": 80.25689330364789,
-      "current_eur": 78.6108966108966,
-      "spot_return_pct": 2.0509,
-      "leveraged_return_pct": 6.1527,
-      "open_pnl_eur": 0.3076,
+      "current_eur": 78.3145202668035,
+      "spot_return_pct": 2.4202,
+      "leveraged_return_pct": 7.2606,
+      "open_pnl_eur": 0.363,
       "roll_active": true,
-      "roll_stop_eur": 79.31839468039466,
+      "roll_stop_eur": 79.01935094920472,
       "entry_time": "2026-10-30T07:13:01.931404+00:00",
       "entry_breadth": {
         "5m": {
@@ -107,10 +107,10 @@
       "coin": "QNT",
       "direction": "LONG",
       "entry_eur": 165.91162591162592,
-      "current_eur": 165.91162591162592,
-      "spot_return_pct": 0.0,
-      "leveraged_return_pct": 0.0,
-      "open_pnl_eur": 0.0,
+      "current_eur": 167.45339490336926,
+      "spot_return_pct": 0.9293,
+      "leveraged_return_pct": 2.7878,
+      "open_pnl_eur": 0.1394,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-10-30T08:13:02.449640+00:00",
@@ -135,6 +135,40 @@
         "ret_5m_pct": 0.1644145301340938,
         "ret_15m_pct": 1.2201453790238848,
         "ret_60m_pct": -1.3909964592817348
+      }
+    },
+    {
+      "coin": "BCH",
+      "direction": "LONG",
+      "entry_eur": 242.09851205746537,
+      "current_eur": 242.09851205746537,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-30T08:18:01.947678+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 26,
+          "red": 1,
+          "flat": 0
+        },
+        "15m": {
+          "green": 24,
+          "red": 1,
+          "flat": 2
+        },
+        "60m": {
+          "green": 6,
+          "red": 19,
+          "flat": 2
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.27942840973400607,
+        "ret_15m_pct": 0.5996735504932182,
+        "ret_60m_pct": -0.3339661112282899
       }
     }
   ],
