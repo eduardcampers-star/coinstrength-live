@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-10-30T16:09:02.079569+00:00",
+  "generated_at": "2026-10-30T16:14:02.604884+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
   "latest_timestamp": "2026-10-30T17:00:01+01:00",
-  "film_timestamp": "2026-10-30T16:07:02.029908+00:00",
+  "film_timestamp": "2026-10-30T16:12:01.654352+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "LONG",
+    "target_legs": 1,
     "breadth_5m": {
-      "green": 17,
-      "red": 3,
-      "flat": 7
-    },
-    "breadth_15m": {
-      "green": 14,
-      "red": 8,
+      "green": 18,
+      "red": 4,
       "flat": 5
     },
+    "breadth_15m": {
+      "green": 17,
+      "red": 9,
+      "flat": 1
+    },
     "breadth_60m": {
-      "green": 6,
-      "red": 19,
+      "green": 9,
+      "red": 16,
       "flat": 2
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "BCH"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 22.717,
   "open_pnl_eur": 0.0,
@@ -30,9 +32,44 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 17.01,
   "paper_equity_est_net_eur": 25.707,
-  "open_count": 0,
+  "open_count": 1,
   "closed_count": 189,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "BCH",
+      "direction": "LONG",
+      "entry_eur": 260.2542448217619,
+      "current_eur": 260.2542448217619,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-30T16:14:02.604557+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 18,
+          "red": 4,
+          "flat": 5
+        },
+        "15m": {
+          "green": 17,
+          "red": 9,
+          "flat": 1
+        },
+        "60m": {
+          "green": 9,
+          "red": 16,
+          "flat": 2
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.3551791263959547,
+        "ret_15m_pct": 0.5681234812964231,
+        "ret_60m_pct": 0.9065622746471824
+      }
+    }
+  ],
   "closed_legs": [
     {
       "coin": "FET",
