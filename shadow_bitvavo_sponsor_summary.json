@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-30T00:33:02.139226+00:00",
+  "generated_at": "2026-10-30T00:38:02.615453+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
   "latest_timestamp": "2026-10-30T01:30:01+01:00",
-  "film_timestamp": "2026-10-30T00:32:01.374396+00:00",
+  "film_timestamp": "2026-10-30T00:37:02.054590+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "LONG",
+    "target_legs": 5,
     "breadth_5m": {
-      "green": 7,
-      "red": 15,
-      "flat": 5
+      "green": 26,
+      "red": 1,
+      "flat": 0
     },
     "breadth_15m": {
-      "green": 0,
-      "red": 27,
+      "green": 25,
+      "red": 2,
       "flat": 0
     },
     "breadth_60m": {
@@ -22,7 +22,9 @@
       "flat": 0
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "HYPE"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 28.3367,
   "open_pnl_eur": 0.0,
@@ -30,9 +32,44 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 16.11,
   "paper_equity_est_net_eur": 32.2267,
-  "open_count": 0,
+  "open_count": 1,
   "closed_count": 179,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "HYPE",
+      "direction": "LONG",
+      "entry_eur": 79.00469317276189,
+      "current_eur": 79.00469317276189,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-10-30T00:38:02.615142+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 26,
+          "red": 1,
+          "flat": 0
+        },
+        "15m": {
+          "green": 25,
+          "red": 2,
+          "flat": 0
+        },
+        "60m": {
+          "green": 0,
+          "red": 27,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 1.635011646658291,
+        "ret_15m_pct": 2.0888873890595017,
+        "ret_60m_pct": -0.19684389948865233
+      }
+    }
+  ],
   "closed_legs": [
     {
       "coin": "QNT",
