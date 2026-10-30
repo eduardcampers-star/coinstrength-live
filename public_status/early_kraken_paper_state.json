@@ -2,8 +2,8 @@
   "strategy": "EARLY_KRAKEN_PAPER_V1",
   "mode": "RESEARCH_PAPER",
   "created_at": "2026-10-14T18:24:17.972527+00:00",
-  "realized_pnl_usd": -2.9374088000000196,
-  "total_fees_usd": 1.6868282720000003,
+  "realized_pnl_usd": -3.399408800000021,
+  "total_fees_usd": 1.6941236920000002,
   "max_positions": 4,
   "target_margin_usd": 5.0,
   "min_margin_usd": 4.0,
@@ -2582,12 +2582,14 @@
       "margin_usd": 5.0949,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": 0.2057,
+      "unrealized_gross_pnl_usd": 0.28560000000000063,
       "coin": "SUI",
       "status": "OPEN",
       "entry_time": "2026-10-30T05:27:51.159548+00:00",
-      "roll_active": false,
-      "current_exit_price_usd": 0.887
+      "roll_active": true,
+      "current_exit_price_usd": 0.8823,
+      "best_exit_price_usd": 0.8821,
+      "roll_stop_usd": 0.8900388999999999
     },
     {
       "direction": "SHORT",
@@ -2599,12 +2601,12 @@
       "margin_usd": 4.984226666666666,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": 0.08320999999999955,
+      "unrealized_gross_pnl_usd": 0.13659000000000063,
       "coin": "DOT",
       "status": "OPEN",
       "entry_time": "2026-10-30T05:41:51.689941+00:00",
       "roll_active": false,
-      "current_exit_price_usd": 0.9471
+      "current_exit_price_usd": 0.9437
     },
     {
       "direction": "SHORT",
@@ -2616,12 +2618,12 @@
       "margin_usd": 4.893,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": 0.043500000000000934,
+      "unrealized_gross_pnl_usd": 0.11249999999999999,
       "coin": "SOL",
       "status": "OPEN",
       "entry_time": "2026-10-30T05:53:51.774021+00:00",
       "roll_active": false,
-      "current_exit_price_usd": 97.57
+      "current_exit_price_usd": 97.11
     },
     {
       "direction": "LONG",
@@ -2633,16 +2635,21 @@
       "margin_usd": 5.017613333333333,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": -0.42152000000000145,
+      "unrealized_gross_pnl_usd": -0.4620000000000004,
       "coin": "TRX",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_time": "2026-10-30T06:16:51.375913+00:00",
       "roll_active": false,
-      "current_exit_price_usd": 0.33253
+      "current_exit_price_usd": 0.33161,
+      "exit_time": "2026-10-30T07:42:51.561366+00:00",
+      "exit_reason": "HARD_SL",
+      "exit_price": 0.33161,
+      "gross_pnl_usd": -0.4620000000000015,
+      "net_pnl_usd": -0.4768218400000015
     }
   ],
-  "closed_trades": 110,
+  "closed_trades": 111,
   "start_capital_usd": 25.0,
-  "last_paper_cycle_utc": "2026-10-30T07:39:51.513512+00:00",
+  "last_paper_cycle_utc": "2026-10-30T07:44:51.231019+00:00",
   "last_entry_film_minute": "2026-10-30T06:15:00+00:00"
 }
