@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "created_at": "2026-10-02T13:14:10.418159+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 17.217646958631708,
+  "realized_gross_eur": 17.87665448877962,
   "legs": [
     {
       "coin": "FET",
@@ -7006,7 +7006,7 @@
     {
       "coin": "LTC",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 47.259364207916406,
       "entry_time": "2026-10-30T00:41:10.162326+00:00",
       "entry_move_8h_pct": -8.722421754746023,
@@ -7036,7 +7036,13 @@
         "ret_5m_pct": 1.1656326377138537,
         "ret_15m_pct": 0.975792831675748,
         "ret_60m_pct": -2.7647271413082763
-      }
+      },
+      "exit_eur": 49.335649333451045,
+      "exit_time": "2026-10-30T06:32:10.875864+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 4.393384,
+      "leveraged_return_pct": 13.180151,
+      "gross_pnl_eur": 0.659008
     },
     {
       "coin": "SHIB",
@@ -7129,9 +7135,9 @@
       "entry_move_8h_pct": 0.8676083029818482,
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 0.3007327624260616,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 0.2958289611752361,
+      "roll_stop_eur": 0.2984914218258132,
       "entry_breadth": {
         "5m": {
           "green": 18,
