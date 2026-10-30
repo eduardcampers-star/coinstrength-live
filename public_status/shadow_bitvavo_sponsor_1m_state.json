@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04",
   "created_at": "2026-09-30T13:57:56.192235+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 23.693843644289437,
+  "realized_gross_eur": 23.243843644289438,
   "legs": [
     {
       "coin": "HBAR",
@@ -6527,7 +6527,7 @@
     {
       "coin": "TRX",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.31406597314839513,
       "entry_time": "2026-10-30T00:03:02.256809+00:00",
       "margin_eur": 5.0,
@@ -6556,7 +6556,13 @@
         "ret_5m_pct": 0.9125280723199847,
         "ret_15m_pct": 0.9814240605353852,
         "ret_60m_pct": 2.0878868054756916
-      }
+      },
+      "exit_eur": 0.30464399395394326,
+      "exit_time": "2026-10-30T05:17:02.132067+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     },
     {
       "coin": "PEPE",
@@ -6567,8 +6573,8 @@
       "margin_eur": 5.0,
       "leverage": 3.0,
       "roll_active": true,
-      "best_eur": 4.384866967205869e-06,
-      "roll_stop_eur": 4.345403164501017e-06,
+      "best_eur": 4.429669552924545e-06,
+      "roll_stop_eur": 4.389802526948224e-06,
       "entry_breadth": {
         "5m": {
           "green": 23,
