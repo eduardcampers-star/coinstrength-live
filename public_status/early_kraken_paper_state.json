@@ -3,7 +3,7 @@
   "mode": "RESEARCH_PAPER",
   "created_at": "2026-10-14T18:24:17.972527+00:00",
   "realized_pnl_usd": -4.473308800000021,
-  "total_fees_usd": 1.625189762,
+  "total_fees_usd": 1.633200962,
   "max_positions": 4,
   "target_margin_usd": 5.0,
   "min_margin_usd": 4.0,
@@ -2488,12 +2488,14 @@
       "margin_usd": 4.9703,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": 0.13340000000000163,
+      "unrealized_gross_pnl_usd": 0.26220000000000176,
       "coin": "UNI",
       "status": "OPEN",
       "entry_time": "2026-10-30T00:57:51.861196+00:00",
-      "roll_active": false,
-      "current_exit_price_usd": 6.541
+      "roll_active": true,
+      "current_exit_price_usd": 6.597,
+      "best_exit_price_usd": 6.597,
+      "roll_stop_usd": 6.5376270000000005
     },
     {
       "direction": "LONG",
@@ -2527,16 +2529,33 @@
       "margin_usd": 4.938733333333333,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": -0.09240000000000101,
+      "unrealized_gross_pnl_usd": -0.029400000000001113,
       "coin": "LINK",
       "status": "OPEN",
       "entry_time": "2026-10-30T01:15:51.729510+00:00",
       "roll_active": false,
-      "current_exit_price_usd": 10.517
+      "current_exit_price_usd": 10.562
+    },
+    {
+      "direction": "LONG",
+      "quantity": 4.0,
+      "entry_bid": 3.9999,
+      "entry_ask": 4.0056,
+      "entry_price": 4.0056,
+      "notional_usd": 16.0224,
+      "margin_usd": 5.3408,
+      "leverage": 3.0,
+      "fee_rate": 0.0005,
+      "unrealized_gross_pnl_usd": 0.073599999999999,
+      "coin": "NEAR",
+      "status": "OPEN",
+      "entry_time": "2026-10-30T02:11:51.317343+00:00",
+      "roll_active": false,
+      "current_exit_price_usd": 4.024
     }
   ],
   "closed_trades": 107,
   "start_capital_usd": 25.0,
-  "last_paper_cycle_utc": "2026-10-30T02:09:51.685714+00:00",
-  "last_entry_film_minute": "2026-10-30T01:14:00+00:00"
+  "last_paper_cycle_utc": "2026-10-30T02:14:51.244266+00:00",
+  "last_entry_film_minute": "2026-10-30T02:10:00+00:00"
 }
