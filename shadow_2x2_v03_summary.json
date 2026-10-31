@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-31T01:26:01.578016+00:00",
+  "generated_at": "2026-10-31T01:31:02.146716+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 15.1457,
-  "open_pnl_eur": -0.3833,
-  "paper_equity_gross_eur": 34.7624,
-  "open_count": 6,
-  "closed_count": 418,
+  "realized_gross_eur": 15.4846,
+  "open_pnl_eur": -0.4898,
+  "paper_equity_gross_eur": 34.9948,
+  "open_count": 4,
+  "closed_count": 420,
   "last_selection_hour": "2026-10-31T02",
   "latest_timestamp": "2026-10-31T02:15:01+01:00",
   "open_legs": [
@@ -61,51 +61,9 @@
       "hard_sl_usdt": 4.5978e-06,
       "roll_activation_usdt": 4.8110999999999996e-06,
       "roll_stop_usdt": 4.787521e-06
-    },
-    {
-      "coin": "ADA",
-      "direction": "LONG",
-      "entry_eur": 0.1712511091393079,
-      "current_eur": 0.16985562706557664,
-      "spot_return_pct": -0.8149,
-      "leveraged_return_pct": -2.4446,
-      "open_pnl_eur": -0.1222,
-      "roll_active": true,
-      "hard_sl_usdt": 0.18721,
-      "roll_activation_usdt": 0.19589499999999999,
-      "roll_stop_usdt": 0.1950288
-    },
-    {
-      "coin": "TRX",
-      "direction": "SHORT",
-      "entry_eur": 0.2859876489519005,
-      "current_eur": 0.28169246825534877,
-      "spot_return_pct": 1.5248,
-      "leveraged_return_pct": 4.5743,
-      "open_pnl_eur": 0.2287,
-      "roll_active": true,
-      "hard_sl_usdt": 0.33866399999999997,
-      "roll_activation_usdt": 0.323868,
-      "roll_stop_usdt": 0.32482736999999995
     }
   ],
   "closed_legs": [
-    {
-      "coin": "SUI",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 0.6976305446378571,
-      "leveraged_return_pct": 2.0928916339135717,
-      "gross_pnl_eur": 0.10464458169567858
-    },
-    {
-      "coin": "WLD",
-      "direction": "LONG",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 0.8736576758255676,
-      "leveraged_return_pct": 2.620973027476703,
-      "gross_pnl_eur": 0.13104865137383515
-    },
     {
       "coin": "XLM",
       "direction": "SHORT",
@@ -185,6 +143,22 @@
       "spot_return_pct": -2.9999999999999987,
       "leveraged_return_pct": -8.999999999999995,
       "gross_pnl_eur": -0.44999999999999973
+    },
+    {
+      "coin": "ADA",
+      "direction": "LONG",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 1.0511917098445567,
+      "leveraged_return_pct": 3.15357512953367,
+      "gross_pnl_eur": 0.1576787564766835
+    },
+    {
+      "coin": "TRX",
+      "direction": "SHORT",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 1.208220802919718,
+      "leveraged_return_pct": 3.6246624087591535,
+      "gross_pnl_eur": 0.18123312043795767
     }
   ]
 }
