@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-01T18:14:09.676378+00:00",
+  "generated_at": "2026-11-01T18:19:11.381788+00:00",
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
-  "latest_timestamp": "2026-11-01T19:00:01+01:00",
-  "film_timestamp": "2026-11-01T18:12:01.931100+00:00",
+  "latest_timestamp": "2026-11-01T19:15:01+01:00",
+  "film_timestamp": "2026-11-01T18:17:01.658676+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
-      "green": 0,
-      "red": 20,
-      "flat": 7
+      "green": 3,
+      "red": 13,
+      "flat": 11
     },
     "breadth_15m": {
-      "green": 4,
-      "red": 17,
+      "green": 5,
+      "red": 16,
       "flat": 6
     },
     "breadth_60m": {
@@ -24,23 +24,23 @@
   },
   "opened_this_run": [],
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 20.3073,
-  "open_pnl_eur": 0.2877,
-  "paper_equity_gross_eur": 40.5951,
+  "realized_gross_eur": 20.4209,
+  "open_pnl_eur": 0.1315,
+  "paper_equity_gross_eur": 40.5524,
   "estimated_cost_per_closed_trade_eur": 0.09,
-  "estimated_costs_eur": 16.83,
-  "paper_equity_est_net_eur": 23.7651,
-  "open_count": 3,
-  "closed_count": 187,
+  "estimated_costs_eur": 16.92,
+  "paper_equity_est_net_eur": 23.6324,
+  "open_count": 2,
+  "closed_count": 188,
   "open_legs": [
     {
       "coin": "SHIB",
       "direction": "SHORT",
       "entry_eur": 4.178515007898894e-06,
-      "current_eur": 4.160895045285029e-06,
-      "spot_return_pct": 0.4217,
-      "leveraged_return_pct": 1.265,
-      "open_pnl_eur": 0.0633,
+      "current_eur": 4.162819602272727e-06,
+      "spot_return_pct": 0.3756,
+      "leveraged_return_pct": 1.1269,
+      "open_pnl_eur": 0.0563,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-10-30T11:14:09.196665+00:00",
@@ -68,47 +68,13 @@
       }
     },
     {
-      "coin": "HYPE",
-      "direction": "LONG",
-      "entry_eur": 77.38941967445152,
-      "current_eur": 78.19392647842301,
-      "spot_return_pct": 1.0396,
-      "leveraged_return_pct": 3.1187,
-      "open_pnl_eur": 0.1559,
-      "roll_active": true,
-      "roll_stop_eur": 77.97551770266655,
-      "entry_time": "2026-10-31T13:43:10.553520+00:00",
-      "entry_breadth": {
-        "5m": {
-          "green": 12,
-          "red": 5,
-          "flat": 10
-        },
-        "15m": {
-          "green": 21,
-          "red": 2,
-          "flat": 4
-        },
-        "60m": {
-          "green": 4,
-          "red": 22,
-          "flat": 1
-        }
-      },
-      "entry_move": {
-        "ret_5m_pct": -0.027405707238514765,
-        "ret_15m_pct": 0.056000000000011596,
-        "ret_60m_pct": -1.034319045035259
-      }
-    },
-    {
       "coin": "BTC",
       "direction": "SHORT",
       "entry_eur": 69531.6028091386,
-      "current_eur": 69213.90516782098,
-      "spot_return_pct": 0.4569,
-      "leveraged_return_pct": 1.3707,
-      "open_pnl_eur": 0.0685,
+      "current_eur": 69183.32741477274,
+      "spot_return_pct": 0.5009,
+      "leveraged_return_pct": 1.5027,
+      "open_pnl_eur": 0.0751,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-11-01T09:08:10.221586+00:00",
@@ -137,16 +103,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "ONDO",
-      "direction": "LONG",
-      "reason": "HARD_SL",
-      "spot_return_pct": -3.0,
-      "leveraged_return_pct": -9.0,
-      "gross_pnl_eur": -0.45,
-      "entry_time": "2026-10-29T22:23:10.878360+00:00",
-      "exit_time": "2026-10-30T00:17:09.585942+00:00"
-    },
     {
       "coin": "QNT",
       "direction": "LONG",
@@ -336,6 +292,16 @@
       "gross_pnl_eur": 0.185409,
       "entry_time": "2026-10-31T08:58:09.501908+00:00",
       "exit_time": "2026-10-31T13:17:10.216561+00:00"
+    },
+    {
+      "coin": "HYPE",
+      "direction": "LONG",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 0.757336,
+      "leveraged_return_pct": 2.272008,
+      "gross_pnl_eur": 0.1136,
+      "entry_time": "2026-10-31T13:43:10.553520+00:00",
+      "exit_time": "2026-11-01T18:17:10.054187+00:00"
     }
   ]
 }
