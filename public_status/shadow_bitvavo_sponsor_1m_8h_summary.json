@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-02T22:09:10.463639+00:00",
+  "generated_at": "2026-11-02T22:14:09.262033+00:00",
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "latest_timestamp": "2026-11-02T23:00:01+01:00",
-  "film_timestamp": "2026-11-02T22:07:02.077838+00:00",
+  "film_timestamp": "2026-11-02T22:12:01.649277+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "SHORT",
+    "target_legs": 3,
     "breadth_5m": {
       "green": 2,
-      "red": 15,
-      "flat": 10
+      "red": 14,
+      "flat": 11
     },
     "breadth_15m": {
-      "green": 16,
-      "red": 4,
-      "flat": 7
+      "green": 2,
+      "red": 20,
+      "flat": 5
     },
     "breadth_60m": {
-      "green": 24,
+      "green": 26,
       "red": 1,
-      "flat": 2
+      "flat": 0
     }
   },
   "opened_this_run": [],
@@ -30,7 +30,7 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 17.37,
   "paper_equity_est_net_eur": 23.2472,
-  "open_count": 3,
+  "open_count": 4,
   "closed_count": 193,
   "open_legs": [
     {
@@ -133,6 +133,40 @@
         "ret_5m_pct": 0.2598092371699723,
         "ret_15m_pct": 0.5459581343323139,
         "ret_60m_pct": -0.14150756249917684
+      }
+    },
+    {
+      "coin": "TAO",
+      "direction": "SHORT",
+      "entry_eur": 200.82998661311913,
+      "current_eur": 200.82998661311913,
+      "spot_return_pct": -0.0,
+      "leveraged_return_pct": -0.0,
+      "open_pnl_eur": -0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-11-02T22:13:10.364360+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 2,
+          "red": 14,
+          "flat": 11
+        },
+        "15m": {
+          "green": 2,
+          "red": 20,
+          "flat": 5
+        },
+        "60m": {
+          "green": 26,
+          "red": 1,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.04003024507405195,
+        "ret_15m_pct": -0.23084435763117694,
+        "ret_60m_pct": 0.6629042372122251
       }
     }
   ],
