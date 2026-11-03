@@ -1,6 +1,6 @@
 {
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 22.887320498342362,
+  "realized_gross_eur": 22.437320498342363,
   "legs": [
     {
       "coin": "SUI",
@@ -8124,9 +8124,9 @@
       "entry_time": "2026-11-02T16:39:02.130720+00:00",
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 1.1148666726121466,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 1.144465290806754,
+      "roll_stop_eur": 1.1341651031894933,
       "entry_breadth": {
         "5m": {
           "green": 27,
@@ -8158,9 +8158,9 @@
       "entry_time": "2026-11-03T03:49:01.812145+00:00",
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 0.3410977242302543,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 0.3487894219601537,
+      "roll_stop_eur": 0.3456503171625123,
       "entry_breadth": {
         "5m": {
           "green": 26,
@@ -8187,7 +8187,7 @@
     {
       "coin": "QNT",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 173.30001784758164,
       "entry_time": "2026-11-03T04:44:02.000338+00:00",
       "margin_eur": 5.0,
@@ -8216,7 +8216,13 @@
         "ret_5m_pct": -0.1943932883159416,
         "ret_15m_pct": 0.7956189295308835,
         "ret_60m_pct": 2.2590282509565407
-      }
+      },
+      "exit_eur": 178.4990183830091,
+      "exit_time": "2026-11-03T12:34:02.152943+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     }
   ]
 }
