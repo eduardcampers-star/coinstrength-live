@@ -1,28 +1,15 @@
 {
-  "generated_at": "2026-11-03T12:26:01.693523+00:00",
+  "generated_at": "2026-11-03T12:31:01.267667+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 15.2898,
-  "open_pnl_eur": -0.0986,
-  "paper_equity_gross_eur": 35.1912,
-  "open_count": 6,
-  "closed_count": 447,
+  "realized_gross_eur": 14.8398,
+  "open_pnl_eur": 0.1875,
+  "paper_equity_gross_eur": 35.0273,
+  "open_count": 5,
+  "closed_count": 448,
   "last_selection_hour": "2026-11-03T13",
   "latest_timestamp": "2026-11-03T13:15:01+01:00",
   "open_legs": [
-    {
-      "coin": "SUI",
-      "direction": "SHORT",
-      "entry_eur": 0.7763603925066904,
-      "current_eur": 0.7914581844174411,
-      "spot_return_pct": -1.9076,
-      "leveraged_return_pct": -5.7228,
-      "open_pnl_eur": -0.2861,
-      "roll_active": false,
-      "hard_sl_usdt": 0.896409,
-      "roll_activation_usdt": 0.8572455,
-      "roll_stop_usdt": null
-    },
     {
       "coin": "HYPE",
       "direction": "SHORT",
@@ -60,7 +47,7 @@
       "roll_active": true,
       "hard_sl_usdt": 8.155759999999999,
       "roll_activation_usdt": 8.534119999999998,
-      "roll_stop_usdt": 8.570167999999999
+      "roll_stop_usdt": 8.604853
     },
     {
       "coin": "LINK",
@@ -70,10 +57,10 @@
       "spot_return_pct": 0.976,
       "leveraged_return_pct": 2.9281,
       "open_pnl_eur": 0.1464,
-      "roll_active": false,
+      "roll_active": true,
       "hard_sl_usdt": 10.728200000000001,
       "roll_activation_usdt": 11.2259,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 11.171543
     },
     {
       "coin": "VET",
@@ -83,21 +70,13 @@
       "spot_return_pct": 1.1372,
       "leveraged_return_pct": 3.4116,
       "open_pnl_eur": 0.1706,
-      "roll_active": false,
+      "roll_active": true,
       "hard_sl_usdt": 0.0054242399999999994,
       "roll_activation_usdt": 0.0056758799999999995,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 0.005632844
     }
   ],
   "closed_legs": [
-    {
-      "coin": "QNT",
-      "direction": "SHORT",
-      "reason": "HARD_SL",
-      "spot_return_pct": -3.0000000000000084,
-      "leveraged_return_pct": -9.000000000000027,
-      "gross_pnl_eur": -0.45000000000000134
-    },
     {
       "coin": "DOT",
       "direction": "SHORT",
@@ -169,6 +148,14 @@
       "spot_return_pct": 0.7488731501057222,
       "leveraged_return_pct": 2.2466194503171666,
       "gross_pnl_eur": 0.11233097251585832
+    },
+    {
+      "coin": "SUI",
+      "direction": "SHORT",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0000000000000058,
+      "leveraged_return_pct": -9.000000000000018,
+      "gross_pnl_eur": -0.45000000000000084
     },
     {
       "coin": "XRP",
