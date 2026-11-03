@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-03T12:16:02.245784+00:00",
+  "generated_at": "2026-11-03T12:21:01.891177+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 15.7398,
-  "open_pnl_eur": -0.3126,
-  "paper_equity_gross_eur": 35.4272,
-  "open_count": 7,
-  "closed_count": 446,
+  "realized_gross_eur": 15.2898,
+  "open_pnl_eur": -0.0986,
+  "paper_equity_gross_eur": 35.1912,
+  "open_count": 6,
+  "closed_count": 447,
   "last_selection_hour": "2026-11-03T13",
   "latest_timestamp": "2026-11-03T13:15:01+01:00",
   "open_legs": [
@@ -37,19 +37,6 @@
       "roll_stop_usdt": null
     },
     {
-      "coin": "XRP",
-      "direction": "SHORT",
-      "entry_eur": 1.1112399643175737,
-      "current_eur": 1.127323087919943,
-      "spot_return_pct": -1.4267,
-      "leveraged_return_pct": -4.28,
-      "open_pnl_eur": -0.214,
-      "roll_active": false,
-      "hard_sl_usdt": 1.283071,
-      "roll_activation_usdt": 1.2270145000000001,
-      "roll_stop_usdt": null
-    },
-    {
       "coin": "BTC",
       "direction": "SHORT",
       "entry_eur": 68483.5860838537,
@@ -73,7 +60,7 @@
       "roll_active": true,
       "hard_sl_usdt": 8.155759999999999,
       "roll_activation_usdt": 8.534119999999998,
-      "roll_stop_usdt": 8.472059
+      "roll_stop_usdt": 8.537465000000001
     },
     {
       "coin": "LINK",
@@ -103,14 +90,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "ONDO",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 1.0618754614816766,
-      "leveraged_return_pct": 3.1856263844450297,
-      "gross_pnl_eur": 0.15928131922225147
-    },
     {
       "coin": "QNT",
       "direction": "SHORT",
@@ -190,6 +169,14 @@
       "spot_return_pct": 0.7488731501057222,
       "leveraged_return_pct": 2.2466194503171666,
       "gross_pnl_eur": 0.11233097251585832
+    },
+    {
+      "coin": "XRP",
+      "direction": "SHORT",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0000000000000036,
+      "leveraged_return_pct": -9.00000000000001,
+      "gross_pnl_eur": -0.45000000000000057
     },
     {
       "coin": "QNT",
