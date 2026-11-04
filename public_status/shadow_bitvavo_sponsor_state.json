@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04",
   "created_at": "2026-09-26T06:23:47.342463+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 32.852560569400836,
+  "realized_gross_eur": 32.87762867118107,
   "legs": [
     {
       "coin": "SUI",
@@ -8127,7 +8127,7 @@
     {
       "coin": "XRP",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 1.1239388794567062,
       "entry_time": "2026-11-03T11:38:01.749869+00:00",
       "margin_eur": 5.0,
@@ -8156,7 +8156,13 @@
         "ret_5m_pct": -0.09536676468250294,
         "ret_15m_pct": -0.05565272698361268,
         "ret_60m_pct": 0.1274392672242275
-      }
+      },
+      "exit_eur": 1.1576570458404074,
+      "exit_time": "2026-11-04T14:48:02.204354+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     },
     {
       "coin": "PEPE",
@@ -8355,7 +8361,7 @@
     {
       "coin": "PEPE",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 4.526465364120782e-06,
       "entry_time": "2026-11-04T09:03:02.066972+00:00",
       "margin_eur": 5.0,
@@ -8384,7 +8390,13 @@
         "ret_5m_pct": -0.20672546857772867,
         "ret_15m_pct": -1.083095897896258,
         "ret_60m_pct": 0.9701195219123493
-      }
+      },
+      "exit_eur": 4.383106743566992e-06,
+      "exit_time": "2026-11-04T14:48:02.204559+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 3.167121,
+      "leveraged_return_pct": 9.501362,
+      "gross_pnl_eur": 0.475068
     },
     {
       "coin": "NEAR",
@@ -8394,9 +8406,9 @@
       "entry_time": "2026-11-04T12:33:01.565315+00:00",
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 3.5848554708281615,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 3.6577359829666434,
+      "roll_stop_eur": 3.6248163591199436,
       "entry_breadth": {
         "5m": {
           "green": 26,
