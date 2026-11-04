@@ -2,7 +2,7 @@
   "strategy": "KRAKEN_V05_CANDIDATE_B",
   "created_at": "2026-10-10T17:08:41.058147+00:00",
   "start_pot_usd": 20.0,
-  "realized_gross_usd": -2.1337571779912405,
+  "realized_gross_usd": -2.149118623774374,
   "legs": [
     {
       "coin": "QNT",
@@ -2354,15 +2354,17 @@
       "leverage": 3.0,
       "price_m2": 4.2249,
       "price_m2_time": "2026-11-04T15:09:13.103787+00:00",
-      "price_m4": null,
-      "price_m4_time": null,
+      "price_m4": 4.2453,
+      "price_m4_time": "2026-11-04T15:11:13.813161+00:00",
       "decision": null,
       "market_go_time": "2026-11-04T15:01:00+00:00",
       "market_confirm_time": "2026-11-04T15:05:00+00:00",
       "market_momentum_2_4_pct": 1.146354,
       "move60_rank": 1,
       "move60_pct": 6.420131,
-      "basket_id": "V05B:2026-11-04T15:06:14.100504+00:00:ADA,FET,LINK,NEAR"
+      "basket_id": "V05B:2026-11-04T15:06:14.100504+00:00:ADA,FET,LINK,NEAR",
+      "momentum_2_4_pct": 0.482852,
+      "coin_check": "HOLD"
     },
     {
       "coin": "ADA",
@@ -2374,15 +2376,17 @@
       "leverage": 3.0,
       "price_m2": 0.19952,
       "price_m2_time": "2026-11-04T15:09:13.104023+00:00",
-      "price_m4": null,
-      "price_m4_time": null,
+      "price_m4": 0.19982,
+      "price_m4_time": "2026-11-04T15:11:13.813387+00:00",
       "decision": null,
       "market_go_time": "2026-11-04T15:01:00+00:00",
       "market_confirm_time": "2026-11-04T15:05:00+00:00",
       "market_momentum_2_4_pct": 1.146354,
       "move60_rank": 2,
       "move60_pct": 5.736926,
-      "basket_id": "V05B:2026-11-04T15:06:14.100504+00:00:ADA,FET,LINK,NEAR"
+      "basket_id": "V05B:2026-11-04T15:06:14.100504+00:00:ADA,FET,LINK,NEAR",
+      "momentum_2_4_pct": 0.150361,
+      "coin_check": "HOLD"
     },
     {
       "coin": "LINK",
@@ -2394,35 +2398,48 @@
       "leverage": 3.0,
       "price_m2": 11.678,
       "price_m2_time": "2026-11-04T15:09:13.104185+00:00",
-      "price_m4": null,
-      "price_m4_time": null,
+      "price_m4": 11.705,
+      "price_m4_time": "2026-11-04T15:11:13.813550+00:00",
       "decision": null,
       "market_go_time": "2026-11-04T15:01:00+00:00",
       "market_confirm_time": "2026-11-04T15:05:00+00:00",
       "market_momentum_2_4_pct": 1.146354,
       "move60_rank": 3,
       "move60_pct": 5.587547,
-      "basket_id": "V05B:2026-11-04T15:06:14.100504+00:00:ADA,FET,LINK,NEAR"
+      "basket_id": "V05B:2026-11-04T15:06:14.100504+00:00:ADA,FET,LINK,NEAR",
+      "momentum_2_4_pct": 0.231204,
+      "coin_check": "HOLD"
     },
     {
       "coin": "FET",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 0.166,
       "entry_time": "2026-11-04T15:06:14.107978+00:00",
       "margin_usd": 5.0,
       "leverage": 3.0,
       "price_m2": 0.16584,
       "price_m2_time": "2026-11-04T15:09:13.104333+00:00",
-      "price_m4": null,
-      "price_m4_time": null,
+      "price_m4": 0.16583,
+      "price_m4_time": "2026-11-04T15:11:13.813699+00:00",
       "decision": null,
       "market_go_time": "2026-11-04T15:01:00+00:00",
       "market_confirm_time": "2026-11-04T15:05:00+00:00",
       "market_momentum_2_4_pct": 1.146354,
       "move60_rank": 4,
       "move60_pct": 5.517724,
-      "basket_id": "V05B:2026-11-04T15:06:14.100504+00:00:ADA,FET,LINK,NEAR"
+      "basket_id": "V05B:2026-11-04T15:06:14.100504+00:00:ADA,FET,LINK,NEAR",
+      "momentum_2_4_pct": -0.00603,
+      "coin_check": "EXIT4",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007492319277108433,
+      "net_pnl_usd": -0.03035376506024191,
+      "exit_usd": 0.16583,
+      "exit_time": "2026-11-04T15:11:13.813754+00:00",
+      "reason": "EXIT4_MOMENTUM",
+      "spot_return_pct": -0.10241,
+      "leveraged_return_pct": -0.307229,
+      "gross_pnl_usd": -0.015361
     }
   ],
   "market_event": {
@@ -2475,7 +2492,7 @@
       "FET"
     ]
   },
-  "last_market_breadth_green": 24,
+  "last_market_breadth_green": 22,
   "market_burst_locked": false,
   "pending_events": []
 }
