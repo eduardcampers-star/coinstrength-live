@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "created_at": "2026-10-02T13:14:10.418159+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 21.50284635869518,
+  "realized_gross_eur": 21.620743098222395,
   "legs": [
     {
       "coin": "FET",
@@ -8371,7 +8371,7 @@
     {
       "coin": "NEAR",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 3.613109512390088,
       "entry_time": "2026-11-04T08:33:11.461580+00:00",
       "entry_move_8h_pct": 7.109004739336489,
@@ -8401,7 +8401,13 @@
         "ret_5m_pct": -0.34431874077718305,
         "ret_15m_pct": -0.07398273736128891,
         "ret_60m_pct": 1.5284389877223692
-      }
+      },
+      "exit_eur": 3.5847112569857176,
+      "exit_time": "2026-11-04T12:32:11.086047+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 0.785978,
+      "leveraged_return_pct": 2.357935,
+      "gross_pnl_eur": 0.117897
     },
     {
       "coin": "FET",
@@ -8477,6 +8483,76 @@
         "ret_5m_pct": -0.015935568619840357,
         "ret_15m_pct": 0.21497949492770285,
         "ret_60m_pct": -0.19861570869695866
+      }
+    },
+    {
+      "coin": "NEAR",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 3.5848554708281615,
+      "entry_time": "2026-11-04T12:33:10.338306+00:00",
+      "entry_move_8h_pct": 8.24631860776439,
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "roll_active": false,
+      "best_eur": 3.5848554708281615,
+      "roll_stop_eur": null,
+      "entry_breadth": {
+        "5m": {
+          "green": 26,
+          "red": 0,
+          "flat": 1
+        },
+        "15m": {
+          "green": 25,
+          "red": 1,
+          "flat": 1
+        },
+        "60m": {
+          "green": 0,
+          "red": 27,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.5943536404160454,
+        "ret_15m_pct": 1.1454183266932372,
+        "ret_60m_pct": -0.9751340809361242
+      }
+    },
+    {
+      "coin": "FET",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 0.14027309806703317,
+      "entry_time": "2026-11-04T12:34:10.439441+00:00",
+      "entry_move_8h_pct": 4.560475875743575,
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "roll_active": false,
+      "best_eur": 0.14027309806703317,
+      "roll_stop_eur": null,
+      "entry_breadth": {
+        "5m": {
+          "green": 26,
+          "red": 0,
+          "flat": 1
+        },
+        "15m": {
+          "green": 25,
+          "red": 1,
+          "flat": 1
+        },
+        "60m": {
+          "green": 0,
+          "red": 27,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.31585596967782514,
+        "ret_15m_pct": 0.12610340479193294,
+        "ret_60m_pct": -1.3664596273291973
       }
     }
   ]
