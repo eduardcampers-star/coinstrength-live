@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-04T12:14:09.860580+00:00",
+  "generated_at": "2026-11-04T12:19:10.668004+00:00",
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
-  "latest_timestamp": "2026-11-04T13:00:02+01:00",
-  "film_timestamp": "2026-11-04T12:12:02.030549+00:00",
+  "latest_timestamp": "2026-11-04T13:15:02+01:00",
+  "film_timestamp": "2026-11-04T12:17:01.717339+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
-      "green": 0,
-      "red": 26,
-      "flat": 1
+      "green": 2,
+      "red": 20,
+      "flat": 5
     },
     "breadth_15m": {
-      "green": 0,
-      "red": 27,
+      "green": 1,
+      "red": 26,
       "flat": 0
     },
     "breadth_60m": {
@@ -24,59 +24,25 @@
   },
   "opened_this_run": [],
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 20.9411,
-  "open_pnl_eur": 0.6268,
-  "paper_equity_gross_eur": 41.5679,
+  "realized_gross_eur": 21.5028,
+  "open_pnl_eur": 0.2283,
+  "paper_equity_gross_eur": 41.7311,
   "estimated_cost_per_closed_trade_eur": 0.09,
-  "estimated_costs_eur": 18.27,
-  "paper_equity_est_net_eur": 23.2979,
-  "open_count": 4,
-  "closed_count": 203,
+  "estimated_costs_eur": 18.45,
+  "paper_equity_est_net_eur": 23.2811,
+  "open_count": 2,
+  "closed_count": 205,
   "open_legs": [
-    {
-      "coin": "SUI",
-      "direction": "LONG",
-      "entry_eur": 0.784970171845784,
-      "current_eur": 0.8072898190847819,
-      "spot_return_pct": 2.8434,
-      "leveraged_return_pct": 8.5301,
-      "open_pnl_eur": 0.4265,
-      "roll_active": true,
-      "roll_stop_eur": 0.80625965379494,
-      "entry_time": "2026-11-04T00:58:10.054157+00:00",
-      "entry_breadth": {
-        "5m": {
-          "green": 27,
-          "red": 0,
-          "flat": 0
-        },
-        "15m": {
-          "green": 27,
-          "red": 0,
-          "flat": 0
-        },
-        "60m": {
-          "green": 1,
-          "red": 26,
-          "flat": 0
-        }
-      },
-      "entry_move": {
-        "ret_5m_pct": 0.3055335521104263,
-        "ret_15m_pct": 0.6015208262399208,
-        "ret_60m_pct": -1.1596788581623607
-      }
-    },
     {
       "coin": "NEAR",
       "direction": "SHORT",
       "entry_eur": 3.613109512390088,
-      "current_eur": 3.6236253990776874,
-      "spot_return_pct": -0.291,
-      "leveraged_return_pct": -0.8731,
-      "open_pnl_eur": -0.0437,
-      "roll_active": false,
-      "roll_stop_eur": null,
+      "current_eur": 3.552736627339661,
+      "spot_return_pct": 1.6709,
+      "leveraged_return_pct": 5.0128,
+      "open_pnl_eur": 0.2506,
+      "roll_active": true,
+      "roll_stop_eur": 3.5847112569857176,
       "entry_time": "2026-11-04T08:33:11.461580+00:00",
       "entry_breadth": {
         "5m": {
@@ -102,47 +68,13 @@
       }
     },
     {
-      "coin": "FET",
-      "direction": "LONG",
-      "entry_eur": 0.14037267080745341,
-      "current_eur": 0.14207165661582122,
-      "spot_return_pct": 1.2103,
-      "leveraged_return_pct": 3.631,
-      "open_pnl_eur": 0.1816,
-      "roll_active": true,
-      "roll_stop_eur": 0.14182295460602293,
-      "entry_time": "2026-11-04T09:38:11.004483+00:00",
-      "entry_breadth": {
-        "5m": {
-          "green": 5,
-          "red": 14,
-          "flat": 8
-        },
-        "15m": {
-          "green": 23,
-          "red": 3,
-          "flat": 1
-        },
-        "60m": {
-          "green": 3,
-          "red": 21,
-          "flat": 3
-        }
-      },
-      "entry_move": {
-        "ret_5m_pct": 0.0,
-        "ret_15m_pct": 0.5699810006333017,
-        "ret_60m_pct": -0.5635566687539173
-      }
-    },
-    {
       "coin": "ETH",
       "direction": "LONG",
       "entry_eur": 2055.3593611357587,
-      "current_eur": 2063.9145086910253,
-      "spot_return_pct": 0.4162,
-      "leveraged_return_pct": 1.2487,
-      "open_pnl_eur": 0.0624,
+      "current_eur": 2052.2930896833145,
+      "spot_return_pct": -0.1492,
+      "leveraged_return_pct": -0.4476,
+      "open_pnl_eur": -0.0224,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-11-04T09:39:10.981442+00:00",
@@ -171,26 +103,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "XRP",
-      "direction": "LONG",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 0.831021,
-      "leveraged_return_pct": 2.493064,
-      "gross_pnl_eur": 0.124653,
-      "entry_time": "2026-10-30T14:32:10.984260+00:00",
-      "exit_time": "2026-11-01T16:47:11.077689+00:00"
-    },
-    {
-      "coin": "RENDER",
-      "direction": "LONG",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 0.962906,
-      "leveraged_return_pct": 2.888718,
-      "gross_pnl_eur": 0.144436,
-      "entry_time": "2026-10-30T18:58:10.369246+00:00",
-      "exit_time": "2026-10-30T23:02:10.318557+00:00"
-    },
     {
       "coin": "TRX",
       "direction": "SHORT",
@@ -362,6 +274,16 @@
       "exit_time": "2026-11-04T04:17:10.445410+00:00"
     },
     {
+      "coin": "SUI",
+      "direction": "LONG",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 2.712139,
+      "leveraged_return_pct": 8.136417,
+      "gross_pnl_eur": 0.406821,
+      "entry_time": "2026-11-04T00:58:10.054157+00:00",
+      "exit_time": "2026-11-04T12:17:10.473298+00:00"
+    },
+    {
       "coin": "LINK",
       "direction": "SHORT",
       "reason": "HARD_SL",
@@ -370,6 +292,16 @@
       "gross_pnl_eur": -0.45,
       "entry_time": "2026-11-04T04:33:10.139438+00:00",
       "exit_time": "2026-11-04T08:17:10.567621+00:00"
+    },
+    {
+      "coin": "FET",
+      "direction": "LONG",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 1.033167,
+      "leveraged_return_pct": 3.0995,
+      "gross_pnl_eur": 0.154975,
+      "entry_time": "2026-11-04T09:38:11.004483+00:00",
+      "exit_time": "2026-11-04T12:17:10.473448+00:00"
     }
   ]
 }
