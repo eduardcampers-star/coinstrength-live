@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-11-04T08:29:09.957508+00:00",
+  "generated_at": "2026-11-04T08:34:11.222407+00:00",
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
-  "latest_timestamp": "2026-11-04T09:15:01+01:00",
-  "film_timestamp": "2026-11-04T08:27:01.632221+00:00",
+  "latest_timestamp": "2026-11-04T09:30:01+01:00",
+  "film_timestamp": "2026-11-04T08:32:01.375462+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "SHORT",
+    "target_legs": 2,
     "breadth_5m": {
-      "green": 3,
-      "red": 18,
-      "flat": 6
+      "green": 9,
+      "red": 9,
+      "flat": 9
     },
     "breadth_15m": {
-      "green": 13,
-      "red": 10,
-      "flat": 4
+      "green": 3,
+      "red": 19,
+      "flat": 5
     },
     "breadth_60m": {
-      "green": 24,
-      "red": 3,
+      "green": 25,
+      "red": 2,
       "flat": 0
     }
   },
   "opened_this_run": [],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 20.6541,
-  "open_pnl_eur": 0.882,
-  "paper_equity_gross_eur": 41.5361,
+  "open_pnl_eur": 1.0441,
+  "paper_equity_gross_eur": 41.6983,
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 18.09,
-  "paper_equity_est_net_eur": 23.4461,
-  "open_count": 3,
+  "paper_equity_est_net_eur": 23.6083,
+  "open_count": 4,
   "closed_count": 201,
   "open_legs": [
     {
       "coin": "DOT",
       "direction": "LONG",
       "entry_eur": 0.8367055887333987,
-      "current_eur": 0.8456823027718551,
-      "spot_return_pct": 1.0729,
-      "leveraged_return_pct": 3.2186,
-      "open_pnl_eur": 0.1609,
+      "current_eur": 0.8490984989785949,
+      "spot_return_pct": 1.4812,
+      "leveraged_return_pct": 4.4435,
+      "open_pnl_eur": 0.2222,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-11-02T18:08:10.597399+00:00",
@@ -71,12 +71,12 @@
       "coin": "TAO",
       "direction": "LONG",
       "entry_eur": 201.00838836337675,
-      "current_eur": 204.61087420042645,
-      "spot_return_pct": 1.7922,
-      "leveraged_return_pct": 5.3766,
-      "open_pnl_eur": 0.2688,
+      "current_eur": 205.2224886757261,
+      "spot_return_pct": 2.0965,
+      "leveraged_return_pct": 6.2894,
+      "open_pnl_eur": 0.3145,
       "roll_active": true,
-      "roll_stop_eur": 202.7693763326226,
+      "roll_stop_eur": 203.37548627764457,
       "entry_time": "2026-11-03T16:58:10.435417+00:00",
       "entry_breadth": {
         "5m": {
@@ -105,12 +105,12 @@
       "coin": "SUI",
       "direction": "LONG",
       "entry_eur": 0.784970171845784,
-      "current_eur": 0.8086353944562901,
-      "spot_return_pct": 3.0148,
-      "leveraged_return_pct": 9.0444,
-      "open_pnl_eur": 0.4522,
+      "current_eur": 0.8115285549338307,
+      "spot_return_pct": 3.3834,
+      "leveraged_return_pct": 10.1501,
+      "open_pnl_eur": 0.5075,
       "roll_active": true,
-      "roll_stop_eur": 0.8013576759061835,
+      "roll_stop_eur": 0.8042247979394263,
       "entry_time": "2026-11-04T00:58:10.054157+00:00",
       "entry_breadth": {
         "5m": {
@@ -133,6 +133,40 @@
         "ret_5m_pct": 0.3055335521104263,
         "ret_15m_pct": 0.6015208262399208,
         "ret_60m_pct": -1.1596788581623607
+      }
+    },
+    {
+      "coin": "NEAR",
+      "direction": "SHORT",
+      "entry_eur": 3.613109512390088,
+      "current_eur": 3.613109512390088,
+      "spot_return_pct": -0.0,
+      "leveraged_return_pct": -0.0,
+      "open_pnl_eur": -0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-11-04T08:33:11.461580+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 9,
+          "red": 9,
+          "flat": 9
+        },
+        "15m": {
+          "green": 3,
+          "red": 19,
+          "flat": 5
+        },
+        "60m": {
+          "green": 25,
+          "red": 2,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.34431874077718305,
+        "ret_15m_pct": -0.07398273736128891,
+        "ret_60m_pct": 1.5284389877223692
       }
     }
   ],
