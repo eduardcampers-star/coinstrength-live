@@ -1,58 +1,58 @@
 {
-  "generated_at": "2026-11-04T12:26:03.482682+00:00",
+  "generated_at": "2026-11-04T12:46:03.315425+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 13,
+  "events_24h": 14,
   "strong_24h": 5,
   "results": {
     "5m": {
       "canonical": {
-        "n": 13,
-        "avg_return_pct": -0.0081,
-        "positive": 3
-      },
-      "mover3d": {
-        "n": 13,
-        "avg_return_pct": 0.0129,
+        "n": 14,
+        "avg_return_pct": -0.003,
         "positive": 4
       },
+      "mover3d": {
+        "n": 14,
+        "avg_return_pct": 0.0283,
+        "positive": 5
+      },
       "hybrid_rebound_v2": {
-        "n": 13,
-        "avg_return_pct": 0.0461,
-        "positive": 6
+        "n": 14,
+        "avg_return_pct": 0.055,
+        "positive": 7
       }
     },
     "15m": {
       "canonical": {
-        "n": 13,
-        "avg_return_pct": 0.0912,
-        "positive": 7
+        "n": 14,
+        "avg_return_pct": 0.097,
+        "positive": 8
       },
       "mover3d": {
-        "n": 13,
-        "avg_return_pct": 0.2274,
-        "positive": 9
+        "n": 14,
+        "avg_return_pct": 0.24,
+        "positive": 10
       },
       "hybrid_rebound_v2": {
-        "n": 13,
-        "avg_return_pct": 0.2437,
-        "positive": 8
+        "n": 14,
+        "avg_return_pct": 0.2522,
+        "positive": 9
       }
     },
     "30m": {
       "canonical": {
-        "n": 12,
-        "avg_return_pct": 0.3661,
+        "n": 13,
+        "avg_return_pct": 0.2604,
         "positive": 7
       },
       "mover3d": {
-        "n": 12,
-        "avg_return_pct": 0.5739,
+        "n": 13,
+        "avg_return_pct": 0.4253,
         "positive": 9
       },
       "hybrid_rebound_v2": {
-        "n": 12,
-        "avg_return_pct": 0.4727,
+        "n": 13,
+        "avg_return_pct": 0.3378,
         "positive": 8
       }
     },
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-11-03T18:48:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "AVAX",
-        "HYPE"
-      ],
-      "canonical": [
-        "ETH",
-        "XRP"
-      ],
-      "mover3d": [
-        "PEPE",
-        "WLD"
-      ],
-      "hybrid": [
-        "NEAR",
-        "ONDO"
-      ]
-    },
     {
       "trigger_time": "2026-11-04T00:31:00+00:00",
       "level": "STRONG",
@@ -282,6 +262,26 @@
       ],
       "hybrid": [
         "PEPE",
+        "FET"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-04T12:24:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "FET",
+        "HYPE"
+      ],
+      "canonical": [
+        "ETH",
+        "FET"
+      ],
+      "mover3d": [
+        "NEAR",
+        "PEPE"
+      ],
+      "hybrid": [
+        "WLD",
         "FET"
       ]
     }
