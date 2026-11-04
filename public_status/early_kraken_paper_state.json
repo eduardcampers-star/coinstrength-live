@@ -2,8 +2,8 @@
   "strategy": "EARLY_KRAKEN_PAPER_V1",
   "mode": "RESEARCH_PAPER",
   "created_at": "2026-10-14T18:24:17.972527+00:00",
-  "realized_pnl_usd": -3.030451800000021,
-  "total_fees_usd": 1.9619972102999996,
+  "realized_pnl_usd": -2.8985018000000213,
+  "total_fees_usd": 1.9769523952999997,
   "max_positions": 4,
   "target_margin_usd": 5.0,
   "min_margin_usd": 4.0,
@@ -3002,14 +3002,19 @@
       "margin_usd": 4.996506666666667,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": 0.19894000000000175,
+      "unrealized_gross_pnl_usd": 0.13194999999999957,
       "coin": "DOGE",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_time": "2026-11-03T08:01:51.226558+00:00",
       "roll_active": true,
-      "current_exit_price_usd": 0.07286,
+      "current_exit_price_usd": 0.07319,
       "best_exit_price_usd": 0.0724,
-      "roll_stop_usd": 0.0730516
+      "roll_stop_usd": 0.0730516,
+      "exit_time": "2026-11-04T03:23:51.772512+00:00",
+      "exit_reason": "ROLLING_09",
+      "exit_price": 0.07319,
+      "gross_pnl_usd": 0.1319499999999998,
+      "net_pnl_usd": 0.1170264549999998
     },
     {
       "direction": "SHORT",
@@ -3058,10 +3063,26 @@
       "exit_price": 0.15412,
       "gross_pnl_usd": 0.1593599999999995,
       "net_pnl_usd": 0.1444847999999995
+    },
+    {
+      "direction": "LONG",
+      "quantity": 12.0,
+      "entry_bid": 1.2543,
+      "entry_ask": 1.2544,
+      "entry_price": 1.2544,
+      "notional_usd": 15.0528,
+      "margin_usd": 5.0176,
+      "leverage": 3.0,
+      "fee_rate": 0.0005,
+      "unrealized_gross_pnl_usd": -0.0011999999999998678,
+      "coin": "XRP",
+      "status": "OPEN",
+      "entry_time": "2026-11-04T03:24:52.084737+00:00",
+      "roll_active": false
     }
   ],
-  "closed_trades": 130,
+  "closed_trades": 131,
   "start_capital_usd": 25.0,
-  "last_paper_cycle_utc": "2026-11-04T03:19:51.517085+00:00",
-  "last_entry_film_minute": "2026-11-03T15:17:00+00:00"
+  "last_paper_cycle_utc": "2026-11-04T03:24:52.084737+00:00",
+  "last_entry_film_minute": "2026-11-04T03:23:00+00:00"
 }
