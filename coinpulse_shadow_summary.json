@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-04T07:01:02.851791+00:00",
+  "generated_at": "2026-11-04T07:16:03.792455+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 11,
+  "events_24h": 12,
   "strong_24h": 5,
   "results": {
     "5m": {
       "canonical": {
-        "n": 11,
-        "avg_return_pct": -0.0192,
-        "positive": 2
-      },
-      "mover3d": {
-        "n": 11,
-        "avg_return_pct": -0.0039,
+        "n": 12,
+        "avg_return_pct": 0.0238,
         "positive": 3
       },
+      "mover3d": {
+        "n": 12,
+        "avg_return_pct": 0.0486,
+        "positive": 4
+      },
       "hybrid_rebound_v2": {
-        "n": 11,
-        "avg_return_pct": 0.0306,
-        "positive": 5
+        "n": 12,
+        "avg_return_pct": 0.0695,
+        "positive": 6
       }
     },
     "15m": {
@@ -76,31 +76,10 @@
   },
   "profile3d": {
     "status": "VOLLEDIG",
-    "profile_hours": 71.8,
-    "snapshots": 288
+    "profile_hours": 72.0,
+    "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-11-03T15:18:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "DOGE",
-        "SUI",
-        "TAO"
-      ],
-      "canonical": [
-        "ETH",
-        "HYPE"
-      ],
-      "mover3d": [
-        "PEPE",
-        "WLD"
-      ],
-      "hybrid": [
-        "WLD",
-        "FET"
-      ]
-    },
     {
       "trigger_time": "2026-11-03T16:03:00+00:00",
       "level": "STRONG",
@@ -287,6 +266,26 @@
       "hybrid": [
         "PEPE",
         "NEAR"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-04T07:05:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "SUI",
+        "XLM"
+      ],
+      "canonical": [
+        "PEPE",
+        "FET"
+      ],
+      "mover3d": [
+        "PEPE",
+        "NEAR"
+      ],
+      "hybrid": [
+        "FET",
+        "PEPE"
       ]
     }
   ]
