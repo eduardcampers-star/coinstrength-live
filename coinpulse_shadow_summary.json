@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-05T05:01:03.050084+00:00",
+  "generated_at": "2026-11-05T05:16:03.319485+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 13,
-  "strong_24h": 4,
+  "events_24h": 14,
+  "strong_24h": 5,
   "results": {
     "5m": {
       "canonical": {
-        "n": 13,
-        "avg_return_pct": -0.0217,
+        "n": 14,
+        "avg_return_pct": -0.0227,
         "positive": 7
       },
       "mover3d": {
-        "n": 13,
-        "avg_return_pct": -0.021,
+        "n": 14,
+        "avg_return_pct": -0.0415,
         "positive": 6
       },
       "hybrid_rebound_v2": {
-        "n": 13,
-        "avg_return_pct": 0.0359,
+        "n": 14,
+        "avg_return_pct": 0.0206,
         "positive": 7
       }
     },
@@ -58,18 +58,18 @@
     },
     "rolling_09": {
       "canonical": {
-        "n": 10,
-        "avg_return_pct": -5.1965,
+        "n": 11,
+        "avg_return_pct": -4.804,
         "positive": 2
       },
       "mover3d": {
-        "n": 10,
-        "avg_return_pct": -40.1892,
+        "n": 11,
+        "avg_return_pct": -36.5879,
         "positive": 0
       },
       "hybrid_rebound_v2": {
-        "n": 10,
-        "avg_return_pct": -30.2627,
+        "n": 11,
+        "avg_return_pct": -32.0838,
         "positive": 0
       }
     }
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-11-04T12:54:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "ONDO",
-        "XRP"
-      ],
-      "canonical": [
-        "DOT",
-        "AVAX"
-      ],
-      "mover3d": [
-        "NEAR",
-        "PEPE"
-      ],
-      "hybrid": [
-        "NEAR",
-        "ONDO"
-      ]
-    },
     {
       "trigger_time": "2026-11-04T15:31:00+00:00",
       "level": "TRIGGER",
@@ -288,6 +268,27 @@
       "hybrid": [
         "PEPE",
         "WLD"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-05T05:00:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "HBAR",
+        "SUI",
+        "XLM"
+      ],
+      "canonical": [
+        "BTC",
+        "RENDER"
+      ],
+      "mover3d": [
+        "NEAR",
+        "WLD"
+      ],
+      "hybrid": [
+        "WLD",
+        "RENDER"
       ]
     }
   ]
