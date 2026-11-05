@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-05T14:58:02.212837+00:00",
+  "generated_at": "2026-11-05T15:03:02.915781+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-11-05T15:45:01+01:00",
-  "film_timestamp": "2026-11-05T14:57:01.509538+00:00",
+  "latest_timestamp": "2026-11-05T16:00:01+01:00",
+  "film_timestamp": "2026-11-05T15:02:01.325553+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
-      "green": 1,
-      "red": 25,
-      "flat": 1
+      "green": 0,
+      "red": 27,
+      "flat": 0
     },
     "breadth_15m": {
-      "green": 1,
-      "red": 26,
+      "green": 0,
+      "red": 27,
       "flat": 0
     },
     "breadth_60m": {
@@ -24,23 +24,23 @@
   },
   "opened_this_run": [],
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 34.6064,
-  "open_pnl_eur": -0.5197,
-  "paper_equity_gross_eur": 54.0867,
+  "realized_gross_eur": 34.1564,
+  "open_pnl_eur": -0.3118,
+  "paper_equity_gross_eur": 53.8446,
   "estimated_cost_per_closed_trade_eur": 0.09,
-  "estimated_costs_eur": 19.44,
-  "paper_equity_est_net_eur": 34.6467,
-  "open_count": 3,
-  "closed_count": 216,
+  "estimated_costs_eur": 19.53,
+  "paper_equity_est_net_eur": 34.3146,
+  "open_count": 2,
+  "closed_count": 217,
   "open_legs": [
     {
       "coin": "TRX",
       "direction": "LONG",
       "entry_eur": 0.2856749800301766,
-      "current_eur": 0.28318923255192086,
-      "spot_return_pct": -0.8701,
-      "leveraged_return_pct": -2.6104,
-      "open_pnl_eur": -0.1305,
+      "current_eur": 0.28316108339272983,
+      "spot_return_pct": -0.88,
+      "leveraged_return_pct": -2.64,
+      "open_pnl_eur": -0.132,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-11-04T03:18:01.588725+00:00",
@@ -68,47 +68,13 @@
       }
     },
     {
-      "coin": "ETH",
-      "direction": "LONG",
-      "entry_eur": 2157.9420135183204,
-      "current_eur": 2106.2572421784475,
-      "spot_return_pct": -2.3951,
-      "leveraged_return_pct": -7.1853,
-      "open_pnl_eur": -0.3593,
-      "roll_active": false,
-      "roll_stop_eur": null,
-      "entry_time": "2026-11-05T00:18:02.068582+00:00",
-      "entry_breadth": {
-        "5m": {
-          "green": 21,
-          "red": 0,
-          "flat": 6
-        },
-        "15m": {
-          "green": 20,
-          "red": 4,
-          "flat": 3
-        },
-        "60m": {
-          "green": 9,
-          "red": 18,
-          "flat": 0
-        }
-      },
-      "entry_move": {
-        "ret_5m_pct": 0.13607517947489267,
-        "ret_15m_pct": 0.23734046593029134,
-        "ret_60m_pct": 0.07170260725513078
-      }
-    },
-    {
       "coin": "BCH",
       "direction": "LONG",
       "entry_eur": 256.49657137768276,
-      "current_eur": 255.98538194134952,
-      "spot_return_pct": -0.1993,
-      "leveraged_return_pct": -0.5979,
-      "open_pnl_eur": -0.0299,
+      "current_eur": 253.42124019957234,
+      "spot_return_pct": -1.199,
+      "leveraged_return_pct": -3.5969,
+      "open_pnl_eur": -0.1798,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-11-05T12:58:02.224658+00:00",
@@ -137,16 +103,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "QNT",
-      "direction": "LONG",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 0.845958,
-      "leveraged_return_pct": 2.537875,
-      "gross_pnl_eur": 0.126894,
-      "entry_time": "2026-10-31T14:48:02.582870+00:00",
-      "exit_time": "2026-10-31T17:33:02.137990+00:00"
-    },
     {
       "coin": "QNT",
       "direction": "LONG",
@@ -326,6 +282,16 @@
       "gross_pnl_eur": 0.105458,
       "entry_time": "2026-11-04T23:03:02.421997+00:00",
       "exit_time": "2026-11-05T01:48:02.870604+00:00"
+    },
+    {
+      "coin": "ETH",
+      "direction": "LONG",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45,
+      "entry_time": "2026-11-05T00:18:02.068582+00:00",
+      "exit_time": "2026-11-05T15:03:02.915403+00:00"
     },
     {
       "coin": "RENDER",
