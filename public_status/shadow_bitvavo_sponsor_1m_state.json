@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04",
   "created_at": "2026-09-30T13:57:56.192235+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 31.069612900963403,
+  "realized_gross_eur": 30.619612900963403,
   "legs": [
     {
       "coin": "HBAR",
@@ -8681,7 +8681,7 @@
     {
       "coin": "FET",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.13218134853478222,
       "entry_time": "2026-11-05T16:23:02.907356+00:00",
       "margin_eur": 5.0,
@@ -8710,7 +8710,13 @@
         "ret_5m_pct": 0.7402422611036297,
         "ret_15m_pct": 1.9060585432266741,
         "ret_60m_pct": 0.7402422611036297
-      }
+      },
+      "exit_eur": 0.12821590807873876,
+      "exit_time": "2026-11-05T23:17:02.350423+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     },
     {
       "coin": "AVAX",
@@ -8720,9 +8726,9 @@
       "entry_time": "2026-11-05T17:02:02.561482+00:00",
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 7.360135195232589,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 7.2059478229899385,
+      "roll_stop_eur": 7.270801353396847,
       "entry_breadth": {
         "5m": {
           "green": 0,
@@ -8754,9 +8760,9 @@
       "entry_time": "2026-11-05T19:17:02.122339+00:00",
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 1.3612099644128113,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 1.3204523194728877,
+      "roll_stop_eur": 1.3323363903481436,
       "entry_breadth": {
         "5m": {
           "green": 14,
