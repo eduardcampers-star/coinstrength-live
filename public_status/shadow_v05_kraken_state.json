@@ -2591,10 +2591,90 @@
       "spot_return_pct": 2.084742,
       "leveraged_return_pct": 6.254225,
       "gross_pnl_usd": 0.312711
+    },
+    {
+      "coin": "MOODENG",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 0.0325,
+      "entry_time": "2026-11-05T23:26:13.664127+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": 0.03234,
+      "price_m2_time": "2026-11-05T23:29:13.627392+00:00",
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-05T23:21:00+00:00",
+      "market_confirm_time": "2026-11-05T23:25:00+00:00",
+      "market_momentum_2_4_pct": 0.310647,
+      "move60_rank": 1,
+      "move60_pct": -2.604482,
+      "basket_id": "V05B:2026-11-05T23:26:13.656518+00:00:AVAX,FET,MOODENG,SHIB"
+    },
+    {
+      "coin": "FET",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 0.14448,
+      "entry_time": "2026-11-05T23:26:13.664148+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": 0.14396,
+      "price_m2_time": "2026-11-05T23:29:13.627637+00:00",
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-05T23:21:00+00:00",
+      "market_confirm_time": "2026-11-05T23:25:00+00:00",
+      "market_momentum_2_4_pct": 0.310647,
+      "move60_rank": 2,
+      "move60_pct": -1.428181,
+      "basket_id": "V05B:2026-11-05T23:26:13.656518+00:00:AVAX,FET,MOODENG,SHIB"
+    },
+    {
+      "coin": "SHIB",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 4.507e-06,
+      "entry_time": "2026-11-05T23:26:13.664156+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": 4.498e-06,
+      "price_m2_time": "2026-11-05T23:29:13.627807+00:00",
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-05T23:21:00+00:00",
+      "market_confirm_time": "2026-11-05T23:25:00+00:00",
+      "market_momentum_2_4_pct": 0.310647,
+      "move60_rank": 3,
+      "move60_pct": -1.174385,
+      "basket_id": "V05B:2026-11-05T23:26:13.656518+00:00:AVAX,FET,MOODENG,SHIB"
+    },
+    {
+      "coin": "AVAX",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 8.177,
+      "entry_time": "2026-11-05T23:26:13.664162+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": 8.159,
+      "price_m2_time": "2026-11-05T23:29:13.627963+00:00",
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-05T23:21:00+00:00",
+      "market_confirm_time": "2026-11-05T23:25:00+00:00",
+      "market_momentum_2_4_pct": 0.310647,
+      "move60_rank": 4,
+      "move60_pct": -0.92233,
+      "basket_id": "V05B:2026-11-05T23:26:13.656518+00:00:AVAX,FET,MOODENG,SHIB"
     }
   ],
   "market_event": {
-    "status": "WAIT_CONFIRM",
+    "status": "ACTIVE",
     "go_time": "2026-11-05T23:21:00+00:00",
     "breadth_prev": {
       "green": 23,
@@ -2606,9 +2686,44 @@
       "red": 1,
       "flat": 3
     },
-    "created_at": "2026-11-05T23:22:13.313875+00:00"
+    "created_at": "2026-11-05T23:22:13.313875+00:00",
+    "confirm_time": "2026-11-05T23:25:00+00:00",
+    "market_momentum_2_4_pct": 0.310647,
+    "confirm_n": 27,
+    "top4": [
+      {
+        "rank": 1,
+        "coin": "MOODENG",
+        "move60_pct": -2.604482
+      },
+      {
+        "rank": 2,
+        "coin": "FET",
+        "move60_pct": -1.428181
+      },
+      {
+        "rank": 3,
+        "coin": "SHIB",
+        "move60_pct": -1.174385
+      },
+      {
+        "rank": 4,
+        "coin": "AVAX",
+        "move60_pct": -0.92233
+      }
+    ],
+    "top4_locked": true,
+    "top4_lock_time": "2026-11-05T23:26:13.656518+00:00",
+    "basket_id": "V05B:2026-11-05T23:26:13.656518+00:00:AVAX,FET,MOODENG,SHIB",
+    "entry_time": "2026-11-05T23:26:13.664178+00:00",
+    "opened_coins": [
+      "MOODENG",
+      "FET",
+      "SHIB",
+      "AVAX"
+    ]
   },
-  "last_market_breadth_green": 21,
+  "last_market_breadth_green": 6,
   "market_burst_locked": false,
   "pending_events": []
 }
