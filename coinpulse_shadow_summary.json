@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-11-05T05:16:03.319485+00:00",
+  "generated_at": "2026-11-05T05:31:03.401654+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 14,
-  "strong_24h": 5,
+  "events_24h": 15,
+  "strong_24h": 6,
   "results": {
     "5m": {
       "canonical": {
-        "n": 14,
-        "avg_return_pct": -0.0227,
+        "n": 15,
+        "avg_return_pct": -0.0261,
         "positive": 7
       },
       "mover3d": {
-        "n": 14,
-        "avg_return_pct": -0.0415,
+        "n": 15,
+        "avg_return_pct": -0.0419,
         "positive": 6
       },
       "hybrid_rebound_v2": {
-        "n": 14,
-        "avg_return_pct": 0.0206,
+        "n": 15,
+        "avg_return_pct": 0.0172,
         "positive": 7
       }
     },
     "15m": {
       "canonical": {
-        "n": 13,
-        "avg_return_pct": -0.1429,
+        "n": 14,
+        "avg_return_pct": -0.1348,
         "positive": 5
       },
       "mover3d": {
-        "n": 13,
-        "avg_return_pct": -0.2963,
+        "n": 14,
+        "avg_return_pct": -0.2774,
         "positive": 6
       },
       "hybrid_rebound_v2": {
-        "n": 13,
-        "avg_return_pct": -0.1127,
-        "positive": 7
+        "n": 14,
+        "avg_return_pct": -0.1021,
+        "positive": 8
       }
     },
     "30m": {
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-11-04T15:31:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "HYPE",
-        "ONDO"
-      ],
-      "canonical": [
-        "ETH",
-        "XRP"
-      ],
-      "mover3d": [
-        "NEAR",
-        "PEPE"
-      ],
-      "hybrid": [
-        "QNT",
-        "HYPE"
-      ]
-    },
     {
       "trigger_time": "2026-11-04T15:55:00+00:00",
       "level": "TRIGGER",
@@ -289,6 +269,28 @@
       "hybrid": [
         "WLD",
         "RENDER"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-05T05:17:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "ADA",
+        "NEAR",
+        "SHIB",
+        "SOL"
+      ],
+      "canonical": [
+        "QNT",
+        "XRP"
+      ],
+      "mover3d": [
+        "NEAR",
+        "WLD"
+      ],
+      "hybrid": [
+        "PEPE",
+        "FET"
       ]
     }
   ]
