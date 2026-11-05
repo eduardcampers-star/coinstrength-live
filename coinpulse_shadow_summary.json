@@ -1,76 +1,76 @@
 {
-  "generated_at": "2026-11-05T00:56:03.417109+00:00",
+  "generated_at": "2026-11-05T01:16:03.178229+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
   "events_24h": 16,
-  "strong_24h": 5,
+  "strong_24h": 4,
   "results": {
     "5m": {
       "canonical": {
         "n": 16,
-        "avg_return_pct": 0.0236,
+        "avg_return_pct": 0.0212,
         "positive": 8
       },
       "mover3d": {
         "n": 16,
-        "avg_return_pct": 0.0335,
+        "avg_return_pct": 0.0333,
         "positive": 8
       },
       "hybrid_rebound_v2": {
         "n": 16,
-        "avg_return_pct": 0.0837,
+        "avg_return_pct": 0.0937,
         "positive": 9
       }
     },
     "15m": {
       "canonical": {
         "n": 16,
-        "avg_return_pct": 0.044,
+        "avg_return_pct": 0.0449,
         "positive": 8
       },
       "mover3d": {
         "n": 16,
-        "avg_return_pct": 0.0382,
-        "positive": 11
+        "avg_return_pct": 0.0162,
+        "positive": 10
       },
       "hybrid_rebound_v2": {
         "n": 16,
-        "avg_return_pct": 0.1614,
+        "avg_return_pct": 0.1488,
         "positive": 10
       }
     },
     "30m": {
       "canonical": {
-        "n": 16,
-        "avg_return_pct": 0.045,
+        "n": 15,
+        "avg_return_pct": 0.0614,
         "positive": 5
       },
       "mover3d": {
-        "n": 16,
-        "avg_return_pct": 0.057,
+        "n": 15,
+        "avg_return_pct": 0.0937,
         "positive": 7
       },
       "hybrid_rebound_v2": {
-        "n": 16,
-        "avg_return_pct": 0.1223,
+        "n": 15,
+        "avg_return_pct": 0.1458,
         "positive": 7
       }
     },
     "rolling_09": {
       "canonical": {
         "n": 14,
-        "avg_return_pct": -21.4496,
+        "avg_return_pct": -17.8785,
         "positive": 3
       },
       "mover3d": {
         "n": 14,
-        "avg_return_pct": -45.0922,
+        "avg_return_pct": -41.7605,
         "positive": 0
       },
       "hybrid_rebound_v2": {
         "n": 14,
-        "avg_return_pct": -19.4355,
-        "positive": 4
+        "avg_return_pct": -23.3991,
+        "positive": 3
       }
     }
   },
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-11-04T07:05:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "SUI",
-        "XLM"
-      ],
-      "canonical": [
-        "PEPE",
-        "FET"
-      ],
-      "mover3d": [
-        "PEPE",
-        "NEAR"
-      ],
-      "hybrid": [
-        "FET",
-        "PEPE"
-      ]
-    },
     {
       "trigger_time": "2026-11-04T11:56:00+00:00",
       "level": "TRIGGER",
@@ -286,6 +266,26 @@
       ],
       "hybrid": [
         "NEAR",
+        "PEPE"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-05T00:56:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "MOODENG",
+        "XLM"
+      ],
+      "canonical": [
+        "BTC",
+        "RENDER"
+      ],
+      "mover3d": [
+        "NEAR",
+        "WLD"
+      ],
+      "hybrid": [
+        "WLD",
         "PEPE"
       ]
     }
