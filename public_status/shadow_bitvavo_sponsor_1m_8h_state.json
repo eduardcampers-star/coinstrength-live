@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "created_at": "2026-10-02T13:14:10.418159+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 25.98272250780448,
+  "realized_gross_eur": 25.082722507804476,
   "legs": [
     {
       "coin": "FET",
@@ -8740,7 +8740,7 @@
     {
       "coin": "ETH",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 2141.212606837607,
       "entry_time": "2026-11-04T20:08:10.685632+00:00",
       "entry_move_8h_pct": 3.5713670502308448,
@@ -8770,7 +8770,13 @@
         "ret_5m_pct": 0.09265645645146758,
         "ret_15m_pct": 0.13218111306472213,
         "ret_60m_pct": -0.44015175936718
-      }
+      },
+      "exit_eur": 2076.9762286324785,
+      "exit_time": "2026-11-05T15:17:10.997528+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     },
     {
       "coin": "ADA",
@@ -9027,9 +9033,9 @@
       "entry_move_8h_pct": 3.0741797432239704,
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 256.7925366503776,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 250.03562522265764,
+      "roll_stop_eur": 252.28594584966154,
       "entry_breadth": {
         "5m": {
           "green": 5,
@@ -9056,7 +9062,7 @@
     {
       "coin": "SHIB",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 4.228373086507654e-06,
       "entry_time": "2026-11-05T11:23:11.315819+00:00",
       "entry_move_8h_pct": -0.39832285115304344,
@@ -9086,7 +9092,13 @@
         "ret_5m_pct": 0.33655868742110684,
         "ret_15m_pct": 0.484516536760049,
         "ret_60m_pct": 0.6329113924050667
-      }
+      },
+      "exit_eur": 4.101521893912424e-06,
+      "exit_time": "2026-11-05T15:17:10.997693+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     }
   ]
 }
