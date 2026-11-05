@@ -2467,10 +2467,90 @@
       "spot_return_pct": -0.10241,
       "leveraged_return_pct": -0.307229,
       "gross_pnl_usd": -0.015361
+    },
+    {
+      "coin": "UNI",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 6.754,
+      "entry_time": "2026-11-05T16:07:13.671840+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-05T16:02:00+00:00",
+      "market_confirm_time": "2026-11-05T16:06:00+00:00",
+      "market_momentum_2_4_pct": 0.15376,
+      "move60_rank": 1,
+      "move60_pct": -4.949381,
+      "basket_id": "V05B:2026-11-05T16:07:13.663180+00:00:LTC,NEAR,ONDO,UNI"
+    },
+    {
+      "coin": "ONDO",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 0.3704,
+      "entry_time": "2026-11-05T16:07:13.671860+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-05T16:02:00+00:00",
+      "market_confirm_time": "2026-11-05T16:06:00+00:00",
+      "market_momentum_2_4_pct": 0.15376,
+      "move60_rank": 2,
+      "move60_pct": -3.762325,
+      "basket_id": "V05B:2026-11-05T16:07:13.663180+00:00:LTC,NEAR,ONDO,UNI"
+    },
+    {
+      "coin": "LTC",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 51.77,
+      "entry_time": "2026-11-05T16:07:13.671868+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-05T16:02:00+00:00",
+      "market_confirm_time": "2026-11-05T16:06:00+00:00",
+      "market_momentum_2_4_pct": 0.15376,
+      "move60_rank": 3,
+      "move60_pct": -3.464978,
+      "basket_id": "V05B:2026-11-05T16:07:13.663180+00:00:LTC,NEAR,ONDO,UNI"
+    },
+    {
+      "coin": "NEAR",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 3.6983,
+      "entry_time": "2026-11-05T16:07:13.671874+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-05T16:02:00+00:00",
+      "market_confirm_time": "2026-11-05T16:06:00+00:00",
+      "market_momentum_2_4_pct": 0.15376,
+      "move60_rank": 4,
+      "move60_pct": -3.375836,
+      "basket_id": "V05B:2026-11-05T16:07:13.663180+00:00:LTC,NEAR,ONDO,UNI"
     }
   ],
   "market_event": {
-    "status": "WAIT_CONFIRM",
+    "status": "ACTIVE",
     "go_time": "2026-11-05T16:02:00+00:00",
     "breadth_prev": {
       "green": 24,
@@ -2482,9 +2562,44 @@
       "red": 3,
       "flat": 2
     },
-    "created_at": "2026-11-05T16:03:13.193757+00:00"
+    "created_at": "2026-11-05T16:03:13.193757+00:00",
+    "confirm_time": "2026-11-05T16:06:00+00:00",
+    "market_momentum_2_4_pct": 0.15376,
+    "confirm_n": 27,
+    "top4": [
+      {
+        "rank": 1,
+        "coin": "UNI",
+        "move60_pct": -4.949381
+      },
+      {
+        "rank": 2,
+        "coin": "ONDO",
+        "move60_pct": -3.762325
+      },
+      {
+        "rank": 3,
+        "coin": "LTC",
+        "move60_pct": -3.464978
+      },
+      {
+        "rank": 4,
+        "coin": "NEAR",
+        "move60_pct": -3.375836
+      }
+    ],
+    "top4_locked": true,
+    "top4_lock_time": "2026-11-05T16:07:13.663180+00:00",
+    "basket_id": "V05B:2026-11-05T16:07:13.663180+00:00:LTC,NEAR,ONDO,UNI",
+    "entry_time": "2026-11-05T16:07:13.671889+00:00",
+    "opened_coins": [
+      "UNI",
+      "ONDO",
+      "LTC",
+      "NEAR"
+    ]
   },
-  "last_market_breadth_green": 20,
+  "last_market_breadth_green": 19,
   "market_burst_locked": false,
   "pending_events": []
 }
