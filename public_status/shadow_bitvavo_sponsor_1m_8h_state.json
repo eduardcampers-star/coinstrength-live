@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "created_at": "2026-10-02T13:14:10.418159+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 25.601670502161156,
+  "realized_gross_eur": 25.712835424558396,
   "legs": [
     {
       "coin": "FET",
@@ -8904,9 +8904,9 @@
       "entry_move_8h_pct": -1.3973108357500763,
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 0.33217870148325784,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 0.33842736561528214,
+      "roll_stop_eur": 0.3353815193247446,
       "entry_breadth": {
         "5m": {
           "green": 25,
@@ -8968,7 +8968,7 @@
     {
       "coin": "XLM",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.14973361747469366,
       "entry_time": "2026-11-05T02:34:10.640579+00:00",
       "entry_move_8h_pct": 0.8251121076233048,
@@ -8998,7 +8998,13 @@
         "ret_5m_pct": -0.3495053610568011,
         "ret_15m_pct": -0.29043921522138305,
         "ret_60m_pct": 0.40587322430465367
-      }
+      },
+      "exit_eur": 0.14862394241023816,
+      "exit_time": "2026-11-05T08:32:10.057784+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 0.741099,
+      "leveraged_return_pct": 2.223298,
+      "gross_pnl_eur": 0.111165
     }
   ]
 }
