@@ -1,41 +1,103 @@
 {
-  "generated_at": "2026-11-06T15:14:13.551107+00:00",
+  "generated_at": "2026-11-06T15:19:13.367796+00:00",
   "strategy": "KRAKEN_V05_CANDIDATE_B",
-  "kraken_live_timestamp": "2026-11-06T15:14:12.850049+00:00",
-  "film_timestamp": "2026-11-06T15:14:08.416334+00:00",
+  "kraken_live_timestamp": "2026-11-06T15:19:13.093284+00:00",
+  "film_timestamp": "2026-11-06T15:19:08.163152+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
-      "green": 24,
+      "green": 20,
       "red": 1,
-      "flat": 2
-    },
-    "breadth_15m": {
-      "green": 13,
-      "red": 8,
       "flat": 6
     },
-    "breadth_60m": {
-      "green": 24,
+    "breadth_15m": {
+      "green": 25,
       "red": 1,
-      "flat": 2
+      "flat": 1
+    },
+    "breadth_60m": {
+      "green": 25,
+      "red": 1,
+      "flat": 1
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "PEPE",
+    "NEAR",
+    "BCH",
+    "SUI"
+  ],
   "start_pot_usd": 20.0,
   "realized_gross_usd": -1.9091,
-  "open_pnl_usd": 0.0,
-  "paper_equity_gross_usd": 18.0909,
-  "estimated_costs_usd": 1.379,
-  "paper_equity_est_net_usd": 16.7119,
-  "open_count": 0,
+  "open_pnl_usd": -0.0664,
+  "paper_equity_gross_usd": 18.0245,
+  "estimated_costs_usd": 1.439,
+  "paper_equity_est_net_usd": 16.5855,
+  "open_count": 4,
   "closed_count": 92,
   "strategy_closed_count": 72,
   "technical_closed_count": 20,
   "strategy_win_count": 24,
   "strategy_win_rate_pct": 33.333333333333336,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "PEPE",
+      "direction": "LONG",
+      "entry_usd": 5.1684e-06,
+      "current_usd": 5.1591e-06,
+      "spot_return_pct": -0.1799,
+      "leveraged_return_pct": -0.5398,
+      "open_pnl_usd": -0.027,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-11-06T15:19:13.332139+00:00",
+      "entry_breadth": null,
+      "entry_move": null
+    },
+    {
+      "coin": "NEAR",
+      "direction": "LONG",
+      "entry_usd": 3.7859,
+      "current_usd": 3.7812,
+      "spot_return_pct": -0.1241,
+      "leveraged_return_pct": -0.3724,
+      "open_pnl_usd": -0.0186,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-11-06T15:19:13.332160+00:00",
+      "entry_breadth": null,
+      "entry_move": null
+    },
+    {
+      "coin": "BCH",
+      "direction": "LONG",
+      "entry_usd": 268.42,
+      "current_usd": 268.14,
+      "spot_return_pct": -0.1043,
+      "leveraged_return_pct": -0.3129,
+      "open_pnl_usd": -0.0156,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-11-06T15:19:13.332168+00:00",
+      "entry_breadth": null,
+      "entry_move": null
+    },
+    {
+      "coin": "SUI",
+      "direction": "LONG",
+      "entry_usd": 0.8776,
+      "current_usd": 0.8773,
+      "spot_return_pct": -0.0342,
+      "leveraged_return_pct": -0.1026,
+      "open_pnl_usd": -0.0051,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-11-06T15:19:13.332174+00:00",
+      "entry_breadth": null,
+      "entry_move": null
+    }
+  ],
   "closed_legs": [
     {
       "coin": "MOODENG",
