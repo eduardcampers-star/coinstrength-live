@@ -1,6 +1,6 @@
 {
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 27.216527530830366,
+  "realized_gross_eur": 27.66867685490697,
   "legs": [
     {
       "coin": "SUI",
@@ -9073,7 +9073,7 @@
     {
       "coin": "TAO",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 195.25469168900804,
       "entry_time": "2026-11-06T07:44:02.864729+00:00",
       "margin_eur": 5.0,
@@ -9102,7 +9102,13 @@
         "ret_5m_pct": 0.6780592843725675,
         "ret_15m_pct": 0.5674797492105643,
         "ret_60m_pct": 0.16865712462394988
-      }
+      },
+      "exit_eur": 201.1403101470061,
+      "exit_time": "2026-11-06T15:34:03.230457+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 3.014329,
+      "leveraged_return_pct": 9.042986,
+      "gross_pnl_eur": 0.452149
     },
     {
       "coin": "PEPE",
@@ -9136,6 +9142,40 @@
         "ret_5m_pct": -0.2692806912183432,
         "ret_15m_pct": 0.3998049731838149,
         "ret_60m_pct": 1.8639439629585697
+      }
+    },
+    {
+      "coin": "SUI",
+      "direction": "SHORT",
+      "status": "OPEN",
+      "entry_eur": 0.7824649209044597,
+      "entry_time": "2026-11-06T15:34:03.230739+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "roll_active": false,
+      "best_eur": 0.7824649209044597,
+      "roll_stop_eur": null,
+      "entry_breadth": {
+        "5m": {
+          "green": 0,
+          "red": 26,
+          "flat": 1
+        },
+        "15m": {
+          "green": 0,
+          "red": 23,
+          "flat": 4
+        },
+        "60m": {
+          "green": 20,
+          "red": 7,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.6608933454877008,
+        "ret_15m_pct": -0.4112405757368043,
+        "ret_60m_pct": 1.2308406874129263
       }
     }
   ]
