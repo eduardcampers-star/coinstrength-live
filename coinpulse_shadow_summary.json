@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-06T20:16:03.028555+00:00",
+  "generated_at": "2026-11-06T20:31:03.612859+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 13,
-  "strong_24h": 5,
+  "events_24h": 14,
+  "strong_24h": 6,
   "results": {
     "5m": {
       "canonical": {
-        "n": 13,
-        "avg_return_pct": -0.059,
+        "n": 14,
+        "avg_return_pct": -0.0645,
         "positive": 6
       },
       "mover3d": {
-        "n": 13,
-        "avg_return_pct": -0.0603,
+        "n": 14,
+        "avg_return_pct": -0.0728,
         "positive": 6
       },
       "hybrid_rebound_v2": {
-        "n": 13,
-        "avg_return_pct": -0.0158,
+        "n": 14,
+        "avg_return_pct": -0.0319,
         "positive": 8
       }
     },
@@ -58,18 +58,18 @@
     },
     "rolling_09": {
       "canonical": {
-        "n": 5,
-        "avg_return_pct": -29.5997,
+        "n": 6,
+        "avg_return_pct": -32.9313,
         "positive": 2
       },
       "mover3d": {
-        "n": 5,
-        "avg_return_pct": 0.2167,
-        "positive": 2
+        "n": 6,
+        "avg_return_pct": 0.2233,
+        "positive": 3
       },
       "hybrid_rebound_v2": {
-        "n": 5,
-        "avg_return_pct": -29.9776,
+        "n": 6,
+        "avg_return_pct": -25.0219,
         "positive": 0
       }
     }
@@ -80,27 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-11-05T23:00:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "BTC",
-        "HYPE",
-        "RENDER"
-      ],
-      "canonical": [
-        "TRX",
-        "DOT"
-      ],
-      "mover3d": [
-        "NEAR",
-        "WLD"
-      ],
-      "hybrid": [
-        "NEAR",
-        "RENDER"
-      ]
-    },
     {
       "trigger_time": "2026-11-06T01:17:00+00:00",
       "level": "TRIGGER",
@@ -287,6 +266,27 @@
       "hybrid": [
         "NEAR",
         "FET"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-06T20:16:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "FET",
+        "HBAR",
+        "ONDO"
+      ],
+      "canonical": [
+        "RENDER",
+        "TAO"
+      ],
+      "mover3d": [
+        "NEAR",
+        "WLD"
+      ],
+      "hybrid": [
+        "NEAR",
+        "ONDO"
       ]
     }
   ]
