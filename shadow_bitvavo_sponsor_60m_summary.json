@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-11-06T03:29:01.746278+00:00",
+  "generated_at": "2026-11-06T03:34:03.118243+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-11-06T04:15:01+01:00",
-  "film_timestamp": "2026-11-06T03:27:01.511128+00:00",
+  "latest_timestamp": "2026-11-06T04:30:01+01:00",
+  "film_timestamp": "2026-11-06T03:32:01.175890+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
-      "green": 2,
-      "red": 16,
-      "flat": 9
+      "green": 0,
+      "red": 26,
+      "flat": 1
     },
     "breadth_15m": {
-      "green": 3,
-      "red": 21,
-      "flat": 3
+      "green": 0,
+      "red": 26,
+      "flat": 1
     },
     "breadth_60m": {
-      "green": 10,
-      "red": 12,
-      "flat": 5
+      "green": 3,
+      "red": 22,
+      "flat": 2
     }
   },
   "opened_this_run": [],
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 26.8285,
-  "open_pnl_eur": 0.0458,
-  "paper_equity_gross_eur": 46.8742,
+  "realized_gross_eur": 27.0643,
+  "open_pnl_eur": -0.1452,
+  "paper_equity_gross_eur": 46.9191,
   "estimated_cost_per_closed_trade_eur": 0.09,
-  "estimated_costs_eur": 20.07,
-  "paper_equity_est_net_eur": 26.8042,
-  "open_count": 3,
-  "closed_count": 223,
+  "estimated_costs_eur": 20.16,
+  "paper_equity_est_net_eur": 26.7591,
+  "open_count": 2,
+  "closed_count": 224,
   "open_legs": [
     {
       "coin": "TRX",
       "direction": "LONG",
       "entry_eur": 0.28269656945306265,
-      "current_eur": 0.28360962566844916,
-      "spot_return_pct": 0.323,
-      "leveraged_return_pct": 0.9689,
-      "open_pnl_eur": 0.0484,
+      "current_eur": 0.28375679771774986,
+      "spot_return_pct": 0.375,
+      "leveraged_return_pct": 1.1251,
+      "open_pnl_eur": 0.0563,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-11-04T13:04:02.328420+00:00",
@@ -68,47 +68,13 @@
       }
     },
     {
-      "coin": "PEPE",
-      "direction": "LONG",
-      "entry_eur": 4.274781989677879e-06,
-      "current_eur": 4.355258467023172e-06,
-      "spot_return_pct": 1.8826,
-      "leveraged_return_pct": 5.6478,
-      "open_pnl_eur": 0.2824,
-      "roll_active": true,
-      "roll_stop_eur": 4.34199483112022e-06,
-      "entry_time": "2026-11-05T23:49:02.200512+00:00",
-      "entry_breadth": {
-        "5m": {
-          "green": 25,
-          "red": 0,
-          "flat": 2
-        },
-        "15m": {
-          "green": 23,
-          "red": 0,
-          "flat": 4
-        },
-        "60m": {
-          "green": 6,
-          "red": 18,
-          "flat": 3
-        }
-      },
-      "entry_move": {
-        "ret_5m_pct": 0.18784830206006742,
-        "ret_15m_pct": 0.42050209205020117,
-        "ret_60m_pct": 0.548817528645329
-      }
-    },
-    {
       "coin": "WLD",
       "direction": "SHORT",
       "entry_eur": 0.30507569011576136,
-      "current_eur": 0.31087344028520497,
-      "spot_return_pct": -1.9004,
-      "leveraged_return_pct": -5.7013,
-      "open_pnl_eur": -0.2851,
+      "current_eur": 0.30917357582241245,
+      "spot_return_pct": -1.3432,
+      "leveraged_return_pct": -4.0297,
+      "open_pnl_eur": -0.2015,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-11-06T01:14:02.121110+00:00",
@@ -137,16 +103,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "XRP",
-      "direction": "LONG",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 2.054851,
-      "leveraged_return_pct": 6.164552,
-      "gross_pnl_eur": 0.308228,
-      "entry_time": "2026-11-02T16:39:02.130720+00:00",
-      "exit_time": "2026-11-03T20:19:01.784864+00:00"
-    },
     {
       "coin": "ONDO",
       "direction": "LONG",
@@ -336,6 +292,16 @@
       "gross_pnl_eur": 0.446271,
       "entry_time": "2026-11-05T19:09:02.117963+00:00",
       "exit_time": "2026-11-06T00:34:02.060302+00:00"
+    },
+    {
+      "coin": "PEPE",
+      "direction": "LONG",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 1.57231,
+      "leveraged_return_pct": 4.716931,
+      "gross_pnl_eur": 0.235847,
+      "entry_time": "2026-11-05T23:49:02.200512+00:00",
+      "exit_time": "2026-11-06T03:34:03.117864+00:00"
     }
   ]
 }
