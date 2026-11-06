@@ -1,71 +1,42 @@
 {
-  "generated_at": "2026-11-06T15:44:13.970613+00:00",
+  "generated_at": "2026-11-06T15:49:13.714661+00:00",
   "strategy": "KRAKEN_V05_CANDIDATE_B",
-  "kraken_live_timestamp": "2026-11-06T15:44:13.308967+00:00",
-  "film_timestamp": "2026-11-06T15:44:08.639571+00:00",
+  "kraken_live_timestamp": "2026-11-06T15:49:13.552765+00:00",
+  "film_timestamp": "2026-11-06T15:49:08.429265+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "LONG",
+    "target_legs": 1,
     "breadth_5m": {
-      "green": 17,
-      "red": 3,
-      "flat": 7
+      "green": 20,
+      "red": 2,
+      "flat": 5
     },
     "breadth_15m": {
-      "green": 2,
-      "red": 19,
-      "flat": 6
+      "green": 15,
+      "red": 8,
+      "flat": 4
     },
     "breadth_60m": {
-      "green": 0,
-      "red": 25,
-      "flat": 2
+      "green": 1,
+      "red": 26,
+      "flat": 0
     }
   },
   "opened_this_run": [],
   "start_pot_usd": 20.0,
-  "realized_gross_usd": -2.0653,
-  "open_pnl_usd": -0.1436,
-  "paper_equity_gross_usd": 17.7911,
+  "realized_gross_usd": -2.1901,
+  "open_pnl_usd": 0.0,
+  "paper_equity_gross_usd": 17.8099,
   "estimated_costs_usd": 1.4389,
-  "paper_equity_est_net_usd": 16.3522,
-  "open_count": 1,
-  "closed_count": 95,
-  "strategy_closed_count": 75,
+  "paper_equity_est_net_usd": 16.371,
+  "open_count": 0,
+  "closed_count": 96,
+  "strategy_closed_count": 76,
   "technical_closed_count": 20,
   "strategy_win_count": 24,
-  "strategy_win_rate_pct": 32.0,
-  "open_legs": [
-    {
-      "coin": "SUI",
-      "direction": "LONG",
-      "entry_usd": 0.8776,
-      "current_usd": 0.8692,
-      "spot_return_pct": -0.9572,
-      "leveraged_return_pct": -2.8715,
-      "open_pnl_usd": -0.1436,
-      "roll_active": false,
-      "roll_stop_eur": null,
-      "entry_time": "2026-11-06T15:19:13.332174+00:00",
-      "entry_breadth": null,
-      "entry_move": null
-    }
-  ],
+  "strategy_win_rate_pct": 31.57894736842105,
+  "open_legs": [],
   "closed_legs": [
-    {
-      "coin": "FET",
-      "direction": "LONG",
-      "reason": "EXIT4_MOMENTUM",
-      "spot_return_pct": -0.435155,
-      "leveraged_return_pct": -1.305466,
-      "gross_pnl_usd": -0.065273,
-      "fee_entry_usd": 0.0075,
-      "fee_exit_usd": 0.007467363354651546,
-      "net_pnl_usd": -0.08024065405155935,
-      "technical_close": false,
-      "entry_time": "2026-11-04T03:28:13.362589+00:00",
-      "exit_time": "2026-11-04T03:32:13.739322+00:00"
-    },
     {
       "coin": "NEAR",
       "direction": "LONG",
@@ -331,6 +302,20 @@
       "technical_close": false,
       "entry_time": "2026-11-06T15:19:13.332168+00:00",
       "exit_time": "2026-11-06T15:23:13.761398+00:00"
+    },
+    {
+      "coin": "SUI",
+      "direction": "LONG",
+      "reason": "TIME30",
+      "spot_return_pct": -0.831814,
+      "leveraged_return_pct": -2.495442,
+      "gross_pnl_usd": -0.124772,
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007437613947128532,
+      "net_pnl_usd": -0.13970971969006482,
+      "technical_close": false,
+      "entry_time": "2026-11-06T15:19:13.332174+00:00",
+      "exit_time": "2026-11-06T15:49:13.703701+00:00"
     }
   ]
 }
