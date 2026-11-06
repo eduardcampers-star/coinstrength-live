@@ -2715,10 +2715,90 @@
       "spot_return_pct": -0.354653,
       "leveraged_return_pct": -1.06396,
       "gross_pnl_usd": -0.053198
+    },
+    {
+      "coin": "NEAR",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 3.8083,
+      "entry_time": "2026-11-06T14:41:13.936922+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-06T14:36:00+00:00",
+      "market_confirm_time": "2026-11-06T14:40:00+00:00",
+      "market_momentum_2_4_pct": 0.530504,
+      "move60_rank": 1,
+      "move60_pct": 2.940462,
+      "basket_id": "V05B:2026-11-06T14:41:13.929714+00:00:FET,NEAR,TAO,WLD"
+    },
+    {
+      "coin": "TAO",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 226.76,
+      "entry_time": "2026-11-06T14:41:13.936943+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-06T14:36:00+00:00",
+      "market_confirm_time": "2026-11-06T14:40:00+00:00",
+      "market_momentum_2_4_pct": 0.530504,
+      "move60_rank": 2,
+      "move60_pct": 1.959993,
+      "basket_id": "V05B:2026-11-06T14:41:13.929714+00:00:FET,NEAR,TAO,WLD"
+    },
+    {
+      "coin": "FET",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 0.15117,
+      "entry_time": "2026-11-06T14:41:13.936951+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-06T14:36:00+00:00",
+      "market_confirm_time": "2026-11-06T14:40:00+00:00",
+      "market_momentum_2_4_pct": 0.530504,
+      "move60_rank": 3,
+      "move60_pct": 1.954287,
+      "basket_id": "V05B:2026-11-06T14:41:13.929714+00:00:FET,NEAR,TAO,WLD"
+    },
+    {
+      "coin": "WLD",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 0.3512,
+      "entry_time": "2026-11-06T14:41:13.936957+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-06T14:36:00+00:00",
+      "market_confirm_time": "2026-11-06T14:40:00+00:00",
+      "market_momentum_2_4_pct": 0.530504,
+      "move60_rank": 4,
+      "move60_pct": 1.736614,
+      "basket_id": "V05B:2026-11-06T14:41:13.929714+00:00:FET,NEAR,TAO,WLD"
     }
   ],
   "market_event": {
-    "status": "WAIT_CONFIRM",
+    "status": "ACTIVE",
     "go_time": "2026-11-06T14:36:00+00:00",
     "breadth_prev": {
       "green": 22,
@@ -2730,9 +2810,44 @@
       "red": 0,
       "flat": 5
     },
-    "created_at": "2026-11-06T14:37:13.498939+00:00"
+    "created_at": "2026-11-06T14:37:13.498939+00:00",
+    "confirm_time": "2026-11-06T14:40:00+00:00",
+    "market_momentum_2_4_pct": 0.530504,
+    "confirm_n": 27,
+    "top4": [
+      {
+        "rank": 1,
+        "coin": "NEAR",
+        "move60_pct": 2.940462
+      },
+      {
+        "rank": 2,
+        "coin": "TAO",
+        "move60_pct": 1.959993
+      },
+      {
+        "rank": 3,
+        "coin": "FET",
+        "move60_pct": 1.954287
+      },
+      {
+        "rank": 4,
+        "coin": "WLD",
+        "move60_pct": 1.736614
+      }
+    ],
+    "top4_locked": true,
+    "top4_lock_time": "2026-11-06T14:41:13.929714+00:00",
+    "basket_id": "V05B:2026-11-06T14:41:13.929714+00:00:FET,NEAR,TAO,WLD",
+    "entry_time": "2026-11-06T14:41:13.936973+00:00",
+    "opened_coins": [
+      "NEAR",
+      "TAO",
+      "FET",
+      "WLD"
+    ]
   },
-  "last_market_breadth_green": 21,
+  "last_market_breadth_green": 3,
   "market_burst_locked": false,
   "pending_events": []
 }
