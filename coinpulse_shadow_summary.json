@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-11-08T16:41:02.952925+00:00",
+  "generated_at": "2026-11-08T17:01:02.866254+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 2,
+  "events_24h": 3,
   "strong_24h": 0,
   "results": {
     "5m": {
       "canonical": {
-        "n": 2,
-        "avg_return_pct": 0.0767,
-        "positive": 2
+        "n": 3,
+        "avg_return_pct": 0.0543,
+        "positive": 3
       },
       "mover3d": {
-        "n": 2,
-        "avg_return_pct": 0.0119,
+        "n": 3,
+        "avg_return_pct": -0.0149,
         "positive": 1
       },
       "hybrid_rebound_v2": {
-        "n": 2,
-        "avg_return_pct": 0.1605,
-        "positive": 2
+        "n": 3,
+        "avg_return_pct": 0.1621,
+        "positive": 3
       }
     },
     "15m": {
       "canonical": {
-        "n": 2,
-        "avg_return_pct": -0.1185,
+        "n": 3,
+        "avg_return_pct": -0.3338,
         "positive": 1
       },
       "mover3d": {
-        "n": 2,
-        "avg_return_pct": -0.023,
+        "n": 3,
+        "avg_return_pct": -0.5077,
         "positive": 1
       },
       "hybrid_rebound_v2": {
-        "n": 2,
-        "avg_return_pct": 0.0791,
+        "n": 3,
+        "avg_return_pct": -0.1005,
         "positive": 1
       }
     },
@@ -58,18 +58,18 @@
     },
     "rolling_09": {
       "canonical": {
-        "n": 0,
-        "avg_return_pct": null,
+        "n": 1,
+        "avg_return_pct": -0.5372,
         "positive": 0
       },
       "mover3d": {
-        "n": 0,
-        "avg_return_pct": null,
+        "n": 1,
+        "avg_return_pct": -50.0916,
         "positive": 0
       },
       "hybrid_rebound_v2": {
-        "n": 0,
-        "avg_return_pct": null,
+        "n": 1,
+        "avg_return_pct": -49.9907,
         "positive": 0
       }
     }
@@ -118,6 +118,26 @@
       "hybrid": [
         "PEPE",
         "QNT"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-08T16:39:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "HBAR",
+        "MOODENG"
+      ],
+      "canonical": [
+        "QNT",
+        "RENDER"
+      ],
+      "mover3d": [
+        "NEAR",
+        "QNT"
+      ],
+      "hybrid": [
+        "PEPE",
+        "RENDER"
       ]
     }
   ]
