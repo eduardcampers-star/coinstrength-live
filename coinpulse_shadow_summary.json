@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-11-08T13:41:03.671801+00:00",
+  "generated_at": "2026-11-08T14:01:03.670200+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 1,
+  "events_24h": 2,
   "strong_24h": 0,
   "results": {
     "5m": {
       "canonical": {
-        "n": 1,
-        "avg_return_pct": 0.076,
-        "positive": 1
+        "n": 2,
+        "avg_return_pct": 0.0767,
+        "positive": 2
       },
       "mover3d": {
-        "n": 1,
-        "avg_return_pct": 0.1143,
+        "n": 2,
+        "avg_return_pct": 0.0119,
         "positive": 1
       },
       "hybrid_rebound_v2": {
-        "n": 1,
-        "avg_return_pct": 0.217,
-        "positive": 1
+        "n": 2,
+        "avg_return_pct": 0.1605,
+        "positive": 2
       }
     },
     "15m": {
       "canonical": {
-        "n": 1,
-        "avg_return_pct": 0.0774,
+        "n": 2,
+        "avg_return_pct": -0.1185,
         "positive": 1
       },
       "mover3d": {
-        "n": 1,
-        "avg_return_pct": 0.2117,
+        "n": 2,
+        "avg_return_pct": -0.023,
         "positive": 1
       },
       "hybrid_rebound_v2": {
-        "n": 1,
-        "avg_return_pct": 0.2498,
+        "n": 2,
+        "avg_return_pct": 0.0791,
         "positive": 1
       }
     },
@@ -98,6 +98,26 @@
       "hybrid": [
         "RENDER",
         "BCH"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-08T13:40:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "MOODENG",
+        "SUI"
+      ],
+      "canonical": [
+        "QNT",
+        "HYPE"
+      ],
+      "mover3d": [
+        "NEAR",
+        "PEPE"
+      ],
+      "hybrid": [
+        "PEPE",
+        "QNT"
       ]
     }
   ]
