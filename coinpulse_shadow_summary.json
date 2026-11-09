@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-09T09:16:03.547594+00:00",
+  "generated_at": "2026-11-09T09:31:03.458008+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 15,
-  "strong_24h": 7,
+  "events_24h": 16,
+  "strong_24h": 8,
   "results": {
     "5m": {
       "canonical": {
-        "n": 15,
-        "avg_return_pct": -0.0015,
+        "n": 16,
+        "avg_return_pct": -0.0044,
         "positive": 6
       },
       "mover3d": {
-        "n": 15,
-        "avg_return_pct": 0.0094,
+        "n": 16,
+        "avg_return_pct": -0.0021,
         "positive": 5
       },
       "hybrid_rebound_v2": {
-        "n": 15,
-        "avg_return_pct": 0.0288,
+        "n": 16,
+        "avg_return_pct": 0.0161,
         "positive": 8
       }
     },
@@ -58,19 +58,19 @@
     },
     "rolling_09": {
       "canonical": {
-        "n": 13,
-        "avg_return_pct": -27.0782,
+        "n": 14,
+        "avg_return_pct": -28.5678,
         "positive": 0
       },
       "mover3d": {
-        "n": 13,
-        "avg_return_pct": -42.363,
-        "positive": 0
+        "n": 14,
+        "avg_return_pct": -39.115,
+        "positive": 1
       },
       "hybrid_rebound_v2": {
-        "n": 13,
-        "avg_return_pct": -27.1218,
-        "positive": 1
+        "n": 14,
+        "avg_return_pct": -24.9036,
+        "positive": 2
       }
     }
   },
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-11-09T00:03:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "LINK",
-        "NEAR"
-      ],
-      "canonical": [
-        "PEPE",
-        "QNT"
-      ],
-      "mover3d": [
-        "NEAR",
-        "PEPE"
-      ],
-      "hybrid": [
-        "NEAR",
-        "PEPE"
-      ]
-    },
     {
       "trigger_time": "2026-11-09T01:16:00+00:00",
       "level": "STRONG",
@@ -289,6 +269,28 @@
       "hybrid": [
         "RENDER",
         "FET"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-09T09:20:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "LTC",
+        "MOODENG",
+        "ONDO",
+        "XLM"
+      ],
+      "canonical": [
+        "RENDER",
+        "PEPE"
+      ],
+      "mover3d": [
+        "NEAR",
+        "QNT"
+      ],
+      "hybrid": [
+        "NEAR",
+        "QNT"
       ]
     }
   ]
