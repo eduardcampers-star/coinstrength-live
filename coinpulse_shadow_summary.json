@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-09T05:16:02.944655+00:00",
+  "generated_at": "2026-11-09T05:31:03.030521+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 10,
-  "strong_24h": 5,
+  "events_24h": 11,
+  "strong_24h": 6,
   "results": {
     "5m": {
       "canonical": {
-        "n": 10,
-        "avg_return_pct": 0.0109,
+        "n": 11,
+        "avg_return_pct": 0.0053,
         "positive": 5
       },
       "mover3d": {
-        "n": 10,
-        "avg_return_pct": 0.0132,
-        "positive": 3
+        "n": 11,
+        "avg_return_pct": 0.0392,
+        "positive": 4
       },
       "hybrid_rebound_v2": {
-        "n": 10,
-        "avg_return_pct": 0.0481,
+        "n": 11,
+        "avg_return_pct": 0.0418,
         "positive": 6
       }
     },
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-11-08T13:40:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "MOODENG",
-        "SUI"
-      ],
-      "canonical": [
-        "QNT",
-        "HYPE"
-      ],
-      "mover3d": [
-        "NEAR",
-        "PEPE"
-      ],
-      "hybrid": [
-        "PEPE",
-        "QNT"
-      ]
-    },
     {
       "trigger_time": "2026-11-08T16:39:00+00:00",
       "level": "TRIGGER",
@@ -289,6 +269,29 @@
       "hybrid": [
         "WLD",
         "DOT"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-09T05:18:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "AVAX",
+        "DOT",
+        "ETH",
+        "SOL",
+        "XLM"
+      ],
+      "canonical": [
+        "QNT",
+        "RENDER"
+      ],
+      "mover3d": [
+        "NEAR",
+        "PEPE"
+      ],
+      "hybrid": [
+        "RENDER",
+        "NEAR"
       ]
     }
   ]
