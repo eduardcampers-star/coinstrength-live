@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-09T07:01:03.710451+00:00",
+  "generated_at": "2026-11-09T07:11:03.235042+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 12,
+  "events_24h": 13,
   "strong_24h": 7,
   "results": {
     "5m": {
       "canonical": {
-        "n": 12,
-        "avg_return_pct": 0.0253,
+        "n": 13,
+        "avg_return_pct": 0.0122,
         "positive": 6
       },
       "mover3d": {
-        "n": 12,
-        "avg_return_pct": 0.0412,
+        "n": 13,
+        "avg_return_pct": 0.0305,
         "positive": 5
       },
       "hybrid_rebound_v2": {
-        "n": 12,
-        "avg_return_pct": 0.0527,
+        "n": 13,
+        "avg_return_pct": 0.0412,
         "positive": 7
       }
     },
@@ -58,18 +58,18 @@
     },
     "rolling_09": {
       "canonical": {
-        "n": 11,
-        "avg_return_pct": -31.8299,
+        "n": 12,
+        "avg_return_pct": -29.2095,
         "positive": 0
       },
       "mover3d": {
-        "n": 11,
-        "avg_return_pct": -45.3416,
+        "n": 12,
+        "avg_return_pct": -45.7527,
         "positive": 0
       },
       "hybrid_rebound_v2": {
-        "n": 11,
-        "avg_return_pct": -27.3352,
+        "n": 12,
+        "avg_return_pct": -29.2414,
         "positive": 1
       }
     }
@@ -80,29 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-11-08T22:06:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "BTC",
-        "LINK",
-        "SHIB",
-        "SUI",
-        "TAO"
-      ],
-      "canonical": [
-        "QNT",
-        "PEPE"
-      ],
-      "mover3d": [
-        "NEAR",
-        "PEPE"
-      ],
-      "hybrid": [
-        "PEPE",
-        "QNT"
-      ]
-    },
     {
       "trigger_time": "2026-11-08T23:33:00+00:00",
       "level": "STRONG",
@@ -294,6 +271,26 @@
       "hybrid": [
         "RENDER",
         "PEPE"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-09T07:01:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "VET",
+        "XLM"
+      ],
+      "canonical": [
+        "RENDER",
+        "QNT"
+      ],
+      "mover3d": [
+        "NEAR",
+        "QNT"
+      ],
+      "hybrid": [
+        "NEAR",
+        "QNT"
       ]
     }
   ]
