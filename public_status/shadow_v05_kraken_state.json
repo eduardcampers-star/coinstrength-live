@@ -2959,10 +2959,90 @@
       "spot_return_pct": -0.831814,
       "leveraged_return_pct": -2.495442,
       "gross_pnl_usd": -0.124772
+    },
+    {
+      "coin": "PEPE",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 5.463e-06,
+      "entry_time": "2026-11-10T14:41:13.888119+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-10T14:36:00+00:00",
+      "market_confirm_time": "2026-11-10T14:40:00+00:00",
+      "market_momentum_2_4_pct": 0.216634,
+      "move60_rank": 1,
+      "move60_pct": 4.026807,
+      "basket_id": "V05B:2026-11-10T14:41:13.880595+00:00:NEAR,ONDO,PEPE,RENDER"
+    },
+    {
+      "coin": "NEAR",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 3.7177,
+      "entry_time": "2026-11-10T14:41:13.888140+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-10T14:36:00+00:00",
+      "market_confirm_time": "2026-11-10T14:40:00+00:00",
+      "market_momentum_2_4_pct": 0.216634,
+      "move60_rank": 2,
+      "move60_pct": 3.342797,
+      "basket_id": "V05B:2026-11-10T14:41:13.880595+00:00:NEAR,ONDO,PEPE,RENDER"
+    },
+    {
+      "coin": "RENDER",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 1.6034,
+      "entry_time": "2026-11-10T14:41:13.888148+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-10T14:36:00+00:00",
+      "market_confirm_time": "2026-11-10T14:40:00+00:00",
+      "market_momentum_2_4_pct": 0.216634,
+      "move60_rank": 3,
+      "move60_pct": 2.334779,
+      "basket_id": "V05B:2026-11-10T14:41:13.880595+00:00:NEAR,ONDO,PEPE,RENDER"
+    },
+    {
+      "coin": "ONDO",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 0.3754,
+      "entry_time": "2026-11-10T14:41:13.888154+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-10T14:36:00+00:00",
+      "market_confirm_time": "2026-11-10T14:40:00+00:00",
+      "market_momentum_2_4_pct": 0.216634,
+      "move60_rank": 4,
+      "move60_pct": 1.929348,
+      "basket_id": "V05B:2026-11-10T14:41:13.880595+00:00:NEAR,ONDO,PEPE,RENDER"
     }
   ],
   "market_event": {
-    "status": "WAIT_CONFIRM",
+    "status": "ACTIVE",
     "go_time": "2026-11-10T14:36:00+00:00",
     "breadth_prev": {
       "green": 23,
@@ -2974,9 +3054,44 @@
       "red": 1,
       "flat": 4
     },
-    "created_at": "2026-11-10T14:37:13.410479+00:00"
+    "created_at": "2026-11-10T14:37:13.410479+00:00",
+    "confirm_time": "2026-11-10T14:40:00+00:00",
+    "market_momentum_2_4_pct": 0.216634,
+    "confirm_n": 27,
+    "top4": [
+      {
+        "rank": 1,
+        "coin": "PEPE",
+        "move60_pct": 4.026807
+      },
+      {
+        "rank": 2,
+        "coin": "NEAR",
+        "move60_pct": 3.342797
+      },
+      {
+        "rank": 3,
+        "coin": "RENDER",
+        "move60_pct": 2.334779
+      },
+      {
+        "rank": 4,
+        "coin": "ONDO",
+        "move60_pct": 1.929348
+      }
+    ],
+    "top4_locked": true,
+    "top4_lock_time": "2026-11-10T14:41:13.880595+00:00",
+    "basket_id": "V05B:2026-11-10T14:41:13.880595+00:00:NEAR,ONDO,PEPE,RENDER",
+    "entry_time": "2026-11-10T14:41:13.888169+00:00",
+    "opened_coins": [
+      "PEPE",
+      "NEAR",
+      "RENDER",
+      "ONDO"
+    ]
   },
-  "last_market_breadth_green": 6,
+  "last_market_breadth_green": 16,
   "market_burst_locked": false,
   "pending_events": []
 }
