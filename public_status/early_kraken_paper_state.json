@@ -2,8 +2,8 @@
   "strategy": "EARLY_KRAKEN_PAPER_V1",
   "mode": "RESEARCH_PAPER",
   "created_at": "2026-10-14T18:24:17.972527+00:00",
-  "realized_pnl_usd": 0.15716229999996756,
-  "total_fees_usd": 2.62672619245,
+  "realized_pnl_usd": -0.32513770000003284,
+  "total_fees_usd": 2.6344575524500002,
   "max_positions": 4,
   "target_margin_usd": 5.0,
   "min_margin_usd": 4.0,
@@ -4040,12 +4040,17 @@
       "margin_usd": 4.993473333333333,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": -0.4058600000000014,
+      "unrealized_gross_pnl_usd": -0.48230000000000106,
       "coin": "AVAX",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_time": "2026-11-10T16:44:51.834001+00:00",
       "roll_active": false,
-      "current_exit_price_usd": 8.454
+      "current_exit_price_usd": 8.496,
+      "exit_time": "2026-11-11T01:41:51.311234+00:00",
+      "exit_reason": "HARD_SL",
+      "exit_price": 8.496,
+      "gross_pnl_usd": -0.4823000000000004,
+      "net_pnl_usd": -0.4975215700000004
     },
     {
       "direction": "LONG",
@@ -4057,14 +4062,14 @@
       "margin_usd": 4.9434,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": 0.2339999999999995,
+      "unrealized_gross_pnl_usd": 0.22680000000000092,
       "coin": "SOL",
       "status": "OPEN",
       "entry_time": "2026-11-10T17:28:52.079496+00:00",
       "roll_active": true,
-      "current_exit_price_usd": 83.69,
-      "best_exit_price_usd": 83.69,
-      "roll_stop_usd": 82.93679
+      "current_exit_price_usd": 83.65,
+      "best_exit_price_usd": 83.96,
+      "roll_stop_usd": 83.20436
     },
     {
       "direction": "SHORT",
@@ -4098,16 +4103,16 @@
       "margin_usd": 4.9168,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": -0.07559999999999789,
+      "unrealized_gross_pnl_usd": -0.044799999999998175,
       "coin": "XRP",
       "status": "OPEN",
       "entry_time": "2026-11-10T18:14:51.123562+00:00",
       "roll_active": false,
-      "current_exit_price_usd": 1.059
+      "current_exit_price_usd": 1.0568
     }
   ],
-  "closed_trades": 173,
+  "closed_trades": 174,
   "start_capital_usd": 25.0,
-  "last_paper_cycle_utc": "2026-11-11T01:39:51.654981+00:00",
+  "last_paper_cycle_utc": "2026-11-11T01:44:51.313914+00:00",
   "last_entry_film_minute": "2026-11-10T18:13:00+00:00"
 }
