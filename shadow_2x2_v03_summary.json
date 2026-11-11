@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-11T20:11:02.208644+00:00",
+  "generated_at": "2026-11-11T20:16:01.903897+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 19.2242,
-  "open_pnl_eur": 0.2991,
-  "paper_equity_gross_eur": 39.5233,
-  "open_count": 6,
-  "closed_count": 543,
+  "realized_gross_eur": 19.6707,
+  "open_pnl_eur": -0.1518,
+  "paper_equity_gross_eur": 39.5189,
+  "open_count": 5,
+  "closed_count": 544,
   "last_selection_hour": "2026-11-11T21",
   "latest_timestamp": "2026-11-11T21:00:02+01:00",
   "open_legs": [
@@ -50,19 +50,6 @@
       "roll_stop_usdt": null
     },
     {
-      "coin": "PEPE",
-      "direction": "SHORT",
-      "entry_eur": 4.462346288483978e-06,
-      "current_eur": 4.332132240338708e-06,
-      "spot_return_pct": 3.0058,
-      "leveraged_return_pct": 9.0173,
-      "open_pnl_eur": 0.4509,
-      "roll_active": true,
-      "hard_sl_usdt": 5.120645e-06,
-      "roll_activation_usdt": 4.896927500000001e-06,
-      "roll_stop_usdt": 4.8235245e-06
-    },
-    {
       "coin": "HBAR",
       "direction": "LONG",
       "entry_eur": 0.0600162059962186,
@@ -90,14 +77,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "ONDO",
-      "direction": "LONG",
-      "reason": "HARD_SL",
-      "spot_return_pct": -3.0000000000000027,
-      "leveraged_return_pct": -9.000000000000007,
-      "gross_pnl_eur": -0.45000000000000034
-    },
     {
       "coin": "PEPE",
       "direction": "LONG",
@@ -185,6 +164,14 @@
       "spot_return_pct": 1.884956901641277,
       "leveraged_return_pct": 5.654870704923831,
       "gross_pnl_eur": 0.28274353524619156
+    },
+    {
+      "coin": "PEPE",
+      "direction": "SHORT",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 2.976475912702415,
+      "leveraged_return_pct": 8.929427738107245,
+      "gross_pnl_eur": 0.44647138690536226
     }
   ]
 }
