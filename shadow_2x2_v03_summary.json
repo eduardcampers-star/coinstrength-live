@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-12T13:11:01.657875+00:00",
+  "generated_at": "2026-11-12T13:16:01.401009+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 19.4376,
-  "open_pnl_eur": -0.0742,
-  "paper_equity_gross_eur": 39.3635,
-  "open_count": 6,
-  "closed_count": 549,
+  "realized_gross_eur": 18.9876,
+  "open_pnl_eur": 0.3069,
+  "paper_equity_gross_eur": 39.2945,
+  "open_count": 5,
+  "closed_count": 550,
   "last_selection_hour": "2026-11-12T14",
   "latest_timestamp": "2026-11-12T14:00:02+01:00",
   "open_legs": [
@@ -37,19 +37,6 @@
       "roll_stop_usdt": null
     },
     {
-      "coin": "AVAX",
-      "direction": "LONG",
-      "entry_eur": 7.770361684856138,
-      "current_eur": 7.5729729729729724,
-      "spot_return_pct": -2.5403,
-      "leveraged_return_pct": -7.6208,
-      "open_pnl_eur": -0.381,
-      "roll_active": false,
-      "hard_sl_usdt": 8.35655,
-      "roll_activation_usdt": 8.744225,
-      "roll_stop_usdt": null
-    },
-    {
       "coin": "XLM",
       "direction": "SHORT",
       "entry_eur": 0.13203787195671776,
@@ -60,7 +47,7 @@
       "roll_active": true,
       "hard_sl_usdt": 0.1508229,
       "roll_activation_usdt": 0.14423355000000002,
-      "roll_stop_usdt": 0.14552806999999998
+      "roll_stop_usdt": 0.14393384999999997
     },
     {
       "coin": "BCH",
@@ -70,10 +57,10 @@
       "spot_return_pct": 1.1044,
       "leveraged_return_pct": 3.3132,
       "open_pnl_eur": 0.1657,
-      "roll_active": false,
+      "roll_active": true,
       "hard_sl_usdt": 236.1584,
       "roll_activation_usdt": 225.8408,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 225.14825999999996
     },
     {
       "coin": "ETH",
@@ -86,18 +73,10 @@
       "roll_active": true,
       "hard_sl_usdt": 2111.0983,
       "roll_activation_usdt": 2018.8658500000001,
-      "roll_stop_usdt": 2030.1180899999997
+      "roll_stop_usdt": 2003.0567099999998
     }
   ],
   "closed_legs": [
-    {
-      "coin": "PEPE",
-      "direction": "SHORT",
-      "reason": "HARD_SL",
-      "spot_return_pct": -2.999999999999997,
-      "leveraged_return_pct": -8.99999999999999,
-      "gross_pnl_eur": -0.44999999999999946
-    },
     {
       "coin": "TAO",
       "direction": "SHORT",
@@ -177,6 +156,14 @@
       "spot_return_pct": 2.0699232981783435,
       "leveraged_return_pct": 6.209769894535031,
       "gross_pnl_eur": 0.3104884947267515
+    },
+    {
+      "coin": "AVAX",
+      "direction": "LONG",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0000000000000027,
+      "leveraged_return_pct": -9.000000000000007,
+      "gross_pnl_eur": -0.45000000000000034
     },
     {
       "coin": "WLD",
