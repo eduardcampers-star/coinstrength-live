@@ -1,80 +1,46 @@
 {
-  "generated_at": "2026-11-12T12:29:02.530171+00:00",
+  "generated_at": "2026-11-12T12:34:02.392711+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-11-12T13:15:01+01:00",
-  "film_timestamp": "2026-11-12T12:27:01.638199+00:00",
+  "latest_timestamp": "2026-11-12T13:30:01+01:00",
+  "film_timestamp": "2026-11-12T12:32:01.281028+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
-      "green": 0,
-      "red": 26,
-      "flat": 1
+      "green": 22,
+      "red": 2,
+      "flat": 3
     },
     "breadth_15m": {
-      "green": 0,
-      "red": 27,
-      "flat": 0
+      "green": 3,
+      "red": 21,
+      "flat": 3
     },
     "breadth_60m": {
-      "green": 0,
+      "green": 2,
       "red": 25,
-      "flat": 2
+      "flat": 0
     }
   },
   "opened_this_run": [],
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 31.2127,
-  "open_pnl_eur": -0.7111,
-  "paper_equity_gross_eur": 50.5016,
+  "realized_gross_eur": 30.7627,
+  "open_pnl_eur": -0.4784,
+  "paper_equity_gross_eur": 50.2843,
   "estimated_cost_per_closed_trade_eur": 0.09,
-  "estimated_costs_eur": 23.04,
-  "paper_equity_est_net_eur": 27.4616,
-  "open_count": 3,
-  "closed_count": 256,
+  "estimated_costs_eur": 23.13,
+  "paper_equity_est_net_eur": 27.1543,
+  "open_count": 2,
+  "closed_count": 257,
   "open_legs": [
-    {
-      "coin": "VET",
-      "direction": "LONG",
-      "entry_eur": 0.004769369369369369,
-      "current_eur": 0.004629796433075121,
-      "spot_return_pct": -2.9264,
-      "leveraged_return_pct": -8.7793,
-      "open_pnl_eur": -0.439,
-      "roll_active": false,
-      "roll_stop_eur": null,
-      "entry_time": "2026-11-11T19:29:02.191989+00:00",
-      "entry_breadth": {
-        "5m": {
-          "green": 25,
-          "red": 1,
-          "flat": 1
-        },
-        "15m": {
-          "green": 23,
-          "red": 4,
-          "flat": 0
-        },
-        "60m": {
-          "green": 0,
-          "red": 25,
-          "flat": 2
-        }
-      },
-      "entry_move": {
-        "ret_5m_pct": 0.26505111700114714,
-        "ret_15m_pct": 0.322030687630237,
-        "ret_60m_pct": 0.018885741265339817
-      }
-    },
     {
       "coin": "AVAX",
       "direction": "LONG",
       "entry_eur": 7.770361684856138,
-      "current_eur": 7.63916411457395,
-      "spot_return_pct": -1.6884,
-      "leveraged_return_pct": -5.0653,
-      "open_pnl_eur": -0.2533,
+      "current_eur": 7.5995674896377725,
+      "spot_return_pct": -2.198,
+      "leveraged_return_pct": -6.5941,
+      "open_pnl_eur": -0.3297,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-11-12T04:04:02.143389+00:00",
@@ -105,10 +71,10 @@
       "coin": "PEPE",
       "direction": "LONG",
       "entry_eur": 4.007474783861671e-06,
-      "current_eur": 4.002431994235273e-06,
-      "spot_return_pct": -0.1258,
-      "leveraged_return_pct": -0.3775,
-      "open_pnl_eur": -0.0189,
+      "current_eur": 3.967741935483871e-06,
+      "spot_return_pct": -0.9915,
+      "leveraged_return_pct": -2.9744,
+      "open_pnl_eur": -0.1487,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-11-12T12:14:02.805741+00:00",
@@ -137,16 +103,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "RENDER",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 2.047603,
-      "leveraged_return_pct": 6.14281,
-      "gross_pnl_eur": 0.30714,
-      "entry_time": "2026-11-09T02:14:01.581449+00:00",
-      "exit_time": "2026-11-09T08:34:02.728901+00:00"
-    },
     {
       "coin": "VET",
       "direction": "LONG",
@@ -316,6 +272,16 @@
       "gross_pnl_eur": 0.288486,
       "entry_time": "2026-11-11T17:59:02.098836+00:00",
       "exit_time": "2026-11-12T00:04:02.468180+00:00"
+    },
+    {
+      "coin": "VET",
+      "direction": "LONG",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45,
+      "entry_time": "2026-11-11T19:29:02.191989+00:00",
+      "exit_time": "2026-11-12T12:34:02.392218+00:00"
     },
     {
       "coin": "FET",
