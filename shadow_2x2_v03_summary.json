@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-13T15:36:01.497591+00:00",
+  "generated_at": "2026-11-13T15:41:01.284269+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 19.5266,
-  "open_pnl_eur": 0.6181,
-  "paper_equity_gross_eur": 40.1446,
-  "open_count": 4,
-  "closed_count": 574,
+  "realized_gross_eur": 19.8721,
+  "open_pnl_eur": 0.2828,
+  "paper_equity_gross_eur": 40.1548,
+  "open_count": 3,
+  "closed_count": 575,
   "last_selection_hour": "2026-11-13T16",
   "latest_timestamp": "2026-11-13T16:30:02+01:00",
   "open_legs": [
@@ -24,19 +24,6 @@
       "roll_stop_usdt": null
     },
     {
-      "coin": "WLD",
-      "direction": "SHORT",
-      "entry_eur": 0.27329417080885676,
-      "current_eur": 0.267318663406683,
-      "spot_return_pct": 2.2353,
-      "leveraged_return_pct": 6.706,
-      "open_pnl_eur": 0.3353,
-      "roll_active": true,
-      "hard_sl_usdt": 0.311472,
-      "roll_activation_usdt": 0.297864,
-      "roll_stop_usdt": 0.29543519999999995
-    },
-    {
       "coin": "RENDER",
       "direction": "SHORT",
       "entry_eur": 1.38544961590601,
@@ -47,7 +34,7 @@
       "roll_active": true,
       "hard_sl_usdt": 1.57899,
       "roll_activation_usdt": 1.5100049999999998,
-      "roll_stop_usdt": 1.521572
+      "roll_stop_usdt": 1.5175359999999998
     },
     {
       "coin": "DOT",
@@ -60,18 +47,10 @@
       "roll_active": true,
       "hard_sl_usdt": 0.862728,
       "roll_activation_usdt": 0.825036,
-      "roll_stop_usdt": 0.8269764
+      "roll_stop_usdt": 0.8252610999999999
     }
   ],
   "closed_legs": [
-    {
-      "coin": "ADA",
-      "direction": "LONG",
-      "reason": "HARD_SL",
-      "spot_return_pct": -3.0000000000000138,
-      "leveraged_return_pct": -9.00000000000004,
-      "gross_pnl_eur": -0.45000000000000207
-    },
     {
       "coin": "QNT",
       "direction": "LONG",
@@ -159,6 +138,14 @@
       "spot_return_pct": -3.0000000000000058,
       "leveraged_return_pct": -9.000000000000018,
       "gross_pnl_eur": -0.45000000000000084
+    },
+    {
+      "coin": "WLD",
+      "direction": "SHORT",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 2.303174603174619,
+      "leveraged_return_pct": 6.909523809523857,
+      "gross_pnl_eur": 0.3454761904761929
     }
   ]
 }
