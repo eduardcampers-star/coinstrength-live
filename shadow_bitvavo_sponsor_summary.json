@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-11-13T09:18:02.046992+00:00",
+  "generated_at": "2026-11-13T09:23:01.901226+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
   "latest_timestamp": "2026-11-13T10:15:01+01:00",
-  "film_timestamp": "2026-11-13T09:17:01.368134+00:00",
+  "film_timestamp": "2026-11-13T09:22:02.063474+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "SHORT",
+    "target_legs": 3,
     "breadth_5m": {
-      "green": 4,
-      "red": 16,
-      "flat": 7
+      "green": 1,
+      "red": 21,
+      "flat": 5
     },
     "breadth_15m": {
-      "green": 4,
-      "red": 21,
+      "green": 5,
+      "red": 20,
       "flat": 2
     },
     "breadth_60m": {
-      "green": 19,
-      "red": 3,
-      "flat": 5
+      "green": 23,
+      "red": 2,
+      "flat": 2
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "HYPE"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 37.4711,
   "open_pnl_eur": 0.0575,
@@ -30,7 +32,7 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 22.32,
   "paper_equity_est_net_eur": 35.2086,
-  "open_count": 2,
+  "open_count": 3,
   "closed_count": 248,
   "open_legs": [
     {
@@ -99,6 +101,40 @@
         "ret_5m_pct": -0.7462524204251308,
         "ret_15m_pct": -1.0111530616673137,
         "ret_60m_pct": 0.8221357850070721
+      }
+    },
+    {
+      "coin": "HYPE",
+      "direction": "SHORT",
+      "entry_eur": 65.21365977053031,
+      "current_eur": 65.21365977053031,
+      "spot_return_pct": -0.0,
+      "leveraged_return_pct": -0.0,
+      "open_pnl_eur": -0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-11-13T09:23:01.900762+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 1,
+          "red": 21,
+          "flat": 5
+        },
+        "15m": {
+          "green": 5,
+          "red": 20,
+          "flat": 2
+        },
+        "60m": {
+          "green": 23,
+          "red": 2,
+          "flat": 2
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.2336319398363207,
+        "ret_15m_pct": 0.18741670368724872,
+        "ret_60m_pct": 1.0176371780515225
       }
     }
   ],
