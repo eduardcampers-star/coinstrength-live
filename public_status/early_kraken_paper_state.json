@@ -2,8 +2,8 @@
   "strategy": "EARLY_KRAKEN_PAPER_V1",
   "mode": "RESEARCH_PAPER",
   "created_at": "2026-10-14T18:24:17.972527+00:00",
-  "realized_pnl_usd": -0.5220967000000254,
-  "total_fees_usd": 2.9676903296500003,
+  "realized_pnl_usd": -0.29309670000002264,
+  "total_fees_usd": 2.9818661296500006,
   "max_positions": 4,
   "target_margin_usd": 5.0,
   "min_margin_usd": 4.0,
@@ -4550,14 +4550,19 @@
       "margin_usd": 4.940333333333333,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": 0.252800000000002,
+      "unrealized_gross_pnl_usd": 0.22900000000000206,
       "coin": "HYPE",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_time": "2026-11-13T12:58:51.825125+00:00",
       "roll_active": true,
-      "current_exit_price_usd": 72.841,
+      "current_exit_price_usd": 72.96,
       "best_exit_price_usd": 72.222,
-      "roll_stop_usd": 72.87199799999999
+      "roll_stop_usd": 72.87199799999999,
+      "exit_time": "2026-11-13T15:50:51.310145+00:00",
+      "exit_reason": "ROLLING_09",
+      "exit_price": 72.96,
+      "gross_pnl_usd": 0.22900000000000276,
+      "net_pnl_usd": 0.21429350000000275
     },
     {
       "direction": "SHORT",
@@ -4630,10 +4635,27 @@
       "exit_price": 0.1482,
       "gross_pnl_usd": 0.1280000000000001,
       "net_pnl_usd": 0.1131160000000001
+    },
+    {
+      "direction": "LONG",
+      "quantity": 0.0002,
+      "entry_bid": 68797.0,
+      "entry_ask": 68798.0,
+      "entry_price": 68798.0,
+      "notional_usd": 13.7596,
+      "margin_usd": 4.586533333333334,
+      "leverage": 3.0,
+      "fee_rate": 0.0005,
+      "unrealized_gross_pnl_usd": -0.0286,
+      "coin": "BTC",
+      "status": "OPEN",
+      "entry_time": "2026-11-13T15:51:51.716953+00:00",
+      "roll_active": false,
+      "current_exit_price_usd": 68655.0
     }
   ],
-  "closed_trades": 197,
+  "closed_trades": 198,
   "start_capital_usd": 25.0,
-  "last_paper_cycle_utc": "2026-11-13T15:49:51.934273+00:00",
-  "last_entry_film_minute": "2026-11-13T13:54:00+00:00"
+  "last_paper_cycle_utc": "2026-11-13T15:54:51.542765+00:00",
+  "last_entry_film_minute": "2026-11-13T15:50:00+00:00"
 }
