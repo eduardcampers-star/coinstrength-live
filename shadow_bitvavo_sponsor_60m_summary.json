@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-14T16:14:02.517718+00:00",
+  "generated_at": "2026-11-14T16:19:03.484631+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-11-14T17:00:01+01:00",
-  "film_timestamp": "2026-11-14T16:12:01.162888+00:00",
+  "latest_timestamp": "2026-11-14T17:15:01+01:00",
+  "film_timestamp": "2026-11-14T16:17:01.914006+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
-      "green": 0,
-      "red": 27,
-      "flat": 0
+      "green": 17,
+      "red": 4,
+      "flat": 6
     },
     "breadth_15m": {
       "green": 0,
@@ -24,25 +24,25 @@
   },
   "opened_this_run": [],
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 30.2264,
-  "open_pnl_eur": 0.7608,
-  "paper_equity_gross_eur": 50.9872,
+  "realized_gross_eur": 29.7764,
+  "open_pnl_eur": 0.878,
+  "paper_equity_gross_eur": 50.6544,
   "estimated_cost_per_closed_trade_eur": 0.09,
-  "estimated_costs_eur": 24.75,
-  "paper_equity_est_net_eur": 26.2372,
-  "open_count": 3,
-  "closed_count": 275,
+  "estimated_costs_eur": 24.84,
+  "paper_equity_est_net_eur": 25.8144,
+  "open_count": 2,
+  "closed_count": 276,
   "open_legs": [
     {
       "coin": "AVAX",
       "direction": "SHORT",
       "entry_eur": 7.365937755194628,
-      "current_eur": 6.9582577132486385,
-      "spot_return_pct": 5.5347,
-      "leveraged_return_pct": 16.604,
-      "open_pnl_eur": 0.8302,
+      "current_eur": 6.826390779562574,
+      "spot_return_pct": 7.3249,
+      "leveraged_return_pct": 21.9747,
+      "open_pnl_eur": 1.0987,
       "roll_active": true,
-      "roll_stop_eur": 7.0062323049001805,
+      "roll_stop_eur": 6.887828296578636,
       "entry_time": "2026-11-14T03:34:02.501030+00:00",
       "entry_breadth": {
         "5m": {
@@ -68,47 +68,13 @@
       }
     },
     {
-      "coin": "RENDER",
-      "direction": "LONG",
-      "entry_eur": 1.3411978221415606,
-      "current_eur": 1.3339382940108893,
-      "spot_return_pct": -0.5413,
-      "leveraged_return_pct": -1.6238,
-      "open_pnl_eur": -0.0812,
-      "roll_active": false,
-      "roll_stop_eur": null,
-      "entry_time": "2026-11-14T14:49:03.087810+00:00",
-      "entry_breadth": {
-        "5m": {
-          "green": 26,
-          "red": 1,
-          "flat": 0
-        },
-        "15m": {
-          "green": 25,
-          "red": 2,
-          "flat": 0
-        },
-        "60m": {
-          "green": 1,
-          "red": 26,
-          "flat": 0
-        }
-      },
-      "entry_move": {
-        "ret_5m_pct": 1.15254237288136,
-        "ret_15m_pct": 1.5656909462219204,
-        "ret_60m_pct": 1.0155721056194889
-      }
-    },
-    {
       "coin": "HYPE",
       "direction": "LONG",
       "entry_eur": 61.34664246823956,
-      "current_eur": 61.39473684210525,
-      "spot_return_pct": 0.0784,
-      "leveraged_return_pct": 0.2352,
-      "open_pnl_eur": 0.0118,
+      "current_eur": 60.44377892730737,
+      "spot_return_pct": -1.4717,
+      "leveraged_return_pct": -4.4152,
+      "open_pnl_eur": -0.2208,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-11-14T15:39:02.964682+00:00",
@@ -137,16 +103,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "FET",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 0.82397,
-      "leveraged_return_pct": 2.471909,
-      "gross_pnl_eur": 0.123595,
-      "entry_time": "2026-11-12T00:39:01.929336+00:00",
-      "exit_time": "2026-11-12T06:34:02.125101+00:00"
-    },
     {
       "coin": "PEPE",
       "direction": "LONG",
@@ -336,6 +292,16 @@
       "gross_pnl_eur": -0.45,
       "entry_time": "2026-11-14T11:19:01.619872+00:00",
       "exit_time": "2026-11-14T15:34:01.530538+00:00"
+    },
+    {
+      "coin": "RENDER",
+      "direction": "LONG",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45,
+      "entry_time": "2026-11-14T14:49:03.087810+00:00",
+      "exit_time": "2026-11-14T16:19:03.484187+00:00"
     }
   ]
 }
