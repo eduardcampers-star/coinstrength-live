@@ -1,72 +1,69 @@
 {
-  "generated_at": "2026-11-14T20:56:01.582036+00:00",
+  "generated_at": "2026-11-14T21:06:02.164015+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 19.9432,
-  "open_pnl_eur": -0.3043,
-  "paper_equity_gross_eur": 39.6388,
-  "open_count": 3,
-  "closed_count": 595,
-  "last_selection_hour": "2026-11-14T21",
-  "latest_timestamp": "2026-11-14T21:45:01+01:00",
+  "realized_gross_eur": 19.0432,
+  "open_pnl_eur": 0.2017,
+  "paper_equity_gross_eur": 39.2449,
+  "open_count": 4,
+  "closed_count": 597,
+  "last_selection_hour": "2026-11-14T22",
+  "latest_timestamp": "2026-11-14T22:00:01+01:00",
   "open_legs": [
     {
       "coin": "TRX",
       "direction": "SHORT",
       "entry_eur": 0.28301287865046254,
-      "current_eur": 0.27931754242671747,
-      "spot_return_pct": 1.323,
-      "leveraged_return_pct": 3.969,
-      "open_pnl_eur": 0.1984,
+      "current_eur": 0.2792574437182281,
+      "spot_return_pct": 1.3448,
+      "leveraged_return_pct": 4.0344,
+      "open_pnl_eur": 0.2017,
       "roll_active": true,
       "hard_sl_usdt": 0.3214115,
       "roll_activation_usdt": 0.30736925,
       "roll_stop_usdt": 0.30905669999999996
     },
     {
-      "coin": "HBAR",
-      "direction": "LONG",
-      "entry_eur": 0.05288566243194192,
-      "current_eur": 0.05177420818586078,
-      "spot_return_pct": -2.1016,
-      "leveraged_return_pct": -6.3049,
-      "open_pnl_eur": -0.3152,
+      "coin": "HYPE",
+      "direction": "SHORT",
+      "entry_eur": 56.94625998547568,
+      "current_eur": 56.94625998547568,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
       "roll_active": false,
-      "hard_sl_usdt": 0.056531599999999994,
-      "roll_activation_usdt": 0.05915419999999999,
+      "hard_sl_usdt": 64.61396,
+      "roll_activation_usdt": 61.791019999999996,
       "roll_stop_usdt": null
     },
     {
-      "coin": "XLM",
-      "direction": "LONG",
-      "entry_eur": 0.12373604429518019,
-      "current_eur": 0.12218894636536891,
-      "spot_return_pct": -1.2503,
-      "leveraged_return_pct": -3.751,
-      "open_pnl_eur": -0.1875,
+      "coin": "ETH",
+      "direction": "SHORT",
+      "entry_eur": 1618.3641975308642,
+      "current_eur": 1618.3641975308642,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
       "roll_active": false,
-      "hard_sl_usdt": 0.1322304,
-      "roll_activation_usdt": 0.13836479999999998,
+      "hard_sl_usdt": 1836.2737,
+      "roll_activation_usdt": 1756.0481499999999,
+      "roll_stop_usdt": null
+    },
+    {
+      "coin": "BTC",
+      "direction": "SHORT",
+      "entry_eur": 58767.24763979667,
+      "current_eur": 58767.24763979667,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_eur": 0.0,
+      "roll_active": false,
+      "hard_sl_usdt": 66680.14,
+      "roll_activation_usdt": 63766.93,
       "roll_stop_usdt": null
     }
   ],
   "closed_legs": [
-    {
-      "coin": "NEAR",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 1.3757176332747634,
-      "leveraged_return_pct": 4.12715289982429,
-      "gross_pnl_eur": 0.2063576449912145
-    },
-    {
-      "coin": "QNT",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 1.0337571157495373,
-      "leveraged_return_pct": 3.1012713472486118,
-      "gross_pnl_eur": 0.1550635673624306
-    },
     {
       "coin": "SOL",
       "direction": "SHORT",
@@ -146,6 +143,22 @@
       "spot_return_pct": 3.546440677966122,
       "leveraged_return_pct": 10.639322033898365,
       "gross_pnl_eur": 0.5319661016949183
+    },
+    {
+      "coin": "HBAR",
+      "direction": "LONG",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0000000000000027,
+      "leveraged_return_pct": -9.000000000000007,
+      "gross_pnl_eur": -0.45000000000000034
+    },
+    {
+      "coin": "XLM",
+      "direction": "LONG",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0000000000000027,
+      "leveraged_return_pct": -9.000000000000007,
+      "gross_pnl_eur": -0.45000000000000034
     }
   ]
 }
