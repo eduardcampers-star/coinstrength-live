@@ -1,51 +1,30 @@
 {
-  "generated_at": "2026-11-14T22:16:01.448752+00:00",
+  "generated_at": "2026-11-14T22:21:02.244331+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 19.631,
-  "open_pnl_eur": 0.2689,
-  "paper_equity_gross_eur": 39.9,
-  "open_count": 2,
-  "closed_count": 599,
+  "realized_gross_eur": 19.839,
+  "open_pnl_eur": 0.2284,
+  "paper_equity_gross_eur": 40.0674,
+  "open_count": 1,
+  "closed_count": 600,
   "last_selection_hour": "2026-11-14T23",
-  "latest_timestamp": "2026-11-14T23:00:01+01:00",
+  "latest_timestamp": "2026-11-14T23:15:02+01:00",
   "open_legs": [
     {
       "coin": "TRX",
       "direction": "SHORT",
       "entry_eur": 0.28301287865046254,
-      "current_eur": 0.27919012166333756,
-      "spot_return_pct": 1.3692,
-      "leveraged_return_pct": 4.1077,
-      "open_pnl_eur": 0.2054,
+      "current_eur": 0.27876861605521247,
+      "spot_return_pct": 1.5225,
+      "leveraged_return_pct": 4.5675,
+      "open_pnl_eur": 0.2284,
       "roll_active": true,
       "hard_sl_usdt": 0.3214115,
       "roll_activation_usdt": 0.30736925,
-      "roll_stop_usdt": 0.30905669999999996
-    },
-    {
-      "coin": "BTC",
-      "direction": "SHORT",
-      "entry_eur": 58767.24763979667,
-      "current_eur": 58519.42981659706,
-      "spot_return_pct": 0.4235,
-      "leveraged_return_pct": 1.2704,
-      "open_pnl_eur": 0.0635,
-      "roll_active": true,
-      "hard_sl_usdt": 66680.14,
-      "roll_activation_usdt": 63766.93,
-      "roll_stop_usdt": 63840.43899999999
+      "roll_stop_usdt": 0.30898606999999995
     }
   ],
   "closed_legs": [
-    {
-      "coin": "RENDER",
-      "direction": "LONG",
-      "reason": "HARD_SL",
-      "spot_return_pct": -3.0000000000000027,
-      "leveraged_return_pct": -9.000000000000007,
-      "gross_pnl_eur": -0.45000000000000034
-    },
     {
       "coin": "FET",
       "direction": "LONG",
@@ -133,6 +112,14 @@
       "spot_return_pct": 0.955805226639155,
       "leveraged_return_pct": 2.867415679917465,
       "gross_pnl_eur": 0.14337078399587322
+    },
+    {
+      "coin": "BTC",
+      "direction": "SHORT",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 1.3864515431431443,
+      "leveraged_return_pct": 4.1593546294294335,
+      "gross_pnl_eur": 0.20796773147147168
     }
   ]
 }
