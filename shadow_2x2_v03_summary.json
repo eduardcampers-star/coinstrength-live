@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-14T16:21:01.572252+00:00",
+  "generated_at": "2026-11-14T16:26:02.245339+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 19.4112,
-  "open_pnl_eur": 0.7283,
-  "paper_equity_gross_eur": 40.1395,
-  "open_count": 2,
-  "closed_count": 594,
+  "realized_gross_eur": 19.9432,
+  "open_pnl_eur": 0.1296,
+  "paper_equity_gross_eur": 40.0728,
+  "open_count": 1,
+  "closed_count": 595,
   "last_selection_hour": "2026-11-14T17",
   "latest_timestamp": "2026-11-14T17:15:01+01:00",
   "open_legs": [
@@ -22,30 +22,9 @@
       "hard_sl_usdt": 0.3214115,
       "roll_activation_usdt": 0.30736925,
       "roll_stop_usdt": null
-    },
-    {
-      "coin": "RENDER",
-      "direction": "SHORT",
-      "entry_eur": 1.3382326256577755,
-      "current_eur": 1.2868681368545238,
-      "spot_return_pct": 3.9914,
-      "leveraged_return_pct": 11.9743,
-      "open_pnl_eur": 0.5987,
-      "roll_active": true,
-      "hard_sl_usdt": 1.5192500000000002,
-      "roll_activation_usdt": 1.4528750000000001,
-      "roll_stop_usdt": 1.4247079999999999
     }
   ],
   "closed_legs": [
-    {
-      "coin": "ONDO",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 1.6577797202797242,
-      "leveraged_return_pct": 4.973339160839172,
-      "gross_pnl_eur": 0.24866695804195862
-    },
     {
       "coin": "NEAR",
       "direction": "SHORT",
@@ -133,6 +112,14 @@
       "spot_return_pct": -3.0000000000000138,
       "leveraged_return_pct": -9.00000000000004,
       "gross_pnl_eur": -0.45000000000000207
+    },
+    {
+      "coin": "RENDER",
+      "direction": "SHORT",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 3.546440677966122,
+      "leveraged_return_pct": 10.639322033898365,
+      "gross_pnl_eur": 0.5319661016949183
     }
   ]
 }
