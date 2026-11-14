@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-11-14T14:11:03.818413+00:00",
+  "generated_at": "2026-11-14T14:31:03.591054+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 23,
-  "strong_24h": 11,
+  "events_24h": 24,
+  "strong_24h": 12,
   "results": {
     "5m": {
       "canonical": {
-        "n": 23,
-        "avg_return_pct": 0.0596,
-        "positive": 13
+        "n": 24,
+        "avg_return_pct": 0.0646,
+        "positive": 14
       },
       "mover3d": {
-        "n": 23,
-        "avg_return_pct": 0.0906,
+        "n": 24,
+        "avg_return_pct": 0.0831,
         "positive": 14
       },
       "hybrid_rebound_v2": {
-        "n": 23,
-        "avg_return_pct": 0.0891,
+        "n": 24,
+        "avg_return_pct": 0.0817,
         "positive": 13
       }
     },
     "15m": {
       "canonical": {
-        "n": 23,
-        "avg_return_pct": -0.0364,
+        "n": 24,
+        "avg_return_pct": -0.0526,
         "positive": 10
       },
       "mover3d": {
-        "n": 23,
-        "avg_return_pct": -0.1233,
+        "n": 24,
+        "avg_return_pct": -0.1627,
         "positive": 6
       },
       "hybrid_rebound_v2": {
-        "n": 23,
-        "avg_return_pct": -0.1031,
+        "n": 24,
+        "avg_return_pct": -0.1434,
         "positive": 8
       }
     },
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-11-14T03:26:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "HYPE",
-        "XLM"
-      ],
-      "canonical": [
-        "TAO",
-        "RENDER"
-      ],
-      "mover3d": [
-        "NEAR",
-        "WLD"
-      ],
-      "hybrid": [
-        "NEAR",
-        "FET"
-      ]
-    },
     {
       "trigger_time": "2026-11-14T03:44:00+00:00",
       "level": "TRIGGER",
@@ -285,6 +265,28 @@
       "hybrid": [
         "WLD",
         "QNT"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-14T14:09:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "FET",
+        "HYPE",
+        "LINK",
+        "XRP"
+      ],
+      "canonical": [
+        "QNT",
+        "XRP"
+      ],
+      "mover3d": [
+        "NEAR",
+        "FET"
+      ],
+      "hybrid": [
+        "NEAR",
+        "FET"
       ]
     }
   ]
