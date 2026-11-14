@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-14T21:21:01.585322+00:00",
+  "generated_at": "2026-11-14T21:26:01.426497+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 19.4877,
-  "open_pnl_eur": 0.5292,
-  "paper_equity_gross_eur": 40.0169,
-  "open_count": 3,
-  "closed_count": 598,
+  "realized_gross_eur": 19.631,
+  "open_pnl_eur": 0.3467,
+  "paper_equity_gross_eur": 39.9777,
+  "open_count": 2,
+  "closed_count": 599,
   "last_selection_hour": "2026-11-14T22",
   "latest_timestamp": "2026-11-14T22:15:02+01:00",
   "open_legs": [
@@ -24,19 +24,6 @@
       "roll_stop_usdt": 0.30905669999999996
     },
     {
-      "coin": "ETH",
-      "direction": "SHORT",
-      "entry_eur": 1618.3641975308642,
-      "current_eur": 1598.9016973767814,
-      "spot_return_pct": 1.2172,
-      "leveraged_return_pct": 3.6517,
-      "open_pnl_eur": 0.1826,
-      "roll_active": false,
-      "hard_sl_usdt": 1836.2737,
-      "roll_activation_usdt": 1756.0481499999999,
-      "roll_stop_usdt": null
-    },
-    {
       "coin": "BTC",
       "direction": "SHORT",
       "entry_eur": 58767.24763979667,
@@ -51,14 +38,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "TAO",
-      "direction": "LONG",
-      "reason": "HARD_SL",
-      "spot_return_pct": -2.9999999999999916,
-      "leveraged_return_pct": -8.999999999999975,
-      "gross_pnl_eur": -0.44999999999999873
-    },
     {
       "coin": "RENDER",
       "direction": "LONG",
@@ -146,6 +125,14 @@
       "spot_return_pct": 2.963447682203667,
       "leveraged_return_pct": 8.890343046611001,
       "gross_pnl_eur": 0.44451715233055006
+    },
+    {
+      "coin": "ETH",
+      "direction": "SHORT",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 0.955805226639155,
+      "leveraged_return_pct": 2.867415679917465,
+      "gross_pnl_eur": 0.14337078399587322
     }
   ]
 }
