@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-14T18:46:03.442320+00:00",
+  "generated_at": "2026-11-14T19:01:03.564189+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 24,
-  "strong_24h": 12,
+  "events_24h": 25,
+  "strong_24h": 13,
   "results": {
     "5m": {
       "canonical": {
-        "n": 24,
-        "avg_return_pct": 0.0193,
+        "n": 25,
+        "avg_return_pct": 0.016,
         "positive": 13
       },
       "mover3d": {
-        "n": 24,
-        "avg_return_pct": 0.0195,
+        "n": 25,
+        "avg_return_pct": 0.0139,
         "positive": 13
       },
       "hybrid_rebound_v2": {
-        "n": 24,
-        "avg_return_pct": 0.0194,
+        "n": 25,
+        "avg_return_pct": 0.0001,
         "positive": 12
       }
     },
@@ -41,19 +41,19 @@
     },
     "30m": {
       "canonical": {
-        "n": 23,
-        "avg_return_pct": -0.1734,
+        "n": 24,
+        "avg_return_pct": -0.1756,
         "positive": 8
       },
       "mover3d": {
-        "n": 23,
-        "avg_return_pct": -0.2826,
+        "n": 24,
+        "avg_return_pct": -0.2717,
         "positive": 6
       },
       "hybrid_rebound_v2": {
-        "n": 23,
-        "avg_return_pct": -0.2408,
-        "positive": 6
+        "n": 24,
+        "avg_return_pct": -0.2238,
+        "positive": 7
       }
     },
     "rolling_09": {
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-11-14T10:14:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "ONDO",
-        "SUI"
-      ],
-      "canonical": [
-        "TRX",
-        "QNT"
-      ],
-      "mover3d": [
-        "NEAR",
-        "WLD"
-      ],
-      "hybrid": [
-        "NEAR",
-        "FET"
-      ]
-    },
     {
       "trigger_time": "2026-11-14T10:36:00+00:00",
       "level": "TRIGGER",
@@ -292,6 +272,28 @@
       "hybrid": [
         "QNT",
         "WLD"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-14T18:47:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "ADA",
+        "DOT",
+        "RENDER",
+        "XLM"
+      ],
+      "canonical": [
+        "BTC",
+        "ETH"
+      ],
+      "mover3d": [
+        "NEAR",
+        "WLD"
+      ],
+      "hybrid": [
+        "NEAR",
+        "QNT"
       ]
     }
   ]
