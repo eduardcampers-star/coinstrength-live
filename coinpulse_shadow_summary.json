@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-11-14T09:26:03.710287+00:00",
+  "generated_at": "2026-11-14T09:46:03.660688+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 20,
-  "strong_24h": 10,
+  "events_24h": 21,
+  "strong_24h": 11,
   "results": {
     "5m": {
       "canonical": {
-        "n": 20,
-        "avg_return_pct": 0.062,
-        "positive": 11
-      },
-      "mover3d": {
-        "n": 20,
-        "avg_return_pct": 0.0861,
+        "n": 21,
+        "avg_return_pct": 0.0607,
         "positive": 12
       },
+      "mover3d": {
+        "n": 21,
+        "avg_return_pct": 0.0824,
+        "positive": 13
+      },
       "hybrid_rebound_v2": {
-        "n": 20,
+        "n": 21,
         "avg_return_pct": 0.0915,
-        "positive": 11
+        "positive": 12
       }
     },
     "15m": {
       "canonical": {
-        "n": 20,
-        "avg_return_pct": -0.0781,
-        "positive": 7
+        "n": 21,
+        "avg_return_pct": -0.0655,
+        "positive": 8
       },
       "mover3d": {
-        "n": 20,
-        "avg_return_pct": -0.1504,
-        "positive": 5
+        "n": 21,
+        "avg_return_pct": -0.1304,
+        "positive": 6
       },
       "hybrid_rebound_v2": {
-        "n": 20,
-        "avg_return_pct": -0.1302,
-        "positive": 7
+        "n": 21,
+        "avg_return_pct": -0.1065,
+        "positive": 8
       }
     },
     "30m": {
@@ -80,27 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-11-13T23:04:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "LTC",
-        "SUI",
-        "WLD"
-      ],
-      "canonical": [
-        "RENDER",
-        "FET"
-      ],
-      "mover3d": [
-        "NEAR",
-        "WLD"
-      ],
-      "hybrid": [
-        "NEAR",
-        "RENDER"
-      ]
-    },
     {
       "trigger_time": "2026-11-14T01:00:00+00:00",
       "level": "TRIGGER",
@@ -282,6 +261,27 @@
       "hybrid": [
         "RENDER",
         "ONDO"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-14T09:22:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "MOODENG",
+        "NEAR",
+        "TAO"
+      ],
+      "canonical": [
+        "TRX",
+        "HYPE"
+      ],
+      "mover3d": [
+        "NEAR",
+        "WLD"
+      ],
+      "hybrid": [
+        "WLD",
+        "HYPE"
       ]
     }
   ]
