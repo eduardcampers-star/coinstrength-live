@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-14T13:56:02.035073+00:00",
+  "generated_at": "2026-11-14T14:06:01.494745+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 19.7932,
-  "open_pnl_eur": -0.2381,
-  "paper_equity_gross_eur": 39.5551,
-  "open_count": 6,
-  "closed_count": 590,
-  "last_selection_hour": "2026-11-14T14",
-  "latest_timestamp": "2026-11-14T14:45:01+01:00",
+  "realized_gross_eur": 19.3432,
+  "open_pnl_eur": 0.2685,
+  "paper_equity_gross_eur": 39.6117,
+  "open_count": 5,
+  "closed_count": 591,
+  "last_selection_hour": "2026-11-14T15",
+  "latest_timestamp": "2026-11-14T15:00:01+01:00",
   "open_legs": [
     {
       "coin": "TRX",
       "direction": "SHORT",
       "entry_eur": 0.28301287865046254,
-      "current_eur": 0.2830323927048362,
-      "spot_return_pct": -0.0069,
-      "leveraged_return_pct": -0.0207,
-      "open_pnl_eur": -0.001,
+      "current_eur": 0.28312312857272476,
+      "spot_return_pct": -0.0389,
+      "leveraged_return_pct": -0.1168,
+      "open_pnl_eur": -0.0058,
       "roll_active": false,
       "hard_sl_usdt": 0.3214115,
       "roll_activation_usdt": 0.30736925,
@@ -27,40 +27,27 @@
       "coin": "NEAR",
       "direction": "SHORT",
       "entry_eur": 3.033850621653507,
-      "current_eur": 3.0224117593684783,
-      "spot_return_pct": 0.3785,
-      "leveraged_return_pct": 1.1354,
-      "open_pnl_eur": 0.0568,
-      "roll_active": false,
+      "current_eur": 3.0069866618274204,
+      "spot_return_pct": 0.8934,
+      "leveraged_return_pct": 2.6802,
+      "open_pnl_eur": 0.134,
+      "roll_active": true,
       "hard_sl_usdt": 3.44329,
       "roll_activation_usdt": 3.292855,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 3.2953939999999995
     },
     {
       "coin": "SUI",
       "direction": "SHORT",
       "entry_eur": 0.7010618023414102,
-      "current_eur": 0.6920424643861719,
-      "spot_return_pct": 1.3033,
-      "leveraged_return_pct": 3.9099,
-      "open_pnl_eur": 0.1955,
+      "current_eur": 0.6914073133109517,
+      "spot_return_pct": 1.3964,
+      "leveraged_return_pct": 4.1891,
+      "open_pnl_eur": 0.2095,
       "roll_active": true,
       "hard_sl_usdt": 0.795675,
       "roll_activation_usdt": 0.7609125,
-      "roll_stop_usdt": 0.7663354999999998
-    },
-    {
-      "coin": "MOODENG",
-      "direction": "LONG",
-      "entry_eur": 0.027052526535425926,
-      "current_eur": 0.026349696034842572,
-      "spot_return_pct": -2.598,
-      "leveraged_return_pct": -7.7941,
-      "open_pnl_eur": -0.3897,
-      "roll_active": false,
-      "hard_sl_usdt": 0.028925399999999997,
-      "roll_activation_usdt": 0.030267299999999997,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 0.757759
     },
     {
       "coin": "SOL",
@@ -79,10 +66,10 @@
       "coin": "RENDER",
       "direction": "SHORT",
       "entry_eur": 1.3382326256577755,
-      "current_eur": 1.3392614100353868,
-      "spot_return_pct": -0.0768,
-      "leveraged_return_pct": -0.2305,
-      "open_pnl_eur": -0.0115,
+      "current_eur": 1.3365393339987297,
+      "spot_return_pct": 0.1267,
+      "leveraged_return_pct": 0.3801,
+      "open_pnl_eur": 0.019,
       "roll_active": false,
       "hard_sl_usdt": 1.5192500000000002,
       "roll_activation_usdt": 1.4528750000000001,
@@ -90,14 +77,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "VET",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 1.266504001561584,
-      "leveraged_return_pct": 3.799512004684752,
-      "gross_pnl_eur": 0.1899756002342376
-    },
     {
       "coin": "LINK",
       "direction": "LONG",
@@ -185,6 +164,14 @@
       "spot_return_pct": 0.8397355891462353,
       "leveraged_return_pct": 2.519206767438706,
       "gross_pnl_eur": 0.12596033837193532
+    },
+    {
+      "coin": "MOODENG",
+      "direction": "LONG",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0000000000000027,
+      "leveraged_return_pct": -9.000000000000007,
+      "gross_pnl_eur": -0.45000000000000034
     }
   ]
 }
