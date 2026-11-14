@@ -2,7 +2,7 @@
   "strategy": "KRAKEN_V05_CANDIDATE_B",
   "created_at": "2026-10-10T17:08:41.058147+00:00",
   "start_pot_usd": 20.0,
-  "realized_gross_usd": -3.1656027371151314,
+  "realized_gross_usd": -3.756391052323165,
   "legs": [
     {
       "coin": "QNT",
@@ -3455,7 +3455,7 @@
     {
       "coin": "QNT",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 144.36,
       "entry_time": "2026-11-14T22:19:13.352103+00:00",
       "margin_usd": 5.0,
@@ -3472,12 +3472,21 @@
       "move60_pct": 2.77263,
       "basket_id": "V05B:2026-11-14T22:19:13.343913+00:00:HYPE,NEAR,QNT,UNI",
       "momentum_2_4_pct": 0.416233,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.0073934954280964246,
+      "net_pnl_usd": -0.22790263923524706,
+      "exit_usd": 142.31,
+      "exit_time": "2026-11-14T22:49:13.375172+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": -1.420061,
+      "leveraged_return_pct": -4.260183,
+      "gross_pnl_usd": -0.213009
     },
     {
       "coin": "HYPE",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 63.294,
       "entry_time": "2026-11-14T22:19:13.352124+00:00",
       "margin_usd": 5.0,
@@ -3494,12 +3503,21 @@
       "move60_pct": 2.393218,
       "basket_id": "V05B:2026-11-14T22:19:13.343913+00:00:HYPE,NEAR,QNT,UNI",
       "momentum_2_4_pct": 0.161904,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007437434827945777,
+      "net_pnl_usd": -0.14006777893639283,
+      "exit_usd": 62.766,
+      "exit_time": "2026-11-14T22:49:13.389774+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": -0.834202,
+      "leveraged_return_pct": -2.502607,
+      "gross_pnl_usd": -0.12513
     },
     {
       "coin": "NEAR",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 2.9752,
       "entry_time": "2026-11-14T22:19:13.352131+00:00",
       "margin_usd": 5.0,
@@ -3516,12 +3534,21 @@
       "move60_pct": 1.7667,
       "basket_id": "V05B:2026-11-14T22:19:13.343913+00:00:HYPE,NEAR,QNT,UNI",
       "momentum_2_4_pct": 0.784221,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.0074301727614950255,
+      "net_pnl_usd": -0.15458464977144495,
+      "exit_usd": 2.9475,
+      "exit_time": "2026-11-14T22:49:13.405029+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": -0.93103,
+      "leveraged_return_pct": -2.79309,
+      "gross_pnl_usd": -0.139654
     },
     {
       "coin": "UNI",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 4.779,
       "entry_time": "2026-11-14T22:19:13.352137+00:00",
       "margin_usd": 5.0,
@@ -3538,60 +3565,20 @@
       "move60_pct": 1.748401,
       "basket_id": "V05B:2026-11-14T22:19:13.343913+00:00:HYPE,NEAR,QNT,UNI",
       "momentum_2_4_pct": 0.608094,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007443502824858757,
+      "net_pnl_usd": -0.12793785310734493,
+      "exit_usd": 4.743,
+      "exit_time": "2026-11-14T22:49:13.422601+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": -0.753296,
+      "leveraged_return_pct": -2.259887,
+      "gross_pnl_usd": -0.112994
     }
   ],
-  "market_event": {
-    "status": "ACTIVE",
-    "go_time": "2026-11-14T22:14:00+00:00",
-    "breadth_prev": {
-      "green": 26,
-      "red": 1,
-      "flat": 0
-    },
-    "breadth_go": {
-      "green": 24,
-      "red": 1,
-      "flat": 2
-    },
-    "created_at": "2026-11-14T22:15:13.954464+00:00",
-    "confirm_time": "2026-11-14T22:18:00+00:00",
-    "market_momentum_2_4_pct": 1.047821,
-    "confirm_n": 27,
-    "top4": [
-      {
-        "rank": 1,
-        "coin": "QNT",
-        "move60_pct": 2.77263
-      },
-      {
-        "rank": 2,
-        "coin": "HYPE",
-        "move60_pct": 2.393218
-      },
-      {
-        "rank": 3,
-        "coin": "NEAR",
-        "move60_pct": 1.7667
-      },
-      {
-        "rank": 4,
-        "coin": "UNI",
-        "move60_pct": 1.748401
-      }
-    ],
-    "top4_locked": true,
-    "top4_lock_time": "2026-11-14T22:19:13.343913+00:00",
-    "basket_id": "V05B:2026-11-14T22:19:13.343913+00:00:HYPE,NEAR,QNT,UNI",
-    "entry_time": "2026-11-14T22:19:13.352152+00:00",
-    "opened_coins": [
-      "QNT",
-      "HYPE",
-      "NEAR",
-      "UNI"
-    ]
-  },
-  "last_market_breadth_green": 6,
+  "market_event": null,
+  "last_market_breadth_green": 1,
   "market_burst_locked": false,
   "pending_events": []
 }
