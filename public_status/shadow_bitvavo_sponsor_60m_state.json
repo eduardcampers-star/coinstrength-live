@@ -1,6 +1,6 @@
 {
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 30.012754374384507,
+  "realized_gross_eur": 30.226833234713368,
   "legs": [
     {
       "coin": "SUI",
@@ -10765,7 +10765,7 @@
     {
       "coin": "TAO",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 191.9463087248322,
       "entry_time": "2026-11-13T23:29:01.861801+00:00",
       "margin_eur": 5.0,
@@ -10794,7 +10794,13 @@
         "ret_5m_pct": 0.6943460393935119,
         "ret_15m_pct": 0.6183036767829275,
         "ret_60m_pct": 0.4523607577042732
-      }
+      },
+      "exit_eur": 194.68575185924178,
+      "exit_time": "2026-11-14T02:19:02.445136+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 1.427192,
+      "leveraged_return_pct": 4.281577,
+      "gross_pnl_eur": 0.214079
     },
     {
       "coin": "NEAR",
@@ -10804,9 +10810,9 @@
       "entry_time": "2026-11-14T00:19:02.485544+00:00",
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 3.142857142857143,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 3.0920634920634917,
+      "roll_stop_eur": 3.119892063492063,
       "entry_breadth": {
         "5m": {
           "green": 0,
