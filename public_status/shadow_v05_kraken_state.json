@@ -2,7 +2,7 @@
   "strategy": "KRAKEN_V05_CANDIDATE_B",
   "created_at": "2026-10-10T17:08:41.058147+00:00",
   "start_pot_usd": 20.0,
-  "realized_gross_usd": -4.041226685353022,
+  "realized_gross_usd": -4.02650946073055,
   "legs": [
     {
       "coin": "QNT",
@@ -3823,7 +3823,7 @@
     {
       "coin": "HYPE",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 66.899,
       "entry_time": "2026-11-15T09:05:13.403993+00:00",
       "margin_usd": 5.0,
@@ -3840,12 +3840,21 @@
       "move60_pct": 2.727049,
       "basket_id": "V05B:2026-11-15T09:05:13.396754+00:00:BTC,FET,HYPE,QNT",
       "momentum_2_4_pct": 0.254794,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.00752062811103305,
+      "net_pnl_usd": 0.02623559395506642,
+      "exit_usd": 67.083,
+      "exit_time": "2026-11-15T09:35:13.540595+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": 0.275041,
+      "leveraged_return_pct": 0.825124,
+      "gross_pnl_usd": 0.041256
     },
     {
       "coin": "QNT",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 148.82,
       "entry_time": "2026-11-15T09:05:13.404017+00:00",
       "margin_usd": 5.0,
@@ -3862,12 +3871,21 @@
       "move60_pct": 2.695065,
       "basket_id": "V05B:2026-11-15T09:05:13.396754+00:00:BTC,FET,HYPE,QNT",
       "momentum_2_4_pct": 0.094067,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007555940061819649,
+      "net_pnl_usd": 0.09682418357747757,
+      "exit_usd": 149.93,
+      "exit_time": "2026-11-15T09:35:13.604669+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": 0.745867,
+      "leveraged_return_pct": 2.237602,
+      "gross_pnl_usd": 0.11188
     },
     {
       "coin": "BTC",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 65676.0,
       "entry_time": "2026-11-15T09:05:13.404024+00:00",
       "margin_usd": 5.0,
@@ -3884,12 +3902,21 @@
       "move60_pct": 2.630635,
       "basket_id": "V05B:2026-11-15T09:05:13.396754+00:00:BTC,FET,HYPE,QNT",
       "momentum_2_4_pct": 0.037974,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007473848894573361,
+      "net_pnl_usd": -0.06727605974785227,
+      "exit_usd": 65447.0,
+      "exit_time": "2026-11-15T09:35:13.616576+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": -0.348681,
+      "leveraged_return_pct": -1.046044,
+      "gross_pnl_usd": -0.052302
     },
     {
       "coin": "FET",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_usd": 0.13412,
       "entry_time": "2026-11-15T09:05:13.404030+00:00",
       "margin_usd": 5.0,
@@ -3906,60 +3933,20 @@
       "move60_pct": 2.56764,
       "basket_id": "V05B:2026-11-15T09:05:13.396754+00:00:BTC,FET,HYPE,QNT",
       "momentum_2_4_pct": 0.186275,
-      "coin_check": "HOLD"
+      "coin_check": "HOLD",
+      "fee_entry_usd": 0.0075,
+      "fee_exit_usd": 0.007456941544885178,
+      "net_pnl_usd": -0.10107385177453025,
+      "exit_usd": 0.13335,
+      "exit_time": "2026-11-15T09:35:13.630149+00:00",
+      "reason": "TIME30",
+      "spot_return_pct": -0.574113,
+      "leveraged_return_pct": -1.722338,
+      "gross_pnl_usd": -0.086117
     }
   ],
-  "market_event": {
-    "status": "ACTIVE",
-    "go_time": "2026-11-15T09:00:00+00:00",
-    "breadth_prev": {
-      "green": 25,
-      "red": 1,
-      "flat": 1
-    },
-    "breadth_go": {
-      "green": 26,
-      "red": 0,
-      "flat": 1
-    },
-    "created_at": "2026-11-15T09:01:14.037487+00:00",
-    "confirm_time": "2026-11-15T09:04:00+00:00",
-    "market_momentum_2_4_pct": 0.275971,
-    "confirm_n": 27,
-    "top4": [
-      {
-        "rank": 1,
-        "coin": "HYPE",
-        "move60_pct": 2.727049
-      },
-      {
-        "rank": 2,
-        "coin": "QNT",
-        "move60_pct": 2.695065
-      },
-      {
-        "rank": 3,
-        "coin": "BTC",
-        "move60_pct": 2.630635
-      },
-      {
-        "rank": 4,
-        "coin": "FET",
-        "move60_pct": 2.56764
-      }
-    ],
-    "top4_locked": true,
-    "top4_lock_time": "2026-11-15T09:05:13.396754+00:00",
-    "basket_id": "V05B:2026-11-15T09:05:13.396754+00:00:BTC,FET,HYPE,QNT",
-    "entry_time": "2026-11-15T09:05:13.404047+00:00",
-    "opened_coins": [
-      "HYPE",
-      "QNT",
-      "BTC",
-      "FET"
-    ]
-  },
-  "last_market_breadth_green": 3,
+  "market_event": null,
+  "last_market_breadth_green": 21,
   "market_burst_locked": false,
   "pending_events": []
 }
