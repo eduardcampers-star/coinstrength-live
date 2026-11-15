@@ -3695,10 +3695,90 @@
       "spot_return_pct": 0.345182,
       "leveraged_return_pct": 1.035546,
       "gross_pnl_usd": 0.051777
+    },
+    {
+      "coin": "QNT",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 151.84,
+      "entry_time": "2026-11-15T03:03:13.367942+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-15T02:58:00+00:00",
+      "market_confirm_time": "2026-11-15T03:02:00+00:00",
+      "market_momentum_2_4_pct": 0.406534,
+      "move60_rank": 1,
+      "move60_pct": 6.857785,
+      "basket_id": "V05B:2026-11-15T03:03:13.360189+00:00:NEAR,QNT,UNI,WLD"
+    },
+    {
+      "coin": "NEAR",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 3.1573,
+      "entry_time": "2026-11-15T03:03:13.367965+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-15T02:58:00+00:00",
+      "market_confirm_time": "2026-11-15T03:02:00+00:00",
+      "market_momentum_2_4_pct": 0.406534,
+      "move60_rank": 2,
+      "move60_pct": 6.211662,
+      "basket_id": "V05B:2026-11-15T03:03:13.360189+00:00:NEAR,QNT,UNI,WLD"
+    },
+    {
+      "coin": "UNI",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 5.064,
+      "entry_time": "2026-11-15T03:03:13.367972+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-15T02:58:00+00:00",
+      "market_confirm_time": "2026-11-15T03:02:00+00:00",
+      "market_momentum_2_4_pct": 0.406534,
+      "move60_rank": 3,
+      "move60_pct": 5.83194,
+      "basket_id": "V05B:2026-11-15T03:03:13.360189+00:00:NEAR,QNT,UNI,WLD"
+    },
+    {
+      "coin": "WLD",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 0.2649,
+      "entry_time": "2026-11-15T03:03:13.367978+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-15T02:58:00+00:00",
+      "market_confirm_time": "2026-11-15T03:02:00+00:00",
+      "market_momentum_2_4_pct": 0.406534,
+      "move60_rank": 4,
+      "move60_pct": 5.795364,
+      "basket_id": "V05B:2026-11-15T03:03:13.360189+00:00:NEAR,QNT,UNI,WLD"
     }
   ],
   "market_event": {
-    "status": "WAIT_CONFIRM",
+    "status": "ACTIVE",
     "go_time": "2026-11-15T02:58:00+00:00",
     "breadth_prev": {
       "green": 22,
@@ -3710,9 +3790,44 @@
       "red": 3,
       "flat": 2
     },
-    "created_at": "2026-11-15T02:59:13.987275+00:00"
+    "created_at": "2026-11-15T02:59:13.987275+00:00",
+    "confirm_time": "2026-11-15T03:02:00+00:00",
+    "market_momentum_2_4_pct": 0.406534,
+    "confirm_n": 27,
+    "top4": [
+      {
+        "rank": 1,
+        "coin": "QNT",
+        "move60_pct": 6.857785
+      },
+      {
+        "rank": 2,
+        "coin": "NEAR",
+        "move60_pct": 6.211662
+      },
+      {
+        "rank": 3,
+        "coin": "UNI",
+        "move60_pct": 5.83194
+      },
+      {
+        "rank": 4,
+        "coin": "WLD",
+        "move60_pct": 5.795364
+      }
+    ],
+    "top4_locked": true,
+    "top4_lock_time": "2026-11-15T03:03:13.360189+00:00",
+    "basket_id": "V05B:2026-11-15T03:03:13.360189+00:00:NEAR,QNT,UNI,WLD",
+    "entry_time": "2026-11-15T03:03:13.367993+00:00",
+    "opened_coins": [
+      "QNT",
+      "NEAR",
+      "UNI",
+      "WLD"
+    ]
   },
-  "last_market_breadth_green": 22,
-  "market_burst_locked": true,
+  "last_market_breadth_green": 5,
+  "market_burst_locked": false,
   "pending_events": []
 }
