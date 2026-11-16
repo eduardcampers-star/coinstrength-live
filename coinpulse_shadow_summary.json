@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-16T04:31:03.498116+00:00",
+  "generated_at": "2026-11-16T04:46:03.696299+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 27,
+  "events_24h": 28,
   "strong_24h": 17,
   "results": {
     "5m": {
       "canonical": {
-        "n": 27,
-        "avg_return_pct": 0.0381,
-        "positive": 17
+        "n": 28,
+        "avg_return_pct": 0.0409,
+        "positive": 18
       },
       "mover3d": {
-        "n": 27,
-        "avg_return_pct": 0.0565,
-        "positive": 17
+        "n": 28,
+        "avg_return_pct": 0.0637,
+        "positive": 18
       },
       "hybrid_rebound_v2": {
-        "n": 27,
-        "avg_return_pct": 0.0668,
-        "positive": 15
+        "n": 28,
+        "avg_return_pct": 0.0743,
+        "positive": 16
       }
     },
     "15m": {
@@ -41,36 +41,36 @@
     },
     "30m": {
       "canonical": {
-        "n": 26,
-        "avg_return_pct": 0.2004,
-        "positive": 17
+        "n": 27,
+        "avg_return_pct": 0.2008,
+        "positive": 18
       },
       "mover3d": {
-        "n": 26,
-        "avg_return_pct": 0.2759,
-        "positive": 16
+        "n": 27,
+        "avg_return_pct": 0.2761,
+        "positive": 17
       },
       "hybrid_rebound_v2": {
-        "n": 26,
-        "avg_return_pct": 0.259,
-        "positive": 17
+        "n": 27,
+        "avg_return_pct": 0.2738,
+        "positive": 18
       }
     },
     "rolling_09": {
       "canonical": {
-        "n": 23,
-        "avg_return_pct": 0.272,
+        "n": 24,
+        "avg_return_pct": 0.2505,
         "positive": 14
       },
       "mover3d": {
-        "n": 23,
-        "avg_return_pct": 0.398,
+        "n": 24,
+        "avg_return_pct": 0.3712,
         "positive": 15
       },
       "hybrid_rebound_v2": {
-        "n": 23,
-        "avg_return_pct": -8.1958,
-        "positive": 14
+        "n": 24,
+        "avg_return_pct": -7.8512,
+        "positive": 15
       }
     }
   },
@@ -80,27 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-11-16T00:02:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "FET",
-        "NEAR",
-        "ONDO"
-      ],
-      "canonical": [
-        "WLD",
-        "XLM"
-      ],
-      "mover3d": [
-        "NEAR",
-        "QNT"
-      ],
-      "hybrid": [
-        "FET",
-        "XLM"
-      ]
-    },
     {
       "trigger_time": "2026-11-16T00:37:00+00:00",
       "level": "STRONG",
@@ -294,6 +273,26 @@
       "hybrid": [
         "NEAR",
         "QNT"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-16T04:34:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "FET",
+        "NEAR"
+      ],
+      "canonical": [
+        "QNT",
+        "NEAR"
+      ],
+      "mover3d": [
+        "NEAR",
+        "WLD"
+      ],
+      "hybrid": [
+        "WLD",
+        "RENDER"
       ]
     }
   ]
