@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-16T12:01:03.588691+00:00",
+  "generated_at": "2026-11-16T12:16:03.881764+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 29,
-  "strong_24h": 15,
+  "events_24h": 30,
+  "strong_24h": 16,
   "results": {
     "5m": {
       "canonical": {
-        "n": 29,
-        "avg_return_pct": 0.0034,
+        "n": 30,
+        "avg_return_pct": -0.0058,
         "positive": 16
       },
       "mover3d": {
-        "n": 29,
-        "avg_return_pct": 0.0405,
+        "n": 30,
+        "avg_return_pct": 0.0379,
         "positive": 16
       },
       "hybrid_rebound_v2": {
-        "n": 29,
-        "avg_return_pct": 0.0535,
+        "n": 30,
+        "avg_return_pct": 0.0504,
         "positive": 16
       }
     },
@@ -58,18 +58,18 @@
     },
     "rolling_09": {
       "canonical": {
-        "n": 28,
-        "avg_return_pct": -0.0823,
+        "n": 29,
+        "avg_return_pct": -0.1276,
         "positive": 13
       },
       "mover3d": {
-        "n": 28,
-        "avg_return_pct": 0.1583,
+        "n": 29,
+        "avg_return_pct": 0.1221,
         "positive": 15
       },
       "hybrid_rebound_v2": {
-        "n": 28,
-        "avg_return_pct": -8.8665,
+        "n": 29,
+        "avg_return_pct": -8.5907,
         "positive": 12
       }
     }
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-11-16T04:34:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "FET",
-        "NEAR"
-      ],
-      "canonical": [
-        "QNT",
-        "NEAR"
-      ],
-      "mover3d": [
-        "NEAR",
-        "WLD"
-      ],
-      "hybrid": [
-        "WLD",
-        "RENDER"
-      ]
-    },
     {
       "trigger_time": "2026-11-16T05:14:00+00:00",
       "level": "TRIGGER",
@@ -288,6 +268,27 @@
       "hybrid": [
         "QNT",
         "RENDER"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-16T12:01:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "BCH",
+        "LINK",
+        "QNT"
+      ],
+      "canonical": [
+        "VET",
+        "NEAR"
+      ],
+      "mover3d": [
+        "NEAR",
+        "FET"
+      ],
+      "hybrid": [
+        "NEAR",
+        "FET"
       ]
     }
   ]
