@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-11-17T18:11:04.083481+00:00",
+  "generated_at": "2026-11-17T18:31:04.473415+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 20,
-  "strong_24h": 11,
+  "events_24h": 21,
+  "strong_24h": 12,
   "results": {
     "5m": {
       "canonical": {
-        "n": 20,
-        "avg_return_pct": 0.0491,
+        "n": 21,
+        "avg_return_pct": 0.0428,
         "positive": 12
       },
       "mover3d": {
-        "n": 20,
-        "avg_return_pct": 0.0891,
+        "n": 21,
+        "avg_return_pct": 0.0714,
         "positive": 12
       },
       "hybrid_rebound_v2": {
-        "n": 20,
-        "avg_return_pct": 0.0699,
+        "n": 21,
+        "avg_return_pct": 0.0606,
         "positive": 11
       }
     },
     "15m": {
       "canonical": {
-        "n": 20,
-        "avg_return_pct": -0.1329,
-        "positive": 10
+        "n": 21,
+        "avg_return_pct": -0.1108,
+        "positive": 11
       },
       "mover3d": {
-        "n": 20,
-        "avg_return_pct": -0.1312,
-        "positive": 8
+        "n": 21,
+        "avg_return_pct": -0.0848,
+        "positive": 9
       },
       "hybrid_rebound_v2": {
-        "n": 20,
-        "avg_return_pct": -0.204,
-        "positive": 10
+        "n": 21,
+        "avg_return_pct": -0.1452,
+        "positive": 11
       }
     },
     "30m": {
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-11-17T09:21:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "ADA",
-        "FET"
-      ],
-      "canonical": [
-        "NEAR",
-        "VET"
-      ],
-      "mover3d": [
-        "NEAR",
-        "FET"
-      ],
-      "hybrid": [
-        "NEAR",
-        "WLD"
-      ]
-    },
     {
       "trigger_time": "2026-11-17T10:10:00+00:00",
       "level": "TRIGGER",
@@ -285,6 +265,27 @@
       "hybrid": [
         "PEPE",
         "RENDER"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-17T18:11:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "LINK",
+        "RENDER",
+        "XLM"
+      ],
+      "canonical": [
+        "TRX",
+        "VET"
+      ],
+      "mover3d": [
+        "NEAR",
+        "FET"
+      ],
+      "hybrid": [
+        "WLD",
+        "HYPE"
       ]
     }
   ]
