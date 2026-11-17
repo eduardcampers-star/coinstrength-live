@@ -1,28 +1,15 @@
 {
-  "generated_at": "2026-11-17T15:51:01.713346+00:00",
+  "generated_at": "2026-11-17T15:56:01.935225+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 20.7268,
-  "open_pnl_eur": -0.629,
-  "paper_equity_gross_eur": 40.0978,
-  "open_count": 6,
-  "closed_count": 630,
+  "realized_gross_eur": 19.8268,
+  "open_pnl_eur": -0.0716,
+  "paper_equity_gross_eur": 39.7552,
+  "open_count": 4,
+  "closed_count": 632,
   "last_selection_hour": "2026-11-17T16",
   "latest_timestamp": "2026-11-17T16:45:01+01:00",
   "open_legs": [
-    {
-      "coin": "BTC",
-      "direction": "LONG",
-      "entry_eur": 59552.21029652538,
-      "current_eur": 58253.74489332728,
-      "spot_return_pct": -2.1804,
-      "leveraged_return_pct": -6.5411,
-      "open_pnl_eur": -0.3271,
-      "roll_active": false,
-      "hard_sl_usdt": 63507.549,
-      "roll_activation_usdt": 66453.77549999999,
-      "roll_stop_usdt": null
-    },
     {
       "coin": "DOGE",
       "direction": "SHORT",
@@ -31,10 +18,10 @@
       "spot_return_pct": 0.2929,
       "leveraged_return_pct": 0.8787,
       "open_pnl_eur": 0.0439,
-      "roll_active": false,
+      "roll_active": true,
       "hard_sl_usdt": 0.06020350000000001,
       "roll_activation_usdt": 0.05757325,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 0.05794687
     },
     {
       "coin": "TRX",
@@ -57,10 +44,10 @@
       "spot_return_pct": -0.1131,
       "leveraged_return_pct": -0.3394,
       "open_pnl_eur": -0.017,
-      "roll_active": false,
+      "roll_active": true,
       "hard_sl_usdt": 0.0275319,
       "roll_activation_usdt": 0.02632905,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 0.026466069999999998
     },
     {
       "coin": "AVAX",
@@ -73,38 +60,17 @@
       "roll_active": true,
       "hard_sl_usdt": 7.366560000000001,
       "roll_activation_usdt": 7.04472,
-      "roll_stop_usdt": 7.102350999999999
-    },
-    {
-      "coin": "FET",
-      "direction": "LONG",
-      "entry_eur": 0.12087612469326547,
-      "current_eur": 0.11901951883794826,
-      "spot_return_pct": -1.536,
-      "leveraged_return_pct": -4.6079,
-      "open_pnl_eur": -0.2304,
-      "roll_active": false,
-      "hard_sl_usdt": 0.12901,
-      "roll_activation_usdt": 0.134995,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 7.013558999999999
     }
   ],
   "closed_legs": [
     {
-      "coin": "ONDO",
+      "coin": "BTC",
       "direction": "LONG",
       "reason": "HARD_SL",
-      "spot_return_pct": -3.0000000000000027,
-      "leveraged_return_pct": -9.000000000000007,
-      "gross_pnl_eur": -0.45000000000000034
-    },
-    {
-      "coin": "SOL",
-      "direction": "LONG",
-      "reason": "HARD_SL",
-      "spot_return_pct": -3.0000000000000027,
-      "leveraged_return_pct": -9.000000000000007,
-      "gross_pnl_eur": -0.45000000000000034
+      "spot_return_pct": -2.9999999999999916,
+      "leveraged_return_pct": -8.999999999999975,
+      "gross_pnl_eur": -0.44999999999999873
     },
     {
       "coin": "NEAR",
@@ -177,6 +143,14 @@
       "spot_return_pct": 1.6316779072143905,
       "leveraged_return_pct": 4.895033721643172,
       "gross_pnl_eur": 0.2447516860821586
+    },
+    {
+      "coin": "FET",
+      "direction": "LONG",
+      "reason": "HARD_SL",
+      "spot_return_pct": -2.9999999999999916,
+      "leveraged_return_pct": -8.999999999999975,
+      "gross_pnl_eur": -0.44999999999999873
     },
     {
       "coin": "BCH",
