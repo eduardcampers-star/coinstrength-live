@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-18T17:41:01.400658+00:00",
+  "generated_at": "2026-11-18T17:46:02.420055+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 19.8055,
-  "open_pnl_eur": -0.1827,
-  "paper_equity_gross_eur": 39.6228,
-  "open_count": 3,
-  "closed_count": 646,
+  "realized_gross_eur": 20.0497,
+  "open_pnl_eur": -0.4614,
+  "paper_equity_gross_eur": 39.5883,
+  "open_count": 2,
+  "closed_count": 647,
   "last_selection_hour": "2026-11-18T18",
   "latest_timestamp": "2026-11-18T18:30:02+01:00",
   "open_legs": [
@@ -35,30 +35,9 @@
       "hard_sl_usdt": 0.0050047699999999995,
       "roll_activation_usdt": 0.004786115,
       "roll_stop_usdt": null
-    },
-    {
-      "coin": "NEAR",
-      "direction": "LONG",
-      "entry_eur": 2.9287406597412065,
-      "current_eur": 2.9831588529813384,
-      "spot_return_pct": 1.8581,
-      "leveraged_return_pct": 5.5742,
-      "open_pnl_eur": 0.2787,
-      "roll_active": true,
-      "hard_sl_usdt": 3.11758,
-      "roll_activation_usdt": 3.2622099999999996,
-      "roll_stop_usdt": 3.266336
     }
   ],
   "closed_legs": [
-    {
-      "coin": "BCH",
-      "direction": "LONG",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 1.0816216474181406,
-      "leveraged_return_pct": 3.244864942254422,
-      "gross_pnl_eur": 0.16224324711272112
-    },
     {
       "coin": "XLM",
       "direction": "SHORT",
@@ -146,6 +125,14 @@
       "spot_return_pct": -3.0000000000000027,
       "leveraged_return_pct": -9.000000000000007,
       "gross_pnl_eur": -0.45000000000000034
+    },
+    {
+      "coin": "NEAR",
+      "direction": "LONG",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 1.628375855631603,
+      "leveraged_return_pct": 4.885127566894809,
+      "gross_pnl_eur": 0.24425637834474045
     }
   ]
 }
