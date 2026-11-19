@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-19T23:31:03.323595+00:00",
+  "generated_at": "2026-11-19T23:46:03.849577+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 19,
-  "strong_24h": 10,
+  "events_24h": 20,
+  "strong_24h": 11,
   "results": {
     "5m": {
       "canonical": {
-        "n": 19,
-        "avg_return_pct": -0.0796,
+        "n": 20,
+        "avg_return_pct": -0.0766,
         "positive": 7
       },
       "mover3d": {
-        "n": 19,
-        "avg_return_pct": -0.0576,
-        "positive": 7
+        "n": 20,
+        "avg_return_pct": -0.0514,
+        "positive": 8
       },
       "hybrid_rebound_v2": {
-        "n": 19,
-        "avg_return_pct": -0.0829,
+        "n": 20,
+        "avg_return_pct": -0.0791,
         "positive": 6
       }
     },
@@ -41,18 +41,18 @@
     },
     "30m": {
       "canonical": {
-        "n": 18,
-        "avg_return_pct": -0.045,
+        "n": 19,
+        "avg_return_pct": -0.0659,
         "positive": 9
       },
       "mover3d": {
-        "n": 18,
-        "avg_return_pct": -0.0404,
-        "positive": 9
+        "n": 19,
+        "avg_return_pct": -0.0368,
+        "positive": 10
       },
       "hybrid_rebound_v2": {
-        "n": 18,
-        "avg_return_pct": -0.0533,
+        "n": 19,
+        "avg_return_pct": -0.0678,
         "positive": 8
       }
     },
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-11-19T17:47:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "QNT",
-        "XRP"
-      ],
-      "canonical": [
-        "HYPE",
-        "XRP"
-      ],
-      "mover3d": [
-        "NEAR",
-        "FET"
-      ],
-      "hybrid": [
-        "NEAR",
-        "FET"
-      ]
-    },
     {
       "trigger_time": "2026-11-19T18:44:00+00:00",
       "level": "TRIGGER",
@@ -286,6 +266,27 @@
       "hybrid": [
         "WLD",
         "PEPE"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-19T23:31:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "AVAX",
+        "BCH",
+        "TAO"
+      ],
+      "canonical": [
+        "MOODENG",
+        "DOT"
+      ],
+      "mover3d": [
+        "NEAR",
+        "WLD"
+      ],
+      "hybrid": [
+        "QNT",
+        "MOODENG"
       ]
     }
   ]
