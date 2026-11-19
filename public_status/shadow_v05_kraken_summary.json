@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-19T04:04:13.144907+00:00",
+  "generated_at": "2026-11-19T04:09:13.805124+00:00",
   "strategy": "KRAKEN_V05_CANDIDATE_B",
-  "kraken_live_timestamp": "2026-11-19T04:04:13.130049+00:00",
-  "film_timestamp": "2026-11-19T04:04:07.831376+00:00",
+  "kraken_live_timestamp": "2026-11-19T04:09:13.352829+00:00",
+  "film_timestamp": "2026-11-19T04:09:08.261047+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
-      "green": 24,
-      "red": 0,
-      "flat": 3
+      "green": 13,
+      "red": 2,
+      "flat": 12
     },
     "breadth_15m": {
-      "green": 24,
+      "green": 25,
       "red": 0,
-      "flat": 3
+      "flat": 2
     },
     "breadth_60m": {
       "green": 26,
@@ -25,17 +25,74 @@
   "opened_this_run": [],
   "start_pot_usd": 20.0,
   "realized_gross_usd": -4.1653,
-  "open_pnl_usd": 0.0,
-  "paper_equity_gross_usd": 15.8347,
-  "estimated_costs_usd": 2.0379,
-  "paper_equity_est_net_usd": 13.7968,
-  "open_count": 0,
+  "open_pnl_usd": -0.0212,
+  "paper_equity_gross_usd": 15.8135,
+  "estimated_costs_usd": 2.0979,
+  "paper_equity_est_net_usd": 13.7156,
+  "open_count": 4,
   "closed_count": 136,
   "strategy_closed_count": 104,
   "technical_closed_count": 32,
   "strategy_win_count": 27,
   "strategy_win_rate_pct": 25.96153846153846,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "RENDER",
+      "direction": "LONG",
+      "entry_usd": 1.4341,
+      "current_usd": 1.4293,
+      "spot_return_pct": -0.3347,
+      "leveraged_return_pct": -1.0041,
+      "open_pnl_usd": -0.0502,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-11-19T04:06:13.839306+00:00",
+      "entry_breadth": null,
+      "entry_move": null
+    },
+    {
+      "coin": "NEAR",
+      "direction": "LONG",
+      "entry_usd": 3.409,
+      "current_usd": 3.421,
+      "spot_return_pct": 0.352,
+      "leveraged_return_pct": 1.056,
+      "open_pnl_usd": 0.0528,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-11-19T04:06:13.839331+00:00",
+      "entry_breadth": null,
+      "entry_move": null
+    },
+    {
+      "coin": "TAO",
+      "direction": "LONG",
+      "entry_usd": 195.3,
+      "current_usd": 194.99,
+      "spot_return_pct": -0.1587,
+      "leveraged_return_pct": -0.4762,
+      "open_pnl_usd": -0.0238,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-11-19T04:06:13.839340+00:00",
+      "entry_breadth": null,
+      "entry_move": null
+    },
+    {
+      "coin": "ONDO",
+      "direction": "LONG",
+      "entry_usd": 0.3023,
+      "current_usd": 0.3023,
+      "spot_return_pct": 0.0,
+      "leveraged_return_pct": 0.0,
+      "open_pnl_usd": 0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-11-19T04:06:13.839347+00:00",
+      "entry_breadth": null,
+      "entry_move": null
+    }
+  ],
   "closed_legs": [
     {
       "coin": "UNI",

@@ -4187,10 +4187,90 @@
       "spot_return_pct": 0.446429,
       "leveraged_return_pct": 1.339286,
       "gross_pnl_usd": 0.066964
+    },
+    {
+      "coin": "RENDER",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 1.4341,
+      "entry_time": "2026-11-19T04:06:13.839306+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": 1.4293,
+      "price_m2_time": "2026-11-19T04:09:13.803520+00:00",
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-19T04:01:00+00:00",
+      "market_confirm_time": "2026-11-19T04:05:00+00:00",
+      "market_momentum_2_4_pct": 0.062946,
+      "move60_rank": 1,
+      "move60_pct": 3.173001,
+      "basket_id": "V05B:2026-11-19T04:06:13.830880+00:00:NEAR,ONDO,RENDER,TAO"
+    },
+    {
+      "coin": "NEAR",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 3.409,
+      "entry_time": "2026-11-19T04:06:13.839331+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": 3.421,
+      "price_m2_time": "2026-11-19T04:09:13.803766+00:00",
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-19T04:01:00+00:00",
+      "market_confirm_time": "2026-11-19T04:05:00+00:00",
+      "market_momentum_2_4_pct": 0.062946,
+      "move60_rank": 2,
+      "move60_pct": 2.611053,
+      "basket_id": "V05B:2026-11-19T04:06:13.830880+00:00:NEAR,ONDO,RENDER,TAO"
+    },
+    {
+      "coin": "TAO",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 195.3,
+      "entry_time": "2026-11-19T04:06:13.839340+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": 194.99,
+      "price_m2_time": "2026-11-19T04:09:13.804029+00:00",
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-19T04:01:00+00:00",
+      "market_confirm_time": "2026-11-19T04:05:00+00:00",
+      "market_momentum_2_4_pct": 0.062946,
+      "move60_rank": 3,
+      "move60_pct": 2.536765,
+      "basket_id": "V05B:2026-11-19T04:06:13.830880+00:00:NEAR,ONDO,RENDER,TAO"
+    },
+    {
+      "coin": "ONDO",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 0.3023,
+      "entry_time": "2026-11-19T04:06:13.839347+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": 0.3023,
+      "price_m2_time": "2026-11-19T04:09:13.804259+00:00",
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-19T04:01:00+00:00",
+      "market_confirm_time": "2026-11-19T04:05:00+00:00",
+      "market_momentum_2_4_pct": 0.062946,
+      "move60_rank": 4,
+      "move60_pct": 2.405149,
+      "basket_id": "V05B:2026-11-19T04:06:13.830880+00:00:NEAR,ONDO,RENDER,TAO"
     }
   ],
   "market_event": {
-    "status": "WAIT_CONFIRM",
+    "status": "ACTIVE",
     "go_time": "2026-11-19T04:01:00+00:00",
     "breadth_prev": {
       "green": 24,
@@ -4202,9 +4282,44 @@
       "red": 2,
       "flat": 3
     },
-    "created_at": "2026-11-19T04:02:13.441727+00:00"
+    "created_at": "2026-11-19T04:02:13.441727+00:00",
+    "confirm_time": "2026-11-19T04:05:00+00:00",
+    "market_momentum_2_4_pct": 0.062946,
+    "confirm_n": 27,
+    "top4": [
+      {
+        "rank": 1,
+        "coin": "RENDER",
+        "move60_pct": 3.173001
+      },
+      {
+        "rank": 2,
+        "coin": "NEAR",
+        "move60_pct": 2.611053
+      },
+      {
+        "rank": 3,
+        "coin": "TAO",
+        "move60_pct": 2.536765
+      },
+      {
+        "rank": 4,
+        "coin": "ONDO",
+        "move60_pct": 2.405149
+      }
+    ],
+    "top4_locked": true,
+    "top4_lock_time": "2026-11-19T04:06:13.830880+00:00",
+    "basket_id": "V05B:2026-11-19T04:06:13.830880+00:00:NEAR,ONDO,RENDER,TAO",
+    "entry_time": "2026-11-19T04:06:13.839366+00:00",
+    "opened_coins": [
+      "RENDER",
+      "NEAR",
+      "TAO",
+      "ONDO"
+    ]
   },
-  "last_market_breadth_green": 14,
+  "last_market_breadth_green": 10,
   "market_burst_locked": false,
   "pending_events": []
 }
