@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04",
   "created_at": "2026-09-30T13:57:56.192235+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 52.584694621010335,
+  "realized_gross_eur": 53.212256211688505,
   "legs": [
     {
       "coin": "HBAR",
@@ -13321,7 +13321,7 @@
     {
       "coin": "WLD",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.2131535798870468,
       "entry_time": "2026-11-20T18:38:02.171510+00:00",
       "margin_eur": 5.0,
@@ -13350,12 +13350,18 @@
         "ret_5m_pct": -0.08568980291345785,
         "ret_15m_pct": -0.8924776880578023,
         "ret_60m_pct": 0.7778738115816752
-      }
+      },
+      "exit_eur": 0.20720535714285715,
+      "exit_time": "2026-11-20T21:32:02.293102+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 2.790581,
+      "leveraged_return_pct": 8.371742,
+      "gross_pnl_eur": 0.418587
     },
     {
       "coin": "MOODENG",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.022800145746037528,
       "entry_time": "2026-11-20T18:43:02.983896+00:00",
       "margin_eur": 5.0,
@@ -13384,7 +13390,13 @@
         "ret_5m_pct": -0.47827819848546005,
         "ret_15m_pct": -0.3193612774451071,
         "ret_60m_pct": 3.2671629445822914
-      }
+      },
+      "exit_eur": 0.022482502506151462,
+      "exit_time": "2026-11-20T21:32:02.293319+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 1.393163,
+      "leveraged_return_pct": 4.17949,
+      "gross_pnl_eur": 0.208974
     },
     {
       "coin": "VET",
@@ -13418,6 +13430,40 @@
         "ret_5m_pct": -0.3118734684785074,
         "ret_15m_pct": -0.13389868332961408,
         "ret_60m_pct": 2.0291837665298518
+      }
+    },
+    {
+      "coin": "ADA",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 0.1276653909240022,
+      "entry_time": "2026-11-20T21:32:02.293567+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "roll_active": false,
+      "best_eur": 0.1276653909240022,
+      "roll_stop_eur": null,
+      "entry_breadth": {
+        "5m": {
+          "green": 26,
+          "red": 0,
+          "flat": 1
+        },
+        "15m": {
+          "green": 27,
+          "red": 0,
+          "flat": 0
+        },
+        "60m": {
+          "green": 7,
+          "red": 16,
+          "flat": 4
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.574712643678188,
+        "ret_15m_pct": 0.7919366450684029,
+        "ret_60m_pct": 0.14306151645206988
       }
     }
   ]
