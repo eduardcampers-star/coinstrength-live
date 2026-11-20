@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04",
   "created_at": "2026-09-30T13:57:56.192235+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 51.44048511481267,
+  "realized_gross_eur": 51.88452016841118,
   "legs": [
     {
       "coin": "HBAR",
@@ -13047,8 +13047,8 @@
       "margin_eur": 5.0,
       "leverage": 3.0,
       "roll_active": true,
-      "best_eur": 0.13212176283507496,
-      "roll_stop_eur": 0.13331085870059062,
+      "best_eur": 0.1318971002636124,
+      "roll_stop_eur": 0.1330841741659849,
       "entry_breadth": {
         "5m": {
           "green": 0,
@@ -13149,7 +13149,7 @@
     {
       "coin": "BCH",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 185.26248632883707,
       "entry_time": "2026-11-20T10:58:02.470781+00:00",
       "margin_eur": 5.0,
@@ -13178,6 +13178,46 @@
         "ret_5m_pct": -0.10883546057187665,
         "ret_15m_pct": -0.5565131740950635,
         "ret_60m_pct": 0.4777070063694211
+      },
+      "exit_eur": 179.77828379238247,
+      "exit_time": "2026-11-20T13:47:02.210843+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 2.960234,
+      "leveraged_return_pct": 8.880701,
+      "gross_pnl_eur": 0.444035
+    },
+    {
+      "coin": "BCH",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 179.8745568584674,
+      "entry_time": "2026-11-20T13:48:02.007958+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "roll_active": false,
+      "best_eur": 179.8745568584674,
+      "roll_stop_eur": null,
+      "entry_breadth": {
+        "5m": {
+          "green": 18,
+          "red": 4,
+          "flat": 5
+        },
+        "15m": {
+          "green": 21,
+          "red": 2,
+          "flat": 4
+        },
+        "60m": {
+          "green": 1,
+          "red": 24,
+          "flat": 2
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.2680558365365071,
+        "ret_15m_pct": 0.9933774834437026,
+        "ret_60m_pct": 0.7828783488383895
       }
     }
   ]
