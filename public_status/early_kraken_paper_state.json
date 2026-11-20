@@ -2,8 +2,8 @@
   "strategy": "EARLY_KRAKEN_PAPER_V1",
   "mode": "RESEARCH_PAPER",
   "created_at": "2026-10-14T18:24:17.972527+00:00",
-  "realized_pnl_usd": 5.846423099999969,
-  "total_fees_usd": 3.8076745518500004,
+  "realized_pnl_usd": 5.431623099999969,
+  "total_fees_usd": 3.8142401518500004,
   "max_positions": 4,
   "target_margin_usd": 5.0,
   "min_margin_usd": 4.0,
@@ -5942,12 +5942,17 @@
       "margin_usd": 4.515333333333333,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": -0.3992000000000019,
+      "unrealized_gross_pnl_usd": -0.4147999999999996,
       "coin": "HYPE",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_time": "2026-11-19T20:54:51.757347+00:00",
       "roll_active": false,
-      "current_exit_price_usd": 65.734
+      "current_exit_price_usd": 65.656,
+      "exit_time": "2026-11-20T01:51:51.945069+00:00",
+      "exit_reason": "HARD_SL",
+      "exit_price": 65.656,
+      "gross_pnl_usd": -0.4147999999999996,
+      "net_pnl_usd": -0.4281385999999996
     },
     {
       "direction": "SHORT",
@@ -5959,12 +5964,14 @@
       "margin_usd": 5.2797,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": 0.08370000000000163,
+      "unrealized_gross_pnl_usd": 0.26099999999999995,
       "coin": "ETH",
       "status": "OPEN",
       "entry_time": "2026-11-19T22:52:51.862359+00:00",
-      "roll_active": false,
-      "current_exit_price_usd": 1750.6
+      "roll_active": true,
+      "current_exit_price_usd": 1730.9,
+      "best_exit_price_usd": 1730.9,
+      "roll_stop_usd": 1746.4780999999998
     },
     {
       "direction": "SHORT",
@@ -5976,12 +5983,12 @@
       "margin_usd": 4.141933333333333,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": 0.063,
+      "unrealized_gross_pnl_usd": 0.1356,
       "coin": "BTC",
       "status": "OPEN",
       "entry_time": "2026-11-19T22:53:51.208512+00:00",
       "roll_active": false,
-      "current_exit_price_usd": 61814.0
+      "current_exit_price_usd": 61451.0
     },
     {
       "direction": "SHORT",
@@ -5993,16 +6000,16 @@
       "margin_usd": 4.9427,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": -0.02310000000000212,
+      "unrealized_gross_pnl_usd": 0.13859999999999872,
       "coin": "SUI",
       "status": "OPEN",
       "entry_time": "2026-11-19T22:54:51.522072+00:00",
       "roll_active": false,
-      "current_exit_price_usd": 0.7072
+      "current_exit_price_usd": 0.6995
     }
   ],
-  "closed_trades": 253,
+  "closed_trades": 254,
   "start_capital_usd": 25.0,
-  "last_paper_cycle_utc": "2026-11-20T01:49:51.292272+00:00",
+  "last_paper_cycle_utc": "2026-11-20T01:54:51.964354+00:00",
   "last_entry_film_minute": "2026-11-19T22:53:00+00:00"
 }
