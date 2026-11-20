@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04",
   "created_at": "2026-09-30T13:57:56.192235+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 52.42547155452458,
+  "realized_gross_eur": 51.97547155452458,
   "legs": [
     {
       "coin": "HBAR",
@@ -13081,7 +13081,7 @@
     {
       "coin": "ONDO",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.2664359861591696,
       "entry_time": "2026-11-20T03:58:01.849204+00:00",
       "margin_eur": 5.0,
@@ -13110,7 +13110,13 @@
         "ret_5m_pct": 0.06851661527922381,
         "ret_15m_pct": 0.2746309646412648,
         "ret_60m_pct": 0.0342465753424781
-      }
+      },
+      "exit_eur": 0.2584429065743945,
+      "exit_time": "2026-11-20T15:32:02.536014+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     },
     {
       "coin": "MOODENG",
@@ -13280,9 +13286,9 @@
       "entry_time": "2026-11-20T14:47:02.224080+00:00",
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 167.60665878286184,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 162.9855362503411,
+      "roll_stop_eur": 164.45240607659417,
       "entry_breadth": {
         "5m": {
           "green": 0,
