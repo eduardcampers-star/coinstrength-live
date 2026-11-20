@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-20T15:21:01.817268+00:00",
+  "generated_at": "2026-11-20T15:26:01.557407+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 18.6704,
-  "open_pnl_eur": 0.3194,
-  "paper_equity_gross_eur": 38.9898,
-  "open_count": 3,
-  "closed_count": 674,
+  "realized_gross_eur": 18.2204,
+  "open_pnl_eur": 0.6711,
+  "paper_equity_gross_eur": 38.8915,
+  "open_count": 2,
+  "closed_count": 675,
   "last_selection_hour": "2026-11-20T16",
   "latest_timestamp": "2026-11-20T16:15:01+01:00",
   "open_legs": [
@@ -21,20 +21,7 @@
       "roll_active": true,
       "hard_sl_usdt": 0.3215351,
       "roll_activation_usdt": 0.30748745,
-      "roll_stop_usdt": 0.30751292999999996
-    },
-    {
-      "coin": "BTC",
-      "direction": "LONG",
-      "entry_eur": 56701.52108570907,
-      "current_eur": 55372.22626409604,
-      "spot_return_pct": -2.3444,
-      "leveraged_return_pct": -7.0331,
-      "open_pnl_eur": -0.3517,
-      "roll_active": false,
-      "hard_sl_usdt": 60385.022,
-      "roll_activation_usdt": 63186.388999999996,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 0.30702861
     },
     {
       "coin": "AVAX",
@@ -47,18 +34,10 @@
       "roll_active": true,
       "hard_sl_usdt": 6.98546,
       "roll_activation_usdt": 6.68027,
-      "roll_stop_usdt": 6.628120999999999
+      "roll_stop_usdt": 6.565562999999999
     }
   ],
   "closed_legs": [
-    {
-      "coin": "LTC",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 2.426631065707004,
-      "leveraged_return_pct": 7.279893197121012,
-      "gross_pnl_eur": 0.3639946598560506
-    },
     {
       "coin": "XLM",
       "direction": "SHORT",
@@ -117,6 +96,14 @@
     },
     {
       "coin": "ONDO",
+      "direction": "LONG",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0000000000000027,
+      "leveraged_return_pct": -9.000000000000007,
+      "gross_pnl_eur": -0.45000000000000034
+    },
+    {
+      "coin": "BTC",
       "direction": "LONG",
       "reason": "HARD_SL",
       "spot_return_pct": -3.0000000000000027,
