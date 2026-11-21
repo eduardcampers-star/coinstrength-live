@@ -2,8 +2,8 @@
   "strategy": "EARLY_KRAKEN_PAPER_V1",
   "mode": "RESEARCH_PAPER",
   "created_at": "2026-10-14T18:24:17.972527+00:00",
-  "realized_pnl_usd": 7.834423099999965,
-  "total_fees_usd": 4.011994601850001,
+  "realized_pnl_usd": 7.1843230999999665,
+  "total_fees_usd": 4.020568601850001,
   "max_positions": 4,
   "target_margin_usd": 5.0,
   "min_margin_usd": 4.0,
@@ -6250,12 +6250,14 @@
       "margin_usd": 5.036266666666666,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": -0.01900000000000162,
+      "unrealized_gross_pnl_usd": 0.3989999999999989,
       "coin": "LTC",
       "status": "OPEN",
       "entry_time": "2026-11-20T17:03:51.308321+00:00",
-      "roll_active": false,
-      "current_exit_price_usd": 39.81
+      "roll_active": true,
+      "current_exit_price_usd": 38.71,
+      "best_exit_price_usd": 38.48,
+      "roll_stop_usd": 38.826319999999996
     },
     {
       "direction": "LONG",
@@ -6267,12 +6269,17 @@
       "margin_usd": 5.9327,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": -0.3393,
+      "unrealized_gross_pnl_usd": -0.6500999999999999,
       "coin": "BTC",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_time": "2026-11-20T17:22:51.563285+00:00",
       "roll_active": false,
-      "current_exit_price_usd": 58196.0
+      "current_exit_price_usd": 57160.0,
+      "exit_time": "2026-11-21T03:31:51.214344+00:00",
+      "exit_reason": "HARD_SL",
+      "exit_price": 57160.0,
+      "gross_pnl_usd": -0.6500999999999983,
+      "net_pnl_usd": -0.6675730499999983
     },
     {
       "direction": "LONG",
@@ -6308,14 +6315,14 @@
       "margin_usd": 4.031533333333333,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": 0.3763999999999996,
+      "unrealized_gross_pnl_usd": 0.6043999999999997,
       "coin": "HYPE",
       "status": "OPEN",
       "entry_time": "2026-11-20T20:32:51.606813+00:00",
       "roll_active": true,
-      "current_exit_price_usd": 58.591,
-      "best_exit_price_usd": 58.58,
-      "roll_stop_usd": 59.10721999999999
+      "current_exit_price_usd": 57.451,
+      "best_exit_price_usd": 57.202,
+      "roll_stop_usd": 57.71681799999999
     },
     {
       "direction": "SHORT",
@@ -6327,18 +6334,18 @@
       "margin_usd": 4.759333333333333,
       "leverage": 3.0,
       "fee_rate": 0.0005,
-      "unrealized_gross_pnl_usd": 0.6684999999999985,
+      "unrealized_gross_pnl_usd": 1.0640000000000005,
       "coin": "NEAR",
       "status": "OPEN",
       "entry_time": "2026-11-20T22:31:51.735780+00:00",
       "roll_active": true,
-      "current_exit_price_usd": 2.7219,
-      "best_exit_price_usd": 2.7216,
-      "roll_stop_usd": 2.7460943999999996
+      "current_exit_price_usd": 2.6428,
+      "best_exit_price_usd": 2.6199,
+      "roll_stop_usd": 2.6434790999999995
     }
   ],
-  "closed_trades": 267,
+  "closed_trades": 268,
   "start_capital_usd": 25.0,
-  "last_paper_cycle_utc": "2026-11-21T03:29:51.545824+00:00",
+  "last_paper_cycle_utc": "2026-11-21T03:34:51.213431+00:00",
   "last_entry_film_minute": "2026-11-20T22:30:00+00:00"
 }
