@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-21T06:58:03.141456+00:00",
+  "generated_at": "2026-11-21T07:03:02.243746+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-11-21T07:45:01+01:00",
-  "film_timestamp": "2026-11-21T06:57:01.757387+00:00",
+  "latest_timestamp": "2026-11-21T08:00:01+01:00",
+  "film_timestamp": "2026-11-21T07:02:01.483380+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
-      "green": 0,
-      "red": 26,
-      "flat": 1
+      "green": 3,
+      "red": 20,
+      "flat": 4
     },
     "breadth_15m": {
-      "green": 27,
-      "red": 0,
-      "flat": 0
+      "green": 24,
+      "red": 1,
+      "flat": 2
     },
     "breadth_60m": {
       "green": 27,
@@ -24,61 +24,16 @@
   },
   "opened_this_run": [],
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 34.5191,
-  "open_pnl_eur": 0.35,
-  "paper_equity_gross_eur": 54.8692,
+  "realized_gross_eur": 34.865,
+  "open_pnl_eur": 0.0,
+  "paper_equity_gross_eur": 54.865,
   "estimated_cost_per_closed_trade_eur": 0.09,
-  "estimated_costs_eur": 25.2,
-  "paper_equity_est_net_eur": 29.6692,
-  "open_count": 1,
-  "closed_count": 280,
-  "open_legs": [
-    {
-      "coin": "TRX",
-      "direction": "SHORT",
-      "entry_eur": 0.28125796468232295,
-      "current_eur": 0.2746943988323298,
-      "spot_return_pct": 2.3336,
-      "leveraged_return_pct": 7.0009,
-      "open_pnl_eur": 0.35,
-      "roll_active": true,
-      "roll_stop_eur": 0.27477347199416163,
-      "entry_time": "2026-11-18T21:43:01.896245+00:00",
-      "entry_breadth": {
-        "5m": {
-          "green": 1,
-          "red": 20,
-          "flat": 6
-        },
-        "15m": {
-          "green": 3,
-          "red": 18,
-          "flat": 6
-        },
-        "60m": {
-          "green": 23,
-          "red": 1,
-          "flat": 3
-        }
-      },
-      "entry_move": {
-        "ret_5m_pct": 0.02589331952356222,
-        "ret_15m_pct": 0.022655921286851566,
-        "ret_60m_pct": 0.110139293812761
-      }
-    }
-  ],
+  "estimated_costs_eur": 25.29,
+  "paper_equity_est_net_eur": 29.575,
+  "open_count": 0,
+  "closed_count": 281,
+  "open_legs": [],
   "closed_legs": [
-    {
-      "coin": "TAO",
-      "direction": "LONG",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 0.791355,
-      "leveraged_return_pct": 2.374066,
-      "gross_pnl_eur": 0.118703,
-      "entry_time": "2026-11-16T00:53:02.325703+00:00",
-      "exit_time": "2026-11-17T06:33:02.103734+00:00"
-    },
     {
       "coin": "HBAR",
       "direction": "LONG",
@@ -228,6 +183,16 @@
       "gross_pnl_eur": -0.45,
       "entry_time": "2026-11-18T15:58:02.546695+00:00",
       "exit_time": "2026-11-20T12:18:02.165242+00:00"
+    },
+    {
+      "coin": "TRX",
+      "direction": "SHORT",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 2.305532,
+      "leveraged_return_pct": 6.916596,
+      "gross_pnl_eur": 0.34583,
+      "entry_time": "2026-11-18T21:43:01.896245+00:00",
+      "exit_time": "2026-11-21T07:03:02.242585+00:00"
     },
     {
       "coin": "PEPE",
