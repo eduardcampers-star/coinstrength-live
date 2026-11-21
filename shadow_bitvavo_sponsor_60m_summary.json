@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-21T14:04:03.174681+00:00",
+  "generated_at": "2026-11-21T14:09:02.522147+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
   "latest_timestamp": "2026-11-21T15:00:01+01:00",
-  "film_timestamp": "2026-11-21T14:02:02.151247+00:00",
+  "film_timestamp": "2026-11-21T14:07:02.070299+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "SHORT",
+    "target_legs": 4,
     "breadth_5m": {
-      "green": 25,
-      "red": 2,
-      "flat": 0
+      "green": 0,
+      "red": 25,
+      "flat": 2
     },
     "breadth_15m": {
-      "green": 26,
-      "red": 1,
-      "flat": 0
+      "green": 2,
+      "red": 22,
+      "flat": 3
     },
     "breadth_60m": {
       "green": 27,
@@ -22,7 +22,9 @@
       "flat": 0
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "QNT"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 35.1154,
   "open_pnl_eur": 0.0,
@@ -30,9 +32,44 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 29.34,
   "paper_equity_est_net_eur": 25.7754,
-  "open_count": 0,
+  "open_count": 1,
   "closed_count": 326,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "QNT",
+      "direction": "SHORT",
+      "entry_eur": 127.66675791586822,
+      "current_eur": 127.66675791586822,
+      "spot_return_pct": -0.0,
+      "leveraged_return_pct": -0.0,
+      "open_pnl_eur": -0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-11-21T14:09:02.521629+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 0,
+          "red": 25,
+          "flat": 2
+        },
+        "15m": {
+          "green": 2,
+          "red": 22,
+          "flat": 3
+        },
+        "60m": {
+          "green": 27,
+          "red": 0,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.8443908323281013,
+        "ret_15m_pct": 0.5251420761096526,
+        "ret_60m_pct": 2.92406275318553
+      }
+    }
+  ],
   "closed_legs": [
     {
       "coin": "HYPE",
