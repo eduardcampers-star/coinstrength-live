@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-21T13:14:02.482777+00:00",
+  "generated_at": "2026-11-21T13:19:01.928761+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-11-21T14:00:01+01:00",
-  "film_timestamp": "2026-11-21T13:12:01.972944+00:00",
+  "latest_timestamp": "2026-11-21T14:15:02+01:00",
+  "film_timestamp": "2026-11-21T13:17:01.793334+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
-      "green": 23,
-      "red": 0,
+      "green": 3,
+      "red": 20,
       "flat": 4
     },
     "breadth_15m": {
-      "green": 27,
+      "green": 26,
       "red": 0,
-      "flat": 0
+      "flat": 1
     },
     "breadth_60m": {
       "green": 27,
@@ -24,23 +24,23 @@
   },
   "opened_this_run": [],
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 36.4654,
-  "open_pnl_eur": -0.6162,
-  "paper_equity_gross_eur": 55.8492,
+  "realized_gross_eur": 36.0154,
+  "open_pnl_eur": -0.7196,
+  "paper_equity_gross_eur": 55.2958,
   "estimated_cost_per_closed_trade_eur": 0.09,
-  "estimated_costs_eur": 29.07,
-  "paper_equity_est_net_eur": 26.7792,
-  "open_count": 3,
-  "closed_count": 323,
+  "estimated_costs_eur": 29.16,
+  "paper_equity_est_net_eur": 26.1358,
+  "open_count": 2,
+  "closed_count": 324,
   "open_legs": [
     {
       "coin": "ETH",
       "direction": "SHORT",
       "entry_eur": 1490.4188338352037,
-      "current_eur": 1517.6798101496897,
-      "spot_return_pct": -1.8291,
-      "leveraged_return_pct": -5.4872,
-      "open_pnl_eur": -0.2744,
+      "current_eur": 1525.298895683125,
+      "spot_return_pct": -2.3403,
+      "leveraged_return_pct": -7.0209,
+      "open_pnl_eur": -0.351,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-11-21T07:19:02.439818+00:00",
@@ -68,47 +68,13 @@
       }
     },
     {
-      "coin": "TAO",
-      "direction": "SHORT",
-      "entry_eur": 162.73722627737226,
-      "current_eur": 166.57539247900695,
-      "spot_return_pct": -2.3585,
-      "leveraged_return_pct": -7.0755,
-      "open_pnl_eur": -0.3538,
-      "roll_active": false,
-      "roll_stop_eur": null,
-      "entry_time": "2026-11-21T10:09:02.672596+00:00",
-      "entry_breadth": {
-        "5m": {
-          "green": 1,
-          "red": 23,
-          "flat": 3
-        },
-        "15m": {
-          "green": 4,
-          "red": 18,
-          "flat": 5
-        },
-        "60m": {
-          "green": 21,
-          "red": 5,
-          "flat": 1
-        }
-      },
-      "entry_move": {
-        "ret_5m_pct": -0.3976922646053982,
-        "ret_15m_pct": -0.011246063877645707,
-        "ret_60m_pct": 1.1950830867288875
-      }
-    },
-    {
       "coin": "RENDER",
       "direction": "SHORT",
       "entry_eur": 1.147316538882804,
-      "current_eur": 1.1464037970062066,
-      "spot_return_pct": 0.0796,
-      "leveraged_return_pct": 0.2387,
-      "open_pnl_eur": 0.0119,
+      "current_eur": 1.1755042438623713,
+      "spot_return_pct": -2.4568,
+      "leveraged_return_pct": -7.3705,
+      "open_pnl_eur": -0.3685,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-11-21T12:54:02.885584+00:00",
@@ -137,16 +103,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "SOL",
-      "direction": "LONG",
-      "reason": "HARD_SL",
-      "spot_return_pct": -3.0,
-      "leveraged_return_pct": -9.0,
-      "gross_pnl_eur": -0.45,
-      "entry_time": "2026-11-18T14:34:03.507666+00:00",
-      "exit_time": "2026-11-19T22:04:02.240880+00:00"
-    },
     {
       "coin": "ETH",
       "direction": "LONG",
@@ -336,6 +292,16 @@
       "gross_pnl_eur": 0.148609,
       "entry_time": "2026-11-21T05:34:02.450393+00:00",
       "exit_time": "2026-11-21T06:34:02.568478+00:00"
+    },
+    {
+      "coin": "TAO",
+      "direction": "SHORT",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45,
+      "entry_time": "2026-11-21T10:09:02.672596+00:00",
+      "exit_time": "2026-11-21T13:19:01.928193+00:00"
     }
   ]
 }
