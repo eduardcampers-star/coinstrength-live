@@ -1,80 +1,46 @@
 {
-  "generated_at": "2026-11-20T23:59:01.917043+00:00",
+  "generated_at": "2026-11-21T00:04:02.295709+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-11-21T00:45:01+01:00",
-  "film_timestamp": "2026-11-20T23:57:01.955021+00:00",
+  "latest_timestamp": "2026-11-21T01:00:01+01:00",
+  "film_timestamp": "2026-11-21T00:02:01.505573+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
-      "green": 1,
-      "red": 20,
-      "flat": 6
+      "green": 11,
+      "red": 9,
+      "flat": 7
     },
     "breadth_15m": {
       "green": 0,
-      "red": 26,
-      "flat": 1
+      "red": 25,
+      "flat": 2
     },
     "breadth_60m": {
-      "green": 1,
-      "red": 26,
+      "green": 0,
+      "red": 27,
       "flat": 0
     }
   },
   "opened_this_run": [],
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 33.2713,
-  "open_pnl_eur": 0.4416,
-  "paper_equity_gross_eur": 53.7129,
+  "realized_gross_eur": 33.5688,
+  "open_pnl_eur": 0.1252,
+  "paper_equity_gross_eur": 53.6941,
   "estimated_cost_per_closed_trade_eur": 0.09,
-  "estimated_costs_eur": 28.44,
-  "paper_equity_est_net_eur": 25.2729,
-  "open_count": 3,
-  "closed_count": 316,
+  "estimated_costs_eur": 28.53,
+  "paper_equity_est_net_eur": 25.1641,
+  "open_count": 2,
+  "closed_count": 317,
   "open_legs": [
-    {
-      "coin": "QNT",
-      "direction": "LONG",
-      "entry_eur": 124.25954615875331,
-      "current_eur": 127.63301749271139,
-      "spot_return_pct": 2.7149,
-      "leveraged_return_pct": 8.1446,
-      "open_pnl_eur": 0.4072,
-      "roll_active": true,
-      "roll_stop_eur": 126.72410242391108,
-      "entry_time": "2026-11-20T19:39:02.830514+00:00",
-      "entry_breadth": {
-        "5m": {
-          "green": 27,
-          "red": 0,
-          "flat": 0
-        },
-        "15m": {
-          "green": 23,
-          "red": 2,
-          "flat": 2
-        },
-        "60m": {
-          "green": 1,
-          "red": 26,
-          "flat": 0
-        }
-      },
-      "entry_move": {
-        "ret_5m_pct": 0.4485623942936945,
-        "ret_15m_pct": 0.23481068388611082,
-        "ret_60m_pct": 0.19804885205016998
-      }
-    },
     {
       "coin": "HYPE",
       "direction": "SHORT",
       "entry_eur": 55.54948059048661,
-      "current_eur": 55.60131195335277,
-      "spot_return_pct": -0.0933,
-      "leveraged_return_pct": -0.2799,
-      "open_pnl_eur": -0.014,
+      "current_eur": 55.59806868907717,
+      "spot_return_pct": -0.0875,
+      "leveraged_return_pct": -0.2624,
+      "open_pnl_eur": -0.0131,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-11-20T20:34:01.908821+00:00",
@@ -105,10 +71,10 @@
       "coin": "NEAR",
       "direction": "SHORT",
       "entry_eur": 2.619589977220957,
-      "current_eur": 2.6111516034985427,
-      "spot_return_pct": 0.3221,
-      "leveraged_return_pct": 0.9664,
-      "open_pnl_eur": 0.0483,
+      "current_eur": 2.5954268014940336,
+      "spot_return_pct": 0.9224,
+      "leveraged_return_pct": 2.7672,
+      "open_pnl_eur": 0.1384,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-11-20T22:29:02.347942+00:00",
@@ -137,16 +103,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "QNT",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 1.89867,
-      "leveraged_return_pct": 5.69601,
-      "gross_pnl_eur": 0.284801,
-      "entry_time": "2026-11-17T10:14:01.677768+00:00",
-      "exit_time": "2026-11-17T17:49:02.713066+00:00"
-    },
     {
       "coin": "WLD",
       "direction": "SHORT",
@@ -336,6 +292,16 @@
       "gross_pnl_eur": -0.45,
       "entry_time": "2026-11-20T12:54:02.464177+00:00",
       "exit_time": "2026-11-20T15:49:02.191459+00:00"
+    },
+    {
+      "coin": "QNT",
+      "direction": "LONG",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 1.983394,
+      "leveraged_return_pct": 5.950182,
+      "gross_pnl_eur": 0.297509,
+      "entry_time": "2026-11-20T19:39:02.830514+00:00",
+      "exit_time": "2026-11-21T00:04:02.295202+00:00"
     }
   ]
 }
