@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-21T14:03:01.890257+00:00",
+  "generated_at": "2026-11-21T14:08:01.988974+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
   "latest_timestamp": "2026-11-21T15:00:01+01:00",
-  "film_timestamp": "2026-11-21T14:02:02.151247+00:00",
+  "film_timestamp": "2026-11-21T14:07:02.070299+00:00",
   "trigger": {
-    "direction": null,
-    "target_legs": 0,
+    "direction": "SHORT",
+    "target_legs": 4,
     "breadth_5m": {
-      "green": 25,
-      "red": 2,
-      "flat": 0
+      "green": 0,
+      "red": 25,
+      "flat": 2
     },
     "breadth_15m": {
-      "green": 26,
-      "red": 1,
-      "flat": 0
+      "green": 2,
+      "red": 22,
+      "flat": 3
     },
     "breadth_60m": {
       "green": 27,
@@ -22,7 +22,9 @@
       "flat": 0
     }
   },
-  "opened_this_run": [],
+  "opened_this_run": [
+    "TAO"
+  ],
   "start_pot_eur": 20.0,
   "realized_gross_eur": 34.865,
   "open_pnl_eur": 0.0,
@@ -30,9 +32,44 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 25.29,
   "paper_equity_est_net_eur": 29.575,
-  "open_count": 0,
+  "open_count": 1,
   "closed_count": 281,
-  "open_legs": [],
+  "open_legs": [
+    {
+      "coin": "TAO",
+      "direction": "SHORT",
+      "entry_eur": 171.83137147549957,
+      "current_eur": 171.83137147549957,
+      "spot_return_pct": -0.0,
+      "leveraged_return_pct": -0.0,
+      "open_pnl_eur": -0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-11-21T14:08:01.988422+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 0,
+          "red": 25,
+          "flat": 2
+        },
+        "15m": {
+          "green": 2,
+          "red": 22,
+          "flat": 3
+        },
+        "60m": {
+          "green": 27,
+          "red": 0,
+          "flat": 0
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.3187928377875737,
+        "ret_15m_pct": -0.2870050491629028,
+        "ret_60m_pct": 1.8789030681509722
+      }
+    }
+  ],
   "closed_legs": [
     {
       "coin": "HBAR",
