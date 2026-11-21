@@ -4431,10 +4431,90 @@
       "spot_return_pct": -0.121212,
       "leveraged_return_pct": -0.363636,
       "gross_pnl_usd": -0.018182
+    },
+    {
+      "coin": "ETH",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 1619.9,
+      "entry_time": "2026-11-21T06:46:13.846633+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-21T06:41:00+00:00",
+      "market_confirm_time": "2026-11-21T06:45:00+00:00",
+      "market_momentum_2_4_pct": 0.615051,
+      "move60_rank": 1,
+      "move60_pct": 3.913155,
+      "basket_id": "V05B:2026-11-21T06:46:13.838959+00:00:ETH,HYPE,SOL,TAO"
+    },
+    {
+      "coin": "TAO",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 174.44,
+      "entry_time": "2026-11-21T06:46:13.846653+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-21T06:41:00+00:00",
+      "market_confirm_time": "2026-11-21T06:45:00+00:00",
+      "market_momentum_2_4_pct": 0.615051,
+      "move60_rank": 2,
+      "move60_pct": 3.499703,
+      "basket_id": "V05B:2026-11-21T06:46:13.838959+00:00:ETH,HYPE,SOL,TAO"
+    },
+    {
+      "coin": "HYPE",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 58.315,
+      "entry_time": "2026-11-21T06:46:13.846661+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-21T06:41:00+00:00",
+      "market_confirm_time": "2026-11-21T06:45:00+00:00",
+      "market_momentum_2_4_pct": 0.615051,
+      "move60_rank": 3,
+      "move60_pct": 3.429017,
+      "basket_id": "V05B:2026-11-21T06:46:13.838959+00:00:ETH,HYPE,SOL,TAO"
+    },
+    {
+      "coin": "SOL",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 67.69,
+      "entry_time": "2026-11-21T06:46:13.846667+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-21T06:41:00+00:00",
+      "market_confirm_time": "2026-11-21T06:45:00+00:00",
+      "market_momentum_2_4_pct": 0.615051,
+      "move60_rank": 4,
+      "move60_pct": 3.390866,
+      "basket_id": "V05B:2026-11-21T06:46:13.838959+00:00:ETH,HYPE,SOL,TAO"
     }
   ],
   "market_event": {
-    "status": "WAIT_CONFIRM",
+    "status": "ACTIVE",
     "go_time": "2026-11-21T06:41:00+00:00",
     "breadth_prev": {
       "green": 22,
@@ -4446,9 +4526,44 @@
       "red": 0,
       "flat": 2
     },
-    "created_at": "2026-11-21T06:42:13.470338+00:00"
+    "created_at": "2026-11-21T06:42:13.470338+00:00",
+    "confirm_time": "2026-11-21T06:45:00+00:00",
+    "market_momentum_2_4_pct": 0.615051,
+    "confirm_n": 27,
+    "top4": [
+      {
+        "rank": 1,
+        "coin": "ETH",
+        "move60_pct": 3.913155
+      },
+      {
+        "rank": 2,
+        "coin": "TAO",
+        "move60_pct": 3.499703
+      },
+      {
+        "rank": 3,
+        "coin": "HYPE",
+        "move60_pct": 3.429017
+      },
+      {
+        "rank": 4,
+        "coin": "SOL",
+        "move60_pct": 3.390866
+      }
+    ],
+    "top4_locked": true,
+    "top4_lock_time": "2026-11-21T06:46:13.838959+00:00",
+    "basket_id": "V05B:2026-11-21T06:46:13.838959+00:00:ETH,HYPE,SOL,TAO",
+    "entry_time": "2026-11-21T06:46:13.846681+00:00",
+    "opened_coins": [
+      "ETH",
+      "TAO",
+      "HYPE",
+      "SOL"
+    ]
   },
-  "last_market_breadth_green": 18,
+  "last_market_breadth_green": 22,
   "market_burst_locked": false,
   "pending_events": []
 }

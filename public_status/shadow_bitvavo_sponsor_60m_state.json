@@ -1,6 +1,6 @@
 {
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 34.35285047862355,
+  "realized_gross_eur": 35.78107892392471,
   "legs": [
     {
       "coin": "SUI",
@@ -12725,7 +12725,7 @@
     {
       "coin": "NEAR",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 2.619589977220957,
       "entry_time": "2026-11-20T22:29:02.347942+00:00",
       "margin_eur": 5.0,
@@ -12754,7 +12754,13 @@
         "ret_5m_pct": -0.06966213862764636,
         "ret_15m_pct": -0.10445682451252214,
         "ret_60m_pct": 2.942231790455696
-      }
+      },
+      "exit_eur": 2.3701651158547707,
+      "exit_time": "2026-11-21T06:49:02.712825+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 9.521523,
+      "leveraged_return_pct": 28.564569,
+      "gross_pnl_eur": 1.428228
     },
     {
       "coin": "XRP",
@@ -12804,9 +12810,9 @@
       "entry_time": "2026-11-21T04:39:02.416959+00:00",
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 0.04422445255474452,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 0.04534756431308155,
+      "roll_stop_eur": 0.04493943623426381,
       "entry_breadth": {
         "5m": {
           "green": 25,
