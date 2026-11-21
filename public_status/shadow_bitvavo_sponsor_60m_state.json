@@ -1,6 +1,6 @@
 {
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 33.11883232538731,
+  "realized_gross_eur": 34.20424107467786,
   "legs": [
     {
       "coin": "SUI",
@@ -12685,7 +12685,7 @@
     {
       "coin": "HYPE",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 55.54948059048661,
       "entry_time": "2026-11-20T20:34:01.908821+00:00",
       "margin_eur": 5.0,
@@ -12714,7 +12714,13 @@
         "ret_5m_pct": -0.6497970407227993,
         "ret_15m_pct": -1.0546734913441713,
         "ret_60m_pct": 0.9966722129783667
-      }
+      },
+      "exit_eur": 51.52988777372262,
+      "exit_time": "2026-11-21T05:04:01.733848+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 7.236058,
+      "leveraged_return_pct": 21.708175,
+      "gross_pnl_eur": 1.085409
     },
     {
       "coin": "NEAR",
@@ -12725,8 +12731,8 @@
       "margin_eur": 5.0,
       "leverage": 3.0,
       "roll_active": true,
-      "best_eur": 2.3923357664233573,
-      "roll_stop_eur": 2.413866788321167,
+      "best_eur": 2.3809523809523805,
+      "roll_stop_eur": 2.402380952380952,
       "entry_breadth": {
         "5m": {
           "green": 1,
@@ -12822,6 +12828,40 @@
         "ret_5m_pct": 0.6156371844859398,
         "ret_15m_pct": 0.9263071222725294,
         "ret_60m_pct": 0.061224489795908
+      }
+    },
+    {
+      "coin": "WLD",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_eur": 0.19677066228790366,
+      "entry_time": "2026-11-21T05:04:01.734294+00:00",
+      "margin_eur": 5.0,
+      "leverage": 3.0,
+      "roll_active": false,
+      "best_eur": 0.19677066228790366,
+      "roll_stop_eur": null,
+      "entry_breadth": {
+        "5m": {
+          "green": 24,
+          "red": 3,
+          "flat": 0
+        },
+        "15m": {
+          "green": 18,
+          "red": 6,
+          "flat": 3
+        },
+        "60m": {
+          "green": 5,
+          "red": 21,
+          "flat": 1
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": 0.3717472118959009,
+        "ret_15m_pct": 0.46511627906977715,
+        "ret_60m_pct": 0.5586592178770999
       }
     }
   ]
