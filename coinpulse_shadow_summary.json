@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-21T06:01:04.130622+00:00",
+  "generated_at": "2026-11-21T06:16:03.438239+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 26,
+  "events_24h": 27,
   "strong_24h": 15,
   "results": {
     "5m": {
       "canonical": {
-        "n": 26,
-        "avg_return_pct": -0.0386,
-        "positive": 10
-      },
-      "mover3d": {
-        "n": 26,
-        "avg_return_pct": -0.017,
+        "n": 27,
+        "avg_return_pct": -0.0356,
         "positive": 11
       },
+      "mover3d": {
+        "n": 27,
+        "avg_return_pct": -0.0105,
+        "positive": 12
+      },
       "hybrid_rebound_v2": {
-        "n": 26,
-        "avg_return_pct": 0.0008,
-        "positive": 10
+        "n": 27,
+        "avg_return_pct": 0.0066,
+        "positive": 11
       }
     },
     "15m": {
@@ -41,18 +41,18 @@
     },
     "30m": {
       "canonical": {
-        "n": 25,
-        "avg_return_pct": -0.3626,
+        "n": 26,
+        "avg_return_pct": -0.3886,
         "positive": 7
       },
       "mover3d": {
-        "n": 25,
-        "avg_return_pct": -0.2388,
+        "n": 26,
+        "avg_return_pct": -0.2685,
         "positive": 9
       },
       "hybrid_rebound_v2": {
-        "n": 25,
-        "avg_return_pct": -0.2781,
+        "n": 26,
+        "avg_return_pct": -0.3015,
         "positive": 9
       }
     },
@@ -80,29 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-11-20T21:05:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "AVAX",
-        "ONDO",
-        "RENDER",
-        "VET",
-        "WLD"
-      ],
-      "canonical": [
-        "PEPE",
-        "VET"
-      ],
-      "mover3d": [
-        "NEAR",
-        "PEPE"
-      ],
-      "hybrid": [
-        "NEAR",
-        "ONDO"
-      ]
-    },
     {
       "trigger_time": "2026-11-20T23:16:00+00:00",
       "level": "STRONG",
@@ -288,6 +265,26 @@
       "hybrid": [
         "MOODENG",
         "ONDO"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-21T06:04:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "HYPE",
+        "PEPE"
+      ],
+      "canonical": [
+        "MOODENG",
+        "RENDER"
+      ],
+      "mover3d": [
+        "PEPE",
+        "MOODENG"
+      ],
+      "hybrid": [
+        "MOODENG",
+        "PEPE"
       ]
     }
   ]
