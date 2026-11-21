@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-21T11:36:02.080065+00:00",
+  "generated_at": "2026-11-21T11:41:01.761535+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 20.4849,
-  "open_pnl_eur": -0.3445,
-  "paper_equity_gross_eur": 40.1403,
-  "open_count": 7,
-  "closed_count": 697,
+  "realized_gross_eur": 20.2687,
+  "open_pnl_eur": -0.3272,
+  "paper_equity_gross_eur": 39.9415,
+  "open_count": 5,
+  "closed_count": 699,
   "last_selection_hour": "2026-11-21T12",
   "latest_timestamp": "2026-11-21T12:30:01+01:00",
   "open_legs": [
@@ -50,32 +50,6 @@
       "roll_stop_usdt": null
     },
     {
-      "coin": "SUI",
-      "direction": "SHORT",
-      "entry_eur": 0.56190128637898,
-      "current_eur": 0.5685344040883372,
-      "spot_return_pct": -1.1667,
-      "leveraged_return_pct": -3.5001,
-      "open_pnl_eur": -0.175,
-      "roll_active": false,
-      "hard_sl_usdt": 0.634377,
-      "roll_activation_usdt": 0.6066615,
-      "roll_stop_usdt": null
-    },
-    {
-      "coin": "DOT",
-      "direction": "LONG",
-      "entry_eur": 0.5846560846560847,
-      "current_eur": 0.5908012411023909,
-      "spot_return_pct": 1.0511,
-      "leveraged_return_pct": 3.1532,
-      "open_pnl_eur": 0.1577,
-      "roll_active": false,
-      "hard_sl_usdt": 0.621673,
-      "roll_activation_usdt": 0.6505135,
-      "roll_stop_usdt": null
-    },
-    {
       "coin": "RENDER",
       "direction": "SHORT",
       "entry_eur": 1.115977735194817,
@@ -103,22 +77,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "NEAR",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 1.4728676728676826,
-      "leveraged_return_pct": 4.418603018603048,
-      "gross_pnl_eur": 0.2209301509301524
-    },
-    {
-      "coin": "WLD",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 1.075848563968685,
-      "leveraged_return_pct": 3.2275456919060552,
-      "gross_pnl_eur": 0.16137728459530276
-    },
     {
       "coin": "FET",
       "direction": "SHORT",
@@ -184,12 +142,28 @@
       "gross_pnl_eur": 0.09633626679018172
     },
     {
+      "coin": "SUI",
+      "direction": "SHORT",
+      "reason": "HARD_SL",
+      "spot_return_pct": -2.9999999999999942,
+      "leveraged_return_pct": -8.999999999999982,
+      "gross_pnl_eur": -0.4499999999999991
+    },
+    {
       "coin": "NEAR",
       "direction": "SHORT",
       "reason": "HARD_SL",
       "spot_return_pct": -3.00000000000001,
       "leveraged_return_pct": -9.00000000000003,
       "gross_pnl_eur": -0.4500000000000015
+    },
+    {
+      "coin": "DOT",
+      "direction": "LONG",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 1.5585582774223727,
+      "leveraged_return_pct": 4.675674832267118,
+      "gross_pnl_eur": 0.23378374161335594
     },
     {
       "coin": "FET",
