@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04_1M_8H",
   "created_at": "2026-10-02T13:14:10.418159+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 30.377624868841615,
+  "realized_gross_eur": 31.153974333867946,
   "legs": [
     {
       "coin": "FET",
@@ -13660,7 +13660,7 @@
     {
       "coin": "HYPE",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 52.08466380804671,
       "entry_time": "2026-11-21T04:03:09.750657+00:00",
       "entry_move_8h_pct": -6.145196291181687,
@@ -13690,7 +13690,13 @@
         "ret_5m_pct": 0.6482213438735229,
         "ret_15m_pct": 0.16608681969965122,
         "ret_60m_pct": -3.293104903367372
-      }
+      },
+      "exit_eur": 53.27382334154576,
+      "exit_time": "2026-11-21T08:02:10.717513+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 2.283128,
+      "leveraged_return_pct": 6.849384,
+      "gross_pnl_eur": 0.342469
     },
     {
       "coin": "WLD",
@@ -13736,7 +13742,7 @@
     {
       "coin": "PEPE",
       "direction": "LONG",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 2.9397810218978103e-06,
       "entry_time": "2026-11-21T04:43:10.711817+00:00",
       "entry_move_8h_pct": -4.115703955004024,
@@ -13766,7 +13772,13 @@
         "ret_5m_pct": 0.18549434242256524,
         "ret_15m_pct": 0.28780985980876306,
         "ret_60m_pct": -1.5583705458853458
-      }
+      },
+      "exit_eur": 3.024815220366821e-06,
+      "exit_time": "2026-11-21T08:02:10.717688+00:00",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 2.892535,
+      "leveraged_return_pct": 8.677605,
+      "gross_pnl_eur": 0.43388
     },
     {
       "coin": "NEAR",
@@ -13818,9 +13830,9 @@
       "entry_move_8h_pct": -4.9479166666666625,
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 0.09991787571858746,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 0.09789252805400966,
+      "roll_stop_eur": 0.09877356080649574,
       "entry_breadth": {
         "5m": {
           "green": 26,
