@@ -4671,10 +4671,90 @@
       "spot_return_pct": 0.606796,
       "leveraged_return_pct": 1.820388,
       "gross_pnl_usd": 0.091019
+    },
+    {
+      "coin": "BTC",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 60664.0,
+      "entry_time": "2026-11-22T09:55:14.001390+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": 61118.0,
+      "price_m2_time": "2026-11-22T09:58:13.137732+00:00",
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-22T09:50:00+00:00",
+      "market_confirm_time": "2026-11-22T09:54:00+00:00",
+      "market_momentum_2_4_pct": 0.061958,
+      "move60_rank": 1,
+      "move60_pct": 1.774523,
+      "basket_id": "V05B:2026-11-22T09:55:13.993191+00:00:BTC,HYPE,QNT,TAO"
+    },
+    {
+      "coin": "QNT",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 140.94,
+      "entry_time": "2026-11-22T09:55:14.001419+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": 141.56,
+      "price_m2_time": "2026-11-22T09:58:13.137970+00:00",
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-22T09:50:00+00:00",
+      "market_confirm_time": "2026-11-22T09:54:00+00:00",
+      "market_momentum_2_4_pct": 0.061958,
+      "move60_rank": 2,
+      "move60_pct": 1.64076,
+      "basket_id": "V05B:2026-11-22T09:55:13.993191+00:00:BTC,HYPE,QNT,TAO"
+    },
+    {
+      "coin": "HYPE",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 61.903,
+      "entry_time": "2026-11-22T09:55:14.001427+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": 62.14,
+      "price_m2_time": "2026-11-22T09:58:13.138134+00:00",
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-22T09:50:00+00:00",
+      "market_confirm_time": "2026-11-22T09:54:00+00:00",
+      "market_momentum_2_4_pct": 0.061958,
+      "move60_rank": 3,
+      "move60_pct": 1.638834,
+      "basket_id": "V05B:2026-11-22T09:55:13.993191+00:00:BTC,HYPE,QNT,TAO"
+    },
+    {
+      "coin": "TAO",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 192.28,
+      "entry_time": "2026-11-22T09:55:14.001434+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": 193.48,
+      "price_m2_time": "2026-11-22T09:58:13.138281+00:00",
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-22T09:50:00+00:00",
+      "market_confirm_time": "2026-11-22T09:54:00+00:00",
+      "market_momentum_2_4_pct": 0.061958,
+      "move60_rank": 4,
+      "move60_pct": 1.482693,
+      "basket_id": "V05B:2026-11-22T09:55:13.993191+00:00:BTC,HYPE,QNT,TAO"
     }
   ],
   "market_event": {
-    "status": "WAIT_CONFIRM",
+    "status": "ACTIVE",
     "go_time": "2026-11-22T09:50:00+00:00",
     "breadth_prev": {
       "green": 22,
@@ -4686,9 +4766,44 @@
       "red": 0,
       "flat": 3
     },
-    "created_at": "2026-11-22T09:51:14.125848+00:00"
+    "created_at": "2026-11-22T09:51:14.125848+00:00",
+    "confirm_time": "2026-11-22T09:54:00+00:00",
+    "market_momentum_2_4_pct": 0.061958,
+    "confirm_n": 27,
+    "top4": [
+      {
+        "rank": 1,
+        "coin": "BTC",
+        "move60_pct": 1.774523
+      },
+      {
+        "rank": 2,
+        "coin": "QNT",
+        "move60_pct": 1.64076
+      },
+      {
+        "rank": 3,
+        "coin": "HYPE",
+        "move60_pct": 1.638834
+      },
+      {
+        "rank": 4,
+        "coin": "TAO",
+        "move60_pct": 1.482693
+      }
+    ],
+    "top4_locked": true,
+    "top4_lock_time": "2026-11-22T09:55:13.993191+00:00",
+    "basket_id": "V05B:2026-11-22T09:55:13.993191+00:00:BTC,HYPE,QNT,TAO",
+    "entry_time": "2026-11-22T09:55:14.001453+00:00",
+    "opened_coins": [
+      "BTC",
+      "QNT",
+      "HYPE",
+      "TAO"
+    ]
   },
-  "last_market_breadth_green": 19,
+  "last_market_breadth_green": 16,
   "market_burst_locked": false,
   "pending_events": []
 }
