@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-22T08:29:02.337072+00:00",
+  "generated_at": "2026-11-22T08:34:02.099331+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-11-22T09:15:01+01:00",
-  "film_timestamp": "2026-11-22T08:27:01.283071+00:00",
+  "latest_timestamp": "2026-11-22T09:30:01+01:00",
+  "film_timestamp": "2026-11-22T08:32:01.993934+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
-      "green": 3,
-      "red": 22,
-      "flat": 2
+      "green": 2,
+      "red": 14,
+      "flat": 11
     },
     "breadth_15m": {
-      "green": 26,
+      "green": 27,
       "red": 0,
-      "flat": 1
+      "flat": 0
     },
     "breadth_60m": {
       "green": 27,
@@ -24,57 +24,23 @@
   },
   "opened_this_run": [],
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 35.1154,
-  "open_pnl_eur": 0.1037,
-  "paper_equity_gross_eur": 55.219,
+  "realized_gross_eur": 35.2498,
+  "open_pnl_eur": 0.1647,
+  "paper_equity_gross_eur": 55.4145,
   "estimated_cost_per_closed_trade_eur": 0.09,
-  "estimated_costs_eur": 29.34,
-  "paper_equity_est_net_eur": 25.879,
-  "open_count": 3,
-  "closed_count": 326,
+  "estimated_costs_eur": 29.43,
+  "paper_equity_est_net_eur": 25.9845,
+  "open_count": 2,
+  "closed_count": 327,
   "open_legs": [
-    {
-      "coin": "QNT",
-      "direction": "SHORT",
-      "entry_eur": 127.66675791586822,
-      "current_eur": 126.49525893508388,
-      "spot_return_pct": 0.9176,
-      "leveraged_return_pct": 2.7529,
-      "open_pnl_eur": 0.1376,
-      "roll_active": true,
-      "roll_stop_eur": 126.52276911858534,
-      "entry_time": "2026-11-21T14:09:02.521629+00:00",
-      "entry_breadth": {
-        "5m": {
-          "green": 0,
-          "red": 25,
-          "flat": 2
-        },
-        "15m": {
-          "green": 2,
-          "red": 22,
-          "flat": 3
-        },
-        "60m": {
-          "green": 27,
-          "red": 0,
-          "flat": 0
-        }
-      },
-      "entry_move": {
-        "ret_5m_pct": -0.8443908323281013,
-        "ret_15m_pct": 0.5251420761096526,
-        "ret_60m_pct": 2.92406275318553
-      }
-    },
     {
       "coin": "XRP",
       "direction": "LONG",
       "entry_eur": 0.8466520707900018,
-      "current_eur": 0.837983223924143,
-      "spot_return_pct": -1.0239,
-      "leveraged_return_pct": -3.0717,
-      "open_pnl_eur": -0.1536,
+      "current_eur": 0.8432713347921226,
+      "spot_return_pct": -0.3993,
+      "leveraged_return_pct": -1.1979,
+      "open_pnl_eur": -0.0599,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-11-21T16:49:02.142780+00:00",
@@ -105,10 +71,10 @@
       "coin": "NEAR",
       "direction": "LONG",
       "entry_eur": 2.605049676419652,
-      "current_eur": 2.62582056892779,
-      "spot_return_pct": 0.7973,
-      "leveraged_return_pct": 2.392,
-      "open_pnl_eur": 0.1196,
+      "current_eur": 2.6440554339897884,
+      "spot_return_pct": 1.4973,
+      "leveraged_return_pct": 4.4919,
+      "open_pnl_eur": 0.2246,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-11-22T05:54:01.993988+00:00",
@@ -137,16 +103,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "HYPE",
-      "direction": "SHORT",
-      "reason": "HARD_SL",
-      "spot_return_pct": -3.0,
-      "leveraged_return_pct": -9.0,
-      "gross_pnl_eur": -0.45,
-      "entry_time": "2026-11-18T18:09:02.163028+00:00",
-      "exit_time": "2026-11-19T14:49:02.106760+00:00"
-    },
     {
       "coin": "DOT",
       "direction": "LONG",
@@ -336,6 +292,16 @@
       "gross_pnl_eur": -0.45,
       "entry_time": "2026-11-21T12:54:02.885584+00:00",
       "exit_time": "2026-11-21T13:49:02.390622+00:00"
+    },
+    {
+      "coin": "QNT",
+      "direction": "SHORT",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 0.896074,
+      "leveraged_return_pct": 2.688222,
+      "gross_pnl_eur": 0.134411,
+      "entry_time": "2026-11-21T14:09:02.521629+00:00",
+      "exit_time": "2026-11-22T08:34:02.098611+00:00"
     }
   ]
 }
