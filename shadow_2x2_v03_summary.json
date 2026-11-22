@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-22T09:51:02.745118+00:00",
+  "generated_at": "2026-11-22T09:56:01.480678+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 20.6672,
-  "open_pnl_eur": -0.354,
-  "paper_equity_gross_eur": 40.3132,
-  "open_count": 6,
-  "closed_count": 712,
+  "realized_gross_eur": 20.2172,
+  "open_pnl_eur": -0.0195,
+  "paper_equity_gross_eur": 40.1977,
+  "open_count": 5,
+  "closed_count": 713,
   "last_selection_hour": "2026-11-22T10",
   "latest_timestamp": "2026-11-22T10:45:01+01:00",
   "open_legs": [
@@ -50,19 +50,6 @@
       "roll_stop_usdt": null
     },
     {
-      "coin": "HYPE",
-      "direction": "SHORT",
-      "entry_eur": 54.81451098350196,
-      "current_eur": 56.06475148198815,
-      "spot_return_pct": -2.23,
-      "leveraged_return_pct": -6.69,
-      "open_pnl_eur": -0.3345,
-      "roll_active": false,
-      "hard_sl_usdt": 61.94111,
-      "roll_activation_usdt": 59.234944999999996,
-      "roll_stop_usdt": null
-    },
-    {
       "coin": "TAO",
       "direction": "LONG",
       "entry_eur": 167.5993437841779,
@@ -73,7 +60,7 @@
       "roll_active": true,
       "hard_sl_usdt": 178.37329999999997,
       "roll_activation_usdt": 186.64834999999997,
-      "roll_stop_usdt": 190.272
+      "roll_stop_usdt": 191.38192
     },
     {
       "coin": "MOODENG",
@@ -90,14 +77,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "DOT",
-      "direction": "LONG",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 1.5585582774223727,
-      "leveraged_return_pct": 4.675674832267118,
-      "gross_pnl_eur": 0.23378374161335594
-    },
     {
       "coin": "FET",
       "direction": "LONG",
@@ -185,6 +164,14 @@
       "spot_return_pct": 0.6361937716263134,
       "leveraged_return_pct": 1.9085813148789401,
       "gross_pnl_eur": 0.09542906574394701
+    },
+    {
+      "coin": "HYPE",
+      "direction": "SHORT",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.000000000000002,
+      "leveraged_return_pct": -9.000000000000007,
+      "gross_pnl_eur": -0.45000000000000034
     }
   ]
 }
