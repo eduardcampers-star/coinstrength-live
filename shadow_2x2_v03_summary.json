@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-23T14:21:01.772567+00:00",
+  "generated_at": "2026-11-23T14:26:01.500904+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 21.4059,
-  "open_pnl_eur": 0.52,
-  "paper_equity_gross_eur": 41.9259,
-  "open_count": 4,
-  "closed_count": 727,
+  "realized_gross_eur": 21.5713,
+  "open_pnl_eur": 0.4962,
+  "paper_equity_gross_eur": 42.0675,
+  "open_count": 3,
+  "closed_count": 728,
   "last_selection_hour": "2026-11-23T15",
   "latest_timestamp": "2026-11-23T15:15:01+01:00",
   "open_legs": [
@@ -31,10 +31,10 @@
       "spot_return_pct": 0.5285,
       "leveraged_return_pct": 1.5855,
       "open_pnl_eur": 0.0793,
-      "roll_active": false,
+      "roll_active": true,
       "hard_sl_usdt": 0.05318509999999999,
       "roll_activation_usdt": 0.05565244999999999,
-      "roll_stop_usdt": null
+      "roll_stop_usdt": 0.055198699999999996
     },
     {
       "coin": "VET",
@@ -48,30 +48,9 @@
       "hard_sl_usdt": 0.0047588199999999995,
       "roll_activation_usdt": 0.004979589999999999,
       "roll_stop_usdt": 0.004969865
-    },
-    {
-      "coin": "QNT",
-      "direction": "LONG",
-      "entry_eur": 149.67559170245818,
-      "current_eur": 149.9132340853046,
-      "spot_return_pct": 0.1588,
-      "leveraged_return_pct": 0.4763,
-      "open_pnl_eur": 0.0238,
-      "roll_active": true,
-      "hard_sl_usdt": 158.8763,
-      "roll_activation_usdt": 166.24684999999997,
-      "roll_stop_usdt": 165.34834999999998
     }
   ],
   "closed_legs": [
-    {
-      "coin": "HYPE",
-      "direction": "SHORT",
-      "reason": "HARD_SL",
-      "spot_return_pct": -3.000000000000002,
-      "leveraged_return_pct": -9.000000000000007,
-      "gross_pnl_eur": -0.45000000000000034
-    },
     {
       "coin": "TAO",
       "direction": "LONG",
@@ -159,6 +138,14 @@
       "spot_return_pct": 2.5531412523403407,
       "leveraged_return_pct": 7.659423757021022,
       "gross_pnl_eur": 0.3829711878510511
+    },
+    {
+      "coin": "QNT",
+      "direction": "LONG",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 1.10269247206789,
+      "leveraged_return_pct": 3.3080774162036697,
+      "gross_pnl_eur": 0.16540387081018348
     }
   ]
 }
