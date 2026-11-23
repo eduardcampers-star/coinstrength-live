@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-11-23T17:11:03.686040+00:00",
+  "generated_at": "2026-11-23T17:31:04.143962+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 10,
+  "events_24h": 11,
   "strong_24h": 7,
   "results": {
     "5m": {
       "canonical": {
-        "n": 10,
-        "avg_return_pct": -0.0836,
-        "positive": 4
-      },
-      "mover3d": {
-        "n": 10,
-        "avg_return_pct": -0.0307,
+        "n": 11,
+        "avg_return_pct": -0.0541,
         "positive": 5
       },
-      "hybrid_rebound_v2": {
-        "n": 10,
-        "avg_return_pct": 0.0141,
+      "mover3d": {
+        "n": 11,
+        "avg_return_pct": -0.0002,
         "positive": 6
+      },
+      "hybrid_rebound_v2": {
+        "n": 11,
+        "avg_return_pct": 0.0436,
+        "positive": 7
       }
     },
     "15m": {
       "canonical": {
-        "n": 10,
-        "avg_return_pct": -0.1553,
+        "n": 11,
+        "avg_return_pct": -0.1463,
         "positive": 4
       },
       "mover3d": {
-        "n": 10,
-        "avg_return_pct": -0.0795,
+        "n": 11,
+        "avg_return_pct": -0.0807,
         "positive": 5
       },
       "hybrid_rebound_v2": {
-        "n": 10,
-        "avg_return_pct": 0.0771,
+        "n": 11,
+        "avg_return_pct": 0.0612,
         "positive": 6
       }
     },
@@ -80,30 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-11-23T00:37:00+00:00",
-      "level": "STRONG",
-      "signals": [
-        "BCH",
-        "NEAR",
-        "PEPE",
-        "RENDER",
-        "TAO",
-        "VET"
-      ],
-      "canonical": [
-        "QNT",
-        "VET"
-      ],
-      "mover3d": [
-        "WLD",
-        "NEAR"
-      ],
-      "hybrid": [
-        "RENDER",
-        "ONDO"
-      ]
-    },
     {
       "trigger_time": "2026-11-23T02:49:00+00:00",
       "level": "STRONG",
@@ -289,6 +265,26 @@
       "hybrid": [
         "FET",
         "QNT"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-23T17:07:00+00:00",
+      "level": "TRIGGER",
+      "signals": [
+        "SHIB",
+        "VET"
+      ],
+      "canonical": [
+        "ADA",
+        "LTC"
+      ],
+      "mover3d": [
+        "WLD",
+        "NEAR"
+      ],
+      "hybrid": [
+        "ONDO",
+        "PEPE"
       ]
     }
   ]
