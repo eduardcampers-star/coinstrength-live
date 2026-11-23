@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-11-23T16:01:03.419069+00:00",
+  "generated_at": "2026-11-23T16:16:03.652393+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
-  "events_24h": 9,
-  "strong_24h": 5,
+  "events_24h": 10,
+  "strong_24h": 6,
   "results": {
     "5m": {
       "canonical": {
-        "n": 9,
-        "avg_return_pct": -0.024,
-        "positive": 4
-      },
-      "mover3d": {
-        "n": 9,
-        "avg_return_pct": 0.0417,
+        "n": 10,
+        "avg_return_pct": 0.0167,
         "positive": 5
       },
-      "hybrid_rebound_v2": {
-        "n": 9,
-        "avg_return_pct": 0.0684,
+      "mover3d": {
+        "n": 10,
+        "avg_return_pct": 0.1097,
         "positive": 6
+      },
+      "hybrid_rebound_v2": {
+        "n": 10,
+        "avg_return_pct": 0.1132,
+        "positive": 7
       }
     },
     "15m": {
       "canonical": {
-        "n": 8,
-        "avg_return_pct": -0.0868,
+        "n": 9,
+        "avg_return_pct": -0.1088,
         "positive": 4
       },
       "mover3d": {
-        "n": 8,
-        "avg_return_pct": -0.0751,
-        "positive": 4
+        "n": 9,
+        "avg_return_pct": -0.0564,
+        "positive": 5
       },
       "hybrid_rebound_v2": {
-        "n": 8,
-        "avg_return_pct": 0.113,
-        "positive": 5
+        "n": 9,
+        "avg_return_pct": 0.1192,
+        "positive": 6
       }
     },
     "30m": {
@@ -266,6 +266,28 @@
       "hybrid": [
         "WLD",
         "FET"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-23T16:02:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "LTC",
+        "NEAR",
+        "ONDO",
+        "XLM"
+      ],
+      "canonical": [
+        "DOT",
+        "SUI"
+      ],
+      "mover3d": [
+        "QNT",
+        "WLD"
+      ],
+      "hybrid": [
+        "WLD",
+        "NEAR"
       ]
     }
   ]
