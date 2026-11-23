@@ -4795,10 +4795,90 @@
       "spot_return_pct": -0.104015,
       "leveraged_return_pct": -0.312045,
       "gross_pnl_usd": -0.015602
+    },
+    {
+      "coin": "SUI",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 0.7021,
+      "entry_time": "2026-11-23T14:01:13.919035+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-23T13:56:00+00:00",
+      "market_confirm_time": "2026-11-23T14:00:00+00:00",
+      "market_momentum_2_4_pct": 0.145688,
+      "move60_rank": 1,
+      "move60_pct": 5.624719,
+      "basket_id": "V05B:2026-11-23T14:01:13.911499+00:00:HYPE,PEPE,SOL,SUI"
+    },
+    {
+      "coin": "SOL",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 75.69,
+      "entry_time": "2026-11-23T14:01:13.919076+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-23T13:56:00+00:00",
+      "market_confirm_time": "2026-11-23T14:00:00+00:00",
+      "market_momentum_2_4_pct": 0.145688,
+      "move60_rank": 2,
+      "move60_pct": 5.310593,
+      "basket_id": "V05B:2026-11-23T14:01:13.911499+00:00:HYPE,PEPE,SOL,SUI"
+    },
+    {
+      "coin": "PEPE",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 3.5903e-06,
+      "entry_time": "2026-11-23T14:01:13.919094+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-23T13:56:00+00:00",
+      "market_confirm_time": "2026-11-23T14:00:00+00:00",
+      "market_momentum_2_4_pct": 0.145688,
+      "move60_rank": 3,
+      "move60_pct": 5.183907,
+      "basket_id": "V05B:2026-11-23T14:01:13.911499+00:00:HYPE,PEPE,SOL,SUI"
+    },
+    {
+      "coin": "HYPE",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 66.599,
+      "entry_time": "2026-11-23T14:01:13.919169+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-23T13:56:00+00:00",
+      "market_confirm_time": "2026-11-23T14:00:00+00:00",
+      "market_momentum_2_4_pct": 0.145688,
+      "move60_rank": 4,
+      "move60_pct": 4.847075,
+      "basket_id": "V05B:2026-11-23T14:01:13.911499+00:00:HYPE,PEPE,SOL,SUI"
     }
   ],
   "market_event": {
-    "status": "WAIT_CONFIRM",
+    "status": "ACTIVE",
     "go_time": "2026-11-23T13:56:00+00:00",
     "breadth_prev": {
       "green": 25,
@@ -4810,9 +4890,44 @@
       "red": 0,
       "flat": 0
     },
-    "created_at": "2026-11-23T13:57:13.331599+00:00"
+    "created_at": "2026-11-23T13:57:13.331599+00:00",
+    "confirm_time": "2026-11-23T14:00:00+00:00",
+    "market_momentum_2_4_pct": 0.145688,
+    "confirm_n": 27,
+    "top4": [
+      {
+        "rank": 1,
+        "coin": "SUI",
+        "move60_pct": 5.624719
+      },
+      {
+        "rank": 2,
+        "coin": "SOL",
+        "move60_pct": 5.310593
+      },
+      {
+        "rank": 3,
+        "coin": "PEPE",
+        "move60_pct": 5.183907
+      },
+      {
+        "rank": 4,
+        "coin": "HYPE",
+        "move60_pct": 4.847075
+      }
+    ],
+    "top4_locked": true,
+    "top4_lock_time": "2026-11-23T14:01:13.911499+00:00",
+    "basket_id": "V05B:2026-11-23T14:01:13.911499+00:00:HYPE,PEPE,SOL,SUI",
+    "entry_time": "2026-11-23T14:01:13.919188+00:00",
+    "opened_coins": [
+      "SUI",
+      "SOL",
+      "PEPE",
+      "HYPE"
+    ]
   },
-  "last_market_breadth_green": 27,
-  "market_burst_locked": true,
+  "last_market_breadth_green": 3,
+  "market_burst_locked": false,
   "pending_events": []
 }

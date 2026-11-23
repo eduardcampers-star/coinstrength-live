@@ -2,7 +2,7 @@
   "strategy": "BITVAVO_SPONSOR_v04",
   "created_at": "2026-09-30T13:57:56.192235+00:00",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 56.25670127511957,
+  "realized_gross_eur": 54.90670127511956,
   "legs": [
     {
       "coin": "HBAR",
@@ -13772,9 +13772,9 @@
       "entry_time": "2026-11-21T08:18:02.552158+00:00",
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 0.2766037047175837,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 0.28249109019464497,
+      "roll_stop_eur": 0.27994867038289317,
       "entry_breadth": {
         "5m": {
           "green": 24,
@@ -13921,7 +13921,7 @@
     {
       "coin": "DOGE",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.04949799196787149,
       "entry_time": "2026-11-21T12:53:02.082233+00:00",
       "margin_eur": 5.0,
@@ -13950,7 +13950,13 @@
         "ret_5m_pct": -0.36900369003689537,
         "ret_15m_pct": -0.5707972749033341,
         "ret_60m_pct": 0.5025125628140614
-      }
+      },
+      "exit_eur": 0.050982931726907633,
+      "exit_time": "2026-11-23T14:02:01.611268+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     },
     {
       "coin": "ETH",
@@ -14075,7 +14081,7 @@
     {
       "coin": "NEAR",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 2.743226041098381,
       "entry_time": "2026-11-23T03:43:01.836214+00:00",
       "margin_eur": 5.0,
@@ -14104,12 +14110,18 @@
         "ret_5m_pct": -0.36267721727663016,
         "ret_15m_pct": -0.0661375661375696,
         "ret_60m_pct": 2.5101763907734
-      }
+      },
+      "exit_eur": 2.8255228223313327,
+      "exit_time": "2026-11-23T14:02:01.611447+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     },
     {
       "coin": "WLD",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.21467539552645934,
       "entry_time": "2026-11-23T03:44:02.348329+00:00",
       "margin_eur": 5.0,
@@ -14138,7 +14150,13 @@
         "ret_5m_pct": -0.4639392661324404,
         "ret_15m_pct": -0.16920473773266442,
         "ret_60m_pct": 2.031993082576733
-      }
+      },
+      "exit_eur": 0.2211156573922531,
+      "exit_time": "2026-11-23T14:02:01.611518+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     }
   ]
 }

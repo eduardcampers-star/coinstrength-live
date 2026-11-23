@@ -1,6 +1,6 @@
 {
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 36.25969807204454,
+  "realized_gross_eur": 35.35969807204454,
   "legs": [
     {
       "coin": "SUI",
@@ -13091,8 +13091,8 @@
       "margin_eur": 5.0,
       "leverage": 3.0,
       "roll_active": true,
-      "best_eur": 0.8610958904109589,
-      "roll_stop_eur": 0.8533460273972603,
+      "best_eur": 0.9028602759755094,
+      "roll_stop_eur": 0.8947345334917298,
       "entry_breadth": {
         "5m": {
           "green": 26,
@@ -13244,9 +13244,9 @@
       "entry_time": "2026-11-22T22:54:02.457091+00:00",
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 55366.47546207775,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 58346.52289134606,
+      "roll_stop_eur": 57821.40418532395,
       "entry_breadth": {
         "5m": {
           "green": 26,
@@ -13273,7 +13273,7 @@
     {
       "coin": "PEPE",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 3.094562647754137e-06,
       "entry_time": "2026-11-23T03:44:02.144883+00:00",
       "margin_eur": 5.0,
@@ -13302,12 +13302,18 @@
         "ret_5m_pct": -0.6700655498907415,
         "ret_15m_pct": 0.1821761231745711,
         "ret_60m_pct": 2.7205350686912544
-      }
+      },
+      "exit_eur": 3.187399527186761e-06,
+      "exit_time": "2026-11-23T14:04:02.594742+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     },
     {
       "coin": "FET",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 0.09831001272033436,
       "entry_time": "2026-11-23T06:14:02.217808+00:00",
       "margin_eur": 5.0,
@@ -13336,7 +13342,13 @@
         "ret_5m_pct": -0.18399264029439477,
         "ret_15m_pct": 0.37002775208141436,
         "ret_60m_pct": 2.262016965127245
-      }
+      },
+      "exit_eur": 0.1012593131019444,
+      "exit_time": "2026-11-23T14:04:02.595020+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     }
   ]
 }
