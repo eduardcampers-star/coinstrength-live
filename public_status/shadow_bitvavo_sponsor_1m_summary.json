@@ -1,80 +1,46 @@
 {
-  "generated_at": "2026-11-24T14:59:02.913798+00:00",
+  "generated_at": "2026-11-24T15:04:02.313852+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
-  "latest_timestamp": "2026-11-24T15:45:01+01:00",
-  "film_timestamp": "2026-11-24T14:57:01.889392+00:00",
+  "latest_timestamp": "2026-11-24T16:00:01+01:00",
+  "film_timestamp": "2026-11-24T15:02:01.670360+00:00",
   "trigger": {
     "direction": null,
     "target_legs": 0,
     "breadth_5m": {
-      "green": 0,
-      "red": 27,
-      "flat": 0
+      "green": 17,
+      "red": 4,
+      "flat": 6
     },
     "breadth_15m": {
-      "green": 1,
-      "red": 25,
-      "flat": 1
+      "green": 2,
+      "red": 23,
+      "flat": 2
     },
     "breadth_60m": {
-      "green": 14,
-      "red": 10,
-      "flat": 3
+      "green": 5,
+      "red": 16,
+      "flat": 6
     }
   },
   "opened_this_run": [],
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 58.8413,
-  "open_pnl_eur": 0.3684,
-  "paper_equity_gross_eur": 79.2096,
+  "realized_gross_eur": 59.2077,
+  "open_pnl_eur": -0.0068,
+  "paper_equity_gross_eur": 79.2009,
   "estimated_cost_per_closed_trade_eur": 0.09,
-  "estimated_costs_eur": 32.85,
-  "paper_equity_est_net_eur": 46.3596,
-  "open_count": 2,
-  "closed_count": 365,
+  "estimated_costs_eur": 32.94,
+  "paper_equity_est_net_eur": 46.2609,
+  "open_count": 1,
+  "closed_count": 366,
   "open_legs": [
-    {
-      "coin": "SHIB",
-      "direction": "SHORT",
-      "entry_eur": 3.337303041407109e-06,
-      "current_eur": 3.2553694939934472e-06,
-      "spot_return_pct": 2.4551,
-      "leveraged_return_pct": 7.3652,
-      "open_pnl_eur": 0.3683,
-      "roll_active": true,
-      "roll_stop_eur": 3.255787555798488e-06,
-      "entry_time": "2026-11-23T23:44:02.451432+00:00",
-      "entry_breadth": {
-        "5m": {
-          "green": 0,
-          "red": 26,
-          "flat": 1
-        },
-        "15m": {
-          "green": 1,
-          "red": 24,
-          "flat": 2
-        },
-        "60m": {
-          "green": 17,
-          "red": 9,
-          "flat": 1
-        }
-      },
-      "entry_move": {
-        "ret_5m_pct": -0.27442371020856005,
-        "ret_15m_pct": -0.16483516483516425,
-        "ret_60m_pct": 0.35901684617509755
-      }
-    },
     {
       "coin": "ETH",
       "direction": "LONG",
       "entry_eur": 1542.7087130878601,
-      "current_eur": 1542.7193301783766,
-      "spot_return_pct": 0.0007,
-      "leveraged_return_pct": 0.0021,
-      "open_pnl_eur": 0.0001,
+      "current_eur": 1542.0103796776834,
+      "spot_return_pct": -0.0453,
+      "leveraged_return_pct": -0.1358,
+      "open_pnl_eur": -0.0068,
       "roll_active": false,
       "roll_stop_eur": null,
       "entry_time": "2026-11-24T13:38:03.187415+00:00",
@@ -103,16 +69,6 @@
     }
   ],
   "closed_legs": [
-    {
-      "coin": "FET",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 2.616031,
-      "leveraged_return_pct": 7.848094,
-      "gross_pnl_eur": 0.392405,
-      "entry_time": "2026-11-21T10:08:01.928138+00:00",
-      "exit_time": "2026-11-22T08:17:02.713862+00:00"
-    },
     {
       "coin": "BCH",
       "direction": "SHORT",
@@ -262,6 +218,16 @@
       "gross_pnl_eur": 0.261255,
       "entry_time": "2026-11-23T23:43:02.326999+00:00",
       "exit_time": "2026-11-24T03:32:02.659520+00:00"
+    },
+    {
+      "coin": "SHIB",
+      "direction": "SHORT",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 2.442556,
+      "leveraged_return_pct": 7.327667,
+      "gross_pnl_eur": 0.366383,
+      "entry_time": "2026-11-23T23:44:02.451432+00:00",
+      "exit_time": "2026-11-24T15:02:02.433003+00:00"
     },
     {
       "coin": "BCH",
