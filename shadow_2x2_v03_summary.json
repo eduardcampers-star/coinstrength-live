@@ -1,51 +1,30 @@
 {
-  "generated_at": "2026-11-24T15:46:01.462855+00:00",
+  "generated_at": "2026-11-24T15:51:01.339853+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 25.6244,
-  "open_pnl_eur": -0.8827,
-  "paper_equity_gross_eur": 44.7418,
-  "open_count": 2,
-  "closed_count": 744,
+  "realized_gross_eur": 25.1744,
+  "open_pnl_eur": -0.4528,
+  "paper_equity_gross_eur": 44.7216,
+  "open_count": 1,
+  "closed_count": 745,
   "last_selection_hour": "2026-11-24T16",
-  "latest_timestamp": "2026-11-24T16:30:01+01:00",
+  "latest_timestamp": "2026-11-24T16:45:01+01:00",
   "open_legs": [
     {
       "coin": "BTC",
       "direction": "LONG",
       "entry_eur": 56087.167736022,
-      "current_eur": 54521.358958010744,
-      "spot_return_pct": -2.7917,
-      "leveraged_return_pct": -8.3752,
-      "open_pnl_eur": -0.4188,
+      "current_eur": 54393.98359161349,
+      "spot_return_pct": -3.0188,
+      "leveraged_return_pct": -9.0565,
+      "open_pnl_eur": -0.4528,
       "roll_active": false,
       "hard_sl_usdt": 59355.367,
       "roll_activation_usdt": 62108.966499999995,
       "roll_stop_usdt": null
-    },
-    {
-      "coin": "BCH",
-      "direction": "LONG",
-      "entry_eur": 184.39846182017945,
-      "current_eur": 178.6956917752072,
-      "spot_return_pct": -3.0926,
-      "leveraged_return_pct": -9.2779,
-      "open_pnl_eur": -0.4639,
-      "roll_active": false,
-      "hard_sl_usdt": 195.358,
-      "roll_activation_usdt": 204.421,
-      "roll_stop_usdt": null
     }
   ],
   "closed_legs": [
-    {
-      "coin": "VET",
-      "direction": "LONG",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 3.7652218996266917,
-      "leveraged_return_pct": 11.295665698880075,
-      "gross_pnl_eur": 0.5647832849440038
-    },
     {
       "coin": "LTC",
       "direction": "LONG",
@@ -53,6 +32,14 @@
       "spot_return_pct": 0.6334622823984448,
       "leveraged_return_pct": 1.9003868471953345,
       "gross_pnl_eur": 0.09501934235976674
+    },
+    {
+      "coin": "BCH",
+      "direction": "LONG",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0000000000000027,
+      "leveraged_return_pct": -9.000000000000007,
+      "gross_pnl_eur": -0.45000000000000034
     },
     {
       "coin": "SUI",
