@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-24T01:39:02.286534+00:00",
+  "generated_at": "2026-11-24T01:44:03.274590+00:00",
   "strategy": "BITVAVO_SPONSOR_v04",
   "latest_timestamp": "2026-11-24T02:30:01+01:00",
-  "film_timestamp": "2026-11-24T01:37:01.853435+00:00",
+  "film_timestamp": "2026-11-24T01:42:01.410569+00:00",
   "trigger": {
     "direction": "SHORT",
-    "target_legs": 1,
+    "target_legs": 3,
     "breadth_5m": {
       "green": 3,
-      "red": 13,
-      "flat": 11
+      "red": 14,
+      "flat": 10
     },
     "breadth_15m": {
-      "green": 6,
-      "red": 16,
-      "flat": 5
+      "green": 4,
+      "red": 20,
+      "flat": 3
     },
     "breadth_60m": {
-      "green": 27,
+      "green": 25,
       "red": 0,
-      "flat": 0
+      "flat": 2
     }
   },
   "opened_this_run": [],
@@ -30,7 +30,7 @@
   "estimated_cost_per_closed_trade_eur": 0.09,
   "estimated_costs_eur": 32.31,
   "paper_equity_est_net_eur": 44.7365,
-  "open_count": 3,
+  "open_count": 4,
   "closed_count": 359,
   "open_legs": [
     {
@@ -133,6 +133,40 @@
         "ret_5m_pct": -0.27442371020856005,
         "ret_15m_pct": -0.16483516483516425,
         "ret_60m_pct": 0.35901684617509755
+      }
+    },
+    {
+      "coin": "BCH",
+      "direction": "SHORT",
+      "entry_eur": 186.4867337602928,
+      "current_eur": 186.4867337602928,
+      "spot_return_pct": -0.0,
+      "leveraged_return_pct": -0.0,
+      "open_pnl_eur": -0.0,
+      "roll_active": false,
+      "roll_stop_eur": null,
+      "entry_time": "2026-11-24T01:43:02.330007+00:00",
+      "entry_breadth": {
+        "5m": {
+          "green": 3,
+          "red": 14,
+          "flat": 10
+        },
+        "15m": {
+          "green": 4,
+          "red": 20,
+          "flat": 3
+        },
+        "60m": {
+          "green": 25,
+          "red": 0,
+          "flat": 2
+        }
+      },
+      "entry_move": {
+        "ret_5m_pct": -0.00982656119491443,
+        "ret_15m_pct": -0.05402219821236676,
+        "ret_60m_pct": 1.2034412452135879
       }
     }
   ],
