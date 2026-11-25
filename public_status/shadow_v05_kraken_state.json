@@ -4915,10 +4915,90 @@
       "spot_return_pct": -0.132134,
       "leveraged_return_pct": -0.396402,
       "gross_pnl_usd": -0.01982
+    },
+    {
+      "coin": "XRP",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 0.9448,
+      "entry_time": "2026-11-25T19:22:13.760735+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-25T19:17:00+00:00",
+      "market_confirm_time": "2026-11-25T19:21:00+00:00",
+      "market_momentum_2_4_pct": 0.287111,
+      "move60_rank": 1,
+      "move60_pct": 2.065535,
+      "basket_id": "V05B:2026-11-25T19:22:13.745433+00:00:ADA,LINK,PEPE,XRP"
+    },
+    {
+      "coin": "PEPE",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 3.4802e-06,
+      "entry_time": "2026-11-25T19:22:13.760769+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-25T19:17:00+00:00",
+      "market_confirm_time": "2026-11-25T19:21:00+00:00",
+      "market_momentum_2_4_pct": 0.287111,
+      "move60_rank": 2,
+      "move60_pct": 2.038419,
+      "basket_id": "V05B:2026-11-25T19:22:13.745433+00:00:ADA,LINK,PEPE,XRP"
+    },
+    {
+      "coin": "ADA",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 0.14716,
+      "entry_time": "2026-11-25T19:22:13.760779+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-25T19:17:00+00:00",
+      "market_confirm_time": "2026-11-25T19:21:00+00:00",
+      "market_momentum_2_4_pct": 0.287111,
+      "move60_rank": 3,
+      "move60_pct": 2.020693,
+      "basket_id": "V05B:2026-11-25T19:22:13.745433+00:00:ADA,LINK,PEPE,XRP"
+    },
+    {
+      "coin": "LINK",
+      "direction": "LONG",
+      "status": "OPEN",
+      "entry_usd": 9.109,
+      "entry_time": "2026-11-25T19:22:13.760786+00:00",
+      "margin_usd": 5.0,
+      "leverage": 3.0,
+      "price_m2": null,
+      "price_m2_time": null,
+      "price_m4": null,
+      "price_m4_time": null,
+      "decision": null,
+      "market_go_time": "2026-11-25T19:17:00+00:00",
+      "market_confirm_time": "2026-11-25T19:21:00+00:00",
+      "market_momentum_2_4_pct": 0.287111,
+      "move60_rank": 4,
+      "move60_pct": 1.962543,
+      "basket_id": "V05B:2026-11-25T19:22:13.745433+00:00:ADA,LINK,PEPE,XRP"
     }
   ],
   "market_event": {
-    "status": "WAIT_CONFIRM",
+    "status": "ACTIVE",
     "go_time": "2026-11-25T19:17:00+00:00",
     "breadth_prev": {
       "green": 23,
@@ -4930,9 +5010,44 @@
       "red": 1,
       "flat": 3
     },
-    "created_at": "2026-11-25T19:18:13.294025+00:00"
+    "created_at": "2026-11-25T19:18:13.294025+00:00",
+    "confirm_time": "2026-11-25T19:21:00+00:00",
+    "market_momentum_2_4_pct": 0.287111,
+    "confirm_n": 27,
+    "top4": [
+      {
+        "rank": 1,
+        "coin": "XRP",
+        "move60_pct": 2.065535
+      },
+      {
+        "rank": 2,
+        "coin": "PEPE",
+        "move60_pct": 2.038419
+      },
+      {
+        "rank": 3,
+        "coin": "ADA",
+        "move60_pct": 2.020693
+      },
+      {
+        "rank": 4,
+        "coin": "LINK",
+        "move60_pct": 1.962543
+      }
+    ],
+    "top4_locked": true,
+    "top4_lock_time": "2026-11-25T19:22:13.745433+00:00",
+    "basket_id": "V05B:2026-11-25T19:22:13.745433+00:00:ADA,LINK,PEPE,XRP",
+    "entry_time": "2026-11-25T19:22:13.760807+00:00",
+    "opened_coins": [
+      "XRP",
+      "PEPE",
+      "ADA",
+      "LINK"
+    ]
   },
-  "last_market_breadth_green": 5,
+  "last_market_breadth_green": 11,
   "market_burst_locked": false,
   "pending_events": []
 }
