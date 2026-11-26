@@ -1,76 +1,76 @@
 {
-  "generated_at": "2026-11-26T16:31:04.208590+00:00",
+  "generated_at": "2026-11-26T16:46:03.257636+00:00",
   "window": "rolling_24h",
   "strategy": "CoinPulse-BEAR-Reversal-v0.1",
   "events_24h": 5,
-  "strong_24h": 1,
+  "strong_24h": 2,
   "results": {
     "5m": {
       "canonical": {
         "n": 5,
-        "avg_return_pct": 0.1944,
-        "positive": 4
+        "avg_return_pct": 0.0631,
+        "positive": 3
       },
       "mover3d": {
         "n": 5,
-        "avg_return_pct": 0.1651,
-        "positive": 4
+        "avg_return_pct": 0.0489,
+        "positive": 3
       },
       "hybrid_rebound_v2": {
         "n": 5,
-        "avg_return_pct": 0.2831,
-        "positive": 4
+        "avg_return_pct": 0.1767,
+        "positive": 3
       }
     },
     "15m": {
       "canonical": {
-        "n": 5,
-        "avg_return_pct": 0.5384,
-        "positive": 4
-      },
-      "mover3d": {
-        "n": 5,
-        "avg_return_pct": 0.4062,
+        "n": 4,
+        "avg_return_pct": 0.2605,
         "positive": 3
       },
+      "mover3d": {
+        "n": 4,
+        "avg_return_pct": 0.1001,
+        "positive": 2
+      },
       "hybrid_rebound_v2": {
-        "n": 5,
-        "avg_return_pct": 0.5883,
-        "positive": 4
+        "n": 4,
+        "avg_return_pct": 0.3716,
+        "positive": 3
       }
     },
     "30m": {
       "canonical": {
-        "n": 5,
-        "avg_return_pct": 0.8756,
-        "positive": 4
-      },
-      "mover3d": {
-        "n": 5,
-        "avg_return_pct": 0.8489,
+        "n": 4,
+        "avg_return_pct": 0.3162,
         "positive": 3
       },
+      "mover3d": {
+        "n": 4,
+        "avg_return_pct": 0.2224,
+        "positive": 2
+      },
       "hybrid_rebound_v2": {
-        "n": 5,
-        "avg_return_pct": 0.9949,
-        "positive": 4
+        "n": 4,
+        "avg_return_pct": 0.4466,
+        "positive": 3
       }
     },
     "rolling_09": {
       "canonical": {
-        "n": 4,
-        "avg_return_pct": 1.4477,
-        "positive": 4
-      },
-      "mover3d": {
-        "n": 4,
-        "avg_return_pct": 1.6184,
+        "n": 3,
+        "avg_return_pct": 0.4887,
         "positive": 3
       },
+      "mover3d": {
+        "n": 3,
+        "avg_return_pct": 0.5586,
+        "positive": 2
+      },
       "hybrid_rebound_v2": {
-        "n": 4,
-        "avg_return_pct": -23.7523,
-        "positive": 1
+        "n": 3,
+        "avg_return_pct": -33.3383,
+        "positive": 0
       }
     }
   },
@@ -80,26 +80,6 @@
     "snapshots": 289
   },
   "recent_events": [
-    {
-      "trigger_time": "2026-11-25T16:41:00+00:00",
-      "level": "TRIGGER",
-      "signals": [
-        "VET",
-        "XLM"
-      ],
-      "canonical": [
-        "MOODENG",
-        "LTC"
-      ],
-      "mover3d": [
-        "MOODENG",
-        "FET"
-      ],
-      "hybrid": [
-        "MOODENG",
-        "NEAR"
-      ]
-    },
     {
       "trigger_time": "2026-11-25T19:47:00+00:00",
       "level": "STRONG",
@@ -171,6 +151,27 @@
       "canonical": [
         "FET",
         "HBAR"
+      ],
+      "mover3d": [
+        "MOODENG",
+        "FET"
+      ],
+      "hybrid": [
+        "FET",
+        "NEAR"
+      ]
+    },
+    {
+      "trigger_time": "2026-11-26T16:31:00+00:00",
+      "level": "STRONG",
+      "signals": [
+        "AVAX",
+        "BCH",
+        "FET"
+      ],
+      "canonical": [
+        "FET",
+        "MOODENG"
       ],
       "mover3d": [
         "MOODENG",
