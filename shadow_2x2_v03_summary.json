@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-26T15:11:01.509445+00:00",
+  "generated_at": "2026-11-26T15:16:02.178433+00:00",
   "strategy": "shadow_2x2_v03",
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 24.8208,
+  "realized_gross_eur": 24.9724,
   "open_pnl_eur": -0.2994,
-  "paper_equity_gross_eur": 44.5214,
-  "open_count": 7,
-  "closed_count": 767,
+  "paper_equity_gross_eur": 44.673,
+  "open_count": 6,
+  "closed_count": 768,
   "last_selection_hour": "2026-11-26T16",
   "latest_timestamp": "2026-11-26T16:00:01+01:00",
   "open_legs": [
@@ -47,7 +47,7 @@
       "roll_active": true,
       "hard_sl_usdt": 1752.6274,
       "roll_activation_usdt": 1676.0563,
-      "roll_stop_usdt": 1690.22635
+      "roll_stop_usdt": 1682.003
     },
     {
       "coin": "VET",
@@ -87,30 +87,9 @@
       "hard_sl_usdt": 0.0551445,
       "roll_activation_usdt": 0.05770274999999999,
       "roll_stop_usdt": null
-    },
-    {
-      "coin": "WLD",
-      "direction": "SHORT",
-      "entry_eur": 0.22099899918114824,
-      "current_eur": 0.22099899918114824,
-      "spot_return_pct": 0.0,
-      "leveraged_return_pct": 0.0,
-      "open_pnl_eur": 0.0,
-      "roll_active": true,
-      "hard_sl_usdt": 0.250187,
-      "roll_activation_usdt": 0.2392565,
-      "roll_stop_usdt": 0.2412519
     }
   ],
   "closed_legs": [
-    {
-      "coin": "SUI",
-      "direction": "SHORT",
-      "reason": "ROLLING_09",
-      "spot_return_pct": 0.8493399077461614,
-      "leveraged_return_pct": 2.5480197232384842,
-      "gross_pnl_eur": 0.12740098616192422
-    },
     {
       "coin": "NEAR",
       "direction": "LONG",
@@ -198,6 +177,14 @@
       "spot_return_pct": -3.0000000000000027,
       "leveraged_return_pct": -9.000000000000007,
       "gross_pnl_eur": -0.45000000000000034
+    },
+    {
+      "coin": "WLD",
+      "direction": "SHORT",
+      "reason": "ROLLING_09",
+      "spot_return_pct": 1.010827501029239,
+      "leveraged_return_pct": 3.0324825030877167,
+      "gross_pnl_eur": 0.15162412515438584
     }
   ]
 }
