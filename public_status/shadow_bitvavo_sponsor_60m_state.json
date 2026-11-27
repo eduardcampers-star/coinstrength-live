@@ -1,6 +1,6 @@
 {
   "start_pot_eur": 20.0,
-  "realized_gross_eur": 40.89528341400271,
+  "realized_gross_eur": 40.44528341400271,
   "legs": [
     {
       "coin": "SUI",
@@ -14045,7 +14045,7 @@
     {
       "coin": "NEAR",
       "direction": "SHORT",
-      "status": "OPEN",
+      "status": "CLOSED",
       "entry_eur": 2.7539133600291223,
       "entry_time": "2026-11-25T21:14:02.443204+00:00",
       "margin_eur": 5.0,
@@ -14074,7 +14074,13 @@
         "ret_5m_pct": -0.33200531208500417,
         "ret_15m_pct": -1.1198945981554798,
         "ret_60m_pct": 2.1783526208304815
-      }
+      },
+      "exit_eur": 2.836530760829996,
+      "exit_time": "2026-11-27T02:34:02.593477+00:00",
+      "reason": "HARD_SL",
+      "spot_return_pct": -3.0,
+      "leveraged_return_pct": -9.0,
+      "gross_pnl_eur": -0.45
     },
     {
       "coin": "SUI",
@@ -14198,9 +14204,9 @@
       "entry_time": "2026-11-26T22:49:01.910924+00:00",
       "margin_eur": 5.0,
       "leverage": 3.0,
-      "roll_active": false,
-      "best_eur": 0.6138722009830694,
-      "roll_stop_eur": null,
+      "roll_active": true,
+      "best_eur": 0.624988624988625,
+      "roll_stop_eur": 0.6193637273637274,
       "entry_breadth": {
         "5m": {
           "green": 23,
