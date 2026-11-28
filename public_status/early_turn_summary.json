@@ -1,38 +1,43 @@
 {
-  "generated_at": "2026-11-28T15:02:01.510614+00:00",
+  "generated_at": "2026-11-28T15:07:01.131876+00:00",
   "observer_only": true,
   "v04_unchanged": true,
   "current": {
     "breadth_5m": {
-      "green": 24,
-      "red": 0,
-      "flat": 3
+      "green": 0,
+      "red": 26,
+      "flat": 1
     },
     "breadth_15m": {
-      "green": 20,
-      "red": 3,
+      "green": 6,
+      "red": 17,
       "flat": 4
     },
     "breadth_60m": {
-      "green": 24,
-      "red": 2,
-      "flat": 1
+      "green": 18,
+      "red": 6,
+      "flat": 3
     },
-    "net5": 24,
-    "official_trigger": null,
-    "pending": null,
-    "vol_5m_vs_60m_median": 0.9278926238295996,
-    "taker_5m_median": 2.1823140249405517,
+    "net5": -26,
+    "official_trigger": "SHORT",
+    "pending": {
+      "direction": "SHORT",
+      "alert_time": "2026-11-28T15:07:01.131876+00:00",
+      "alert_dir15": 17,
+      "context60": true
+    },
+    "vol_5m_vs_60m_median": 0.9329623873721691,
+    "taker_5m_median": 0.8275508594858855,
     "market_score_avg": -26.47407407407407
   },
   "counts": {
-    "hard_flips_all": 2476,
-    "hard_flips_60m_context": 1087,
+    "hard_flips_all": 2477,
+    "hard_flips_60m_context": 1088,
     "early_confirmed_all": 1020,
     "early_confirmed_60m_context": 489,
     "false_flips_all": 1044,
     "false_flips_60m_context": 448,
     "expired_all": 412,
-    "official_v04_triggers": 611
+    "official_v04_triggers": 612
   }
 }
